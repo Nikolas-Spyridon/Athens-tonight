@@ -95,6 +95,14 @@ GREEK_DAY_ABBR = {
 }
 
 
+def normalize_day(raw: str):
+    """Map a day abbreviation (3 or 4 letters, e.g. 'Σάβ' or 'Δευτ') to a
+    weekday index by comparing only its first 3 characters, since
+    athinorama isn't fully consistent about abbreviation length."""
+    key3 = raw.strip().rstrip(".")[:3]
+    return GREEK_DAY_ABBR.get(key3)
+
+
 def week_monday(d: date) -> date:
     """Return the Monday of the week containing d."""
     return d - timedelta(days=d.weekday())
@@ -132,18 +140,32 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
 
         showtimes_by_date: dict[str, list[str]] = {}
         for time_span in block.select("ul.schedule-infos li .time"):
-            text = time_span.get_text(strip=True)  # e.g. "Σάβ.: 20.20"
-            m = re.match(r"(\D+)\.?:\s*(\d{1,2})[.:](\d{2})", text)
+            text = time_span.get_text(strip=True)
+            # Two known formats:
+            #   'Σάβ.: 20.20'          -> single day
+            #   'Δευτ.-Τετ.: 20.20'    -> range, same time every day in it
+            m = re.match(r"^(.+?)\.?:\s*(\d{1,2})[.:](\d{2})$", text)
             if not m:
                 continue
-            day_abbr = m.group(1).strip().rstrip(".")
-            hh, mm = m.group(2), m.group(3)
-            weekday = GREEK_DAY_ABBR.get(day_abbr)
-            if weekday is None:
+            day_spec, hh, mm = m.group(1).strip(), m.group(2), m.group(3)
+            time_str = f"{hh.zfill(2)}:{mm}"
+
+            if "-" in day_spec:
+                start_raw, end_raw = day_spec.split("-", 1)
+            else:
+                start_raw = end_raw = day_spec
+            start_wd = normalize_day(start_raw)
+            end_wd = normalize_day(end_raw)
+            if start_wd is None or end_wd is None:
                 continue
-            show_date = date_for_weekday_this_week(weekday, today)
-            key = show_date.isoformat()
-            showtimes_by_date.setdefault(key, []).append(f"{hh.zfill(2)}:{mm}")
+
+            wd = start_wd
+            for _ in range(7):  # safety cap — never more than a full week
+                show_date = date_for_weekday_this_week(wd, today)
+                showtimes_by_date.setdefault(show_date.isoformat(), []).append(time_str)
+                if wd == end_wd:
+                    break
+                wd = (wd + 1) % 7
 
         screenings.append({
             "cinema": cinema_name,
