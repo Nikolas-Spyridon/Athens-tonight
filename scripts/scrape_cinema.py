@@ -89,17 +89,27 @@ def get_current_movies() -> list[dict]:
 # The day is a 3-letter Greek abbreviation, time uses a dot not a colon,
 # e.g. "Σάβ.: 20.20" = Saturday, 20:20.
 
+import unicodedata
+
 GREEK_DAY_ABBR = {
-    "Δευ": 0, "Τρι": 1, "Τετ": 2, "Πεμ": 3,
-    "Παρ": 4, "Σαβ": 5, "Σάβ": 5, "Κυρ": 6,
+    "δευ": 0, "τρι": 1, "τετ": 2, "πεμ": 3,
+    "παρ": 4, "σαβ": 5, "κυρ": 6,
 }
 
 
+def strip_accents(s: str) -> str:
+    """Remove Greek tonos/diacritics so 'Πέμ' and 'Πεμ' compare equal."""
+    return "".join(
+        c for c in unicodedata.normalize("NFD", s)
+        if unicodedata.category(c) != "Mn"
+    )
+
+
 def normalize_day(raw: str):
-    """Map a day abbreviation (3 or 4 letters, e.g. 'Σάβ' or 'Δευτ') to a
-    weekday index by comparing only its first 3 characters, since
-    athinorama isn't fully consistent about abbreviation length."""
-    key3 = raw.strip().rstrip(".")[:3]
+    """Map a day abbreviation (3 or 4 letters, accented or not, e.g. 'Σάβ',
+    'Σαβ', or 'Δευτ') to a weekday index. Accent-insensitive and
+    length-tolerant since athinorama isn't fully consistent about either."""
+    key3 = strip_accents(raw.strip().rstrip(".")).lower()[:3]
     return GREEK_DAY_ABBR.get(key3)
 
 
