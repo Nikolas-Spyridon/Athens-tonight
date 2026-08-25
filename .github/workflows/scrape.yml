@@ -1,0 +1,38 @@
+name: Scrape cinema listings
+
+on:
+  schedule:
+    # Runs once a day at 06:00 UTC (09:00 Athens time in summer).
+    # Cinema programmes only change on Thursdays, but running daily is
+    # harmless and catches any mid-week corrections athinorama makes.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab too
+
+permissions:
+  contents: write   # needed so the workflow can commit the updated data file
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run cinema scraper
+        run: python scripts/scrape_cinema.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "athens-tonight-bot"
+          git config user.email "actions@github.com"
+          git add data/cinema.json
+          git diff --quiet --cached || git commit -m "Update cinema listings"
+          git push
