@@ -26,7 +26,7 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://www.athinorama.gr"
-LISTING_URL = f"{BASE}/cinema/guide/nees_tainies/"
+LISTING_URL = f"{BASE}/cinema/guide"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "cinema.json"
 
 HEADERS = {
@@ -45,24 +45,22 @@ def get_soup(url: str) -> BeautifulSoup:
 
 
 def get_current_movies() -> list[dict]:
-    """Return [{'title': ..., 'url': ...}, ...] for this week's new releases.
+    """Return [{'title': ..., 'url': ...}, ...] for everything currently
+    playing (not just this week's new releases).
 
-    Confirmed from the real page (via browser inspector, 25/8/2026):
-        <div class="guide-list movies-list ajax-newmovies">
-          <div class="item horizontal">
-            <div class="item-content">
-              <div class="item-description">
-                <h3 class="item-title"><a href="/cinema/movie/...">Title</a></h3>
+    Confirmed from the real page (via browser inspector, 25/8/2026),
+    https://www.athinorama.gr/cinema/guide :
+        <div class="item horizontal card-item">
+          <div class="item-content">
+            <div class="item-description">
+              <h2 class="item-title"><a href="/cinema/movie/...">Title</a></h2>
     """
     soup = get_soup(LISTING_URL)
     movies = []
     seen_urls = set()
 
-    container = soup.select_one("div.guide-list.movies-list")
-    items = container.select("div.item.horizontal") if container else []
-
-    for item in items:
-        link = item.select_one("h3.item-title a")
+    for item in soup.select("div.item.horizontal.card-item"):
+        link = item.select_one("h2.item-title a")
         if not link or not link.get("href"):
             continue
         href = link["href"]
@@ -192,4 +190,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-          
