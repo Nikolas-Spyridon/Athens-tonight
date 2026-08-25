@@ -11,6 +11,10 @@ on:
 permissions:
   contents: write   # needed so the workflow can commit the updated data file
 
+concurrency:
+  group: scrape-cinema
+  cancel-in-progress: false   # let an in-progress run finish rather than clashing
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -35,4 +39,5 @@ jobs:
           git config user.email "actions@github.com"
           git add data/cinema.json
           git diff --quiet --cached || git commit -m "Update cinema listings"
+          git pull --rebase origin main
           git push
