@@ -92,8 +92,8 @@ def get_current_movies() -> list[dict]:
 import unicodedata
 
 GREEK_DAY_ABBR = {
-    "δευ": 0, "τρι": 1, "τετ": 2, "πεμ": 3,
-    "παρ": 4, "σαβ": 5, "κυρ": 6,
+    "δε": 0, "τρ": 1, "τε": 2, "πε": 3,
+    "πα": 4, "σα": 5, "κυ": 6,
 }
 
 
@@ -106,11 +106,14 @@ def strip_accents(s: str) -> str:
 
 
 def normalize_day(raw: str):
-    """Map a day abbreviation (3 or 4 letters, accented or not, e.g. 'Σάβ',
-    'Σαβ', or 'Δευτ') to a weekday index. Accent-insensitive and
-    length-tolerant since athinorama isn't fully consistent about either."""
-    key3 = strip_accents(raw.strip().rstrip(".")).lower()[:3]
-    return GREEK_DAY_ABBR.get(key3)
+    """Map a day abbreviation of ANY length (2-4 letters seen so far: 'Τρ',
+    'Σάβ', 'Δευτ') to a weekday index. Matches on just the first 2 letters
+    (accent-stripped, lowercased) since that alone distinguishes all 7
+    Greek weekday names — athinorama is inconsistent about abbreviation
+    length, so matching on a fixed 3-char prefix silently drops 2-letter
+    forms like 'Τρ.'."""
+    key2 = strip_accents(raw.strip().rstrip(".")).lower()[:2]
+    return GREEK_DAY_ABBR.get(key2)
 
 
 def week_monday(d: date) -> date:
@@ -151,10 +154,11 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
         showtimes_by_date: dict[str, list[str]] = {}
         for time_span in block.select("ul.schedule-infos li .time"):
             text = time_span.get_text(strip=True)
-            # Two known formats:
+            # Two known formats, both may have trailing text/notes after the
+            # time (e.g. a subtitle note) which we deliberately ignore:
             #   'Σάβ.: 20.20'          -> single day
             #   'Δευτ.-Τετ.: 20.20'    -> range, same time every day in it
-            m = re.match(r"^(.+?)\.?:\s*(\d{1,2})[.:](\d{2})$", text)
+            m = re.match(r"^(.+?)\.?:\s*(\d{1,2})[.:](\d{2})", text)
             if not m:
                 continue
             day_spec, hh, mm = m.group(1).strip(), m.group(2), m.group(3)
