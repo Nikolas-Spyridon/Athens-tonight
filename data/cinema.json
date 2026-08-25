@@ -1,4 +1,3380 @@
 {
   "updated": "2026-08-25",
-  "movies": []
+  "movies": [
+    {
+      "title": "Άγριες Φράουλες",
+      "url": "https://www.athinorama.gr/cinema/movie/agries_fraoules-1002370/",
+      "screenings": [
+        {
+          "cinema": "Παναθήναια",
+          "area": "Μαυρομιχάλη 165, Νεάπολη",
+          "lat": "37,9886836",
+          "lon": "23,7433601",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Οι Άλλοι",
+      "url": "https://www.athinorama.gr/cinema/movie/oi_alloi-1006606/",
+      "screenings": [
+        {
+          "cinema": "Εκράν",
+          "area": "Ζωοδ. Πηγής & Αγαθίου, Νεάπολη",
+          "lat": "37,988581",
+          "lon": "23,742815",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αρκαδία",
+          "area": "Καραολή Δημητρίου 32 & Φορμίωνος 222, Πάρκο Βύρωνα",
+          "lat": "37,9567372",
+          "lon": "23,7622799",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Άμνετ",
+      "url": "https://www.athinorama.gr/cinema/movie/amnet-10088743/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-29": [
+              "20:20"
+            ]
+          }
+        },
+        {
+          "cinema": "Αελλώ Digital Cinema",
+          "area": "Ελ. Βενιζέλου 12, Ραφήνα",
+          "lat": "38,021554",
+          "lon": "24,007316",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ανεμοδαρμένα Ύψη",
+      "url": "https://www.athinorama.gr/cinema/movie/anemodarmena_upsi-10088996/",
+      "screenings": [
+        {
+          "cinema": "Ρία",
+          "area": "Λ. Ποσειδώνος 20, Μάτι",
+          "lat": "38,047535",
+          "lon": "23,996977",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ανταρσία",
+      "url": "https://www.athinorama.gr/cinema/movie/antarsia-10091209/",
+      "screenings": [
+        {
+          "cinema": "Δεξαμενή",
+          "area": "Πλατεία Δεξαμενής, Κολωνάκι",
+          "lat": "37,979011",
+          "lon": "23,741808",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {
+            "2026-08-26": [
+              "22:45"
+            ]
+          }
+        },
+        {
+          "cinema": "Σινέ Γαλάτσι",
+          "area": "Άλσος Βεΐκου",
+          "lat": "38,0298233514746",
+          "lon": "23,7652323203941",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αλέκα (Δημ. Κιν/φος)",
+          "area": "3ης Ορ. Ταξιαρχίας 13, πλ. Αλεξανδρή, Ζωγράφου",
+          "lat": "37,9775068",
+          "lon": "23,7711822",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Παγκράτι",
+          "area": "Υμηττού 110 & Χρεμωνίδου (Εμπ. Κέντρο Athens Millenium), Παγκράτι",
+          "lat": "37,966887",
+          "lon": "23,748814",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Τιτάν",
+          "area": "Δωδεκανήσου 2, Αιγάλεω (έναντι του σταθμού Μετρό Αιγάλεω)",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φοίβος Digital Cinema",
+          "area": "Εθν. Αντιστάσεως 3, ΜΕΤΡΟ Σταθμός Περιστέρι",
+          "lat": "38,0122816",
+          "lon": "23,6957458",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Γλυφάδα",
+          "area": "Ζησιμοπούλου 7 & Α. Μεταξά, Γλυφάδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Γαλάζια Ακτή",
+          "area": "Γαλάζιας Ακτής 110, Λαγονήσι",
+          "lat": "37,805323",
+          "lon": "23,870521",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Ακρογιάλι",
+          "area": "28ης Οκτωβρίου 119, Νέα Πέραμος",
+          "lat": "23,4364398",
+          "lon": "38,0135377",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σίσσυ Digital Cinema",
+          "area": "Λ. Μαραθώνος 36, Ν. Μάκρη",
+          "lat": "38,081174",
+          "lon": "23,979851",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Απόφαση Φυγής",
+      "url": "https://www.athinorama.gr/cinema/movie/apofasi_fugis-10075873/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Αρκουδότρυπα",
+      "url": "https://www.athinorama.gr/cinema/movie/arkoudotrupa-10090315/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {
+            "2026-08-26": [
+              "22:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {
+            "2026-08-29": [
+              "20:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ας Περιμένουν οι Γυναίκες",
+      "url": "https://www.athinorama.gr/cinema/movie/as_perimenoun_oi_gunaikes-1005840/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα",
+          "area": "Πατησίων 292, Αγ. Λουκάς",
+          "lat": "38,013195",
+          "lon": "23,735382",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Διονύσια",
+          "area": "Λ. Συγγρού 286 & Μυκηνών 2, Καλλιθέα",
+          "lat": "37,949214",
+          "lon": "23,70589",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Αυτό που Ξέρουν οι Γυναίκες",
+      "url": "https://www.athinorama.gr/cinema/movie/auto_pou_kseroun_oi_gunaikes-10091177/",
+      "screenings": [
+        {
+          "cinema": "Νοσταλγία (Δημ. Κιν/φος)",
+          "area": "Κέας & Τερψιχόρης, Ηράκλειο",
+          "lat": "38,0435792206177",
+          "lon": "23,7653803825378",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φιλίπ",
+          "area": "Ελ. Βενιζέλου 40, Ν. Σμύρνη,",
+          "lat": "37,944875",
+          "lon": "23,714354",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Digital Cinema",
+          "area": "Ελ. Βενιζέλου 12, Ραφήνα",
+          "lat": "38,021554",
+          "lon": "24,007316",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Αχνή Θέα των Λόφων",
+      "url": "https://www.athinorama.gr/cinema/movie/axni_thea_ton_lofon-10091155/",
+      "screenings": [
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Βαϊάνα",
+      "url": "https://www.athinorama.gr/cinema/movie/baiana-10091038/",
+      "screenings": [
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {
+            "2026-08-30": [
+              "20:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Μάρθα Καραγιάννη (Δημ. Κιν/φος)",
+          "area": "Βύρωνος και Χιλής, Κερατσίνι",
+          "lat": "37,9537478246183",
+          "lon": "23,6210017505351",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Για Μια Νύχτα Μόνο",
+      "url": "https://www.athinorama.gr/cinema/movie/gia_mia_nuxta_mono-10091219/",
+      "screenings": [
+        {
+          "cinema": "Cine Paris",
+          "area": "Κυδαθηναίων 22, Πλάκα",
+          "lat": "37,971936",
+          "lon": "23,730786",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ελληνίς Cinemax",
+          "area": "Λεωφ. Κηφισίας 29, Αμπελόκηποι",
+          "lat": "37,9880602",
+          "lon": "23,7627050999999",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Κήπος",
+          "area": "Θερμοπυλών 49 & Κνωσού, Μοσχάτο",
+          "lat": "37,9524717631174",
+          "lon": "23,6799252033234",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σπόρτιγκ Digital Cinema",
+          "area": "Κ. Παλαιολόγου 18, Ν. Σμύρνη",
+          "lat": "37,946588",
+          "lon": "23,711202",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Πάνθεον - Αγία Βαρβάρα (Δημ. Κιν/φος)",
+          "area": "Τέρμα Δεληγιάννη 89,  Αγία Βαρβάρα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τριανόν Cinemax",
+          "area": "Κεφαλληνίας 8, Σαρωνίδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {
+            "2026-08-26": [
+              "17:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Grand Prix: O Γύρος της Ευρώπης",
+      "url": "https://www.athinorama.gr/cinema/movie/grand_prix_o_guros_tis_europis-10087846/",
+      "screenings": [
+        {
+          "cinema": "Cine Αλέκος Χρυσοστομίδης (Δημ. Κιν/φος)",
+          "area": "Πάρκο Σελεπίτσαρι, Αμφιάλη",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Γοητεία της Αμαρτίας",
+      "url": "https://www.athinorama.gr/cinema/movie/i_goiteia_tis_amartias-1002411/",
+      "screenings": [
+        {
+          "cinema": "Όασις",
+          "area": "Πρατίνου 7, Παγκράτι",
+          "lat": "37,968222",
+          "lon": "23,747791",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Γυναίκες στα Πρόθυρα Νευρικής Κρίσης",
+      "url": "https://www.athinorama.gr/cinema/movie/gunaikes_sta_prothura_neurikis_krisis-1003707/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-28": [
+              "20:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Το Δείπνο του Φράνκο",
+      "url": "https://www.athinorama.gr/cinema/movie/to_deipno_tou_franko-10091040/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-26": [
+              "21:50"
+            ]
+          }
+        },
+        {
+          "cinema": "Λάουρα Θερινός Κινηματογράφος",
+          "area": "Φορμίωνος & Νικηφορίδη 24, Νέο Παγκράτι",
+          "lat": "37,964485",
+          "lon": "23,754112",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Βοτσαλάκια",
+          "area": "Πλαζ Βοτσαλάκια (δίπλα στο Δημοτικό Κολυμβητήριο Πειραιά)",
+          "lat": "23,6513792",
+          "lon": "37,9360647",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Διάβολος Φοράει Prada 2",
+      "url": "https://www.athinorama.gr/cinema/movie/o_diabolos_foraei_prada_2-10090037/",
+      "screenings": [
+        {
+          "cinema": "Ηλέκτρα Cinemax",
+          "area": "Κακή Θάλασσα, Κερατέα",
+          "lat": "37,8394805",
+          "lon": "24,046414",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άστρον Digital Cinema",
+          "area": "Νηριίδων 9, Άρτεμις",
+          "lat": "37,9740758",
+          "lon": "24,0103226",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αθηναία Garden",
+          "area": "Λεωφ. Χαλκουτσίου Συκαμίνου, Χαλκούτσι 190 15",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {
+            "2026-08-30": [
+              "20:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Διπλόδοκος, το Δεινοσαυράκι",
+      "url": "https://www.athinorama.gr/cinema/movie/diplodokos_to_deinosauraki-10088955/",
+      "screenings": [
+        {
+          "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
+          "area": "25ης Μαρτίου 168, Πετρούπολη",
+          "lat": "38,037667",
+          "lon": "23,692456",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Οι Δοκιμάστριες",
+      "url": "https://www.athinorama.gr/cinema/movie/oi_dokimastries-10089435/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-28": [
+              "21:50"
+            ]
+          }
+        },
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
+          "area": "25ης Μαρτίου 168, Πετρούπολη",
+          "lat": "38,037667",
+          "lon": "23,692456",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ρία Digital Cinema",
+          "area": "Αφροδίτης 8, Βάρκιζα",
+          "lat": "37,820381",
+          "lon": "23,802621",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Δυστυχώς Βρίζω",
+      "url": "https://www.athinorama.gr/cinema/movie/dustuxos_brizo-10089663/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-29": [
+              "22:20"
+            ]
+          }
+        },
+        {
+          "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
+          "area": "Σωκράτους 65, Δραπετσώνα",
+          "lat": "37,950298",
+          "lon": "23,629367",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Έγκλημα στον Τρίτο Οροφο",
+      "url": "https://www.athinorama.gr/cinema/movie/egklima_ston_trito_orofo-10091156/",
+      "screenings": [
+        {
+          "cinema": "Αβάνα",
+          "area": "Λεωφ. Κηφισίας 234 & Λυκούργου 3, Χαλάνδρι",
+          "lat": "38,0135448",
+          "lon": "23,7833489",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Νοσταλγία (Δημ. Κιν/φος)",
+          "area": "Κέας & Τερψιχόρης, Ηράκλειο",
+          "lat": "38,0435792206177",
+          "lon": "23,7653803825378",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Digital Cinema",
+          "area": "Ελ. Βενιζέλου 12, Ραφήνα",
+          "lat": "38,021554",
+          "lon": "24,007316",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαϊάμι",
+          "area": "Κυανής Ακτής 12, Μάτι",
+          "lat": "38,046365",
+          "lon": "23,996516",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Εμμονή",
+      "url": "https://www.athinorama.gr/cinema/movie/emmoni-10090749/",
+      "screenings": [
+        {
+          "cinema": "Αθηναία",
+          "area": "Χάρητος 50, Κολωνάκι (στάση Μετρό Ευαγγελισμός)",
+          "lat": "37,9788704111221",
+          "lon": "23,7453263997486",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άνεσις Cine",
+          "area": "Λεωφ. Κηφισίας 14, Αμπελόκηποι",
+          "lat": "37,9870572",
+          "lon": "23,7621258",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δημ. Κιν. Όνειρο Ρέντη",
+          "area": "Νάξου 32, Αγ. Ιωάννης Ρέντης",
+          "lat": "37,9603023",
+          "lon": "23,6708033",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Νίκαια",
+          "area": "Θηβών 245, Νίκαια (πολυχώρος \"Μάνος Λοϊζος\")",
+          "lat": "37,9736957236159",
+          "lon": "23,66550189904",
+          "showtimes": {
+            "2026-08-26": [
+              "22:15"
+            ]
+          }
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Εξαφάνιση",
+      "url": "https://www.athinorama.gr/cinema/movie/i_eksafanisi-1000567/",
+      "screenings": [
+        {
+          "cinema": "Αμίκο",
+          "area": "Επιδαύρου & Ανδρούτσου 20, Χαλάνδρι",
+          "lat": "38,028662",
+          "lon": "23,804628",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα",
+          "area": "Πατησίων 292, Αγ. Λουκάς",
+          "lat": "38,013195",
+          "lon": "23,735382",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αρκαδία",
+          "area": "Καραολή Δημητρίου 32 & Φορμίωνος 222, Πάρκο Βύρωνα",
+          "lat": "37,9567372",
+          "lon": "23,7622799",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Το Εργαστήριο του Δρ. Καλιγκάρι",
+      "url": "https://www.athinorama.gr/cinema/movie/to_ergastirio_tou_dr_kaligkari-10091216/",
+      "screenings": [
+        {
+          "cinema": "Ατενέ",
+          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
+          "lat": "38,0061755",
+          "lon": "23,7322414",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ερωτική Επιθυμία",
+      "url": "https://www.athinorama.gr/cinema/movie/erotiki_epithumia-1006366/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {
+            "2026-08-28": [
+              "20:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Η Ετυμηγορία",
+      "url": "https://www.athinorama.gr/cinema/movie/i_etumigoria-10090579/",
+      "screenings": [
+        {
+          "cinema": "Ορφέας Dolby Digital",
+          "area": "Λ. Σαρωνίδας 60, Σαρωνίδα",
+          "lat": "37,747379",
+          "lon": "23,914118",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ζούσε τη Ζωή της",
+      "url": "https://www.athinorama.gr/cinema/movie/zouse_ti_zoi_tis-1003311/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-30": [
+              "20:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ημέρα Αποκάλυψης",
+      "url": "https://www.athinorama.gr/cinema/movie/imera_apokalupsis-10090581/",
+      "screenings": [
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άστρον",
+          "area": "Βασ. Λάσκου 4, Μάνδρα",
+          "lat": "38,0742179",
+          "lon": "23,4933597",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Θεός Ελέφαντας",
+      "url": "https://www.athinorama.gr/cinema/movie/o_theos_elefantas-10091199/",
+      "screenings": [
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Insidious: Έξω από το Απώτερο",
+      "url": "https://www.athinorama.gr/cinema/movie/insidious_ekso_apo_to_apotero-10091217/",
+      "screenings": [
+        {
+          "cinema": "Cine Φλοίσβος",
+          "area": "Πάρκο Φλοίσβου Π. Φαλήρου (πλησίον Μαρίνας)",
+          "lat": "37,928702",
+          "lon": "23,686974",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Athinaion Experience powered by Allianz",
+          "area": "Λεωφ. Β. Σοφίας 124 (ΜΕΤΡΟ Αμπελόκηποι)",
+          "lat": "37,985448",
+          "lon": "23,760484",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αττικόν Άλσος",
+          "area": "Στο Αττικόν Άλσος (Περιφερειακός Πολυγώνου-Γαλατσίου), Τουρκοβούνια",
+          "lat": "38,0084012",
+          "lon": "23,7542059",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Παγκράτι",
+          "area": "Υμηττού 110 & Χρεμωνίδου (Εμπ. Κέντρο Athens Millenium), Παγκράτι",
+          "lat": "37,966887",
+          "lon": "23,748814",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Αργυρούπολη",
+          "area": "Κύπρου 68 & Δωδεκανήσου, Αργυρούπολη",
+          "lat": "37,909188",
+          "lon": "23,75168",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σπόρτιγκ Digital Cinema",
+          "area": "Κ. Παλαιολόγου 18, Ν. Σμύρνη",
+          "lat": "37,946588",
+          "lon": "23,711202",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κατερίνα Digital Cinema",
+          "area": "Δαβάκη 18, Χαϊδάρι",
+          "lat": "38,007772",
+          "lon": "23,662498",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φοίβος Digital Cinema",
+          "area": "Εθν. Αντιστάσεως 3, ΜΕΤΡΟ Σταθμός Περιστέρι",
+          "lat": "38,0122816",
+          "lon": "23,6957458",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αστέρι Digital Cinema",
+          "area": "Φιλοκτήτου 86 & Νέστορος (Εμπορικό κέντρο Ιλίου), Ίλιον",
+          "lat": "38,0328138",
+          "lon": "23,7075798",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Γλυφάδα",
+          "area": "Ζησιμοπούλου 7 & Α. Μεταξά, Γλυφάδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κοράλι Cinemax",
+          "area": "Αφροδίτης & Ιθάκης, Σαρωνίδα",
+          "lat": "37,750668",
+          "lon": "23,906088",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Βοτσαλάκια",
+          "area": "Πλαζ Βοτσαλάκια (δίπλα στο Δημοτικό Κολυμβητήριο Πειραιά)",
+          "lat": "23,6513792",
+          "lon": "37,9360647",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Σελήνη",
+          "area": "Αγ. Νικολάου 17 & Πανθέας, Σελήνια Σαλαμίνας",
+          "lat": "37,9320128417537",
+          "lon": "23,5320711135864",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cool Τύμβος",
+          "area": "Δημοσθένους 12, Παραλία Μαραθώνα",
+          "lat": "38,15526",
+          "lon": "23,960959",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Alex Digital Cinema",
+          "area": "Λεωφ. Πόρτο Ράφτη 235",
+          "lat": "37,8939491",
+          "lon": "23,9706208",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ωρωπός 3D Digital Cinema",
+          "area": "Πινδάρου 5, Σκάλα Ωρωπού",
+          "lat": "38,3209",
+          "lon": "23,7895",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Eraserhead",
+      "url": "https://www.athinorama.gr/cinema/movie/eraserhead-1004897/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {
+            "2026-08-30": [
+              "22:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "ΚΑΛΙΓΟΥΛΑΣ",
+      "url": "https://www.athinorama.gr/cinema/movie/kaligoulas-1001441/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Καμιά Άλλη Επιλογή",
+      "url": "https://www.athinorama.gr/cinema/movie/kamia_alli_epilogi-10088002/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Καποδίστριας",
+      "url": "https://www.athinorama.gr/cinema/movie/kapodistrias-10088540/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Ακρογιάλι",
+          "area": "28ης Οκτωβρίου 119, Νέα Πέραμος",
+          "lat": "23,4364398",
+          "lon": "38,0135377",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Κλειδαράς του Ενός Εκατομμυρίου",
+      "url": "https://www.athinorama.gr/cinema/movie/o_kleidaras_tou_enos_ekatommuriou-10091174/",
+      "screenings": [
+        {
+          "cinema": "Κάρμεν",
+          "area": "Κουσιανόφσκυ και Παπαδά 40 (από Κατεχάκη 37-39), Ελληνορώσων, Μετρό Κατεχάκη)",
+          "lat": "37,9943861",
+          "lon": "23,7725601",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δάφνη",
+          "area": "Ηλιουπόλεως 77 & Ηλία Ηλιού 28, Δάφνη (Μετρό Αγ. Ιωάννης & Δάφνη)",
+          "lat": "37,9547328",
+          "lon": "23,7388701",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Βοτσαλάκια",
+          "area": "Πλαζ Βοτσαλάκια (δίπλα στο Δημοτικό Κολυμβητήριο Πειραιά)",
+          "lat": "23,6513792",
+          "lon": "37,9360647",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Alex Digital Cinema",
+          "area": "Λεωφ. Πόρτο Ράφτη 235",
+          "lat": "37,8939491",
+          "lon": "23,9706208",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Τα Κόκκινα Φανάρια",
+      "url": "https://www.athinorama.gr/cinema/movie/ta_kokkina_fanaria-1000288/",
+      "screenings": [
+        {
+          "cinema": "Cine Paris",
+          "area": "Κυδαθηναίων 22, Πλάκα",
+          "lat": "37,971936",
+          "lon": "23,730786",
+          "showtimes": {
+            "2026-08-26": [
+              "20:10"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ο Κονφορμίστας",
+      "url": "https://www.athinorama.gr/cinema/movie/o_konformistas-1008672/",
+      "screenings": [
+        {
+          "cinema": "Εκράν",
+          "area": "Ζωοδ. Πηγής & Αγαθίου, Νεάπολη",
+          "lat": "37,988581",
+          "lon": "23,742815",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ζέφυρος",
+          "area": "Τρώων 36, Άνω Πετράλωνα",
+          "lat": "37,9696419",
+          "lon": "23,7130905",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Το Κουρδιστό Πορτοκάλι",
+      "url": "https://www.athinorama.gr/cinema/movie/to_kourdisto_portokali-1002508/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {
+            "2026-08-28": [
+              "22:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ο Λαβύρινθος του Πάνα",
+      "url": "https://www.athinorama.gr/cinema/movie/o_laburinthos_tou_pana-1008130/",
+      "screenings": [
+        {
+          "cinema": "Αθηναία",
+          "area": "Χάρητος 50, Κολωνάκι (στάση Μετρό Ευαγγελισμός)",
+          "lat": "37,9788704111221",
+          "lon": "23,7453263997486",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κάρμεν",
+          "area": "Κουσιανόφσκυ και Παπαδά 40 (από Κατεχάκη 37-39), Ελληνορώσων, Μετρό Κατεχάκη)",
+          "lat": "37,9943861",
+          "lon": "23,7725601",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Στέλλα (Δημ. Κιν/φος)",
+          "area": "Τενέδου 34 (Φωκίωνος Νέγρη), Κυψέλη",
+          "lat": "38,0018505",
+          "lon": "23,7376437",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δάφνη",
+          "area": "Ηλιουπόλεως 77 & Ηλία Ηλιού 28, Δάφνη (Μετρό Αγ. Ιωάννης & Δάφνη)",
+          "lat": "37,9547328",
+          "lon": "23,7388701",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Διονύσια",
+          "area": "Λ. Συγγρού 286 & Μυκηνών 2, Καλλιθέα",
+          "lat": "37,949214",
+          "lon": "23,70589",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριλένα",
+          "area": "Αιγύπτου 123, Άνω Γλυφάδα",
+          "lat": "37,8977049",
+          "lon": "23,7710638",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Νίκαια",
+          "area": "Θηβών 245, Νίκαια (πολυχώρος \"Μάνος Λοϊζος\")",
+          "lat": "37,9736957236159",
+          "lon": "23,66550189904",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Το Μεγαλείο",
+      "url": "https://www.athinorama.gr/cinema/movie/to_megaleio-10089264/",
+      "screenings": [
+        {
+          "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
+          "area": "Σωκράτους 65, Δραπετσώνα",
+          "lat": "37,950298",
+          "lon": "23,629367",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Η Μεγάλη Σφαγή των Β΄ ΚΑΠΗ Αλίμου",
+      "url": "https://www.athinorama.gr/cinema/movie/i_megali_sfagi_ton_b%ce%84_kapi_alimou-10090816/",
+      "screenings": [
+        {
+          "cinema": "Μικρόκοσμος",
+          "area": "Λεωφ. Συγγρού 106, Κουκάκι, στάση μετρό Συγγρού-Φιξ",
+          "lat": "37,9626727",
+          "lon": "23,7240176",
+          "showtimes": {
+            "2026-08-29": [
+              "18:00"
+            ]
+          }
+        },
+        {
+          "cinema": "Σινέ Αργυρούπολη",
+          "area": "Κύπρου 68 & Δωδεκανήσου, Αργυρούπολη",
+          "lat": "37,909188",
+          "lon": "23,75168",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Διονύσια",
+          "area": "Λ. Συγγρού 286 & Μυκηνών 2, Καλλιθέα",
+          "lat": "37,949214",
+          "lon": "23,70589",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {
+            "2026-08-30": [
+              "20:20"
+            ]
+          }
+        },
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δημ. Κιν. Όνειρο Ρέντη",
+          "area": "Νάξου 32, Αγ. Ιωάννης Ρέντης",
+          "lat": "37,9603023",
+          "lon": "23,6708033",
+          "showtimes": {
+            "2026-08-30": [
+              "20:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Σινέ Νίκαια",
+          "area": "Θηβών 245, Νίκαια (πολυχώρος \"Μάνος Λοϊζος\")",
+          "lat": "37,9736957236159",
+          "lon": "23,66550189904",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Μεξικό 86",
+      "url": "https://www.athinorama.gr/cinema/movie/meksiko_86-10091193/",
+      "screenings": [
+        {
+          "cinema": "Ταινιοθήκη της Ελλάδος",
+          "area": "Ιερά Οδός 48 & Μεγ. Αλεξάνδρου 134-136, (ΜΕΤΡΟ Κεραμεικός)",
+          "lat": "37,9808408362033",
+          "lon": "23,7124335765839",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Μια Θέση στον Ήλιο",
+      "url": "https://www.athinorama.gr/cinema/movie/mia_thesi_ston_ilio-10091073/",
+      "screenings": [
+        {
+          "cinema": "Διάνα",
+          "area": "Περικλέους 14, Μαρούσι (ΗΣΑΠ Μαρούσι)",
+          "lat": "38,057274",
+          "lon": "23,803214",
+          "showtimes": {
+            "2026-08-28": [
+              "18:50"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Μια Ιδιωτική Ζωή",
+      "url": "https://www.athinorama.gr/cinema/movie/mia_idiotiki_zoi-10088547/",
+      "screenings": [
+        {
+          "cinema": "Ορφέας Dolby Digital",
+          "area": "Λ. Σαρωνίδας 60, Σαρωνίδα",
+          "lat": "37,747379",
+          "lon": "23,914118",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Μικρές Ανάσες",
+      "url": "https://www.athinorama.gr/cinema/movie/mikres_anases-10090514/",
+      "screenings": [
+        {
+          "cinema": "Άστρον",
+          "area": "Βασ. Λάσκου 4, Μάνδρα",
+          "lat": "38,0742179",
+          "lon": "23,4933597",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Minions & Τέρατα",
+      "url": "https://www.athinorama.gr/cinema/movie/minions_kai_terata-10091218/",
+      "screenings": [
+        {
+          "cinema": "Athinaion Experience powered by Allianz",
+          "area": "Λεωφ. Β. Σοφίας 124 (ΜΕΤΡΟ Αμπελόκηποι)",
+          "lat": "37,985448",
+          "lon": "23,760484",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Παλλήνη",
+          "area": "Ελ. Βενιζέλου 3 & Λεωφ. Μαραθώνος",
+          "lat": "38,003735",
+          "lon": "23,877296",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {
+            "2026-08-26": [
+              "21:00"
+            ]
+          }
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Παγκράτι",
+          "area": "Υμηττού 110 & Χρεμωνίδου (Εμπ. Κέντρο Athens Millenium), Παγκράτι",
+          "lat": "37,966887",
+          "lon": "23,748814",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σπόρτιγκ Digital Cinema",
+          "area": "Κ. Παλαιολόγου 18, Ν. Σμύρνη",
+          "lat": "37,946588",
+          "lon": "23,711202",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κατερίνα Digital Cinema",
+          "area": "Δαβάκη 18, Χαϊδάρι",
+          "lat": "38,007772",
+          "lon": "23,662498",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αστέρι Digital Cinema",
+          "area": "Φιλοκτήτου 86 & Νέστορος (Εμπορικό κέντρο Ιλίου), Ίλιον",
+          "lat": "38,0328138",
+          "lon": "23,7075798",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Arian experience",
+          "area": "Λεωφ. Αγγέλου Μεταξά 11, Γλυφάδα (αυλή στοάς Αριάν)",
+          "lat": "37,8635298",
+          "lon": "23,7502206",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Γλυφάδα",
+          "area": "Ζησιμοπούλου 7 & Α. Μεταξά, Γλυφάδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ρία Digital Cinema",
+          "area": "Αφροδίτης 8, Βάρκιζα",
+          "lat": "37,820381",
+          "lon": "23,802621",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cool Τύμβος",
+          "area": "Δημοσθένους 12, Παραλία Μαραθώνα",
+          "lat": "38,15526",
+          "lon": "23,960959",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Mariel",
+          "area": "Λεωφ. Πόρτο Ράφτη 669, Πόρτο Ράφτη",
+          "lat": "37,8857509",
+          "lon": "24,0040499",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Το Μίσος",
+      "url": "https://www.athinorama.gr/cinema/movie/to_misos-1005102/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {
+            "2026-08-30": [
+              "22:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Σινέ Φλερύ",
+          "area": "Σκίπη 5-7 & Θησέως, Καλλιθέα",
+          "lat": "37,9539283",
+          "lon": "23,6989845",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Μνήμες Φόνων",
+      "url": "https://www.athinorama.gr/cinema/movie/mnimes_fonon-10068333/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Backrooms",
+      "url": "https://www.athinorama.gr/cinema/movie/backrooms-10090436/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {
+            "2026-08-28": [
+              "22:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Μπόμπ Σφουγγαράκης: Η Aναζήτηση του Τετραγωνοπαντελονή",
+      "url": "https://www.athinorama.gr/cinema/movie/mpomp_sfouggarakis_i_anazitisi_tou_tetragonopanteloni-10088541/",
+      "screenings": [
+        {
+          "cinema": "Άστρον",
+          "area": "Βασ. Λάσκου 4, Μάνδρα",
+          "lat": "38,0742179",
+          "lon": "23,4933597",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "DJ Βοσκός",
+      "url": "https://www.athinorama.gr/cinema/movie/dj_boskos-10091068/",
+      "screenings": [
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "The Drama",
+      "url": "https://www.athinorama.gr/cinema/movie/the_drama-10089672/",
+      "screenings": [
+        {
+          "cinema": "Μάρθα Καραγιάννη (Δημ. Κιν/φος)",
+          "area": "Βύρωνος και Χιλής, Κερατσίνι",
+          "lat": "37,9537478246183",
+          "lon": "23,6210017505351",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Νύφη!",
+      "url": "https://www.athinorama.gr/cinema/movie/i_nufi!_-10089350/",
+      "screenings": [
+        {
+          "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
+          "area": "Σωκράτους 65, Δραπετσώνα",
+          "lat": "37,950298",
+          "lon": "23,629367",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Νυχτερινός Εκφωνητής",
+      "url": "https://www.athinorama.gr/cinema/movie/nuxterinos_ekfonitis-10082371/",
+      "screenings": [
+        {
+          "cinema": "Άνεσις Cine",
+          "area": "Λεωφ. Κηφισίας 14, Αμπελόκηποι",
+          "lat": "37,9870572",
+          "lon": "23,7621258",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Ξένος",
+      "url": "https://www.athinorama.gr/cinema/movie/o_ksenos-10090585/",
+      "screenings": [
+        {
+          "cinema": "Αβάνα",
+          "area": "Λεωφ. Κηφισίας 234 & Λυκούργου 3, Χαλάνδρι",
+          "lat": "38,0135448",
+          "lon": "23,7833489",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Οδός Μάλαγα",
+      "url": "https://www.athinorama.gr/cinema/movie/odos_malaga-10089434/",
+      "screenings": [
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Οδός Μαλχόλαντ",
+      "url": "https://www.athinorama.gr/cinema/movie/odos_malxolant-1006623/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {
+            "2026-08-29": [
+              "22:20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Οδύσσεια",
+      "url": "https://www.athinorama.gr/cinema/movie/odusseia-10091064/",
+      "screenings": [
+        {
+          "cinema": "Αθηναία",
+          "area": "Χάρητος 50, Κολωνάκι (στάση Μετρό Ευαγγελισμός)",
+          "lat": "37,9788704111221",
+          "lon": "23,7453263997486",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Θησείον",
+          "area": "Απ. Παύλου 7, Θησείο",
+          "lat": "37,9726907",
+          "lon": "23,7204558",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μικρόκοσμος",
+          "area": "Λεωφ. Συγγρού 106, Κουκάκι, στάση μετρό Συγγρού-Φιξ",
+          "lat": "37,9626727",
+          "lon": "23,7240176",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Athinaion Experience powered by Allianz",
+          "area": "Λεωφ. Β. Σοφίας 124 (ΜΕΤΡΟ Αμπελόκηποι)",
+          "lat": "37,985448",
+          "lon": "23,760484",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη 3D Digital",
+          "area": "Λ. Πεντέλης 98-100, Χαλάνδρι",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αμαρυλλίς Garden Digital Cinema",
+          "area": "Αγ. Ιωάννου 2, Αγ. Παρασκευή",
+          "lat": "38,012736",
+          "lon": "23,821751",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Γέρακας",
+          "area": "Μιλτιάδου & Ευμενούς, Γέρακας (δίπλα στο κολυμβητήριο)",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μπομπονιέρα Digital Cinema",
+          "area": "Παπαδιαμάντη 12, Κηφισιά",
+          "lat": "38,073423",
+          "lon": "23,814253",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άλσος Dolby Digital",
+          "area": "Δεκελείας 152, Ν.Φιλαδέλφεια",
+          "lat": "38,0398528",
+          "lon": "23,7403341",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τρία Αστέρια 3D Digital",
+          "area": "Λ. Ηρακλείου 386, Ν. Ηράκλειο",
+          "lat": "38,050189",
+          "lon": "23,764276",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα",
+          "area": "Πατησίων 292, Αγ. Λουκάς",
+          "lat": "38,013195",
+          "lon": "23,735382",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αττικόν Άλσος",
+          "area": "Στο Αττικόν Άλσος (Περιφερειακός Πολυγώνου-Γαλατσίου), Τουρκοβούνια",
+          "lat": "38,0084012",
+          "lon": "23,7542059",
+          "showtimes": {
+            "2026-08-29": [
+              "22:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Αρκαδία",
+          "area": "Καραολή Δημητρίου 32 & Φορμίωνος 222, Πάρκο Βύρωνα",
+          "lat": "37,9567372",
+          "lon": "23,7622799",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Παγκράτι",
+          "area": "Υμηττού 110 & Χρεμωνίδου (Εμπ. Κέντρο Athens Millenium), Παγκράτι",
+          "lat": "37,966887",
+          "lon": "23,748814",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μελίνα Μερκούρη (Δημ. Κιν/φος)",
+          "area": "Λεωφ. Ειρήνης 50, Α. Ηλιούπολη",
+          "lat": "37,932887",
+          "lon": "23,756022",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σπόρτιγκ Digital Cinema",
+          "area": "Κ. Παλαιολόγου 18, Ν. Σμύρνη",
+          "lat": "37,946588",
+          "lon": "23,711202",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φοίβος Digital Cinema",
+          "area": "Εθν. Αντιστάσεως 3, ΜΕΤΡΟ Σταθμός Περιστέρι",
+          "lat": "38,0122816",
+          "lon": "23,6957458",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
+          "area": "25ης Μαρτίου 168, Πετρούπολη",
+          "lat": "38,037667",
+          "lon": "23,692456",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Arian experience",
+          "area": "Λεωφ. Αγγέλου Μεταξά 11, Γλυφάδα (αυλή στοάς Αριάν)",
+          "lat": "37,8635298",
+          "lon": "23,7502206",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Βάρκιζα",
+          "area": "Θάσου 22, Βάρκιζα",
+          "lat": "37,82223",
+          "lon": "23,798383",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριλένα",
+          "area": "Αιγύπτου 123, Άνω Γλυφάδα",
+          "lat": "37,8977049",
+          "lon": "23,7710638",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Γλυφάδα",
+          "area": "Ζησιμοπούλου 7 & Α. Μεταξά, Γλυφάδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Νίκαια",
+          "area": "Θηβών 245, Νίκαια (πολυχώρος \"Μάνος Λοϊζος\")",
+          "lat": "37,9736957236159",
+          "lon": "23,66550189904",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Παράδεισος",
+          "area": "Αγ. Γεωργίου & Ζάππα 4, Κορυδαλλός",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Κέκρωψ",
+          "area": "Β. Κωνσταντίνου 104, Κορωπί",
+          "lat": "37,9053368",
+          "lon": "23,872731",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ρία",
+          "area": "Λ. Ποσειδώνος 20, Μάτι",
+          "lat": "38,047535",
+          "lon": "23,996977",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αθηναία Garden",
+          "area": "Λεωφ. Χαλκουτσίου Συκαμίνου, Χαλκούτσι 190 15",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "8½",
+      "url": "https://www.athinorama.gr/cinema/movie/8%c2%bd-1001923/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Oldboy",
+      "url": "https://www.athinorama.gr/cinema/movie/oldboy-1007434/",
+      "screenings": [
+        {
+          "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
+          "area": "Κωνσταντινουπόλεως 2, Πάρκο Ηρώων (σταθμός προαστιακού Ρουφ)",
+          "lat": "37,9731306",
+          "lon": "23,7019824",
+          "showtimes": {
+            "2026-08-26": [
+              "20:15"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Όλοι οι Άνθρωποι του Προέδρου",
+      "url": "https://www.athinorama.gr/cinema/movie/oloi_oi_anthropoi_tou_proedrou-1000615/",
+      "screenings": [
+        {
+          "cinema": "Εκράν",
+          "area": "Ζωοδ. Πηγής & Αγαθίου, Νεάπολη",
+          "lat": "37,988581",
+          "lon": "23,742815",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ζέφυρος",
+          "area": "Τρώων 36, Άνω Πετράλωνα",
+          "lat": "37,9696419",
+          "lon": "23,7130905",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Φιλοθεη",
+          "area": "Πλ. Δροσοπούλου, Φιλοθέη",
+          "lat": "38,022347",
+          "lon": "23,785494",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αμίκο",
+          "area": "Επιδαύρου & Ανδρούτσου 20, Χαλάνδρι",
+          "lat": "38,028662",
+          "lon": "23,804628",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Όασις",
+          "area": "Πρατίνου 7, Παγκράτι",
+          "lat": "37,968222",
+          "lon": "23,747791",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ρία Digital Cinema",
+          "area": "Αφροδίτης 8, Βάρκιζα",
+          "lat": "37,820381",
+          "lon": "23,802621",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ομάχα",
+      "url": "https://www.athinorama.gr/cinema/movie/omaxa-10090042/",
+      "screenings": [
+        {
+          "cinema": "Μελίνα Μερκούρη (Δημ. Κιν/φος)",
+          "area": "Λεωφ. Ειρήνης 50, Α. Ηλιούπολη",
+          "lat": "37,932887",
+          "lon": "23,756022",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Όσα Δεν Λέγονται",
+      "url": "https://www.athinorama.gr/cinema/movie/osa_den_legontai-10091195/",
+      "screenings": [
+        {
+          "cinema": "Cine Πολεμικό Μουσείο",
+          "area": "Ριζάρη 2, Κέντρο",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Φιλοθεη",
+          "area": "Πλ. Δροσοπούλου, Φιλοθέη",
+          "lat": "38,022347",
+          "lon": "23,785494",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Όσα Ξέρει η Μαριέλ",
+      "url": "https://www.athinorama.gr/cinema/movie/osa_kserei_i_mariel-10090854/",
+      "screenings": [
+        {
+          "cinema": "Cine Αλεξάνδρα",
+          "area": "Ηρ. Πολυτεχνείου 27 (Μετρό Χολαργός), Κάτω Χαλάνδρι",
+          "lat": "38,007147",
+          "lon": "23,792095",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Λάουρα Θερινός Κινηματογράφος",
+          "area": "Φορμίωνος & Νικηφορίδη 24, Νέο Παγκράτι",
+          "lat": "37,964485",
+          "lon": "23,754112",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Πανούκλα",
+      "url": "https://www.athinorama.gr/cinema/movie/i_panoukla-10090855/",
+      "screenings": [
+        {
+          "cinema": "Δημ. Κιν. Όνειρο Ρέντη",
+          "area": "Νάξου 32, Αγ. Ιωάννης Ρέντης",
+          "lat": "37,9603023",
+          "lon": "23,6708033",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Pandemonium",
+      "url": "https://www.athinorama.gr/cinema/movie/pandemonium-10091229/",
+      "screenings": [
+        {
+          "cinema": "Όασις",
+          "area": "Πρατίνου 7, Παγκράτι",
+          "lat": "37,968222",
+          "lon": "23,747791",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Παραχαράκτης",
+      "url": "https://www.athinorama.gr/cinema/movie/o_paraxaraktis-10090800/",
+      "screenings": [
+        {
+          "cinema": "Cine Φλοίσβος",
+          "area": "Πάρκο Φλοίσβου Π. Φαλήρου (πλησίον Μαρίνας)",
+          "lat": "37,928702",
+          "lon": "23,686974",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη Ζαππείου",
+          "area": "Κήπος Ζαππείου",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Πολεμικό Μουσείο",
+          "area": "Ριζάρη 2, Κέντρο",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη 3D Digital",
+          "area": "Λ. Πεντέλης 98-100, Χαλάνδρι",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μπομπονιέρα Digital Cinema",
+          "area": "Παπαδιαμάντη 12, Κηφισιά",
+          "lat": "38,073423",
+          "lon": "23,814253",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άλσος Dolby Digital",
+          "area": "Δεκελείας 152, Ν.Φιλαδέλφεια",
+          "lat": "38,0398528",
+          "lon": "23,7403341",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αττικόν Άλσος",
+          "area": "Στο Αττικόν Άλσος (Περιφερειακός Πολυγώνου-Γαλατσίου), Τουρκοβούνια",
+          "lat": "38,0084012",
+          "lon": "23,7542059",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Διονύσια",
+          "area": "Λ. Συγγρού 286 & Μυκηνών 2, Καλλιθέα",
+          "lat": "37,949214",
+          "lon": "23,70589",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κατερίνα Digital Cinema",
+          "area": "Δαβάκη 18, Χαϊδάρι",
+          "lat": "38,007772",
+          "lon": "23,662498",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αστέρι Digital Cinema",
+          "area": "Φιλοκτήτου 86 & Νέστορος (Εμπορικό κέντρο Ιλίου), Ίλιον",
+          "lat": "38,0328138",
+          "lon": "23,7075798",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριλένα",
+          "area": "Αιγύπτου 123, Άνω Γλυφάδα",
+          "lat": "37,8977049",
+          "lon": "23,7710638",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ρία Digital Cinema",
+          "area": "Αφροδίτης 8, Βάρκιζα",
+          "lat": "37,820381",
+          "lon": "23,802621",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη",
+          "area": "Λεωφ. Σαρωνίδας 28-30, Σαρωνίδα",
+          "lat": "37,748098",
+          "lon": "23,909622",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Παράδεισος",
+          "area": "Αγ. Γεωργίου & Ζάππα 4, Κορυδαλλός",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αθηναία Garden",
+          "area": "Λεωφ. Χαλκουτσίου Συκαμίνου, Χαλκούτσι 190 15",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριάννα Digital Cinema",
+          "area": "Παραλία Αγ. Αποστόλων",
+          "lat": "38,296",
+          "lon": "23,906",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Το Πάρτυ Γενεθλίων",
+      "url": "https://www.athinorama.gr/cinema/movie/to_partu_genethlion-10090852/",
+      "screenings": [
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Πικρές Γιορτές",
+      "url": "https://www.athinorama.gr/cinema/movie/pikres_giortes-10090512/",
+      "screenings": [
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Πιο Πλούσια Γυναίκα στον Κόσμο",
+      "url": "https://www.athinorama.gr/cinema/movie/i_pio_plousia_gunaika_ston_kosmo-10091220/",
+      "screenings": [
+        {
+          "cinema": "Αίγλη Ζαππείου",
+          "area": "Κήπος Ζαππείου",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ελληνίς Cinemax",
+          "area": "Λεωφ. Κηφισίας 29, Αμπελόκηποι",
+          "lat": "37,9880602",
+          "lon": "23,7627050999999",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Φιλοθεη",
+          "area": "Πλ. Δροσοπούλου, Φιλοθέη",
+          "lat": "38,022347",
+          "lon": "23,785494",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη 3D Digital",
+          "area": "Λ. Πεντέλης 98-100, Χαλάνδρι",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άρτεμις (Δημ. Κιν./φος) Dolby Digital",
+          "area": "Νευροκοπίου 2- 4 (παραπλεύρως Κέντρου Νεότητας), Παπάγου",
+          "lat": "37,9902274",
+          "lon": "23,7849065",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κοράλι Cinemax",
+          "area": "Αφροδίτης & Ιθάκης, Σαρωνίδα",
+          "lat": "37,750668",
+          "lon": "23,906088",
+          "showtimes": {
+            "2026-08-30": [
+              "20:20"
+            ]
+          }
+        },
+        {
+          "cinema": "Τριανόν Cinemax",
+          "area": "Κεφαλληνίας 8, Σαρωνίδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Πρόσκληση",
+      "url": "https://www.athinorama.gr/cinema/movie/i_prosklisi_-10090846/",
+      "screenings": [
+        {
+          "cinema": "Αβάνα",
+          "area": "Λεωφ. Κηφισίας 234 & Λυκούργου 3, Χαλάνδρι",
+          "lat": "38,0135448",
+          "lon": "23,7833489",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Αλεξάνδρα",
+          "area": "Ηρ. Πολυτεχνείου 27 (Μετρό Χολαργός), Κάτω Χαλάνδρι",
+          "lat": "38,007147",
+          "lon": "23,792095",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Λάουρα Θερινός Κινηματογράφος",
+          "area": "Φορμίωνος & Νικηφορίδη 24, Νέο Παγκράτι",
+          "lat": "37,964485",
+          "lon": "23,754112",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Φλερύ",
+          "area": "Σκίπη 5-7 & Θησέως, Καλλιθέα",
+          "lat": "37,9539283",
+          "lon": "23,6989845",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Πάνθεον - Αγία Βαρβάρα (Δημ. Κιν/φος)",
+          "area": "Τέρμα Δεληγιάννη 89,  Αγία Βαρβάρα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα Cinemax",
+          "area": "Κακή Θάλασσα, Κερατέα",
+          "lat": "37,8394805",
+          "lon": "24,046414",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Παράδεισος",
+          "area": "Αγ. Γεωργίου & Ζάππα 4, Κορυδαλλός",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άστρον Digital Cinema",
+          "area": "Νηριίδων 9, Άρτεμις",
+          "lat": "37,9740758",
+          "lon": "24,0103226",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σίσσυ Digital Cinema",
+          "area": "Λ. Μαραθώνος 36, Ν. Μάκρη",
+          "lat": "38,081174",
+          "lon": "23,979851",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριάννα Digital Cinema",
+          "area": "Παραλία Αγ. Αποστόλων",
+          "lat": "38,296",
+          "lon": "23,906",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ρομερία",
+      "url": "https://www.athinorama.gr/cinema/movie/romeria-10090806/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ρούφους: Ο Θαλάσσιος Δράκος που δεν Ήξερε Κολύμπι",
+      "url": "https://www.athinorama.gr/cinema/movie/roufous_o_thalassios_drakos_pou_den_iksere_kolumpi-10088670/",
+      "screenings": [
+        {
+          "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
+          "area": "Σωκράτους 65, Δραπετσώνα",
+          "lat": "37,950298",
+          "lon": "23,629367",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "The Smashing Machine: Η Καρδιά Ενός Μαχητή",
+      "url": "https://www.athinorama.gr/cinema/movie/the_smashing_machine_i_kardia_enos_maxiti-1004727/",
+      "screenings": [
+        {
+          "cinema": "Cine Αλέκος Χρυσοστομίδης (Δημ. Κιν/φος)",
+          "area": "Πάρκο Σελεπίτσαρι, Αμφιάλη",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Spider-Man: Καινούργια Μέρα",
+      "url": "https://www.athinorama.gr/cinema/movie/spider_man_kainourgia_mera-10091148/",
+      "screenings": [
+        {
+          "cinema": "Cine Φλοίσβος",
+          "area": "Πάρκο Φλοίσβου Π. Φαλήρου (πλησίον Μαρίνας)",
+          "lat": "37,928702",
+          "lon": "23,686974",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη Ζαππείου",
+          "area": "Κήπος Ζαππείου",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Athinaion Experience powered by Allianz",
+          "area": "Λεωφ. Β. Σοφίας 124 (ΜΕΤΡΟ Αμπελόκηποι)",
+          "lat": "37,985448",
+          "lon": "23,760484",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη 3D Digital",
+          "area": "Λ. Πεντέλης 98-100, Χαλάνδρι",
+          "lat": "38,029657",
+          "lon": "23,815833",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άρτεμις (Δημ. Κιν./φος) Dolby Digital",
+          "area": "Νευροκοπίου 2- 4 (παραπλεύρως Κέντρου Νεότητας), Παπάγου",
+          "lat": "37,9902274",
+          "lon": "23,7849065",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Γέρακας",
+          "area": "Μιλτιάδου & Ευμενούς, Γέρακας (δίπλα στο κολυμβητήριο)",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μίμης Φωτόπουλος (Δημ. Κιν/φος)",
+          "area": "Αγ. Κων/νου 42, (δίπλα στο Αίθριο), Μαρούσι",
+          "lat": "38,0471939",
+          "lon": "23,8046556",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μπομπονιέρα Digital Cinema",
+          "area": "Παπαδιαμάντη 12, Κηφισιά",
+          "lat": "38,073423",
+          "lon": "23,814253",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άλσος Dolby Digital",
+          "area": "Δεκελείας 152, Ν.Φιλαδέλφεια",
+          "lat": "38,0398528",
+          "lon": "23,7403341",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Νοσταλγία (Δημ. Κιν/φος)",
+          "area": "Κέας & Τερψιχόρης, Ηράκλειο",
+          "lat": "38,0435792206177",
+          "lon": "23,7653803825378",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τρία Αστέρια 3D Digital",
+          "area": "Λ. Ηρακλείου 386, Ν. Ηράκλειο",
+          "lat": "38,050189",
+          "lon": "23,764276",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Παγκράτι",
+          "area": "Υμηττού 110 & Χρεμωνίδου (Εμπ. Κέντρο Athens Millenium), Παγκράτι",
+          "lat": "37,966887",
+          "lon": "23,748814",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Κήπος",
+          "area": "Θερμοπυλών 49 & Κνωσού, Μοσχάτο",
+          "lat": "37,9524717631174",
+          "lon": "23,6799252033234",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Πάνθεον - Αγία Βαρβάρα (Δημ. Κιν/φος)",
+          "area": "Τέρμα Δεληγιάννη 89,  Αγία Βαρβάρα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φοίβος Digital Cinema",
+          "area": "Εθν. Αντιστάσεως 3, ΜΕΤΡΟ Σταθμός Περιστέρι",
+          "lat": "38,0122816",
+          "lon": "23,6957458",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριλένα",
+          "area": "Αιγύπτου 123, Άνω Γλυφάδα",
+          "lat": "37,8977049",
+          "lon": "23,7710638",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Γλυφάδα",
+          "area": "Ζησιμοπούλου 7 & Α. Μεταξά, Γλυφάδα",
+          "lat": "37,8611552",
+          "lon": "23,7525449",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ρία Digital Cinema",
+          "area": "Αφροδίτης 8, Βάρκιζα",
+          "lat": "37,820381",
+          "lon": "23,802621",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη",
+          "area": "Λεωφ. Σαρωνίδας 28-30, Σαρωνίδα",
+          "lat": "37,748098",
+          "lon": "23,909622",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα Cinemax",
+          "area": "Κακή Θάλασσα, Κερατέα",
+          "lat": "37,8394805",
+          "lon": "24,046414",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δημ. Κιν. Όνειρο Ρέντη",
+          "area": "Νάξου 32, Αγ. Ιωάννης Ρέντης",
+          "lat": "37,9603023",
+          "lon": "23,6708033",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Παράδεισος",
+          "area": "Αγ. Γεωργίου & Ζάππα 4, Κορυδαλλός",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Σελήνη",
+          "area": "Αγ. Νικολάου 17 & Πανθέας, Σελήνια Σαλαμίνας",
+          "lat": "37,9320128417537",
+          "lon": "23,5320711135864",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Digital Cinema",
+          "area": "Ελ. Βενιζέλου 12, Ραφήνα",
+          "lat": "38,021554",
+          "lon": "24,007316",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Κέκρωψ",
+          "area": "Β. Κωνσταντίνου 104, Κορωπί",
+          "lat": "37,9053368",
+          "lon": "23,872731",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas, Σπάτα",
+          "area": "Θέση Πουλάκη, Εμπορικό κέντρο Smart Park, Σπάτα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Alex Digital Cinema",
+          "area": "Λεωφ. Πόρτο Ράφτη 235",
+          "lat": "37,8939491",
+          "lon": "23,9706208",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριάννα Digital Cinema",
+          "area": "Παραλία Αγ. Αποστόλων",
+          "lat": "38,296",
+          "lon": "23,906",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ωρωπός 3D Digital Cinema",
+          "area": "Πινδάρου 5, Σκάλα Ωρωπού",
+          "lat": "38,3209",
+          "lon": "23,7895",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Σπασμένη Φλέβα",
+      "url": "https://www.athinorama.gr/cinema/movie/spasmeni_fleba-10088221/",
+      "screenings": [
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "showtimes": {
+            "2026-08-30": [
+              "21:50"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Star Wars: The Mandalorian and Grogu",
+      "url": "https://www.athinorama.gr/cinema/movie/star_wars_the_mandalorian_and_grogu-10090316/",
+      "screenings": [
+        {
+          "cinema": "Άστρον",
+          "area": "Βασ. Λάσκου 4, Μάνδρα",
+          "lat": "38,0742179",
+          "lon": "23,4933597",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Συμπέθεροι Από Σόι 2",
+      "url": "https://www.athinorama.gr/cinema/movie/sumpetheroi_apo_soi_2-10091121/",
+      "screenings": [
+        {
+          "cinema": "Αβάνα",
+          "area": "Λεωφ. Κηφισίας 234 & Λυκούργου 3, Χαλάνδρι",
+          "lat": "38,0135448",
+          "lon": "23,7833489",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άλσος Dolby Digital",
+          "area": "Δεκελείας 152, Ν.Φιλαδέλφεια",
+          "lat": "38,0398528",
+          "lon": "23,7403341",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αλέκα (Δημ. Κιν/φος)",
+          "area": "3ης Ορ. Ταξιαρχίας 13, πλ. Αλεξανδρή, Ζωγράφου",
+          "lat": "37,9775068",
+          "lon": "23,7711822",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Digital Cinema",
+          "area": "Ελ. Βενιζέλου 12, Ραφήνα",
+          "lat": "38,021554",
+          "lon": "24,007316",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άστρον Digital Cinema",
+          "area": "Νηριίδων 9, Άρτεμις",
+          "lat": "37,9740758",
+          "lon": "24,0103226",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σίσσυ Digital Cinema",
+          "area": "Λ. Μαραθώνος 36, Ν. Μάκρη",
+          "lat": "38,081174",
+          "lon": "23,979851",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Τελευταία Κλήση",
+      "url": "https://www.athinorama.gr/cinema/movie/teleutaia_klisi-10089533/",
+      "screenings": [
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Τηλεφωνήσατε Ασφάλεια Αμέσου Δράσεως",
+      "url": "https://www.athinorama.gr/cinema/movie/tilefonisate_asfaleia_amesou_draseos-1006145/",
+      "screenings": [
+        {
+          "cinema": "Αμίκο",
+          "area": "Επιδαύρου & Ανδρούτσου 20, Χαλάνδρι",
+          "lat": "38,028662",
+          "lon": "23,804628",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα",
+          "area": "Πατησίων 292, Αγ. Λουκάς",
+          "lat": "38,013195",
+          "lon": "23,735382",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Toy Story 5",
+      "url": "https://www.athinorama.gr/cinema/movie/toy_story_5-10090748/",
+      "screenings": [
+        {
+          "cinema": "Αμίκο",
+          "area": "Επιδαύρου & Ανδρούτσου 20, Χαλάνδρι",
+          "lat": "38,028662",
+          "lon": "23,804628",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Γέρακας",
+          "area": "Μιλτιάδου & Ευμενούς, Γέρακας (δίπλα στο κολυμβητήριο)",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μίμης Φωτόπουλος (Δημ. Κιν/φος)",
+          "area": "Αγ. Κων/νου 42, (δίπλα στο Αίθριο), Μαρούσι",
+          "lat": "38,0471939",
+          "lon": "23,8046556",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Μαρούσι, The mall Athens",
+          "area": "Aνδρέα Παπανδρέου (παραπλεύρως Αττικής Οδού) ΗΣΑΠ Νερατζιώτισσα, Μαρούσι",
+          "lat": "38,044898",
+          "lon": "23,792248",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Γαλάτσι",
+          "area": "Άλσος Βεΐκου",
+          "lat": "38,0298233514746",
+          "lon": "23,7652323203941",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αλέκα (Δημ. Κιν/φος)",
+          "area": "3ης Ορ. Ταξιαρχίας 13, πλ. Αλεξανδρή, Ζωγράφου",
+          "lat": "37,9775068",
+          "lon": "23,7711822",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αρκαδία",
+          "area": "Καραολή Δημητρίου 32 & Φορμίωνος 222, Πάρκο Βύρωνα",
+          "lat": "37,9567372",
+          "lon": "23,7622799",
+          "showtimes": {
+            "2026-08-30": [
+              "20:40"
+            ]
+          }
+        },
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σπόρτιγκ Digital Cinema",
+          "area": "Κ. Παλαιολόγου 18, Ν. Σμύρνη",
+          "lat": "37,946588",
+          "lon": "23,711202",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Ίλιον, Escape Center",
+          "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
+          "lat": "38,042861",
+          "lon": "23,725179",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Βάρκιζα",
+          "area": "Θάσου 22, Βάρκιζα",
+          "lat": "37,82223",
+          "lon": "23,798383",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Village Cinemas Γλυφάδα",
+          "area": "Ζησιμοπούλου 7 & Α. Μεταξά, Γλυφάδα",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αίγλη",
+          "area": "Λεωφ. Σαρωνίδας 28-30, Σαρωνίδα",
+          "lat": "37,748098",
+          "lon": "23,909622",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Γαλάζια Ακτή",
+          "area": "Γαλάζιας Ακτής 110, Λαγονήσι",
+          "lat": "37,805323",
+          "lon": "23,870521",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Τα Χρόνια της Αθωότητας Cinemax",
+          "area": "Λεωφ. Σουνίου 6 (έναντι ΟΤΕ), Λαύριο",
+          "lat": "37,7172692",
+          "lon": "24,0543449",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δημ. Κιν. Όνειρο Ρέντη",
+          "area": "Νάξου 32, Αγ. Ιωάννης Ρέντης",
+          "lat": "37,9603023",
+          "lon": "23,6708033",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Νίκαια",
+          "area": "Θηβών 245, Νίκαια (πολυχώρος \"Μάνος Λοϊζος\")",
+          "lat": "37,9736957236159",
+          "lon": "23,66550189904",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Σινέ Παράδεισος",
+          "area": "Αγ. Γεωργίου & Ζάππα 4, Κορυδαλλός",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {
+            "2026-08-30": [
+              "20:30"
+            ]
+          }
+        },
+        {
+          "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
+          "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
+          "lat": "37,975314",
+          "lon": "23,66821",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άστρον Digital Cinema",
+          "area": "Νηριίδων 9, Άρτεμις",
+          "lat": "37,9740758",
+          "lon": "24,0103226",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Κέκρωψ",
+          "area": "Β. Κωνσταντίνου 104, Κορωπί",
+          "lat": "37,9053368",
+          "lon": "23,872731",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαριάννα Digital Cinema",
+          "area": "Παραλία Αγ. Αποστόλων",
+          "lat": "38,296",
+          "lon": "23,906",
+          "showtimes": {
+            "2026-08-28": [
+              "20:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Τομ και Τζέρι: Η Απαγορευμένη Πυξίδα",
+      "url": "https://www.athinorama.gr/cinema/movie/tom_kai_tzeri_i_apagoreumeni_puksida-10087615/",
+      "screenings": [
+        {
+          "cinema": "Μάρθα Καραγιάννη (Δημ. Κιν/φος)",
+          "area": "Βύρωνος και Χιλής, Κερατσίνι",
+          "lat": "37,9537478246183",
+          "lon": "23,6210017505351",
+          "showtimes": {
+            "2026-08-26": [
+              "20:30"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Τορέντε για Πρόεδρος",
+      "url": "https://www.athinorama.gr/cinema/movie/torente_gia_proedros-10091196/",
+      "screenings": [
+        {
+          "cinema": "Κάρμεν",
+          "area": "Κουσιανόφσκυ και Παπαδά 40 (από Κατεχάκη 37-39), Ελληνορώσων, Μετρό Κατεχάκη)",
+          "lat": "37,9943861",
+          "lon": "23,7725601",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Στέλλα (Δημ. Κιν/φος)",
+          "area": "Τενέδου 34 (Φωκίωνος Νέγρη), Κυψέλη",
+          "lat": "38,0018505",
+          "lon": "23,7376437",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δάφνη",
+          "area": "Ηλιουπόλεως 77 & Ηλία Ηλιού 28, Δάφνη (Μετρό Αγ. Ιωάννης & Δάφνη)",
+          "lat": "37,9547328",
+          "lon": "23,7388701",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Alex Digital Cinema",
+          "area": "Λεωφ. Πόρτο Ράφτη 235",
+          "lat": "37,8939491",
+          "lon": "23,9706208",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Trainspotting",
+      "url": "https://www.athinorama.gr/cinema/movie/trainspotting-1005315/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Τρέξε Λόλα Τρέξε",
+      "url": "https://www.athinorama.gr/cinema/movie/trekse_lola_trekse-1005921/",
+      "screenings": [
+        {
+          "cinema": "Παναθήναια",
+          "area": "Μαυρομιχάλη 165, Νεάπολη",
+          "lat": "37,9886836",
+          "lon": "23,7433601",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Ύποπτος Κόσμος του Τουίν Πικς",
+      "url": "https://www.athinorama.gr/cinema/movie/o_upoptos_kosmos_tou_touin_piks-1004675/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Faust",
+      "url": "https://www.athinorama.gr/cinema/movie/faust-1008801/",
+      "screenings": [
+        {
+          "cinema": "Ατενέ",
+          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
+          "lat": "38,0061755",
+          "lon": "23,7322414",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Studio new star art cinema",
+          "area": "Σπάρτης & Σταυροπούλου 33, Πλ. Αμερικής",
+          "lat": "38,0031439",
+          "lon": "23,7309064",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Φάρμα των Ζώων",
+      "url": "https://www.athinorama.gr/cinema/movie/i_farma_ton_zoon-10090578/",
+      "screenings": [
+        {
+          "cinema": "Μαριάννα Digital Cinema",
+          "area": "Παραλία Αγ. Αποστόλων",
+          "lat": "38,296",
+          "lon": "23,906",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Φιόρδ",
+      "url": "https://www.athinorama.gr/cinema/movie/fiord-10091208/",
+      "screenings": [
+        {
+          "cinema": "Βοξ",
+          "area": "Θεμιστοκλέους 82, Εξάρχεια",
+          "lat": "37,9867164",
+          "lon": "23,7355967999999",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Δεξαμενή",
+          "area": "Πλατεία Δεξαμενής, Κολωνάκι",
+          "lat": "37,979011",
+          "lon": "23,741808",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Παναθήναια",
+          "area": "Μαυρομιχάλη 165, Νεάπολη",
+          "lat": "37,9886836",
+          "lon": "23,7433601",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ταινιοθήκη της Ελλάδος",
+          "area": "Ιερά Οδός 48 & Μεγ. Αλεξάνδρου 134-136, (ΜΕΤΡΟ Κεραμεικός)",
+          "lat": "37,9808408362033",
+          "lon": "23,7124335765839",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μικρόκοσμος",
+          "area": "Λεωφ. Συγγρού 106, Κουκάκι, στάση μετρό Συγγρού-Φιξ",
+          "lat": "37,9626727",
+          "lon": "23,7240176",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Paris",
+          "area": "Κυδαθηναίων 22, Πλάκα",
+          "lat": "37,971936",
+          "lon": "23,730786",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άνεσις Cine",
+          "area": "Λεωφ. Κηφισίας 14, Αμπελόκηποι",
+          "lat": "37,9870572",
+          "lon": "23,7621258",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Ψυχικό",
+          "area": "Ολυμπιονικών 290, Νέο Ψυχικό",
+          "lat": "38,0064251",
+          "lon": "23,7772773",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cine Αλεξάνδρα",
+          "area": "Ηρ. Πολυτεχνείου 27 (Μετρό Χολαργός), Κάτω Χαλάνδρι",
+          "lat": "38,007147",
+          "lon": "23,792095",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαργαρίτα Cinema",
+          "area": "Δουκ. Πλακεντίας 87, Χαλάνδρι",
+          "lat": "38,022883",
+          "lon": "23,826316",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Παλλήνη",
+          "area": "Ελ. Βενιζέλου 3 & Λεωφ. Μαραθώνος",
+          "lat": "38,003735",
+          "lon": "23,877296",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αλίκη Digital Cinema",
+          "area": "Λεωφ. Μαραθώνος 3, Πλατεία Δροσιάς",
+          "lat": "38,1235809",
+          "lon": "23,8565847",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Διάνα",
+          "area": "Περικλέους 14, Μαρούσι (ΗΣΑΠ Μαρούσι)",
+          "lat": "38,057274",
+          "lon": "23,803214",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Χλόη",
+          "area": "Κασαβέτη 17, Κηφισιά",
+          "lat": "38,072126",
+          "lon": "23,814058",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Άνοιξις",
+          "area": "Αττική & Ευριπίδου 19, Ν. Ηράκλειο",
+          "lat": "38,0495549",
+          "lon": "23,7597253",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αελλώ Cinemax",
+          "area": "Πατησίων 140",
+          "lat": "37,999418",
+          "lon": "23,733404",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Λιλά",
+          "area": "Νάξου 115, Πατήσια (Κλωναρίδου)",
+          "lat": "38,0147356",
+          "lon": "23,737128",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Τριανόν",
+          "area": "Κοδριγκτώνος 21 (Πατησίων 101)  (ΜΕΤΡΟ Βικτώρια)",
+          "lat": "37,995705",
+          "lon": "23,73124",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αμύντας",
+          "area": "Κων/πόλεως 16, Υμηττός",
+          "lat": "37,953287",
+          "lon": "23,746637",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Λάουρα Θερινός Κινηματογράφος",
+          "area": "Φορμίωνος & Νικηφορίδη 24, Νέο Παγκράτι",
+          "lat": "37,964485",
+          "lon": "23,754112",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Αλόμα",
+          "area": "Μ. Γερουλάνου 103 & Πόντου 39, Αργυρούπολη (σκεπαστός χώρος σε περίπτωση βροχής)",
+          "lat": "37,9032833",
+          "lon": "23,7515475",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Φλερύ",
+          "area": "Σκίπη 5-7 & Θησέως, Καλλιθέα",
+          "lat": "37,9539283",
+          "lon": "23,6989845",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φιλίπ",
+          "area": "Ελ. Βενιζέλου 40, Ν. Σμύρνη,",
+          "lat": "37,944875",
+          "lon": "23,714354",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Σινέ Τιτάν",
+          "area": "Δωδεκανήσου 2, Αιγάλεω (έναντι του σταθμού Μετρό Αιγάλεω)",
+          "lat": "0",
+          "lon": "0",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ακτή",
+          "area": "Θησέως και Αιόλου, Βουλιαγμένη",
+          "lat": "37,816462",
+          "lon": "23,779992",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Βάρκιζα",
+          "area": "Θάσου 22, Βάρκιζα",
+          "lat": "37,82223",
+          "lon": "23,798383",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Γαλάζια Ακτή",
+          "area": "Γαλάζιας Ακτής 110, Λαγονήσι",
+          "lat": "37,805323",
+          "lon": "23,870521",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Κοράλι Cinemax",
+          "area": "Αφροδίτης & Ιθάκης, Σαρωνίδα",
+          "lat": "37,750668",
+          "lon": "23,906088",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Cool Τύμβος",
+          "area": "Δημοσθένους 12, Παραλία Μαραθώνα",
+          "lat": "38,17883",
+          "lon": "23,961182",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Φλωρίδα",
+          "area": "Λ. Ποσειδώνος 124, Ζούμπερι",
+          "lat": "38,073961",
+          "lon": "23,991931",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Mariel",
+          "area": "Λεωφ. Πόρτο Ράφτη 669, Πόρτο Ράφτη",
+          "lat": "37,8857509",
+          "lon": "24,0040499",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Φόνος στην Πρεσβεία",
+      "url": "https://www.athinorama.gr/cinema/movie/fonos_stin_presbeia-10091198/",
+      "screenings": [
+        {
+          "cinema": "Αβάνα",
+          "area": "Λεωφ. Κηφισίας 234 & Λυκούργου 3, Χαλάνδρι",
+          "lat": "38,0135448",
+          "lon": "23,7833489",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Μαϊάμι",
+          "area": "Κυανής Ακτής 12, Μάτι",
+          "lat": "38,046365",
+          "lon": "23,996516",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Φτηνά Τσιγάρα",
+      "url": "https://www.athinorama.gr/cinema/movie/ftina_tsigara-1006354/",
+      "screenings": [
+        {
+          "cinema": "Άνεσις Cine",
+          "area": "Λεωφ. Κηφισίας 14, Αμπελόκηποι",
+          "lat": "37,9870572",
+          "lon": "23,7621258",
+          "showtimes": {
+            "2026-08-29": [
+              "20:15"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Χαμένη Λεωφόρος",
+      "url": "https://www.athinorama.gr/cinema/movie/xameni_leoforos-1005390/",
+      "screenings": [
+        {
+          "cinema": "Ριβιέρα",
+          "area": "Βαλτετσίου 46, Εξάρχεια",
+          "lat": "37,985563",
+          "lon": "23,735849",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Η Χρυσή Άμαξα",
+      "url": "https://www.athinorama.gr/cinema/movie/i_xrusi_amaksa-10040196/",
+      "screenings": [
+        {
+          "cinema": "Όασις",
+          "area": "Πρατίνου 7, Παγκράτι",
+          "lat": "37,968222",
+          "lon": "23,747791",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ο Ψαρομουρμούρας",
+      "url": "https://www.athinorama.gr/cinema/movie/o_psaromourmouras-10090317/",
+      "screenings": [
+        {
+          "cinema": "Ρία",
+          "area": "Λ. Ποσειδώνος 20, Μάτι",
+          "lat": "38,047535",
+          "lon": "23,996977",
+          "showtimes": {
+            "2026-08-26": [
+              "20:45"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Ψηλά Τακούνια",
+      "url": "https://www.athinorama.gr/cinema/movie/psila_takounia-1004370/",
+      "screenings": [
+        {
+          "cinema": "Μίμης Φωτόπουλος (Δημ. Κιν/φος)",
+          "area": "Αγ. Κων/νου 42, (δίπλα στο Αίθριο), Μαρούσι",
+          "lat": "38,0471939",
+          "lon": "23,8046556",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Στέλλα (Δημ. Κιν/φος)",
+          "area": "Τενέδου 34 (Φωκίωνος Νέγρη), Κυψέλη",
+          "lat": "38,0018505",
+          "lon": "23,7376437",
+          "showtimes": {
+            "2026-08-28": [
+              "23:00"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Οι Ψίθυροι",
+      "url": "https://www.athinorama.gr/cinema/movie/oi_psithuroi-10008216/",
+      "screenings": [
+        {
+          "cinema": "Ατενέ",
+          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
+          "lat": "38,0061755",
+          "lon": "23,7322414",
+          "showtimes": {}
+        }
+      ]
+    },
+    {
+      "title": "Ψυχώ",
+      "url": "https://www.athinorama.gr/cinema/movie/psuxo-1000182/",
+      "screenings": [
+        {
+          "cinema": "Ζέφυρος",
+          "area": "Τρώων 36, Άνω Πετράλωνα",
+          "lat": "37,9696419",
+          "lon": "23,7130905",
+          "showtimes": {}
+        },
+        {
+          "cinema": "Ηλέκτρα",
+          "area": "Πατησίων 292, Αγ. Λουκάς",
+          "lat": "38,013195",
+          "lon": "23,735382",
+          "showtimes": {}
+        }
+      ]
+    }
+  ]
 }
