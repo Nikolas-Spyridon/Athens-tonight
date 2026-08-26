@@ -129,6 +129,44 @@ def date_for_weekday_this_week(weekday: int, today: date) -> date:
     return week_monday(today) + timedelta(days=weekday)
 
 
+def parse_one_segment(text: str, today: date) -> dict[str, list[str]]:
+    """Parse ONE day-range+time segment into {date_iso: [time_str]}.
+    Returns {} if the segment doesn't match.
+
+    Deliberately does NOT assume a specific punctuation mark (':' or '.')
+    separates the day-range from the time, since athinorama is
+    inconsistent about it — e.g. 'Σάβ.: 20.20' uses a colon, but
+    'Δευτ.-Τετ. 20.30' (the second half of a comma-separated pair) uses
+    only a period+space, no colon. Instead: find the time pattern
+    anywhere in the text, and treat everything before it as the day spec.
+    """
+    m = re.search(r"(\d{1,2})[.:](\d{2})", text)
+    if not m:
+        return {}
+    hh, mm = m.group(1), m.group(2)
+    time_str = f"{hh.zfill(2)}:{mm}"
+
+    day_spec = text[:m.start()].strip().rstrip(":").strip()
+    if "-" in day_spec:
+        start_raw, end_raw = day_spec.split("-", 1)
+    else:
+        start_raw = end_raw = day_spec
+    start_wd = normalize_day(start_raw)
+    end_wd = normalize_day(end_raw)
+    if start_wd is None or end_wd is None:
+        return {}
+
+    out: dict[str, list[str]] = {}
+    wd = start_wd
+    for _ in range(7):  # safety cap — never more than a full week
+        show_date = date_for_weekday_this_week(wd, today)
+        out.setdefault(show_date.isoformat(), []).append(time_str)
+        if wd == end_wd:
+            break
+        wd = (wd + 1) % 7
+    return out
+
+
 def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]:
     """
     Return a list of screenings for one movie:
@@ -154,32 +192,20 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
         showtimes_by_date: dict[str, list[str]] = {}
         for time_span in block.select("ul.schedule-infos li .time"):
             text = time_span.get_text(strip=True)
-            # Two known formats, both may have trailing text/notes after the
-            # time (e.g. a subtitle note) which we deliberately ignore:
-            #   'Σάβ.: 20.20'          -> single day
-            #   'Δευτ.-Τετ.: 20.20'    -> range, same time every day in it
-            m = re.match(r"^(.+?)\.?:\s*(\d{1,2})[.:](\d{2})", text)
-            if not m:
-                continue
-            day_spec, hh, mm = m.group(1).strip(), m.group(2), m.group(3)
-            time_str = f"{hh.zfill(2)}:{mm}"
-
-            if "-" in day_spec:
-                start_raw, end_raw = day_spec.split("-", 1)
-            else:
-                start_raw = end_raw = day_spec
-            start_wd = normalize_day(start_raw)
-            end_wd = normalize_day(end_raw)
-            if start_wd is None or end_wd is None:
-                continue
-
-            wd = start_wd
-            for _ in range(7):  # safety cap — never more than a full week
-                show_date = date_for_weekday_this_week(wd, today)
-                showtimes_by_date.setdefault(show_date.isoformat(), []).append(time_str)
-                if wd == end_wd:
-                    break
-                wd = (wd + 1) % 7
+            # A single <span class="time"> can contain MULTIPLE day-ranges
+            # separated by commas when a cinema has different weekday vs
+            # weekend times, e.g.:
+            #   'Πέμ.-Κυρ.: 22.30, Δευτ.-Τετ. 20.30'
+            # Parsing only the first one silently drops the rest (this is
+            # exactly what caused "Εκράν" to go missing for one movie) —
+            # so split on commas and parse every segment independently.
+            for segment in text.split(","):
+                segment = segment.strip()
+                if not segment:
+                    continue
+                fragment = parse_one_segment(segment, today)
+                for date_key, times in fragment.items():
+                    showtimes_by_date.setdefault(date_key, []).extend(times)
 
         screenings.append({
             "cinema": cinema_name,
