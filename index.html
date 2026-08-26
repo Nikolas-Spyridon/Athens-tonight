@@ -24,6 +24,10 @@
   h1{font-family:'Fraunces',serif;font-weight:600;font-size:32px;line-height:1.05;margin:6px 0 4px;}
   .sub{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
 
+  input[type=text]{width:100%;padding:10px 13px;border-radius:8px;border:1px solid var(--line);background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;font-size:14px;margin:14px 0 4px;}
+  input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
+  input[type=text]:focus{outline:none;border-color:var(--amber);}
+
   .datebar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 14px;margin-bottom:4px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
   .datebar::-webkit-scrollbar{display:none;}
   .datepill{flex:0 0 auto;padding:9px 13px;border-radius:10px;border:1px solid var(--line);background:var(--ink2);cursor:pointer;text-align:center;min-width:56px;}
@@ -32,11 +36,7 @@
   .datepill.active{background:var(--amber);border-color:var(--amber);}
   .datepill.active .dow, .datepill.active .dnum{color:var(--ink);}
 
-  .thu-note{font-size:11.5px;color:var(--muted);background:rgba(232,163,61,0.08);border:1px solid rgba(232,163,61,0.25);border-radius:8px;padding:9px 12px;margin:12px 0 6px;line-height:1.5;}
-
-  input[type=text]{width:100%;padding:10px 13px;border-radius:8px;border:1px solid var(--line);background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;font-size:14px;margin:14px 0 4px;}
-  input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
-  input[type=text]:focus{outline:none;border-color:var(--amber);}
+  .cycle-note{font-size:11.5px;color:var(--muted);background:rgba(232,163,61,0.08);border:1px solid rgba(232,163,61,0.25);border-radius:8px;padding:9px 12px;margin:12px 0 6px;line-height:1.5;}
 
   .count{font-size:11.5px;color:var(--muted);margin:8px 2px 12px;}
 
@@ -69,7 +69,7 @@
 <p class="sub">Πραγματικές ώρες ανά αίθουσα, ενημερωμένο αυτόματα.</p>
 
 <div class="datebar" id="datebar"></div>
-<div class="thu-note" id="thuNote" style="display:none;">Το πρόγραμμα αλλάζει κάθε Πέμπτη — μετά από αυτή την ημερομηνία δεν έχουν ανακοινωθεί ακόμη οι νέες ταινίες.</div>
+<div class="cycle-note" id="cycleNote">Το πρόγραμμα ανανεώνεται κάθε Πέμπτη. Δείχνουμε μόνο τις ημέρες του τρέχοντος προγράμματος — η επόμενη εβδομάδα δεν έχει ανακοινωθεί ακόμη.</div>
 
 <input type="text" id="search" placeholder="Αναζήτηση ταινίας ή σινεμά...">
 <div class="count" id="count"></div>
@@ -81,9 +81,9 @@
 </div>
 
 <script>
-const DOWS = ['ΚΥΡ','ΔΕΥ','ΤΡΙ','ΤΕΤ','ΠΕΜ','ΠΑΡ','ΣΑΒ'];
+const DOWS_SHORT = ['ΚΥΡ','ΔΕΥ','ΤΡΙ','ΤΕΤ','ΠΕΜ','ΠΑΡ','ΣΑΒ'];
 let allMovies = [];
-let selectedDate = null;
+let selectedDate = '';
 let updatedStr = '';
 
 function todayKey(){
@@ -91,6 +91,9 @@ function todayKey(){
   // return yesterday's date for Athens users between 00:00–03:00 local,
   // since Athens is UTC+3).
   const d = new Date();
+  return keyFor(d);
+}
+function keyFor(d){
   const y = d.getFullYear();
   const m = String(d.getMonth()+1).padStart(2,'0');
   const day = String(d.getDate()).padStart(2,'0');
@@ -100,8 +103,11 @@ function parseKey(key){
   const [y,m,d] = key.split('-').map(Number);
   return new Date(y, m-1, d);
 }
-function fmtDay(key){ return parseKey(key).getDate(); }
-function dowIndex(key){ return parseKey(key).getDay(); }
+function addDays(d, n){
+  const r = new Date(d);
+  r.setDate(r.getDate()+n);
+  return r;
+}
 
 function earliestTime(times){
   return times.slice().sort()[0];
@@ -122,20 +128,20 @@ async function load(){
 }
 
 function init(){
-  // Collect every date that appears anywhere in the data, keep only
-  // today-or-later, sort, cap at 7 tabs.
-  const today = todayKey();
-  const dateSet = new Set();
-  allMovies.forEach(m => m.screenings.forEach(s => {
-    Object.keys(s.showtimes || {}).forEach(d => { if(d >= today) dateSet.add(d); });
-  }));
-  const dates = Array.from(dateSet).sort().slice(0,7);
+  // Cinema programmes run Thursday -> Wednesday. Only show days within the
+  // CURRENT, already-confirmed cycle: today through the next Wednesday
+  // (inclusive). Never show days from the next cycle, since that
+  // programme isn't announced yet.
+  const today = new Date();
+  const todayDow = today.getDay(); // Sun=0 .. Sat=6, Wed=3
+  const daysUntilWed = (3 - todayDow + 7) % 7; // 0 if today IS Wednesday
+  const cutoff = addDays(today, daysUntilWed);
 
-  if(dates.length === 0){
-    document.getElementById('results').innerHTML =
-      '<div class="state">Δεν υπάρχουν προγραμματισμένες προβολές από σήμερα.</div>';
-    document.getElementById('datebar').style.display = 'none';
-    return;
+  const dates = [];
+  let cursor = new Date(today);
+  while(cursor <= cutoff){
+    dates.push(keyFor(cursor));
+    cursor = addDays(cursor, 1);
   }
 
   selectedDate = dates[0];
@@ -145,7 +151,7 @@ function init(){
   dates.forEach((key, i) => {
     const pill = document.createElement('div');
     pill.className = 'datepill' + (i===0 ? ' active' : '');
-    pill.innerHTML = `<span class="dow">${DOWS[dowIndex(key)]}</span><span class="dnum">${fmtDay(key)}</span>`;
+    pill.innerHTML = `<span class="dow">${DOWS_SHORT[parseKey(key).getDay()]}</span><span class="dnum">${parseKey(key).getDate()}</span>`;
     pill.addEventListener('click', () => {
       document.querySelectorAll('.datepill').forEach(p=>p.classList.remove('active'));
       pill.classList.add('active');
@@ -155,9 +161,16 @@ function init(){
     datebar.appendChild(pill);
   });
 
+  // Hide the "next week unannounced" note if today already IS the cycle's
+  // last day (Wednesday) — there's nothing to caveat, only one tab shows.
+  if(dates.length <= 1){
+    document.getElementById('cycleNote').style.display = 'none';
+  }
+
   document.getElementById('search').addEventListener('input', render);
   document.getElementById('footer').textContent =
-    'Δεδομένα από athinorama.gr, τελευταία ενημέρωση: ' + (updatedStr || '—');
+    'Δεδομένα από athinorama.gr, τελευταία ενημέρωση: ' + (updatedStr || '—') +
+    '. Ανανεώνεται αυτόματα κάθε πρωί.';
 
   render();
 }
@@ -169,7 +182,6 @@ function render(){
   let shown = 0;
 
   allMovies.forEach(m => {
-    // Screenings on the selected date only.
     const todays = m.screenings
       .map(s => ({ ...s, times: (s.showtimes && s.showtimes[selectedDate]) || [] }))
       .filter(s => s.times.length > 0);
