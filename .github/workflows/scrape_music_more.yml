@@ -1,0 +1,42 @@
+name: Scrape music listings (more.com)
+
+on:
+  schedule:
+    # Music listings can change any day (new shows added, not tied to a
+    # weekly cycle like cinema), so this runs daily.
+    - cron: "15 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-music-more
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run more.com music scraper
+        run: python scripts/scrape_music_more.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "athens-tonight-bot"
+          git config user.email "actions@github.com"
+          git add data/music_more.json
+          git diff --quiet --cached || git commit -m "Update more.com music listings"
+          git pull --rebase origin main
+          git push
