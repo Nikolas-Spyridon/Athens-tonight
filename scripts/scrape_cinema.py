@@ -116,37 +116,52 @@ def normalize_day(raw: str):
     return GREEK_DAY_ABBR.get(key2)
 
 
-def week_monday(d: date) -> date:
-    """Return the Monday of the week containing d."""
-    return d - timedelta(days=d.weekday())
+def cycle_start_date(today: date) -> date:
+    """Return the Thursday that starts the CURRENT programme cycle
+    containing `today` — i.e. the most recent Thursday on or before
+    today (today itself, if today IS a Thursday).
+
+    This replaces a simpler 'Monday of the calendar week' anchor, which
+    was WRONG: when scraping on a Thursday (weekday()==3), the calendar
+    Mon-Sun week containing today has its Mon/Tue/Wed portion already in
+    the PAST (last week), but the real cycle's Mon/Tue/Wed lands NEXT
+    calendar week. Anchoring to the cycle's actual start (Thursday)
+    fixes this for every day of the week, not just Thursdays."""
+    THURSDAY = 3  # Python's date.weekday(): Mon=0 .. Sun=6
+    days_since_thursday = (today.weekday() - THURSDAY) % 7
+    return today - timedelta(days=days_since_thursday)
 
 
-def date_for_weekday_this_week(weekday: int, today: date) -> date:
-    """Map a weekday index (Mon=0..Sun=6) to a date within the SAME week as
-    `today` — athinorama's schedule page shows one specific week, so a
-    'Δευ' shown on a Tuesday page means that week's Monday, which may
-    already be in the past, not next week's Monday."""
-    return week_monday(today) + timedelta(days=weekday)
+def date_for_weekday_in_cycle(weekday: int, today: date) -> date:
+    """Map a weekday index (Mon=0..Sun=6) to its actual date within the
+    CURRENT programme cycle (Thu..Wed) containing `today` — not the
+    calendar Mon-Sun week. Cycle day order is Thu,Fri,Sat,Sun,Mon,Tue,Wed,
+    so a weekday's offset from the cycle's Thursday start is
+    (weekday - 3) % 7."""
+    THURSDAY = 3
+    offset = (weekday - THURSDAY) % 7
+    return cycle_start_date(today) + timedelta(days=offset)
 
 
-def parse_one_segment(text: str, today: date) -> dict[str, list[str]]:
-    """Parse ONE day-range+time segment into {date_iso: [time_str]}.
-    Returns {} if the segment doesn't match.
-
-    Deliberately does NOT assume a specific punctuation mark (':' or '.')
-    separates the day-range from the time, since athinorama is
-    inconsistent about it — e.g. 'Σάβ.: 20.20' uses a colon, but
-    'Δευτ.-Τετ. 20.30' (the second half of a comma-separated pair) uses
-    only a period+space, no colon. Instead: find the time pattern
-    anywhere in the text, and treat everything before it as the day spec.
-    """
+def parse_daypart(text: str) -> tuple[str, str | None]:
+    """Split ONE comma-separated piece into (day_spec, time_str_or_None).
+    time_str is None if this piece has no time of its own — this happens
+    when several day-ranges share ONE trailing time, e.g.
+    'Πέμ.-Παρ., Κυρ.-Δευτ.: 21.45' means Thu,Fri,Sun,Mon are ALL 21:45,
+    but only the last piece has the actual time written."""
     m = re.search(r"(\d{1,2})[.:](\d{2})", text)
     if not m:
-        return {}
+        return text.strip().rstrip(":").strip(), None
     hh, mm = m.group(1), m.group(2)
     time_str = f"{hh.zfill(2)}:{mm}"
-
     day_spec = text[:m.start()].strip().rstrip(":").strip()
+    return day_spec, time_str
+
+
+def expand_day_range(day_spec: str, time_str: str, today: date) -> dict[str, list[str]]:
+    """Turn a day_spec ('Σάβ' or 'Πέμ.-Τετ') plus a resolved time into
+    {date_iso: [time_str]}, using the CURRENT programme cycle (not the
+    calendar week) to resolve each weekday to an actual date."""
     if "-" in day_spec:
         start_raw, end_raw = day_spec.split("-", 1)
     else:
@@ -159,7 +174,7 @@ def parse_one_segment(text: str, today: date) -> dict[str, list[str]]:
     out: dict[str, list[str]] = {}
     wd = start_wd
     for _ in range(7):  # safety cap — never more than a full week
-        show_date = date_for_weekday_this_week(wd, today)
+        show_date = date_for_weekday_in_cycle(wd, today)
         out.setdefault(show_date.isoformat(), []).append(time_str)
         if wd == end_wd:
             break
@@ -193,17 +208,26 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
         for time_span in block.select("ul.schedule-infos li .time"):
             text = time_span.get_text(strip=True)
             # A single <span class="time"> can contain MULTIPLE day-ranges
-            # separated by commas when a cinema has different weekday vs
-            # weekend times, e.g.:
-            #   'Πέμ.-Κυρ.: 22.30, Δευτ.-Τετ. 20.30'
-            # Parsing only the first one silently drops the rest (this is
-            # exactly what caused "Εκράν" to go missing for one movie) —
-            # so split on commas and parse every segment independently.
-            for segment in text.split(","):
-                segment = segment.strip()
-                if not segment:
-                    continue
-                fragment = parse_one_segment(segment, today)
+            # separated by commas, in (at least) two different shapes:
+            #   'Πέμ.-Κυρ.: 22.30, Δευτ.-Τετ. 20.30'   <- each piece has its OWN time
+            #   'Πέμ.-Παρ., Κυρ.-Δευτ.: 21.45'          <- ONE shared time, only on the LAST piece
+            # Split on commas, then fill in any missing time by carrying
+            # it backward from the next piece that has one (right-to-left),
+            # since the missing-time case always precedes the one with it.
+            pieces = [p.strip() for p in text.split(",") if p.strip()]
+            parsed = [parse_daypart(p) for p in pieces]
+            resolved: list[tuple[str, str]] = [None] * len(parsed)
+            carried_time = None
+            for i in range(len(parsed) - 1, -1, -1):
+                day_spec, time_str = parsed[i]
+                if time_str is not None:
+                    carried_time = time_str
+                resolved[i] = (day_spec, carried_time)
+
+            for day_spec, time_str in resolved:
+                if time_str is None:
+                    continue  # no time found anywhere in this text at all
+                fragment = expand_day_range(day_spec, time_str, today)
                 for date_key, times in fragment.items():
                     showtimes_by_date.setdefault(date_key, []).extend(times)
 
