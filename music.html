@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Μουσική Αθήνα</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182338;
+    --ink2:#233252;
+    --paper:#F6F0E4;
+    --coral:#C1524B;
+    --coral-dim: rgba(193,82,75,0.18);
+    --line: rgba(246,240,228,0.14);
+    --muted: rgba(246,240,228,0.55);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--ink);color:var(--paper);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:640px;margin:0 auto;padding:24px 16px 60px;}
+  .eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--coral);font-weight:600;}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:32px;line-height:1.05;margin:6px 0 4px;}
+  .sub{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
+
+  input[type=text]{width:100%;padding:10px 13px;border-radius:8px;border:1px solid var(--line);background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;font-size:14px;margin:4px 0 4px;}
+  input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
+  input[type=text]:focus{outline:none;border-color:var(--coral);}
+
+  .count{font-size:11.5px;color:var(--muted);margin:8px 2px 12px;}
+
+  .month-header{font-family:'Fraunces',serif;font-size:14px;font-weight:600;color:var(--coral);text-transform:uppercase;letter-spacing:.04em;margin:20px 2px 8px;}
+  .month-header:first-child{margin-top:0;}
+
+  .event{background:var(--ink2);border-radius:10px;padding:14px 16px;margin-bottom:10px;border-left:3px solid var(--coral);}
+  .e-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .e-date{font-family:'Fraunces',serif;font-size:14px;font-weight:600;color:var(--coral);white-space:nowrap;flex-shrink:0;min-width:44px;}
+  .e-title{font-family:'Fraunces',serif;font-size:16px;font-weight:600;margin:0 0 3px;}
+  .e-venue{font-size:12.5px;color:var(--muted);}
+  .e-genres{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;}
+  .genre-tag{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:var(--coral-dim);color:var(--coral);}
+  .e-source{font-size:10.5px;color:var(--muted);margin-top:6px;}
+  .e-source a{color:var(--muted);}
+
+  .state{text-align:center;padding:50px 10px;color:var(--muted);font-size:13.5px;line-height:1.6;}
+  footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="eyebrow">Οδηγός Μουσικής</div>
+<h1>Ζωντανή μουσική</h1>
+<p class="sub">Συναυλίες στην Αττική, από το more.com.</p>
+
+<input type="text" id="search" placeholder="Αναζήτηση καλλιτέχνη, χώρου ή είδους...">
+<div class="count" id="count"></div>
+
+<div id="results"><div class="state">Φόρτωση...</div></div>
+
+<footer id="footer"></footer>
+
+</div>
+
+<script>
+const MONTHS = ['Ιαν','Φεβ','Μαρ','Απρ','Μάι','Ιουν','Ιουλ','Αυγ','Σεπ','Οκτ','Νοε','Δεκ'];
+let allEvents = [];
+let updatedStr = '';
+
+function todayKey(){
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+
+async function load(){
+  try{
+    const res = await fetch('data/music_more.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    allEvents = data.events || [];
+    updatedStr = data.updated || '';
+    init();
+  }catch(err){
+    document.getElementById('results').innerHTML =
+      '<div class="state">Δεν ήταν δυνατή η φόρτωση των δεδομένων.<br>('+err.message+')</div>';
+  }
+}
+
+function init(){
+  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('footer').textContent =
+    'Δεδομένα από more.com, τελευταία ενημέρωση: ' + (updatedStr || '—');
+  render();
+}
+
+function render(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+
+  const today = todayKey();
+
+  // Flatten: one row per (event, venue) pair, since a tour can have
+  // several Attica dates/venues for the same event.
+  let rows = [];
+  allEvents.forEach(ev => {
+    (ev.venues || []).forEach(v => {
+      rows.push({
+        title: ev.title,
+        url: ev.url,
+        genres: ev.genres || [],
+        source: ev.source || '',
+        venueName: v.name,
+        venueArea: v.locality,
+        start: ev.start,
+      });
+    });
+  });
+
+  // Keep only today-or-later, sort chronologically.
+  rows = rows.filter(r => !r.start || r.start.slice(0,10) >= today);
+  rows.sort((a,b) => (a.start || '').localeCompare(b.start || ''));
+
+  if(q){
+    rows = rows.filter(r => {
+      const blob = (r.title + ' ' + r.venueName + ' ' + r.genres.join(' ')).toLowerCase();
+      return blob.includes(q);
+    });
+  }
+
+  let lastMonthKey = null;
+  rows.forEach(r => {
+    const dt = r.start ? new Date(r.start) : null;
+    const monthKey = dt ? `${dt.getFullYear()}-${dt.getMonth()}` : 'unknown';
+    if(monthKey !== lastMonthKey){
+      const h = document.createElement('div');
+      h.className = 'month-header';
+      h.textContent = dt ? `${MONTHS[dt.getMonth()]} ${dt.getFullYear()}` : 'Άγνωστη ημερομηνία';
+      results.appendChild(h);
+      lastMonthKey = monthKey;
+    }
+
+    const day = dt ? dt.getDate() : '?';
+    const time = dt ? String(dt.getHours()).padStart(2,'0')+':'+String(dt.getMinutes()).padStart(2,'0') : '';
+
+    const div = document.createElement('div');
+    div.className = 'event';
+    div.innerHTML = `
+      <div class="e-top">
+        <div>
+          <h3 class="e-title">${r.title}</h3>
+          <div class="e-venue">${r.venueName}${r.venueArea ? ' · '+r.venueArea : ''}${time ? ' · '+time : ''}</div>
+        </div>
+        <div class="e-date">${day}</div>
+      </div>
+      ${r.genres.length ? `<div class="e-genres">${r.genres.map(g=>`<span class="genre-tag">${g}</span>`).join('')}</div>` : ''}
+      <div class="e-source"><a href="${r.url}" target="_blank">${r.source}</a></div>
+    `;
+    results.appendChild(div);
+  });
+
+  if(rows.length === 0){
+    results.innerHTML = '<div class="state">Καμία συναυλία δεν βρέθηκε' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
+  }
+
+  document.getElementById('count').textContent = rows.length + ' συναυλίες' + (q ? ' · φίλτρο "'+q+'"' : '');
+}
+
+load();
+</script>
+</body>
+</html>
