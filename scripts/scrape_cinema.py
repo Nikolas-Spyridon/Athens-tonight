@@ -159,7 +159,7 @@ def parse_one_segment(text: str, today: date) -> dict[str, list[str]]:
     out: dict[str, list[str]] = {}
     wd = start_wd
     for _ in range(7):  # safety cap — never more than a full week
-        show_date = date_for_weekday_this_program(wd, today)
+        show_date = date_for_weekday_this_week(wd, today)
         out.setdefault(show_date.isoformat(), []).append(time_str)
         if wd == end_wd:
             break
