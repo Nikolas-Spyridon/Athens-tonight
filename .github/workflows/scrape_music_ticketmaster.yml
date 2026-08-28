@@ -45,6 +45,14 @@ jobs:
       - name: Run ticketmaster.gr music scraper
         run: python scripts/scrape_music_ticketmaster.py
 
+      - name: Upload debug artifacts (only if the scraper failed)
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ticketmaster-debug
+          path: debug_artifacts/
+          retention-days: 7
+
       - name: Commit updated data
         run: |
           git config user.name "athens-tonight-bot"
