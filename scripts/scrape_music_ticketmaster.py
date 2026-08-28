@@ -61,15 +61,40 @@ LISTING_URL = f"{BASE}/search.html?category=Music"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "music_ticketmaster.json"
 
 HEADERS = {
+    # A bare User-Agent alone was NOT enough — ticketmaster.gr returned a
+    # 403 to a plain requests.get() with only that header set (confirmed
+    # via a real workflow run, 28/8/2026). This fuller set mimics an
+    # actual Chrome navigation more closely. Whether it's enough to clear
+    # whatever check is in place is UNCONFIRMED — this environment can't
+    # reach ticketmaster.gr either, so it couldn't be tested here. If this
+    # still 403s, the detection is likely deeper than headers (e.g. a
+    # Cloudflare/Akamai JS challenge or TLS fingerprint check), which
+    # `requests` fundamentally can't pass — see the note in main().
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    )
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+    "Accept-Language": "el-GR,el;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
 }
+
+# A shared session persists cookies between the listing request and each
+# event-page request, which is closer to how a real browser session
+# behaves (some bot checks set a cookie on the first hit and expect it
+# back on subsequent ones).
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
 
 
 def get_soup(url: str) -> BeautifulSoup:
-    resp = requests.get(url, headers=HEADERS, timeout=20)
+    resp = SESSION.get(url, timeout=20)
     resp.raise_for_status()
     return BeautifulSoup(resp.text, "html.parser")
 
@@ -212,7 +237,21 @@ def parse_events() -> list[dict]:
 
 def main():
     print("Fetching ticketmaster.gr music listings...")
-    events = parse_events()
+    try:
+        events = parse_events()
+    except requests.exceptions.HTTPError as e:
+        if e.response is not None and e.response.status_code == 403:
+            print(
+                "\nGot a 403 Forbidden from ticketmaster.gr. This means their "
+                "bot detection is blocking plain HTTP requests outright "
+                "(headers alone weren't enough) — a Cloudflare/Akamai-style "
+                "JS challenge or TLS fingerprint check most likely can't be "
+                "passed by the `requests` library at all, from any IP. The "
+                "next real option is scraping with an actual headless "
+                "browser (e.g. Playwright) instead of `requests`, which is "
+                "a bigger change to this script and workflow."
+            )
+        raise
     print(f"Found {len(events)} events with an Attica venue")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
