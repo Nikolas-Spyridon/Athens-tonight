@@ -1,0 +1,42 @@
+name: Scrape music listings (ticketservices.gr)
+
+on:
+  schedule:
+    # Same cadence as the other music scrapers — new concerts can be
+    # listed any day, not tied to a weekly cycle.
+    - cron: "25 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-music-ticketservices
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ticketservices.gr music scraper
+        run: python scripts/scrape_music_ticketservices.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "athens-tonight-bot"
+          git config user.email "actions@github.com"
+          git add data/music_ticketservices.json
+          git diff --quiet --cached || git commit -m "Update ticketservices.gr music listings"
+          git pull --rebase origin main
+          git push
