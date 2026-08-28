@@ -1,0 +1,41 @@
+name: Scrape music listings (rocking.gr)
+
+on:
+  schedule:
+    # Same cadence as the other music scrapers.
+    - cron: "30 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-music-rocking
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run rocking.gr music scraper
+        run: python scripts/scrape_music_rocking.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "athens-tonight-bot"
+          git config user.email "actions@github.com"
+          git add data/music_rocking.json
+          git diff --quiet --cached || git commit -m "Update rocking.gr music listings"
+          git pull --rebase origin main
+          git push
