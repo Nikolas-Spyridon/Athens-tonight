@@ -2,30 +2,6 @@
   "updated": "2026-08-28",
   "events": [
     {
-      "title": "Voivod",
-      "url": "https://www.rocking.gr/agenda/2026/8/4/27246",
-      "date": "2026-08-04",
-      "venue": "Gazarte",
-      "price_info": "Από 25 e",
-      "source": "rocking.gr"
-    },
-    {
-      "title": "Anette Olzon",
-      "url": "https://www.rocking.gr/agenda/2026/8/6/27420",
-      "date": "2026-08-06",
-      "venue": "Arch Club",
-      "price_info": "Από 50 e",
-      "source": "rocking.gr"
-    },
-    {
-      "title": "Buzz Kull",
-      "url": "https://www.rocking.gr/agenda/2026/8/27/27465",
-      "date": "2026-08-27",
-      "venue": "DeathDisco",
-      "price_info": "Από 20 e",
-      "source": "rocking.gr"
-    },
-    {
       "title": "Sacred Reich, Acid Reign, The Troops Of Doom",
       "url": "https://www.rocking.gr/agenda/2026/8/30/27407",
       "date": "2026-08-30",
@@ -743,6 +719,166 @@
       "date": "2026-11-29",
       "venue": "AN Club",
       "price_info": "Από 28 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "The Ocean, Psychonaut, The Devil's Trade",
+      "url": "https://www.rocking.gr/agenda/2026/12/3/27392",
+      "date": "2026-12-03",
+      "venue": "Gagarin 205",
+      "price_info": "Από 30 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Nine Below Zero, Bags Of Nails",
+      "url": "https://www.rocking.gr/agenda/2026/12/4/27285",
+      "date": "2026-12-04",
+      "venue": "Piraeus Club Academy",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Tyketto, Senses",
+      "url": "https://www.rocking.gr/agenda/2026/12/5/27272",
+      "date": "2026-12-05",
+      "venue": "Piraeus Club Academy",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Nazareth",
+      "url": "https://www.rocking.gr/agenda/2026/12/6/27265",
+      "date": "2026-12-06",
+      "venue": "Fuzz Club",
+      "price_info": "Από 28 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "SPK",
+      "url": "https://www.rocking.gr/agenda/2026/12/6/27474",
+      "date": "2026-12-06",
+      "venue": "Temple Athens",
+      "price_info": "Από 28 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Kovacs",
+      "url": "https://www.rocking.gr/agenda/2026/12/7/27387",
+      "date": "2026-12-07",
+      "venue": "Gagarin 205",
+      "price_info": "Από 30 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Warhammer, Hope Behind the Hills, Noxulifer",
+      "url": "https://www.rocking.gr/agenda/2026/12/11/27482",
+      "date": "2026-12-11",
+      "venue": "Temple Athens",
+      "price_info": "12 e / 15 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Memorials, Masturbation Goes Cloud",
+      "url": "https://www.rocking.gr/agenda/2026/12/12/27471",
+      "date": "2026-12-12",
+      "venue": "Ίλιον Plus",
+      "price_info": "Από 23 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Old Man’s Child, Yoth Iria, Decipher",
+      "url": "https://www.rocking.gr/agenda/2026/12/18/27396",
+      "date": "2026-12-18",
+      "venue": "Gagarin 205",
+      "price_info": "Από 37 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Bryan Adams",
+      "url": "https://www.rocking.gr/agenda/2026/12/19/27253",
+      "date": "2026-12-19",
+      "venue": "Ολυμπιακό Κλειστό Γυμναστήριο \"Telekom Center Athens\"",
+      "price_info": "",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Chelsea Wolfe, A.A. Williams",
+      "url": "https://www.rocking.gr/agenda/2026/12/19/27406",
+      "date": "2026-12-19",
+      "venue": "Fuzz Club",
+      "price_info": "Από 37 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "God Is An Astronaut",
+      "url": "https://www.rocking.gr/agenda/2026/12/19/27464",
+      "date": "2026-12-19",
+      "venue": "Gagarin 205",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Clan of Xymox",
+      "url": "https://www.rocking.gr/agenda/2027/1/9/27459",
+      "date": "2027-01-09",
+      "venue": "Temple Athens",
+      "price_info": "28 e / 35 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
+      "url": "https://www.rocking.gr/agenda/2027/1/17/27432",
+      "date": "2027-01-17",
+      "venue": "Κύτταρο",
+      "price_info": "15 e / 18 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Sincere Engineer, Bandage",
+      "url": "https://www.rocking.gr/agenda/2027/2/2/27470",
+      "date": "2027-02-02",
+      "venue": "Bad Tooth",
+      "price_info": "8 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Black Veil Brides",
+      "url": "https://www.rocking.gr/agenda/2027/2/11/27409",
+      "date": "2027-02-11",
+      "venue": "FLOYD",
+      "price_info": "Από 39 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Reinkaos (Dissection Tribute)",
+      "url": "https://www.rocking.gr/agenda/2027/2/13/27491",
+      "date": "2027-02-13",
+      "venue": "Piraeus Club Academy",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "U.K. Subs",
+      "url": "https://www.rocking.gr/agenda/2027/3/20/27263",
+      "date": "2027-03-20",
+      "venue": "AN Club",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Soen",
+      "url": "https://www.rocking.gr/agenda/2027/3/24/27375",
+      "date": "2027-03-24",
+      "venue": "FLOYD",
+      "price_info": "Από 37 e",
+      "source": "rocking.gr"
+    },
+    {
+      "title": "Oh Hiroshima",
+      "url": "https://www.rocking.gr/agenda/2027/4/10/27383",
+      "date": "2027-04-10",
+      "venue": "AN Club",
+      "price_info": "Από 24 e",
       "source": "rocking.gr"
     }
   ]
