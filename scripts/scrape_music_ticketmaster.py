@@ -30,6 +30,18 @@ blocked, the site may be doing full behavioral/JS-challenge detection,
 which would need a stealth plugin (e.g. playwright-stealth) or a paid
 scraping-proxy service on top of this.
 
+WHAT HAPPENED WITH THE FIRST PLAYWRIGHT ATTEMPT (28/8/2026): no more 403,
+but page.wait_for_selector() for the event list timed out — Playwright
+successfully loaded *something*, but the expected content never appeared
+within the wait window. This could be slow JS rendering that just needed
+more time, a challenge/interstitial page served without an HTTP error, or
+genuinely different markup than what was captured in the saved HTML this
+scraper was built against. This version (a) waits for "networkidle"
+instead of just "domcontentloaded" and gives the selector wait more time,
+and (b) saves a screenshot + the raw HTML to debug_artifacts/ if the wait
+times out again, so the next failure is diagnosable instead of a bare
+timeout with no evidence of what was actually on the page.
+
 STATUS (27-28/8/2026): CSS/JSON-LD selectors below are confirmed against
 real saved copies of both the listing page and one event's own page
 (Μάνος Λοΐζος @ Καλλιμάρμαρο) — not guesswork. The Playwright fetch
@@ -90,12 +102,28 @@ USER_AGENT = (
 )
 
 
-def get_soup(page: Page, url: str, wait_selector: str) -> BeautifulSoup:
+def get_soup(page: Page, url: str, wait_selector: str, debug_name: str = "debug") -> BeautifulSoup:
     """Navigate Playwright's page to `url`, wait for `wait_selector` to
     show up (confirms the real content — not just a loading/challenge
-    screen — has rendered), then parse the resulting HTML."""
-    page.goto(url, timeout=30000, wait_until="domcontentloaded")
-    page.wait_for_selector(wait_selector, timeout=15000)
+    screen — has rendered), then parse the resulting HTML.
+
+    If the wait times out, saves a screenshot + the raw HTML to
+    debug_artifacts/ before re-raising, so a failed CI run leaves
+    evidence of what actually got served (challenge page, empty shell,
+    genuinely different markup, etc.) instead of just a bare timeout."""
+    page.goto(url, timeout=30000, wait_until="networkidle")
+    try:
+        page.wait_for_selector(wait_selector, timeout=20000)
+    except Exception:
+        debug_dir = Path(__file__).resolve().parent.parent / "debug_artifacts"
+        debug_dir.mkdir(parents=True, exist_ok=True)
+        try:
+            page.screenshot(path=str(debug_dir / f"{debug_name}.png"), full_page=True)
+        except Exception as e:
+            print(f"    (could not save screenshot: {e})")
+        (debug_dir / f"{debug_name}.html").write_text(page.content(), encoding="utf-8")
+        print(f"    Saved debug screenshot/html to {debug_dir}/{debug_name}.*")
+        raise
     return BeautifulSoup(page.content(), "html.parser")
 
 
@@ -117,7 +145,11 @@ def get_current_events(page: Page) -> list[dict]:
     Attica, e.g. Thessaloniki dates) — it isn't reliable for filtering,
     which is why we visit each event's own page instead.
     """
-    soup = get_soup(page, LISTING_URL, wait_selector="div.categoryPageWrapper div.event")
+    soup = get_soup(
+        page, LISTING_URL,
+        wait_selector="div.categoryPageWrapper div.event",
+        debug_name="listing_page",
+    )
     events = []
     seen_ids = set()
 
@@ -174,7 +206,11 @@ def parse_event_page(page: Page, url: str) -> dict | None:
         }
         </script>
     """
-    soup = get_soup(page, url, wait_selector='script[type="application/ld+json"]')
+    soup = get_soup(
+        page, url,
+        wait_selector='script[type="application/ld+json"]',
+        debug_name=f"event_{url.rsplit('/', 1)[-1]}",
+    )
     script = soup.find("script", attrs={"type": "application/ld+json"})
     if not script or not script.string:
         return None
