@@ -2,39 +2,39 @@
 Athens Tonight — music scraper (rocking.gr)
 
 WHAT THIS DOES
-1. Visits rocking.gr's Athens agenda for the current month PLUS the next
-   MONTHS_AHEAD months, using the URL pattern
-   https://www.rocking.gr/agenda/{year}/{month}/athens
-2. Parses each month's page for date-grouped event blocks.
+1. Fetches rocking.gr's current-month Athens agenda page as a bootstrap
+   step, then reads that page's OWN "event-months" nav bar to discover
+   every month the site currently has events for — from the current
+   month onward. This is NOT a hardcoded "current + N months" guess (an
+   earlier version of this script did that and was wrong — see below).
+2. Fetches each of those discovered month pages and parses their
+   date-grouped event blocks.
 3. Already scoped to Athens by the URL itself (the /athens path segment)
-   — unlike ticketmaster.gr and ticketservices.gr, there's no Attica
-   filtering heuristic needed here at all.
+   — unlike ticketmaster.gr and ticketservices.gr, no Attica-region
+   filtering is needed here at all.
 4. Writes everything to data/music_rocking.json, deduplicated by event
-   URL (adjacent months' pages can't overlap in practice since each is a
-   distinct calendar month, but de-duping is cheap insurance).
+   URL.
 
-MONTH URL PATTERN — confirmed, with one open question
-The site's own "event-months" nav bar (visible on a real saved copy of
-the page, 28/8/2026) links to OTHER months using exactly this pattern:
-    https://www.rocking.gr/agenda/2026/8/athens   (August)
-    https://www.rocking.gr/agenda/2026/10/athens  (October)
-    https://www.rocking.gr/agenda/2027/1/athens   (January 2027)
-The CURRENT month specifically is linked via a shortcut with NO
-year/month in the URL: https://www.rocking.gr/agenda/athens. It's
-UNCONFIRMED whether the explicit .../2026/9/athens form (September, the
-month this was written in) also resolves — the two forms almost
-certainly alias to the same page, which is the typical pattern for this
-kind of routing, but this specific case wasn't verified against the live
-site. If the explicit current-month URL 404s, parse_events() falls back
-to the shortcut URL for that one month only (see the try/except there).
+WHY NAV-DRIVEN DISCOVERY, NOT A FIXED MONTH COUNT (IMPORTANT)
+A real saved copy of the site (28/8/2026) showed its own nav bar listing
+months from August 2026 all the way to July 2027 — but skipping May and
+June 2027 entirely. That confirms the nav isn't a fixed rolling window;
+it lists exactly the months that currently have at least one announced
+event, however far out that happens to reach, and that reach changes
+day to day as new shows get announced or old months' events pass. A
+fixed "current + 3 months" guess (what this script used to do) misses
+real events the site already publishes further out, and would also
+silently miss any newly-announced month once it appears in the nav —
+reading the nav fresh on every run avoids both problems with no ongoing
+maintenance.
 
-STATUS (28/8/2026): event-block selectors confirmed against a real saved
-copy of the September 2026 Athens agenda page — not guesswork. Fetching
-itself has NOT been confirmed to work from GitHub Actions specifically —
-this environment isn't blocked outright the way ticketmaster.gr is, same
-situation as ticketservices.gr, but that's not a live-CI confirmation.
-Run locally first and check the output before trusting the daily
-workflow.
+STATUS (28/8/2026): event-block selectors AND the nav-bar structure are
+both confirmed against a real saved copy of the site — not guesswork.
+Fetching itself has NOT been confirmed to work from GitHub Actions
+specifically — this environment isn't blocked outright the way
+ticketmaster.gr is (same situation as ticketservices.gr), and a real
+run already succeeded once producing correct output, but that's still
+not a permanent guarantee against future blocking.
 
 Run locally first with: python scripts/scrape_music_rocking.py
 and check data/music_rocking.json looks sane before automating.
@@ -49,8 +49,9 @@ import requests
 from bs4 import BeautifulSoup
 
 BASE = "https://www.rocking.gr"
+CURRENT_MONTH_URL = f"{BASE}/agenda/athens"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "music_rocking.json"
-MONTHS_AHEAD = 3  # scrape current month + this many months forward
+MAX_MONTHS = 24  # defensive cap only — real coverage is whatever the nav lists
 
 HEADERS = {
     "User-Agent": (
@@ -66,14 +67,38 @@ GREEK_MONTH_TO_NUM = {
 }
 
 
-def month_url(year: int, month: int) -> str:
-    return f"{BASE}/agenda/{year}/{month}/athens"
-
-
 def get_soup(url: str) -> BeautifulSoup:
     resp = requests.get(url, headers=HEADERS, timeout=20)
     resp.raise_for_status()
     return BeautifulSoup(resp.text, "html.parser")
+
+
+def get_month_links(soup: BeautifulSoup) -> list[tuple[int, int, str]]:
+    """Read the site's own "event-months" nav bar to discover every
+    month it currently publishes. Confirmed from a real saved copy
+    (28/8/2026):
+        <div class="event-months">
+          <ul>
+            <li><a href="https://www.rocking.gr/agenda/2026/8/athens">Αύγουστος</a></li>
+            <li><a href="https://www.rocking.gr/agenda/athens" class="active">Σεπτέμβριος</a></li>
+            <li><a href="https://www.rocking.gr/agenda/2026/10/athens">Οκτώβριος</a></li>
+            ...
+    The CURRENT month is linked via the no-year/month shortcut URL
+    (.../agenda/athens) rather than the explicit numeric form other
+    months use — resolved to today's actual (year, month) here so it
+    sorts/dedupes correctly against the explicit-form links.
+    Returns [(year, month, url), ...].
+    """
+    today = date.today()
+    links = []
+    for a in soup.select("div.event-months li a[href]"):
+        href = a["href"].strip()
+        m = re.search(r"/agenda/(\d{4})/(\d{1,2})/athens", href)
+        if m:
+            links.append((int(m.group(1)), int(m.group(2)), href))
+        elif href.rstrip("/").endswith("/agenda/athens"):
+            links.append((today.year, today.month, href))
+    return links
 
 
 def parse_date_header(text: str) -> str | None:
@@ -104,12 +129,8 @@ def parse_month_page(soup: BeautifulSoup) -> list[dict]:
               </a>
             </div>
           </div>
-          <!-- multiple event-block divs can repeat under one date-box
-               when several shows share the same date -->
+          <!-- multiple event-block divs can repeat under one date-box -->
         </div>
-        <!-- id="event-block" repeats across the page (not unique, which
-             is invalid HTML but harmless — CSS id-selectors still match
-             every occurrence) -->
     """
     events = []
     for date_box in soup.select("div.date-box"):
@@ -129,7 +150,6 @@ def parse_month_page(soup: BeautifulSoup) -> list[dict]:
             if not title:
                 continue
 
-            # "Αθήνα @ Venue Name" -> just the venue part
             venue_raw = venue_el.get_text(strip=True) if venue_el else ""
             venue = venue_raw.split("@", 1)[1].strip() if "@" in venue_raw else venue_raw
 
@@ -145,44 +165,55 @@ def parse_month_page(soup: BeautifulSoup) -> list[dict]:
     return events
 
 
-def fetch_month(year: int, month: int, is_current_month: bool) -> list[dict]:
-    try:
-        soup = get_soup(month_url(year, month))
-    except requests.exceptions.HTTPError:
-        if not is_current_month:
-            raise
-        # See the "MONTH URL PATTERN" note at the top of this file —
-        # fall back to the no-year/month shortcut for the current month
-        # only, in case the explicit numeric form doesn't resolve.
-        print("    Explicit current-month URL failed, trying shortcut URL...")
-        soup = get_soup(f"{BASE}/agenda/athens")
-    return parse_month_page(soup)
-
-
 def parse_events() -> list[dict]:
     today = date.today()
+
+    print("  Fetching current month to discover available months...")
+    current_soup = get_soup(CURRENT_MONTH_URL)
+    month_links = get_month_links(current_soup)
+
+    # The nav also lists past months (once the current month rolls
+    # forward past them) — only keep current-month-or-later.
+    month_links = [
+        (y, m, href) for (y, m, href) in month_links
+        if (y, m) >= (today.year, today.month)
+    ]
+
+    # De-dupe by (year, month) — the current month can appear via both
+    # its shortcut URL and, in principle, an explicit one.
+    seen_months = set()
+    unique_month_links = []
+    for y, m, href in month_links:
+        if (y, m) in seen_months:
+            continue
+        seen_months.add((y, m))
+        unique_month_links.append((y, m, href))
+
+    unique_month_links = unique_month_links[:MAX_MONTHS]
+    print(f"  Site currently publishes {len(unique_month_links)} month(s) from now onward")
+
     all_events = []
     seen_urls = set()
 
-    year, month = today.year, today.month
-    for i in range(MONTHS_AHEAD + 1):
-        print(f"  Fetching {year}-{month:02d}...")
-        try:
-            month_events = fetch_month(year, month, is_current_month=(i == 0))
-        except Exception as e:
-            print(f"    FAILED: {e}")
-            month_events = []
+    for i, (y, m, href) in enumerate(unique_month_links):
+        # The current month was already fetched above (that's how we
+        # got the nav in the first place) — reuse it instead of
+        # fetching it twice.
+        if i == 0:
+            soup = current_soup
+        else:
+            print(f"  Fetching {y}-{m:02d}...")
+            try:
+                soup = get_soup(href)
+            except Exception as e:
+                print(f"    FAILED: {e}")
+                continue
 
-        for ev in month_events:
+        for ev in parse_month_page(soup):
             if ev["url"] in seen_urls:
                 continue
             seen_urls.add(ev["url"])
             all_events.append(ev)
-
-        month += 1
-        if month > 12:
-            month = 1
-            year += 1
 
     return all_events
 
@@ -190,7 +221,7 @@ def parse_events() -> list[dict]:
 def main():
     print("Fetching rocking.gr Athens agenda...")
     events = parse_events()
-    print(f"Found {len(events)} events across {MONTHS_AHEAD + 1} months")
+    print(f"Found {len(events)} events")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
