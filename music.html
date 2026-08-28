@@ -149,6 +149,30 @@ function rowsFromRocking(data){
   }));
 }
 
+// Best-effort match used ONLY to suppress rocking.gr duplicates of
+// events already covered by more.com/ticketservices.gr — biased toward
+// NOT suppressing when unsure (a missed duplicate is harmless, a
+// wrongly-hidden real event is worse). Matches on same date + venue
+// names that contain one another after normalizing case/accents/
+// punctuation, e.g. "Gagarin 205" vs "Gagarin 205 Live Music Space".
+function normalizeVenue(v){
+  return (v || '')
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // strip accents (Greek + Latin)
+    .toLowerCase()
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
+    .trim();
+}
+
+function venuesLikelyMatch(a, b){
+  const na = normalizeVenue(a), nb = normalizeVenue(b);
+  if(!na || !nb) return false;
+  return na.includes(nb) || nb.includes(na);
+}
+
+function isDuplicate(row, primaryRows){
+  return primaryRows.some(p => p.date === row.date && venuesLikelyMatch(p.venueName, row.venueName));
+}
+
 async function loadSource(url, normalizeFn, label){
   try{
     const res = await fetch(url, {cache:'no-store'});
@@ -163,11 +187,22 @@ async function loadSource(url, normalizeFn, label){
 }
 
 async function load(){
-  const [moreRows, tsRows, rockingRows] = await Promise.all([
+  const [moreRows, tsRows, rockingRowsRaw] = await Promise.all([
     loadSource('data/music_more.json', rowsFromMore, 'more.com'),
     loadSource('data/music_ticketservices.json', rowsFromTicketservices, 'ticketservices.gr'),
     loadSource('data/music_rocking.json', rowsFromRocking, 'rocking.gr'),
   ]);
+
+  // rocking.gr isn't a ticket vendor — it's a discovery source. If
+  // more.com or ticketservices.gr already has a given (date, venue),
+  // treat rocking.gr's copy of that same show as a duplicate and drop
+  // it, so rocking.gr only ever ADDS events the other two don't have
+  // (its main value: catching shows outside more.com/ticketservices.gr,
+  // e.g. things that would otherwise only ever show up via
+  // ticketmaster.gr, which isn't scraped).
+  const primaryRows = [...moreRows, ...tsRows];
+  const rockingRows = rockingRowsRaw.filter(r => !isDuplicate(r, primaryRows));
+
   allRows = [...moreRows, ...tsRows, ...rockingRows];
 
   if(allRows.length === 0 && sourceStatus.every(s => !s.ok)){
