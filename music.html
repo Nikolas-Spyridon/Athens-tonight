@@ -53,7 +53,7 @@
 
 <div class="eyebrow">Οδηγός Μουσικής</div>
 <h1>Ζωντανή μουσική</h1>
-<p class="sub">Συναυλίες στην Αττική, από το more.com και το ticketservices.gr.</p>
+<p class="sub">Συναυλίες στην Αττική, από το more.com, το ticketservices.gr και το rocking.gr.</p>
 
 <input type="text" id="search" placeholder="Αναζήτηση καλλιτέχνη, χώρου ή είδους...">
 <div class="count" id="count"></div>
@@ -132,6 +132,23 @@ function rowsFromTicketservices(data){
   return rows;
 }
 
+// rocking.gr: one event per JSON entry already (single date, single
+// venue) — no genre data, and no Attica-filtering concept needed at all
+// since the URL itself (/athens) already scopes it.
+function rowsFromRocking(data){
+  return (data.events || []).map(ev => ({
+    title: ev.title,
+    url: ev.url,
+    genres: [],
+    source: ev.source || 'rocking.gr',
+    venueName: ev.venue || '',
+    venueArea: '',
+    date: ev.date || '',
+    time: '',
+    unconfirmedRegion: false,
+  }));
+}
+
 async function loadSource(url, normalizeFn, label){
   try{
     const res = await fetch(url, {cache:'no-store'});
@@ -146,11 +163,12 @@ async function loadSource(url, normalizeFn, label){
 }
 
 async function load(){
-  const [moreRows, tsRows] = await Promise.all([
+  const [moreRows, tsRows, rockingRows] = await Promise.all([
     loadSource('data/music_more.json', rowsFromMore, 'more.com'),
     loadSource('data/music_ticketservices.json', rowsFromTicketservices, 'ticketservices.gr'),
+    loadSource('data/music_rocking.json', rowsFromRocking, 'rocking.gr'),
   ]);
-  allRows = [...moreRows, ...tsRows];
+  allRows = [...moreRows, ...tsRows, ...rockingRows];
 
   if(allRows.length === 0 && sourceStatus.every(s => !s.ok)){
     document.getElementById('results').innerHTML =
