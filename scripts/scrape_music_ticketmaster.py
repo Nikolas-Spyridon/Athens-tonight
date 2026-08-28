@@ -13,9 +13,29 @@ WHAT THIS DOES
    ticketmaster.gr's does not, so postal code is used instead).
 4. Writes everything to data/music_ticketmaster.json.
 
-STATUS (27/8/2026): selectors confirmed against real saved copies of both
-the listing page and one event's own page (Μάνος Λοΐζος @ Καλλιμάρμαρο) —
-not guesswork, same process as the other two scrapers. Two open items:
+WHY THIS USES PLAYWRIGHT, NOT requests (IMPORTANT)
+A plain `requests.get()` — even with a full, realistic browser header set
+(User-Agent, Accept, Accept-Language, Sec-Fetch-*, a persistent session for
+cookies) — got a 403 Forbidden from ticketmaster.gr every time, confirmed
+via two separate real GitHub Actions runs (28/8/2026). Headers alone not
+being enough points to a check `requests` can't pass at all: most likely
+the TLS handshake / network-level fingerprint (JA3 or similar), which is
+determined by the underlying HTTP library, not anything set in Python.
+Playwright drives an actual Chromium browser, so its network fingerprint
+matches a real browser rather than a scripting library. This is the
+standard fix for that class of block, but it was NOT possible to verify
+against the live site from the environment this was written in either
+(ticketmaster.gr is unreachable from there too) — if this still gets
+blocked, the site may be doing full behavioral/JS-challenge detection,
+which would need a stealth plugin (e.g. playwright-stealth) or a paid
+scraping-proxy service on top of this.
+
+STATUS (27-28/8/2026): CSS/JSON-LD selectors below are confirmed against
+real saved copies of both the listing page and one event's own page
+(Μάνος Λοΐζος @ Καλλιμάρμαρο) — not guesswork. The Playwright fetch
+mechanism itself (this file's main change) is UNCONFIRMED against the
+live site — see above. Other open items carried over from the requests
+version:
 
   - Only ONE event page was inspected, for a single-date event. The
     listing page also shows events whose data-start-date/data-end-date
@@ -23,25 +43,26 @@ not guesswork, same process as the other two scrapers. Two open items:
     unconfirmed whether such an event's own JSON-LD exposes each
     individual night or just that outer range. This scraper currently
     just records whatever startDate/endDate the event's own page reports,
-    same as the more.com scraper does for its start/end fields — if that
-    turns out to be a wide range for recurring events, the site's display
-    layer will need to decide how to handle it (same open question would
-    apply to more.com's residency-style listings too).
+    same as the more.com scraper does for its start/end fields.
   - The listing page had no visible pagination / "load more" control in
     the static HTML, and only ~30 Music events were present (the site
     also covers sports/theatre, so Music alone is a small category). If
     that number grows past a single page's worth, pagination will need
-    handling — unconfirmed either way since only one snapshot was seen.
+    handling — unconfirmed either way.
   - The <a href> in each listing item is just "_sen_{id}.html" with no
     slug (the slug in the real canonical URL, e.g.
     "manos-loizos-...-th-dikh-toy-istoria_sen_2007849.html", appears to
-    get added client-side). This scraper uses the id-only URL as-is. That
-    should still resolve since the id is what actually routes, but it
-    wasn't independently confirmed against a live fetch — ticketmaster.gr
-    blocks non-browser requests from the environment this was written in.
-    Check the first run's output URLs actually load before relying on
-    this long-term; if they don't, the fix is to build the slug from the
-    title the same way the site's own JS does.
+    get added client-side). This scraper uses the id-only URL as-is,
+    trusting the id is what actually routes — still unconfirmed against
+    a live fetch.
+
+SETUP: this needs the `playwright` pip package PLUS its Chromium browser
+binary — pip alone doesn't install the browser. Deliberately kept out of
+the shared requirements.txt so the other two scrapers don't pull it in
+unnecessarily; install it locally with:
+    pip install playwright
+    playwright install --with-deps chromium
+(the workflow file does the same as its own step, not via requirements.txt)
 
 Run locally first with: python scripts/scrape_music_ticketmaster.py
 and check data/music_ticketmaster.json looks sane before automating.
@@ -53,53 +74,32 @@ import time
 from datetime import date
 from pathlib import Path
 
-import requests
 from bs4 import BeautifulSoup
+from playwright.sync_api import Page, sync_playwright
 
 BASE = "https://www.ticketmaster.gr"
 LISTING_URL = f"{BASE}/search.html?category=Music"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "music_ticketmaster.json"
 
-HEADERS = {
-    # A bare User-Agent alone was NOT enough — ticketmaster.gr returned a
-    # 403 to a plain requests.get() with only that header set (confirmed
-    # via a real workflow run, 28/8/2026). This fuller set mimics an
-    # actual Chrome navigation more closely. Whether it's enough to clear
-    # whatever check is in place is UNCONFIRMED — this environment can't
-    # reach ticketmaster.gr either, so it couldn't be tested here. If this
-    # still 403s, the detection is likely deeper than headers (e.g. a
-    # Cloudflare/Akamai JS challenge or TLS fingerprint check), which
-    # `requests` fundamentally can't pass — see the note in main().
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-        "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-    "Accept-Language": "el-GR,el;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
-    "Connection": "keep-alive",
-    "Upgrade-Insecure-Requests": "1",
-    "Sec-Fetch-Dest": "document",
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-}
-
-# A shared session persists cookies between the listing request and each
-# event-page request, which is closer to how a real browser session
-# behaves (some bot checks set a cookie on the first hit and expect it
-# back on subsequent ones).
-SESSION = requests.Session()
-SESSION.headers.update(HEADERS)
+# A normal, current desktop Chrome UA — Playwright's own default headless
+# UA string contains "HeadlessChrome", which is itself a giveaway to some
+# bot checks, so this is overridden explicitly.
+USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
+)
 
 
-def get_soup(url: str) -> BeautifulSoup:
-    resp = SESSION.get(url, timeout=20)
-    resp.raise_for_status()
-    return BeautifulSoup(resp.text, "html.parser")
+def get_soup(page: Page, url: str, wait_selector: str) -> BeautifulSoup:
+    """Navigate Playwright's page to `url`, wait for `wait_selector` to
+    show up (confirms the real content — not just a loading/challenge
+    screen — has rendered), then parse the resulting HTML."""
+    page.goto(url, timeout=30000, wait_until="domcontentloaded")
+    page.wait_for_selector(wait_selector, timeout=15000)
+    return BeautifulSoup(page.content(), "html.parser")
 
 
-def get_current_events() -> list[dict]:
+def get_current_events(page: Page) -> list[dict]:
     """Return [{'title': ..., 'url': ..., 'event_id': ...}, ...] for every
     event currently listed on the Music category search page.
 
@@ -117,7 +117,7 @@ def get_current_events() -> list[dict]:
     Attica, e.g. Thessaloniki dates) — it isn't reliable for filtering,
     which is why we visit each event's own page instead.
     """
-    soup = get_soup(LISTING_URL)
+    soup = get_soup(page, LISTING_URL, wait_selector="div.categoryPageWrapper div.event")
     events = []
     seen_ids = set()
 
@@ -148,7 +148,7 @@ def is_attica_postal_code(postal_code: str) -> bool:
     return len(digits) == 5 and digits[0] == "1"
 
 
-def parse_event_page(url: str) -> dict | None:
+def parse_event_page(page: Page, url: str) -> dict | None:
     """Return venue/address/date details for one event, read from its
     schema.org JSON-LD block.
 
@@ -174,7 +174,7 @@ def parse_event_page(url: str) -> dict | None:
         }
         </script>
     """
-    soup = get_soup(url)
+    soup = get_soup(page, url, wait_selector='script[type="application/ld+json"]')
     script = soup.find("script", attrs={"type": "application/ld+json"})
     if not script or not script.string:
         return None
@@ -201,15 +201,15 @@ def parse_event_page(url: str) -> dict | None:
     }
 
 
-def parse_events() -> list[dict]:
-    listing = get_current_events()
+def parse_events(page: Page) -> list[dict]:
+    listing = get_current_events(page)
     print(f"Found {len(listing)} music events listed")
 
     events = []
     for item in listing:
         print(f"  Checking {item['title']}...")
         try:
-            details = parse_event_page(item["url"])
+            details = parse_event_page(page, item["url"])
         except Exception as e:
             print(f"    FAILED: {e}")
             details = None
@@ -237,21 +237,23 @@ def parse_events() -> list[dict]:
 
 def main():
     print("Fetching ticketmaster.gr music listings...")
-    try:
-        events = parse_events()
-    except requests.exceptions.HTTPError as e:
-        if e.response is not None and e.response.status_code == 403:
-            print(
-                "\nGot a 403 Forbidden from ticketmaster.gr. This means their "
-                "bot detection is blocking plain HTTP requests outright "
-                "(headers alone weren't enough) — a Cloudflare/Akamai-style "
-                "JS challenge or TLS fingerprint check most likely can't be "
-                "passed by the `requests` library at all, from any IP. The "
-                "next real option is scraping with an actual headless "
-                "browser (e.g. Playwright) instead of `requests`, which is "
-                "a bigger change to this script and workflow."
-            )
-        raise
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(
+            headless=True,
+            args=["--disable-blink-features=AutomationControlled"],
+        )
+        context = browser.new_context(
+            user_agent=USER_AGENT,
+            locale="el-GR",
+            viewport={"width": 1280, "height": 900},
+        )
+        page = context.new_page()
+        try:
+            events = parse_events(page)
+        finally:
+            browser.close()
+
     print(f"Found {len(events)} events with an Attica venue")
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
