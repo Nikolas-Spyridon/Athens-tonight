@@ -29,6 +29,19 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Playwright (this scraper only)
+        # Kept out of the shared requirements.txt on purpose — the
+        # cinema and more.com scrapers don't need a real browser and
+        # would otherwise install this unnecessarily on every run too.
+        # requests kept getting a 403 from ticketmaster.gr even with a
+        # full browser-like header set (confirmed 28/8/2026); the fix is
+        # driving a real Chromium browser instead. `--with-deps` also
+        # installs the OS-level libraries Chromium needs to run on the
+        # bare ubuntu-latest image.
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
       - name: Run ticketmaster.gr music scraper
         run: python scripts/scrape_music_ticketmaster.py
 
