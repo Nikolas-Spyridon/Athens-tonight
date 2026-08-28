@@ -42,6 +42,7 @@
   .genre-tag{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:var(--coral-dim);color:var(--coral);}
   .e-source{font-size:10.5px;color:var(--muted);margin-top:6px;}
   .e-source a{color:var(--muted);}
+  .e-unconfirmed{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:rgba(246,240,228,0.1);color:var(--muted);margin-top:6px;margin-right:6px;}
 
   .state{text-align:center;padding:50px 10px;color:var(--muted);font-size:13.5px;line-height:1.6;}
   footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
@@ -52,7 +53,7 @@
 
 <div class="eyebrow">Οδηγός Μουσικής</div>
 <h1>Ζωντανή μουσική</h1>
-<p class="sub">Συναυλίες στην Αττική, από το more.com.</p>
+<p class="sub">Συναυλίες στην Αττική, από το more.com και το ticketservices.gr.</p>
 
 <input type="text" id="search" placeholder="Αναζήτηση καλλιτέχνη, χώρου ή είδους...">
 <div class="count" id="count"></div>
@@ -65,8 +66,13 @@
 
 <script>
 const MONTHS = ['Ιαν','Φεβ','Μαρ','Απρ','Μάι','Ιουν','Ιουλ','Αυγ','Σεπ','Οκτ','Νοε','Δεκ'];
-let allEvents = [];
-let updatedStr = '';
+
+// Normalized rows from BOTH sources live here — one row per
+// (event, date, venue-or-venues) combination, already source-agnostic
+// by the time render() touches it.
+let allRows = [];
+let sourceStatus = []; // [{name, updated, ok}] — for the footer, and so
+                        // one source failing doesn't take down the other.
 
 function todayKey(){
   const d = new Date();
@@ -76,24 +82,93 @@ function todayKey(){
   return `${y}-${m}-${day}`;
 }
 
-async function load(){
+// more.com: one event per JSON entry, a single ISO `start` datetime,
+// venues as objects ({name, locality, ...}), genre tags present.
+function rowsFromMore(data){
+  const rows = [];
+  (data.events || []).forEach(ev => {
+    (ev.venues || []).forEach(v => {
+      rows.push({
+        title: ev.title,
+        url: ev.url,
+        genres: ev.genres || [],
+        source: ev.source || 'more.com',
+        venueName: v.name,
+        venueArea: v.locality || '',
+        date: ev.start ? ev.start.slice(0,10) : '',
+        time: ev.start ? ev.start.slice(11,16) : '',
+        unconfirmedRegion: false,
+      });
+    });
+  });
+  return rows;
+}
+
+// ticketservices.gr: one event per JSON entry, a LIST of dates and a
+// LIST of venues that don't necessarily line up 1:1 (e.g. a 5-date
+// event with only 2 distinct venues across the whole run) — no time-of-
+// day is available at all, and no genre tags. One row per date, all
+// venues for that event shown together rather than guessing a pairing.
+// region_status "unconfirmed" (no area id on the original listing) is
+// shown but flagged, not hidden and not silently trusted.
+function rowsFromTicketservices(data){
+  const rows = [];
+  (data.events || []).forEach(ev => {
+    const venueText = (ev.venues || []).join(' / ');
+    (ev.dates || []).forEach(d => {
+      rows.push({
+        title: ev.title,
+        url: ev.url,
+        genres: [],
+        source: ev.source || 'ticketservices.gr',
+        venueName: venueText,
+        venueArea: '',
+        date: d,
+        time: '',
+        unconfirmedRegion: ev.region_status === 'unconfirmed',
+      });
+    });
+  });
+  return rows;
+}
+
+async function loadSource(url, normalizeFn, label){
   try{
-    const res = await fetch('data/music_more.json', {cache:'no-store'});
+    const res = await fetch(url, {cache:'no-store'});
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data = await res.json();
-    allEvents = data.events || [];
-    updatedStr = data.updated || '';
-    init();
+    sourceStatus.push({name: label, updated: data.updated || '', ok: true});
+    return normalizeFn(data);
   }catch(err){
-    document.getElementById('results').innerHTML =
-      '<div class="state">Δεν ήταν δυνατή η φόρτωση των δεδομένων.<br>('+err.message+')</div>';
+    sourceStatus.push({name: label, updated: '', ok: false, error: err.message});
+    return [];
   }
+}
+
+async function load(){
+  const [moreRows, tsRows] = await Promise.all([
+    loadSource('data/music_more.json', rowsFromMore, 'more.com'),
+    loadSource('data/music_ticketservices.json', rowsFromTicketservices, 'ticketservices.gr'),
+  ]);
+  allRows = [...moreRows, ...tsRows];
+
+  if(allRows.length === 0 && sourceStatus.every(s => !s.ok)){
+    document.getElementById('results').innerHTML =
+      '<div class="state">Δεν ήταν δυνατή η φόρτωση των δεδομένων.</div>';
+    return;
+  }
+  init();
 }
 
 function init(){
   document.getElementById('search').addEventListener('input', render);
+
+  const footerParts = sourceStatus.map(s =>
+    s.ok ? `${s.name} (${s.updated || '—'})` : `${s.name} μη διαθέσιμο`
+  );
   document.getElementById('footer').textContent =
-    'Δεδομένα από more.com, τελευταία ενημέρωση: ' + (updatedStr || '—');
+    'Δεδομένα από: ' + footerParts.join(' · ');
+
   render();
 }
 
@@ -104,26 +179,12 @@ function render(){
 
   const today = todayKey();
 
-  // Flatten: one row per (event, venue) pair, since a tour can have
-  // several Attica dates/venues for the same event.
-  let rows = [];
-  allEvents.forEach(ev => {
-    (ev.venues || []).forEach(v => {
-      rows.push({
-        title: ev.title,
-        url: ev.url,
-        genres: ev.genres || [],
-        source: ev.source || '',
-        venueName: v.name,
-        venueArea: v.locality,
-        start: ev.start,
-      });
-    });
-  });
-
-  // Keep only today-or-later, sort chronologically.
-  rows = rows.filter(r => !r.start || r.start.slice(0,10) >= today);
-  rows.sort((a,b) => (a.start || '').localeCompare(b.start || ''));
+  // Keep only today-or-later, sort chronologically (date first, then time
+  // — rows with no time, i.e. ticketservices.gr, sort before timed ones
+  // on the same day, which is an acceptable ambiguity given the source
+  // genuinely doesn't provide a time).
+  let rows = allRows.filter(r => r.date && r.date >= today);
+  rows.sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
 
   if(q){
     rows = rows.filter(r => {
@@ -134,18 +195,15 @@ function render(){
 
   let lastMonthKey = null;
   rows.forEach(r => {
-    const dt = r.start ? new Date(r.start) : null;
-    const monthKey = dt ? `${dt.getFullYear()}-${dt.getMonth()}` : 'unknown';
+    const dt = new Date(r.date + 'T00:00:00');
+    const monthKey = `${dt.getFullYear()}-${dt.getMonth()}`;
     if(monthKey !== lastMonthKey){
       const h = document.createElement('div');
       h.className = 'month-header';
-      h.textContent = dt ? `${MONTHS[dt.getMonth()]} ${dt.getFullYear()}` : 'Άγνωστη ημερομηνία';
+      h.textContent = `${MONTHS[dt.getMonth()]} ${dt.getFullYear()}`;
       results.appendChild(h);
       lastMonthKey = monthKey;
     }
-
-    const day = dt ? dt.getDate() : '?';
-    const time = dt ? String(dt.getHours()).padStart(2,'0')+':'+String(dt.getMinutes()).padStart(2,'0') : '';
 
     const div = document.createElement('div');
     div.className = 'event';
@@ -153,11 +211,12 @@ function render(){
       <div class="e-top">
         <div>
           <h3 class="e-title">${r.title}</h3>
-          <div class="e-venue">${r.venueName}${r.venueArea ? ' · '+r.venueArea : ''}${time ? ' · '+time : ''}</div>
+          <div class="e-venue">${r.venueName}${r.venueArea ? ' · '+r.venueArea : ''}${r.time ? ' · '+r.time : ''}</div>
         </div>
-        <div class="e-date">${day}</div>
+        <div class="e-date">${dt.getDate()}</div>
       </div>
       ${r.genres.length ? `<div class="e-genres">${r.genres.map(g=>`<span class="genre-tag">${g}</span>`).join('')}</div>` : ''}
+      ${r.unconfirmedRegion ? `<div class="e-unconfirmed">Περιοχή μη επιβεβαιωμένη</div>` : ''}
       <div class="e-source"><a href="${r.url}" target="_blank">${r.source}</a></div>
     `;
     results.appendChild(div);
