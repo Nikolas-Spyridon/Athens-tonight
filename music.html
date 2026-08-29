@@ -14,12 +14,18 @@
     --paper:#F6F0E4;
     --coral:#C1524B;
     --coral-dim: rgba(193,82,75,0.18);
+    --accent: var(--coral);
     --line: rgba(246,240,228,0.14);
     --muted: rgba(246,240,228,0.55);
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--ink);color:var(--paper);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
   .wrap{max-width:640px;margin:0 auto;padding:24px 16px 60px;}
+
+  .app-nav{display:flex;gap:6px;margin-bottom:18px;}
+  .app-nav a, .app-nav span{flex:1;text-align:center;padding:8px 6px;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none;color:var(--muted);background:var(--ink2);border:1px solid var(--line);}
+  .app-nav a.active{background:var(--accent);color:var(--ink);border-color:var(--accent);}
+  .app-nav span.disabled{opacity:.45;}
   .eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--coral);font-weight:600;}
   h1{font-family:'Fraunces',serif;font-weight:600;font-size:32px;line-height:1.05;margin:6px 0 4px;}
   .sub{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
@@ -52,6 +58,13 @@
 </head>
 <body>
 <div class="wrap">
+
+<nav class="app-nav">
+  <a href="index.html">Αρχική</a>
+  <a href="cinema.html">Σινεμά</a>
+  <a href="music.html" class="active">Μουσική</a>
+  <span class="disabled">Θέατρο</span>
+</nav>
 
 <div class="eyebrow">Οδηγός Μουσικής</div>
 <h1>Ζωντανή μουσική</h1>
