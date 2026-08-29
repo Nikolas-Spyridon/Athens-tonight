@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Σινεμά Αθήνα — Απόψε</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182338;
+    --ink2:#233252;
+    --paper:#F6F0E4;
+    --amber:#E8A33D;
+    --amber-dim: rgba(232,163,61,0.18);
+    --accent: var(--amber);
+    --line: rgba(246,240,228,0.14);
+    --muted: rgba(246,240,228,0.55);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--ink);color:var(--paper);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:640px;margin:0 auto;padding:24px 16px 60px;}
+
+  .app-nav{display:flex;gap:6px;margin-bottom:18px;}
+  .app-nav a, .app-nav span{flex:1;text-align:center;padding:8px 6px;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none;color:var(--muted);background:var(--ink2);border:1px solid var(--line);}
+  .app-nav a.active{background:var(--accent);color:var(--ink);border-color:var(--accent);}
+  .app-nav span.disabled{opacity:.45;}
+  .eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600;}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:32px;line-height:1.05;margin:6px 0 4px;}
+  .sub{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
+
+  input[type=text]{width:100%;padding:10px 13px;border-radius:8px;border:1px solid var(--line);background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;font-size:14px;margin:14px 0 4px;}
+  input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
+  input[type=text]:focus{outline:none;border-color:var(--amber);}
+
+  .datebar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 14px;margin-bottom:4px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
+  .datebar::-webkit-scrollbar{display:none;}
+  .datepill{flex:0 0 auto;padding:9px 13px;border-radius:10px;border:1px solid var(--line);background:var(--ink2);cursor:pointer;text-align:center;min-width:56px;}
+  .datepill .dow{display:block;font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;}
+  .datepill .dnum{display:block;font-family:'Fraunces',serif;font-size:17px;font-weight:600;margin-top:1px;}
+  .datepill.active{background:var(--amber);border-color:var(--amber);}
+  .datepill.active .dow, .datepill.active .dnum{color:var(--ink);}
+
+  .cycle-note{font-size:11.5px;color:var(--muted);background:rgba(232,163,61,0.08);border:1px solid rgba(232,163,61,0.25);border-radius:8px;padding:9px 12px;margin:12px 0 6px;line-height:1.5;}
+
+  .count{font-size:11.5px;color:var(--muted);margin:8px 2px 12px;}
+
+  .movie{background:var(--ink2);border-radius:10px;padding:14px 16px;margin-bottom:10px;border-left:3px solid var(--amber);}
+  .m-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .m-title{font-family:'Fraunces',serif;font-size:16.5px;font-weight:600;margin:0;}
+  .m-tag{font-size:10.5px;font-weight:600;color:var(--amber);white-space:nowrap;flex-shrink:0;padding-top:2px;}
+  .m-next{font-size:12.5px;color:var(--muted);margin:4px 0 0;}
+
+  details{margin-top:8px;}
+  summary{cursor:pointer;font-size:12px;font-weight:600;color:var(--amber);list-style:none;display:flex;align-items:center;gap:5px;}
+  summary::-webkit-details-marker{display:none;}
+  summary::before{content:"▸";display:inline-block;transition:transform .15s;}
+  details[open] summary::before{transform:rotate(90deg);}
+  .showtimes{margin-top:8px;border-top:1px solid var(--line);padding-top:8px;}
+  .st-row{display:flex;justify-content:space-between;align-items:baseline;padding:5px 0;font-size:12.5px;border-bottom:1px solid rgba(246,240,228,0.06);}
+  .st-cinema{color:rgba(246,240,228,0.92);font-weight:500;}
+  .st-area{color:var(--muted);font-size:11px;}
+  .st-times{color:var(--amber);font-weight:600;font-variant-numeric:tabular-nums;text-align:right;}
+
+  .state{text-align:center;padding:50px 10px;color:var(--muted);font-size:13.5px;line-height:1.6;}
+  footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<nav class="app-nav">
+  <a href="index.html">Αρχική</a>
+  <a href="cinema.html" class="active">Σινεμά</a>
+  <a href="music.html">Μουσική</a>
+  <span class="disabled">Θέατρο</span>
+</nav>
+
+<div class="eyebrow">Οδηγός Σινεμά</div>
+<h1>Τι παίζει στην Αθήνα</h1>
+<p class="sub">Πραγματικές ώρες ανά αίθουσα, ενημερωμένο αυτόματα.</p>
+
+<div class="datebar" id="datebar"></div>
+<div class="cycle-note" id="cycleNote">Το πρόγραμμα ανανεώνεται κάθε Πέμπτη. Δείχνουμε μόνο τις ημέρες του τρέχοντος προγράμματος — η επόμενη εβδομάδα δεν έχει ανακοινωθεί ακόμη.</div>
+
+<input type="text" id="search" placeholder="Αναζήτηση ταινίας ή σινεμά...">
+<div class="count" id="count"></div>
+
+<div id="results"><div class="state">Φόρτωση...</div></div>
+
+<footer id="footer"></footer>
+
+</div>
+
+<script>
+const DOWS_SHORT = ['ΚΥΡ','ΔΕΥ','ΤΡΙ','ΤΕΤ','ΠΕΜ','ΠΑΡ','ΣΑΒ'];
+let allMovies = [];
+let selectedDate = '';
+let updatedStr = '';
+
+function todayKey(){
+  // Use LOCAL date components, not toISOString() (which is UTC and would
+  // return yesterday's date for Athens users between 00:00–03:00 local,
+  // since Athens is UTC+3).
+  const d = new Date();
+  return keyFor(d);
+}
+function keyFor(d){
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,'0');
+  const day = String(d.getDate()).padStart(2,'0');
+  return `${y}-${m}-${day}`;
+}
+function parseKey(key){
+  const [y,m,d] = key.split('-').map(Number);
+  return new Date(y, m-1, d);
+}
+function addDays(d, n){
+  const r = new Date(d);
+  r.setDate(r.getDate()+n);
+  return r;
+}
+
+function earliestTime(times){
+  return times.slice().sort()[0];
+}
+
+async function load(){
+  try{
+    const res = await fetch('data/cinema.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    allMovies = data.movies || [];
+    updatedStr = data.updated || '';
+    init();
+  }catch(err){
+    document.getElementById('results').innerHTML =
+      '<div class="state">Δεν ήταν δυνατή η φόρτωση των δεδομένων.<br>('+err.message+')</div>';
+  }
+}
+
+function init(){
+  // Cinema programmes run Thursday -> Wednesday. Only show days within the
+  // CURRENT, already-confirmed cycle: today through the next Wednesday
+  // (inclusive). Never show days from the next cycle, since that
+  // programme isn't announced yet.
+  const today = new Date();
+  const todayDow = today.getDay(); // Sun=0 .. Sat=6, Wed=3
+  const daysUntilWed = (3 - todayDow + 7) % 7; // 0 if today IS Wednesday
+  const cutoff = addDays(today, daysUntilWed);
+
+  const dates = [];
+  let cursor = new Date(today);
+  while(cursor <= cutoff){
+    dates.push(keyFor(cursor));
+    cursor = addDays(cursor, 1);
+  }
+
+  selectedDate = dates[0];
+
+  const datebar = document.getElementById('datebar');
+  datebar.innerHTML = '';
+  dates.forEach((key, i) => {
+    const pill = document.createElement('div');
+    pill.className = 'datepill' + (i===0 ? ' active' : '');
+    pill.innerHTML = `<span class="dow">${DOWS_SHORT[parseKey(key).getDay()]}</span><span class="dnum">${parseKey(key).getDate()}</span>`;
+    pill.addEventListener('click', () => {
+      document.querySelectorAll('.datepill').forEach(p=>p.classList.remove('active'));
+      pill.classList.add('active');
+      selectedDate = key;
+      render();
+    });
+    datebar.appendChild(pill);
+  });
+
+  // Hide the "next week unannounced" note if today already IS the cycle's
+  // last day (Wednesday) — there's nothing to caveat, only one tab shows.
+  if(dates.length <= 1){
+    document.getElementById('cycleNote').style.display = 'none';
+  }
+
+  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('footer').textContent =
+    'Δεδομένα από athinorama.gr, τελευταία ενημέρωση: ' + (updatedStr || '—') +
+    '. Ανανεώνεται αυτόματα κάθε πρωί.';
+
+  render();
+}
+
+function render(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+  let shown = 0;
+
+  allMovies.forEach(m => {
+    const todays = m.screenings
+      .map(s => ({ ...s, times: (s.showtimes && s.showtimes[selectedDate]) || [] }))
+      .filter(s => s.times.length > 0);
+
+    if(todays.length === 0) return;
+
+    const blob = (m.title + ' ' + todays.map(s=>s.cinema).join(' ')).toLowerCase();
+    if(q && !blob.includes(q)) return;
+
+    todays.sort((a,b) => earliestTime(a.times).localeCompare(earliestTime(b.times)));
+    const soonest = earliestTime(todays[0].times);
+
+    const rows = todays.map(s => {
+      const times = s.times.slice().sort().join(', ');
+      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span> <span class="st-area">· ${s.area || ''}</span></span><span class="st-times">${times}</span></div>`;
+    }).join('');
+
+    const div = document.createElement('div');
+    div.className = 'movie';
+    div.innerHTML = `
+      <div class="m-top">
+        <h3 class="m-title">${m.title}</h3>
+        <span class="m-tag">${todays.length} αίθουσ${todays.length===1?'α':'ες'}</span>
+      </div>
+      <p class="m-next">Πρώτη προβολή στις ${soonest}</p>
+      <details>
+        <summary>Ώρες &amp; αίθουσες</summary>
+        <div class="showtimes">${rows}</div>
+      </details>
+    `;
+    results.appendChild(div);
+    shown++;
+  });
+
+  if(shown === 0){
+    results.innerHTML = '<div class="state">Καμία ταινία δεν βρέθηκε για αυτή την ημέρα' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
+  }
+
+  document.getElementById('count').textContent = shown + ' ταινίες' + (q ? ' · φίλτρο "'+q+'"' : '');
+}
+
+load();
+</script>
+</body>
+</html>
