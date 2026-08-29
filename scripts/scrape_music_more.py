@@ -3,46 +3,69 @@ Athens Tonight — music scraper (more.com)
 
 WHAT THIS DOES
 1. Visits more.com's full music/concert listing page (all of Greece, one
-   long page — confirmed NOT paginated or lazy-loaded, 26/8/2026).
-2. Parses each event's schema.org markup: title, venue(s), ISO start/end
-   datetime, and genre tags.
-3. Keeps only events with at least one Attica venue (addressRegion ==
-   "Αττική") — more.com lists all of Greece on one page, we filter here.
+   long page — confirmed NOT paginated or lazy-loaded, 26/8/2026) to
+   discover every event's title, URL, and genre tags.
+2. Visits EACH event's own page and reads its embedded `bookingPanel.data`
+   JavaScript object — the authoritative source of every actual
+   performance date and which venue it's at.
+3. Classifies each (date, venue) pair as Attica or not, using a known-
+   localities list (see ATTICA_LOCALITIES below) since more.com's
+   per-venue data here has no explicit region flag.
 4. Writes everything to data/music_more.json.
 
-STATUS (26/8/2026): selectors confirmed against the real page via browser
-inspector — this is not guesswork, same process as the cinema scraper.
+WHY THIS VISITS EVERY EVENT'S OWN PAGE NOW (IMPORTANT — this replaced an
+earlier, buggy version of this scraper)
+The ORIGINAL version of this script read venue + date entirely from the
+listing page's schema.org microdata: one shared `<meta itemprop=
+"startDate">` per `<article>`, with multiple `playinfo__venue` blocks
+repeated inside for multi-city tours. That's WRONG for any real
+multi-city tour — confirmed via two real saved event pages (28/8/2026):
+a single-city event (Satyricon @ Floyd, one date) and a genuine 5-city
+tour (City Of The Sun: Θεσσαλονίκη 18/9, ΑΘΗΝΑ/Gazarte 19/9, Ιωάννινα
+20/9, Καρδίτσα 21/9, Σέρρες 22/9 — five DIFFERENT dates). The old
+approach would apply just one shared date across every city, silently
+mis-dating (or entirely dropping, depending on how the Attica match
+happened to land) the Attica leg of any multi-city tour.
 
-KNOWN STRUCTURE, confirmed via inspector:
-    <article itemtype="http://schema.org/Event"
-             class="... music musicmetal ...">
-      <meta itemprop="url" content="/gr-el/tickets/music/satyricon/">
-      <meta itemprop="startDate" content="2026-09-18T20:00">
-      <meta itemprop="endDate" content="2026-09-18T20:00">
-      <a id="ItemLink">
-        <div class="playinfo">
-          <h3 class="playinfo__title" itemprop="name">Satyricon</h3>
-          <div class="playinfo__venue" itemprop="location" itemscope
-               itemtype="http://schema.org/Place">
-            <span id="PlayVenue" itemprop="name">Floyd</span>
-            <div itemprop="address" itemscope
-                 itemtype="http://schema.org/PostalAddress">
-              <meta itemprop="streetAddress" content="...">
-              <meta itemprop="addressLocality" content="Αθήνα">
-              <meta itemprop="addressRegion" content="Αττική">
-            </div>
-          </div>
-          <!-- Multi-city tours repeat the venue block above MORE THAN
-               ONCE inside the same article — must collect all of them,
-               not just the first, or non-Athens tour dates get lost. -->
-        </div>
-      </a>
-    </article>
+Every more.com event page embeds a `bookingPanel.data = {...};` JS
+object with the real per-date, per-venue breakdown — confirmed identical
+in shape for both the single-city and multi-city real pages:
+    bookingPanel.data = {
+      "events": [
+        {"day": "2026-09-19", "event-date": "2026-09-19T20:00:00",
+         "event-end-date": "2026-09-19T23:00:00", "venueId": 4832, ...},
+        ...
+      ],
+      "venues": [
+        {"id": 4832, "venue-name": "Gazarte - Ground Stage",
+         "venue-city": "Γκάζι", "venue-address": "Βουτάδων 32-34"},
+        ...
+      ],
+      "plays": [{"id": "...", "play-title": "..."}],
+      ...
+    };
+This is now the sole source of venue/date truth. The listing page is
+still used, but ONLY to discover which events exist and their genre tags
+(genre lives in the listing article's own CSS class list and is NOT
+present in bookingPanel.data at all).
 
-Genre: comes from the article's own class list, as a bare token matching
-'music' + lowercase letters (e.g. 'musicmetal', 'musicrock') — separate
-from the date-suffixed version of the same token (e.g. 'musicmetald20260918'
-also appears and is NOT the one we want).
+ATTICA FILTERING — a real limitation, not a guess dressed up as one
+bookingPanel.data's venue entries have a `venue-city` string ("Αθήνα",
+"Γκάζι", "Θεσσαλονίκη"...) but NO explicit region field the way the old
+listing-page microdata's `addressRegion="Αττική"` did. ATTICA_LOCALITIES
+below is a best-effort, non-exhaustive list of Athens + Attica
+neighbourhoods/suburbs. Any venue-city that doesn't match is marked
+region_status="unconfirmed" rather than silently dropped or silently
+trusted — same philosophy as the ticketservices.gr scraper's area-id
+handling. If a real Attica show keeps showing up "unconfirmed", the fix
+is adding its locality name to this list.
+
+STATUS (28/8/2026): bookingPanel.data structure confirmed against two
+real saved event pages — not guesswork. This DOES mean fetching ~1 extra
+page per event (order of 90+ requests total, based on real event counts
+seen so far) instead of just the one listing page — expect a few extra
+minutes of runtime, with a polite delay between requests, same as the
+cinema scraper's approach to the same tradeoff.
 
 Run locally first with: python scripts/scrape_music_more.py
 and check data/music_more.json looks sane before relying on automation.
@@ -51,6 +74,7 @@ and check data/music_more.json looks sane before relying on automation.
 import json
 import re
 import time
+import unicodedata
 from datetime import date
 from pathlib import Path
 
@@ -61,8 +85,6 @@ BASE = "https://www.more.com"
 LISTING_URL = f"{BASE}/gr-el/tickets/music/"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "data" / "music_more.json"
 
-TARGET_REGION = "Αττική"
-
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -71,6 +93,60 @@ HEADERS = {
 }
 
 GENRE_CLASS_RE = re.compile(r"^music([a-z]+)$")
+
+# Best-effort, non-exhaustive — see "ATTICA FILTERING" note above.
+ATTICA_LOCALITIES = {
+    "αθηνα", "πειραιας", "γκαζι", "γλυφαδα", "χαλανδρι", "μαρουσι",
+    "αμαρουσιο", "κηφισια", "νεα σμυρνη", "καλλιθεα", "περιστερι",
+    "αγια παρασκευη", "ψυχικο", "νεο ψυχικο", "παγκρατι", "πετραλωνα",
+    "ανω πετραλωνα", "κουκακι", "εξαρχεια", "κολωνακι", "ζωγραφου",
+    "ιλιον", "αιγαλεω", "νικαια", "βουλα", "βουλιαγμενη", "βαρη",
+    "ραφηνα", "λαυριο", "ελευσινα", "αχαρνες", "μενιδι", "αργυρουπολη",
+    "ηλιουπολη", "βυρωνας", "δαφνη", "υμηττος", "γαλατσι", "κυψελη",
+    "πατησια", "αμπελοκηποι", "χαιδαρι", "μοσχατο", "ταυρος", "ρεντης",
+    "κερατσινι", "δραπετσωνα", "κορυδαλλος", "αγια βαρβαρα", "πευκη",
+    "λυκοβρυση", "μεταμορφωση", "ηρακλειο", "νεα ιωνια",
+    "νεα φιλαδελφεια", "νεα χαλκηδονα", "βριλησσια", "πεντελη",
+    "παλληνη", "γερακας", "σταματα", "διονυσος", "σπατα", "παιανια",
+    "κορωπι", "μαρκοπουλο", "μεγαρα", "ασπροπυργος", "φυλη",
+    "ανω λιοσια", "ζεφυρι", "περαμα", "χολαργος", "παπαγου", "βαρκιζα",
+}
+
+# Well-known non-Attica Greek cities — used ONLY to confidently drop
+# clearly-elsewhere events (Thessaloniki, Ioannina, etc). Anything that
+# matches NEITHER this list NOR ATTICA_LOCALITIES is "unconfirmed", not
+# silently dropped — see is_attica_locality()'s three-way return.
+NON_ATTICA_HINTS = {
+    "θεσσαλονικη", "πατρα", "ηρακλειο κρητης", "χανια", "ρεθυμνο",
+    "λαρισα", "βολος", "καβαλα", "σερρες", "τριπολη", "ιωαννινα",
+    "καρδιτσα", "κοζανη", "αγρινιο", "καλαματα", "χαλκιδα", "λαμια",
+    "κομοτηνη", "ξανθη", "δραμα", "βεροια", "κατερινη", "τρικαλα",
+    "κερκυρα", "ροδος", "χιος", "μυτιληνη", "καλαβρυτα", "ναυπλιο",
+}
+
+
+def strip_accents(s: str) -> str:
+    return "".join(
+        c for c in unicodedata.normalize("NFD", s)
+        if unicodedata.category(c) != "Mn"
+    )
+
+
+def classify_locality(city_text: str) -> str:
+    """Returns "attica", "not_attica", or "unconfirmed" — an unrecognized
+    locality is NEVER silently treated as "not_attica"; only a positive
+    match against NON_ATTICA_HINTS earns that. Same "don't silently drop
+    what we can't confirm" philosophy as the ticketservices.gr scraper's
+    area-id handling."""
+    if not city_text:
+        return "unconfirmed"
+    normalized = strip_accents(city_text).strip().lower()
+    parts = [p.strip() for p in normalized.split(",") if p.strip()]
+    if any(p in ATTICA_LOCALITIES for p in parts):
+        return "attica"
+    if any(p in NON_ATTICA_HINTS for p in parts):
+        return "not_attica"
+    return "unconfirmed"
 
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -98,35 +174,15 @@ def meta_content(scope, itemprop: str) -> str:
     return el.get("content", "") if el else ""
 
 
-def extract_venues(article) -> list[dict]:
-    """An event can list MULTIPLE venues (multi-city tours repeat the
-    venue block) — collect all of them, then the caller filters to
-    Attica ones."""
-    venues = []
-    for venue_block in article.select("div.playinfo__venue"):
-        name_el = venue_block.select_one("#PlayVenue")
-        name = name_el.get_text(strip=True) if name_el else ""
-
-        address_block = venue_block.select_one(
-            'div[itemprop="address"]'
-        )
-        if address_block:
-            locality = meta_content(address_block, "addressLocality")
-            region = meta_content(address_block, "addressRegion")
-            street = meta_content(address_block, "streetAddress")
-        else:
-            locality = region = street = ""
-
-        venues.append({
-            "name": name,
-            "locality": locality,
-            "region": region,
-            "street": street,
-        })
-    return venues
-
-
-def parse_events() -> list[dict]:
+def get_current_events() -> list[dict]:
+    """Discovery pass only — title, URL, genres. Confirmed from the real
+    listing page (26-28/8/2026):
+        <article itemtype="http://schema.org/Event" class="... musicmetal ...">
+          <meta itemprop="url" content="/gr-el/tickets/music/satyricon/">
+          <h3 class="playinfo__title" itemprop="name">Satyricon</h3>
+          ...
+    Venue/date extraction happens later, per-event, via bookingPanel.data —
+    NOT here (see the module docstring for why)."""
     soup = get_soup(LISTING_URL)
     events = []
 
@@ -139,22 +195,104 @@ def parse_events() -> list[dict]:
         url_path = meta_content(article, "url")
         full_url = url_path if url_path.startswith("http") else BASE + url_path
 
-        start = meta_content(article, "startDate")
-        end = meta_content(article, "endDate")
-        genres = extract_genres(article)
-
-        all_venues = extract_venues(article)
-        attica_venues = [v for v in all_venues if v["region"] == TARGET_REGION]
-        if not attica_venues:
-            continue  # this event has no Attica date at all — skip entirely
-
         events.append({
             "title": title,
             "url": full_url,
-            "start": start,
-            "end": end,
-            "genres": genres,
-            "venues": attica_venues,
+            "genres": extract_genres(article),
+        })
+
+    return events
+
+
+def extract_booking_data(html: str) -> dict | None:
+    """Pull the `bookingPanel.data = {...};` JS object out of an event's
+    own page. Brace-counts to find the real end of the object rather than
+    searching for the next "};", since the object contains nested
+    objects/arrays with their own closing braces. See the module
+    docstring for the confirmed shape."""
+    marker = "bookingPanel.data = "
+    start = html.find(marker)
+    if start == -1:
+        return None
+    start += len(marker)
+
+    depth = 0
+    end = None
+    for i, ch in enumerate(html[start:], start=start):
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                end = i + 1
+                break
+    if end is None:
+        return None
+
+    try:
+        return json.loads(html[start:end])
+    except json.JSONDecodeError:
+        return None
+
+
+def parse_event_venues(booking_data: dict) -> list[dict]:
+    """Turn one event's bookingPanel.data into a list of (date, venue)
+    entries, each independently classified for Attica. This is what
+    fixes the multi-city date bug: every entry gets ITS OWN start/end,
+    read from the matching "events" record via venueId, instead of one
+    shared date applied to every venue."""
+    venues_by_id = {v["id"]: v for v in booking_data.get("venues", [])}
+    results = []
+
+    for ev in booking_data.get("events", []):
+        venue = venues_by_id.get(ev.get("venueId"))
+        if not venue:
+            continue
+
+        city = venue.get("venue-city", "")
+        region_status = classify_locality(city)
+        if region_status == "not_attica":
+            continue  # confirmed elsewhere in Greece — skip entirely
+
+        results.append({
+            "name": venue.get("venue-name", ""),
+            "locality": city,
+            "street": venue.get("venue-address", ""),
+            "start": ev.get("event-date", ""),
+            "end": ev.get("event-end-date", ""),
+            "region_status": region_status,
+        })
+
+    return results
+
+
+def parse_events() -> list[dict]:
+    listing = get_current_events()
+    print(f"Found {len(listing)} music events listed")
+
+    events = []
+    for item in listing:
+        print(f"  Checking {item['title']}...")
+        try:
+            html = requests.get(item["url"], headers=HEADERS, timeout=20).text
+            booking_data = extract_booking_data(html)
+        except Exception as e:
+            print(f"    FAILED: {e}")
+            booking_data = None
+        time.sleep(1.0)  # be polite — don't hammer the site
+
+        if not booking_data:
+            continue
+
+        venues = parse_event_venues(booking_data)
+        if not venues:
+            continue  # no Attica (or unconfirmed) date at all — skip entirely
+
+        events.append({
+            "title": item["title"],
+            "url": item["url"],
+            "genres": item["genres"],
+            "venues": venues,
             "source": "more.com",
         })
 
@@ -187,7 +325,7 @@ def load_previous_first_seen(output_path: Path, key_field: str = "url") -> dict[
 def main():
     print("Fetching more.com music listings...")
     events = parse_events()
-    print(f"Found {len(events)} events with at least one Attica date")
+    print(f"Found {len(events)} events with an Attica (or unconfirmed) date")
 
     today_iso = date.today().isoformat()
     previous_first_seen = load_previous_first_seen(OUTPUT_PATH, key_field="url")
