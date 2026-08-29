@@ -178,10 +178,8 @@ function rowsFromRocking(data){
 // Best-effort match used ONLY to suppress rocking.gr duplicates of
 // events already covered by more.com/ticketservices.gr — biased toward
 // NOT suppressing when unsure (a missed duplicate is harmless, a
-// wrongly-hidden real event is worse). Matches on same date + venue
-// names that contain one another after normalizing case/accents/
-// punctuation, e.g. "Gagarin 205" vs "Gagarin 205 Live Music Space".
-function normalizeVenue(v){
+// wrongly-hidden real event is worse).
+function normalizeText(v){
   return (v || '')
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '') // strip accents (Greek + Latin)
     .toLowerCase()
@@ -189,14 +187,51 @@ function normalizeVenue(v){
     .trim();
 }
 
-function venuesLikelyMatch(a, b){
-  const na = normalizeVenue(a), nb = normalizeVenue(b);
+// Words too generic to count as a meaningful match on their own, in
+// both languages this project deals with.
+const STOPWORDS = new Set([
+  'live', 'tour', 'festival', 'the', 'of', 'in', 'at', 'and', 'or',
+  'ζωντανα', 'ζωντανη', 'συναυλια', 'και', 'του', 'της', 'στην', 'στο', 'με', 'kai',
+]);
+
+function significantWords(v){
+  return normalizeText(v).split(' ').filter(w => w.length > 2 && !STOPWORDS.has(w));
+}
+
+function wordOverlapRatio(a, b){
+  const wa = new Set(significantWords(a));
+  const wb = new Set(significantWords(b));
+  if(wa.size === 0 || wb.size === 0) return 0;
+  let shared = 0;
+  wa.forEach(w => { if(wb.has(w)) shared++; });
+  return shared / Math.min(wa.size, wb.size);
+}
+
+// High-confidence on its own: one venue name fully contains the other,
+// e.g. "Gagarin 205" vs "Gagarin 205 Live Music Space".
+function strictVenueMatch(a, b){
+  const na = normalizeText(a), nb = normalizeText(b);
   if(!na || !nb) return false;
   return na.includes(nb) || nb.includes(na);
 }
 
+// Looser signal: shares at least half the significant words of the
+// smaller name. Catches e.g. "Κέντρο Πολιτισμού «Ελληνικός Κόσμος»" vs
+// "Ελληνικός Κόσμος - ΘΕΑΤΡΟΝ (Αιθ. Αντιγόνη)" — same venue complex,
+// different named hall inside it — but is NOT trusted alone (a big
+// multi-hall venue hosting two unrelated shows the same night would
+// also share this), only combined with title agreement below.
+function looseVenueMatch(a, b){
+  return wordOverlapRatio(a, b) >= 0.5;
+}
+
 function isDuplicate(row, primaryRows){
-  return primaryRows.some(p => p.date === row.date && venuesLikelyMatch(p.venueName, row.venueName));
+  return primaryRows.some(p => {
+    if(p.date !== row.date) return false;
+    if(strictVenueMatch(p.venueName, row.venueName)) return true;
+    return looseVenueMatch(p.venueName, row.venueName)
+        && wordOverlapRatio(p.title, row.title) >= 0.4;
+  });
 }
 
 async function loadSource(url, normalizeFn, label){
