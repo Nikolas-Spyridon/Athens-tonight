@@ -1,20 +1,6 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "events": [
-    {
-      "event_id": "14972",
-      "title": "KADINELIA — Summer Tour 2026",
-      "url": "/event/kadinelia-summer-tour-2026/?lang=el",
-      "dates": [
-        "2026-08-28"
-      ],
-      "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
-      "source": "ticketservices.gr"
-    },
     {
       "event_id": "14356",
       "title": "No Truth, No Justice European Tour 2026 — SACRED REICH (U.S.A.) — +ACID REIGN (U.K.)+The TROOPS Of DOOM (Brazil)",
@@ -29,7 +15,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14941",
@@ -45,7 +32,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15024",
@@ -61,7 +49,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14982",
@@ -77,7 +66,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14790",
@@ -92,7 +82,8 @@
       ],
       "area_ids": [],
       "region_status": "unconfirmed",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14697",
@@ -108,7 +99,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14550",
@@ -124,7 +116,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15066",
@@ -140,7 +133,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14896",
@@ -154,7 +148,8 @@
       ],
       "area_ids": [],
       "region_status": "unconfirmed",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14949",
@@ -170,7 +165,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14983",
@@ -186,7 +182,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15071",
@@ -202,7 +199,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14979",
@@ -218,7 +216,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14578",
@@ -235,7 +234,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15041",
@@ -251,7 +251,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14613",
@@ -267,7 +268,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14889",
@@ -284,7 +286,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14265",
@@ -301,7 +304,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15074",
@@ -317,7 +321,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15062",
@@ -334,7 +339,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14961",
@@ -350,7 +356,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15046",
@@ -366,7 +373,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14963",
@@ -385,7 +393,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15076",
@@ -401,7 +410,8 @@
         14
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14728",
@@ -417,7 +427,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15093",
@@ -433,7 +444,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15059",
@@ -449,7 +461,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14869",
@@ -465,7 +478,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15116",
@@ -481,7 +495,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15128",
@@ -497,7 +512,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15061",
@@ -513,7 +529,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15057",
@@ -529,7 +546,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14992",
@@ -545,7 +563,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14993",
@@ -561,7 +580,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14994",
@@ -577,7 +597,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14995",
@@ -593,7 +614,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14350",
@@ -609,7 +631,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14996",
@@ -625,7 +648,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14997",
@@ -641,7 +665,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14934",
@@ -657,7 +682,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14998",
@@ -673,7 +699,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14999",
@@ -689,7 +716,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15000",
@@ -705,7 +733,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15001",
@@ -721,7 +750,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15002",
@@ -737,7 +767,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15003",
@@ -753,7 +784,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15050",
@@ -772,7 +804,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15004",
@@ -788,7 +821,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15005",
@@ -804,7 +838,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15006",
@@ -820,7 +855,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15007",
@@ -836,7 +872,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15008",
@@ -852,7 +889,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15009",
@@ -868,7 +906,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15010",
@@ -884,7 +923,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15011",
@@ -900,7 +940,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15012",
@@ -916,7 +957,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15013",
@@ -932,7 +974,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15014",
@@ -948,7 +991,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15015",
@@ -964,7 +1008,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15016",
@@ -980,7 +1025,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15017",
@@ -996,7 +1042,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15018",
@@ -1012,7 +1059,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15019",
@@ -1028,7 +1076,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15020",
@@ -1044,7 +1093,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15021",
@@ -1060,7 +1110,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15022",
@@ -1076,7 +1127,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15023",
@@ -1092,7 +1144,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15051",
@@ -1112,7 +1165,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15063",
@@ -1128,7 +1182,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15054",
@@ -1147,7 +1202,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15052",
@@ -1166,7 +1222,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15053",
@@ -1185,7 +1242,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15100",
@@ -1203,7 +1261,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "14220",
@@ -1223,7 +1282,8 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr"
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     }
   ]
 }
