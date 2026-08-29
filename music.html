@@ -94,6 +94,11 @@ function isRecentlyAnnounced(firstSeen){
 
 // more.com: one event per JSON entry, a single ISO `start` datetime,
 // venues as objects ({name, locality, ...}), genre tags present.
+// more.com: one event per JSON entry, but EACH venue now carries its
+// OWN start/end (fixed 28/8/2026 — a multi-city tour used to share one
+// date across every city, which was wrong; now each venue/date pair is
+// independent, and can independently be "attica" or "unconfirmed" via
+// region_status, same flagging philosophy as ticketservices.gr).
 function rowsFromMore(data){
   const rows = [];
   (data.events || []).forEach(ev => {
@@ -106,9 +111,9 @@ function rowsFromMore(data){
         source: ev.source || 'more.com',
         venueName: v.name,
         venueArea: v.locality || '',
-        date: ev.start ? ev.start.slice(0,10) : '',
-        time: ev.start ? ev.start.slice(11,16) : '',
-        unconfirmedRegion: false,
+        date: v.start ? v.start.slice(0,10) : '',
+        time: v.start ? v.start.slice(11,16) : '',
+        unconfirmedRegion: v.region_status === 'unconfirmed',
         firstSeen: ev.first_seen || '',
       });
     });
