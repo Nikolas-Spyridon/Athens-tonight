@@ -40,9 +40,11 @@
   .e-venue{font-size:12.5px;color:var(--muted);}
   .e-genres{display:flex;gap:5px;flex-wrap:wrap;margin-top:8px;}
   .genre-tag{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:var(--coral-dim);color:var(--coral);}
+  .genre-tag-approx{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:transparent;border:1px dashed rgba(193,82,75,0.5);color:var(--muted);}
   .e-source{font-size:10.5px;color:var(--muted);margin-top:6px;}
   .e-source a{color:var(--muted);}
   .e-unconfirmed{display:inline-block;font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:rgba(246,240,228,0.1);color:var(--muted);margin-top:6px;margin-right:6px;}
+  .e-new{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:var(--coral);color:var(--ink);margin-top:6px;margin-right:6px;}
 
   .state{text-align:center;padding:50px 10px;color:var(--muted);font-size:13.5px;line-height:1.6;}
   footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
@@ -66,6 +68,7 @@
 
 <script>
 const MONTHS = ['Ιαν','Φεβ','Μαρ','Απρ','Μάι','Ιουν','Ιουλ','Αυγ','Σεπ','Οκτ','Νοε','Δεκ'];
+const NEW_WINDOW_DAYS = 3; // how many days an event stays flagged "ΝΕΟ" after first appearing
 
 // Normalized rows from BOTH sources live here — one row per
 // (event, date, venue-or-venues) combination, already source-agnostic
@@ -82,6 +85,13 @@ function todayKey(){
   return `${y}-${m}-${day}`;
 }
 
+function isRecentlyAnnounced(firstSeen){
+  if(!firstSeen) return false;
+  const seenDate = new Date(firstSeen + 'T00:00:00');
+  const daysSince = (new Date() - seenDate) / (1000*60*60*24);
+  return daysSince >= 0 && daysSince < NEW_WINDOW_DAYS;
+}
+
 // more.com: one event per JSON entry, a single ISO `start` datetime,
 // venues as objects ({name, locality, ...}), genre tags present.
 function rowsFromMore(data){
@@ -92,12 +102,14 @@ function rowsFromMore(data){
         title: ev.title,
         url: ev.url,
         genres: ev.genres || [],
+        genreApprox: false,
         source: ev.source || 'more.com',
         venueName: v.name,
         venueArea: v.locality || '',
         date: ev.start ? ev.start.slice(0,10) : '',
         time: ev.start ? ev.start.slice(11,16) : '',
         unconfirmedRegion: false,
+        firstSeen: ev.first_seen || '',
       });
     });
   });
@@ -120,12 +132,14 @@ function rowsFromTicketservices(data){
         title: ev.title,
         url: ev.url,
         genres: [],
+        genreApprox: false,
         source: ev.source || 'ticketservices.gr',
         venueName: venueText,
         venueArea: '',
         date: d,
         time: '',
         unconfirmedRegion: ev.region_status === 'unconfirmed',
+        firstSeen: ev.first_seen || '',
       });
     });
   });
@@ -133,19 +147,31 @@ function rowsFromTicketservices(data){
 }
 
 // rocking.gr: one event per JSON entry already (single date, single
-// venue) — no genre data, and no Attica-filtering concept needed at all
-// since the URL itself (/athens) already scopes it.
+// venue) — no genre field in the source data at all, and no
+// Attica-filtering concept needed since the URL itself (/athens) already
+// scopes it. rocking.gr is itself a rock/metal-focused webzine, though —
+// looking at real scraped output, the large majority of what it lists
+// IS rock/metal by the nature of the source, even with no per-event tag.
+// Defaulting every rocking.gr event to a "rock" tag is therefore a
+// reasonable rough guess, NOT confirmed data — the site does also cover
+// some non-metal acts (Belle & Sebastian, Deep Purple, indie/classic
+// rock, etc), so this will occasionally be wrong. genreApprox:true makes
+// the frontend render it visibly differently from a real, source-
+// confirmed genre tag (dashed outline + tooltip), rather than presenting
+// a guess with the same confidence as more.com's actual genre data.
 function rowsFromRocking(data){
   return (data.events || []).map(ev => ({
     title: ev.title,
     url: ev.url,
-    genres: [],
+    genres: ['rock'],
+    genreApprox: true,
     source: ev.source || 'rocking.gr',
     venueName: ev.venue || '',
     venueArea: '',
     date: ev.date || '',
     time: '',
     unconfirmedRegion: false,
+    firstSeen: ev.first_seen || '',
   }));
 }
 
@@ -268,7 +294,12 @@ function render(){
         </div>
         <div class="e-date">${dt.getDate()}</div>
       </div>
-      ${r.genres.length ? `<div class="e-genres">${r.genres.map(g=>`<span class="genre-tag">${g}</span>`).join('')}</div>` : ''}
+      ${r.genres.length ? `<div class="e-genres">${r.genres.map(g=>
+        r.genreApprox
+          ? `<span class="genre-tag-approx" title="Κατά προσέγγιση — η πηγή (rocking.gr) δεν δηλώνει είδος, υποθέτουμε με βάση τον χαρακτήρα του site">${g} ?</span>`
+          : `<span class="genre-tag">${g}</span>`
+      ).join('')}</div>` : ''}
+      ${isRecentlyAnnounced(r.firstSeen) ? `<div class="e-new">Νέο</div>` : ''}
       ${r.unconfirmedRegion ? `<div class="e-unconfirmed">Περιοχή μη επιβεβαιωμένη</div>` : ''}
       <div class="e-source"><a href="${r.url}" target="_blank">${r.source}</a></div>
     `;
