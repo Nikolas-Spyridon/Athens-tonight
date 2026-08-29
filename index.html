@@ -28,6 +28,16 @@
   input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
   input[type=text]:focus{outline:none;border-color:var(--amber);}
 
+  .gps-row{display:flex;align-items:center;gap:8px;margin:4px 0 2px;}
+  #gpsBtn{
+    padding:8px 13px;border-radius:8px;border:1px solid var(--line);
+    background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;
+    font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap;
+  }
+  #gpsBtn.active{background:var(--amber);border-color:var(--amber);color:var(--ink);}
+  .gps-status{font-size:11.5px;color:var(--muted);}
+  .st-distance{color:var(--amber);font-weight:600;font-size:11px;white-space:nowrap;margin-left:8px;}
+
   .datebar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 14px;margin-bottom:4px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
   .datebar::-webkit-scrollbar{display:none;}
   .datepill{flex:0 0 auto;padding:9px 13px;border-radius:10px;border:1px solid var(--line);background:var(--ink2);cursor:pointer;text-align:center;min-width:56px;}
@@ -71,7 +81,11 @@
 <div class="datebar" id="datebar"></div>
 <div class="cycle-note" id="cycleNote">Το πρόγραμμα ανανεώνεται κάθε Πέμπτη. Δείχνουμε μόνο τις ημέρες του τρέχοντος προγράμματος — η επόμενη εβδομάδα δεν έχει ανακοινωθεί ακόμη.</div>
 
-<input type="text" id="search" placeholder="Αναζήτηση ταινίας ή σινεμά...">
+<input type="text" id="search" placeholder="Αναζήτηση ταινίας, σινεμά ή περιοχής...">
+<div class="gps-row">
+  <button id="gpsBtn">📍 Κοντά μου</button>
+  <span class="gps-status" id="gpsStatus"></span>
+</div>
 <div class="count" id="count"></div>
 
 <div id="results"><div class="state">Φόρτωση...</div></div>
@@ -111,6 +125,71 @@ function addDays(d, n){
 
 function earliestTime(times){
   return times.slice().sort()[0];
+}
+
+// --- GPS / distance sorting ---
+let userLoc = null;      // {lat, lon} once granted
+let gpsMode = false;      // true = sort by distance instead of by time
+
+function parseCoord(str){
+  // athinorama's JSON uses Greek-locale decimal commas, e.g. "37,979011",
+  // and "0"/"0" as a placeholder for "no coordinates known" — treat
+  // that as missing, not as a real location at (0,0).
+  if(!str) return null;
+  const n = parseFloat(String(str).replace(',', '.'));
+  if(isNaN(n) || n === 0) return null;
+  return n;
+}
+
+function haversineKm(lat1, lon1, lat2, lon2){
+  const R = 6371;
+  const toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 +
+            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function distanceTo(screening){
+  if(!userLoc) return null;
+  const lat = parseCoord(screening.lat);
+  const lon = parseCoord(screening.lon);
+  if(lat === null || lon === null) return null;
+  return haversineKm(userLoc.lat, userLoc.lon, lat, lon);
+}
+
+function setupGpsButton(){
+  const btn = document.getElementById('gpsBtn');
+  const status = document.getElementById('gpsStatus');
+  btn.addEventListener('click', () => {
+    if(gpsMode){
+      // toggle off — go back to sorting by time
+      gpsMode = false;
+      btn.classList.remove('active');
+      status.textContent = '';
+      render();
+      return;
+    }
+    if(!navigator.geolocation){
+      status.textContent = 'Η τοποθεσία δεν υποστηρίζεται σε αυτόν τον browser.';
+      return;
+    }
+    status.textContent = 'Αναζήτηση τοποθεσίας...';
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        userLoc = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+        gpsMode = true;
+        btn.classList.add('active');
+        status.textContent = '';
+        render();
+      },
+      err => {
+        status.textContent = 'Δεν δόθηκε πρόσβαση στην τοποθεσία.';
+      },
+      { timeout: 10000 }
+    );
+  });
 }
 
 async function load(){
@@ -168,6 +247,7 @@ function init(){
   }
 
   document.getElementById('search').addEventListener('input', render);
+  setupGpsButton();
   document.getElementById('footer').textContent =
     'Δεδομένα από athinorama.gr, τελευταία ενημέρωση: ' + (updatedStr || '—') +
     '. Ανανεώνεται αυτόματα κάθε πρωί.';
@@ -179,24 +259,54 @@ function render(){
   const q = document.getElementById('search').value.trim().toLowerCase();
   const results = document.getElementById('results');
   results.innerHTML = '';
-  let shown = 0;
 
+  // Build one entry per movie that has screenings today, with distance
+  // attached to each cinema when GPS mode is on.
+  let entries = [];
   allMovies.forEach(m => {
     const todays = m.screenings
       .map(s => ({ ...s, times: (s.showtimes && s.showtimes[selectedDate]) || [] }))
-      .filter(s => s.times.length > 0);
+      .filter(s => s.times.length > 0)
+      .map(s => ({ ...s, distance: gpsMode ? distanceTo(s) : null }));
 
     if(todays.length === 0) return;
 
-    const blob = (m.title + ' ' + todays.map(s=>s.cinema).join(' ')).toLowerCase();
+    const blob = (m.title + ' ' + todays.map(s=>s.cinema+' '+(s.area||'')).join(' ')).toLowerCase();
     if(q && !blob.includes(q)) return;
 
-    todays.sort((a,b) => earliestTime(a.times).localeCompare(earliestTime(b.times)));
+    if(gpsMode){
+      // Nearest cinema first; ones with unknown coordinates sink to the
+      // bottom rather than being dropped — we still want to tell the
+      // person the movie is playing somewhere, just without a distance.
+      todays.sort((a,b) => {
+        const da = a.distance === null ? Infinity : a.distance;
+        const db = b.distance === null ? Infinity : b.distance;
+        return da - db;
+      });
+    } else {
+      todays.sort((a,b) => earliestTime(a.times).localeCompare(earliestTime(b.times)));
+    }
+
+    const minDistance = gpsMode
+      ? Math.min(...todays.map(s => s.distance === null ? Infinity : s.distance))
+      : null;
+
+    entries.push({ movie: m, todays, minDistance });
+  });
+
+  if(gpsMode){
+    entries.sort((a,b) => a.minDistance - b.minDistance);
+  }
+
+  entries.forEach(({movie: m, todays}) => {
     const soonest = earliestTime(todays[0].times);
 
     const rows = todays.map(s => {
       const times = s.times.slice().sort().join(', ');
-      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span> <span class="st-area">· ${s.area || ''}</span></span><span class="st-times">${times}</span></div>`;
+      const distLabel = (s.distance !== null)
+        ? `<span class="st-distance">${s.distance < 1 ? Math.round(s.distance*1000)+' μ' : s.distance.toFixed(1)+' χλμ'}</span>`
+        : '';
+      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span> <span class="st-area">· ${s.area || ''}</span>${distLabel}</span><span class="st-times">${times}</span></div>`;
     }).join('');
 
     const div = document.createElement('div');
@@ -206,16 +316,18 @@ function render(){
         <h3 class="m-title">${m.title}</h3>
         <span class="m-tag">${todays.length} αίθουσ${todays.length===1?'α':'ες'}</span>
       </div>
-      <p class="m-next">Πρώτη προβολή στις ${soonest}</p>
+      <p class="m-next">${gpsMode && todays[0].distance !== null
+        ? `Πλησιέστερη: ${todays[0].cinema} (${todays[0].distance < 1 ? Math.round(todays[0].distance*1000)+' μ' : todays[0].distance.toFixed(1)+' χλμ'})`
+        : `Πρώτη προβολή στις ${soonest}`}</p>
       <details>
         <summary>Ώρες &amp; αίθουσες</summary>
         <div class="showtimes">${rows}</div>
       </details>
     `;
     results.appendChild(div);
-    shown++;
   });
 
+  const shown = entries.length;
   if(shown === 0){
     results.innerHTML = '<div class="state">Καμία ταινία δεν βρέθηκε για αυτή την ημέρα' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
   }
