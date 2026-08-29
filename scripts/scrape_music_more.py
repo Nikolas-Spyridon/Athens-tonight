@@ -161,15 +161,45 @@ def parse_events() -> list[dict]:
     return events
 
 
+def load_previous_first_seen(output_path: Path, key_field: str = "url") -> dict[str, str]:
+    """Return {key: first_seen_date} read from the PREVIOUS run's output
+    file (still sitting on disk before this run overwrites it). Used so
+    a still-running event keeps the date it was originally announced
+    instead of getting reset to "today" every single day it's re-scraped.
+    Returns {} on first run (no previous file) or if it can't be parsed
+    for any reason — safe default, just means everything in this run
+    gets stamped as first-seen today, same as a genuine first run would."""
+    if not output_path.exists():
+        return {}
+    try:
+        old_data = json.loads(output_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    result = {}
+    for ev in old_data.get("events", []):
+        key = ev.get(key_field)
+        first_seen = ev.get("first_seen")
+        if key and first_seen:
+            result[key] = first_seen
+    return result
+
+
 def main():
     print("Fetching more.com music listings...")
     events = parse_events()
     print(f"Found {len(events)} events with at least one Attica date")
 
+    today_iso = date.today().isoformat()
+    previous_first_seen = load_previous_first_seen(OUTPUT_PATH, key_field="url")
+    new_today = sum(1 for ev in events if ev["url"] not in previous_first_seen)
+    for ev in events:
+        ev["first_seen"] = previous_first_seen.get(ev["url"], today_iso)
+    print(f"  {new_today} newly-announced event(s) since the last run")
+
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
         json.dumps(
-            {"updated": date.today().isoformat(), "events": events},
+            {"updated": today_iso, "events": events},
             ensure_ascii=False,
             indent=2,
         ),
