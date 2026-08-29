@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "events": [
     {
       "title": "Sacred Reich, Acid Reign, The Troops Of Doom",
@@ -7,7 +7,8 @@
       "date": "2026-08-30",
       "venue": "Gagarin 205",
       "price_info": "35, 38 e / 40 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Parklife: Beatles Symphonic",
@@ -15,7 +16,8 @@
       "date": "2026-09-06",
       "venue": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος",
       "price_info": "Ελεύθερη είσοδος",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Χατ Τρικ, Fundracar",
@@ -23,7 +25,8 @@
       "date": "2026-09-09",
       "venue": "Τεχνόπολη Δήμου Αθηναίων",
       "price_info": "Από 12 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Rock Hard Festival: Blood Fire Death, Stratovarius, Morgana Lefay κ.α.",
@@ -31,7 +34,8 @@
       "date": "2026-09-11",
       "venue": "Τεχνόπολη Δήμου Αθηναίων",
       "price_info": "Από 67 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Eleni",
@@ -39,7 +43,8 @@
       "date": "2026-09-11",
       "venue": "Στοά Culture",
       "price_info": "Από 15 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Sisters Of Mercy",
@@ -47,7 +52,8 @@
       "date": "2026-09-12",
       "venue": "FLOYD",
       "price_info": "Από 45 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Parklife: Αφιέρωμα στον Leonard Cohen",
@@ -55,7 +61,8 @@
       "date": "2026-09-12",
       "venue": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος",
       "price_info": "Ελεύθερη είσοδος",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Rock Hard Festival: Angra, Dirkschneider,  Blaze Bayley κ.α.",
@@ -63,7 +70,8 @@
       "date": "2026-09-12",
       "venue": "Τεχνόπολη Δήμου Αθηναίων",
       "price_info": "Από 67 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Allah-Las, Noda & The Pappas",
@@ -71,7 +79,8 @@
       "date": "2026-09-14",
       "venue": "Gazarte",
       "price_info": "29 e / 33 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Γιάννης Αγγελάκας & Νίκος Βελιώτης: ΛΥΚΟΙ ΛΑΪΒ",
@@ -79,7 +88,8 @@
       "date": "2026-09-14",
       "venue": "Θέατρο «Δόρα Στράτου»",
       "price_info": "Από 17 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Model/Actriz",
@@ -87,7 +97,8 @@
       "date": "2026-09-15",
       "venue": "AN Club",
       "price_info": "Από 20 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Γιάννης Αγγελάκας & Νίκος Βελιώτης: ΛΥΚΟΙ ΛΑΪΒ",
@@ -95,7 +106,8 @@
       "date": "2026-09-15",
       "venue": "Θέατρο «Δόρα Στράτου»",
       "price_info": "Από 17 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "40 Χρόνια Μωρά Στη Φωτιά",
@@ -103,7 +115,8 @@
       "date": "2026-09-16",
       "venue": "Τεχνόπολη Δήμου Αθηναίων",
       "price_info": "Από 15 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Φ hill Sessions: Grandbrothers",
@@ -111,7 +124,8 @@
       "date": "2026-09-16",
       "venue": "Θέατρο «Δόρα Στράτου»",
       "price_info": "Από 27 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Satyricon",
@@ -119,7 +133,8 @@
       "date": "2026-09-18",
       "venue": "FLOYD",
       "price_info": "Από 34 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Crazy World Of Arthur Brown",
@@ -127,7 +142,8 @@
       "date": "2026-09-18",
       "venue": "Gazarte",
       "price_info": "25 e / 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Nightstalker, The Steams",
@@ -135,7 +151,8 @@
       "date": "2026-09-18",
       "venue": "Τεχνόπολη Δήμου Αθηναίων",
       "price_info": "15, 17 e / 20 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Αγοραφοβικό Φεστιβάλ: Λένα Πλάτωνος, Selofan, In Trance 95, Evita Manji κ.α.",
@@ -143,7 +160,8 @@
       "date": "2026-09-18",
       "venue": "ΠΛΥΦΑ",
       "price_info": "Από 22 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Tormentor",
@@ -151,7 +169,8 @@
       "date": "2026-09-19",
       "venue": "Temple Athens",
       "price_info": "35 e / 40 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Τhe music of Stranger Things",
@@ -159,7 +178,8 @@
       "date": "2026-09-19",
       "venue": "Κέντρο Πολιτισμού «Ελληνικός Κόσμος»",
       "price_info": "Από 32 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Sivert Hoyem",
@@ -167,7 +187,8 @@
       "date": "2026-09-19",
       "venue": "Δημοτικό Θέατρο Λυκαβηττού",
       "price_info": "Από 44 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Snarky Puppy",
@@ -175,7 +196,8 @@
       "date": "2026-09-19",
       "venue": "FLOYD",
       "price_info": "Από 40 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Αγοραφοβικό Φεστιβάλ: Pan Pan, Usurum, Aggelina, Vassilina κ.α.",
@@ -183,7 +205,8 @@
       "date": "2026-09-19",
       "venue": "ΠΛΥΦΑ",
       "price_info": "Από 22 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "City Of The Sun",
@@ -191,7 +214,8 @@
       "date": "2026-09-19",
       "venue": "Gazarte",
       "price_info": "Από 23 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Villagers Of Ioannina City",
@@ -199,7 +223,8 @@
       "date": "2026-09-20",
       "venue": "Δημοτικό Θέατρο Λυκαβηττού",
       "price_info": "20 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Merzbow, ΜΜΜΔ, Ghone",
@@ -207,7 +232,8 @@
       "date": "2026-09-20",
       "venue": "AN Club",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Blackbriar",
@@ -215,7 +241,8 @@
       "date": "2026-09-23",
       "venue": "Fuzz Club",
       "price_info": "Από 33 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Jack Savoretti",
@@ -223,7 +250,8 @@
       "date": "2026-09-25",
       "venue": "Δημοτικό Θέατρο Λυκαβηττού",
       "price_info": "",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Ty Segall",
@@ -231,7 +259,8 @@
       "date": "2026-09-25",
       "venue": "FLOYD",
       "price_info": "Από 29 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Tito & Tarantula",
@@ -239,7 +268,8 @@
       "date": "2026-09-25",
       "venue": "Fuzz Club",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Gathering",
@@ -247,7 +277,8 @@
       "date": "2026-09-26",
       "venue": "Δημοτικό Θέατρο Λυκαβηττού",
       "price_info": "Από 49 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Jesu",
@@ -255,7 +286,8 @@
       "date": "2026-09-26",
       "venue": "Arch Club",
       "price_info": "Από 24 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Joe Lynn Turner",
@@ -263,7 +295,8 @@
       "date": "2026-09-27",
       "venue": "Gagarin 205",
       "price_info": "26 e / 28 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Young Gods",
@@ -271,7 +304,8 @@
       "date": "2026-10-02",
       "venue": "Gazarte",
       "price_info": "30 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Metal Without Mercy Festival: Bulldozer, Desolation Angels κ.α.",
@@ -279,7 +313,8 @@
       "date": "2026-10-02",
       "venue": "Κύτταρο",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Gong",
@@ -287,7 +322,8 @@
       "date": "2026-10-03",
       "venue": "Gazarte",
       "price_info": "25 e / 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Metal Without Mercy Festival: Sabbat, Torananga κ.α.",
@@ -295,7 +331,8 @@
       "date": "2026-10-03",
       "venue": "AN Club",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Darkened Nocturn Slaughtercult, SAD, Athanatos",
@@ -303,7 +340,8 @@
       "date": "2026-10-03",
       "venue": "Temple Athens",
       "price_info": "28 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Metal Without Mercy Festival: Metalucifer, Pentacle κ.α.",
@@ -311,7 +349,8 @@
       "date": "2026-10-04",
       "venue": "Κύτταρο",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Mayhem, Unleashed",
@@ -319,7 +358,8 @@
       "date": "2026-10-07",
       "venue": "Gagarin 205",
       "price_info": "Από 45 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Doro",
@@ -327,7 +367,8 @@
       "date": "2026-10-09",
       "venue": "Fuzz Club",
       "price_info": "Από 39 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Lera Lynn",
@@ -335,7 +376,8 @@
       "date": "2026-10-09",
       "venue": "Temple Athens",
       "price_info": "28 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Iron Beast: Caught Somewhere in Greece - 40 Years of Somewhere in Time",
@@ -343,7 +385,8 @@
       "date": "2026-10-10",
       "venue": "Gagarin 205",
       "price_info": "15 e / 18 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Madball, Desolated, Combust, Expectations",
@@ -351,7 +394,8 @@
       "date": "2026-10-10",
       "venue": "Arch Club",
       "price_info": "Από 32 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Messiah, Piranha, The Crucifier",
@@ -359,7 +403,8 @@
       "date": "2026-10-10",
       "venue": "Temple Athens",
       "price_info": "28 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Suffocation, Ingested, Undeath, Eternal",
@@ -367,7 +412,8 @@
       "date": "2026-10-11",
       "venue": "Gagarin 205",
       "price_info": "30 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "YOB, Automaton",
@@ -375,7 +421,8 @@
       "date": "2026-10-12",
       "venue": "Κύτταρο",
       "price_info": "Από 29 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Deep Purple, Jayler",
@@ -383,7 +430,8 @@
       "date": "2026-10-13",
       "venue": "Ολυμπιακό Κλειστό Γυμναστήριο \"Telekom Center Athens\"",
       "price_info": "Από 49 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Swallow The Sun, Ocean Of Grief, Euphrosyne",
@@ -391,7 +439,8 @@
       "date": "2026-10-17",
       "venue": "Αρχιτεκτονική",
       "price_info": "24, 27 e / 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Charlatans",
@@ -399,7 +448,8 @@
       "date": "2026-10-17",
       "venue": "FLOYD",
       "price_info": "Από 39 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "13 χρόνια Εξαρχειώτης: Δημήτρης Μητσοτάκης, The Big Nose Attack, Εγώ κ.α.",
@@ -407,7 +457,8 @@
       "date": "2026-10-17",
       "venue": "AN Club",
       "price_info": "Από 12 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Telenova",
@@ -415,7 +466,8 @@
       "date": "2026-10-17",
       "venue": "Gazarte",
       "price_info": "Από 22 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Pestilence, Dead Congregation, Abyssus",
@@ -423,7 +475,8 @@
       "date": "2026-10-18",
       "venue": "Κύτταρο",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "13 χρόνια Εξαρχειώτης: The Black Capes, Black Stone Machine, Desert near the End κ.α.",
@@ -431,7 +484,8 @@
       "date": "2026-10-18",
       "venue": "AN Club",
       "price_info": "Από 12 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Wolves In The Throne Room",
@@ -439,7 +493,8 @@
       "date": "2026-10-21",
       "venue": "Κύτταρο",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Hexvessel",
@@ -447,7 +502,8 @@
       "date": "2026-10-23",
       "venue": "Temple Athens",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Naxatras",
@@ -455,7 +511,8 @@
       "date": "2026-10-24",
       "venue": "FLOYD",
       "price_info": "Από 15 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Nightfall, Shattered Hope, Daylight Misery",
@@ -463,7 +520,8 @@
       "date": "2026-10-24",
       "venue": "Fuzz Club",
       "price_info": "Από 17 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Ντίνος Σαδίκης, Γιαν Βαν & Φώτης Σιώτας",
@@ -471,7 +529,8 @@
       "date": "2026-10-24",
       "venue": "AN Club",
       "price_info": "Από 10 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Scenius Sound: The Messthetics & James Brandon Lewis, Koper8, Γιώργος Ξυλούρης / Θοδωρής Ζιάρκας/ Νίκος Θεσσαλονικεύς κ.α.",
@@ -479,7 +538,8 @@
       "date": "2026-10-24",
       "venue": "ΠΛΥΦΑ",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Phantom Spell",
@@ -487,7 +547,8 @@
       "date": "2026-10-25",
       "venue": "Κύτταρο",
       "price_info": "22 e / 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Buzzcocks, Stress",
@@ -495,7 +556,8 @@
       "date": "2026-10-30",
       "venue": "Κύτταρο",
       "price_info": "Από 23 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Goat",
@@ -503,7 +565,8 @@
       "date": "2026-10-30",
       "venue": "Gazarte",
       "price_info": "40 e / 45 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Coroner, Depressive Age, Cryptic Shift",
@@ -511,7 +574,8 @@
       "date": "2026-10-30",
       "venue": "Gagarin 205",
       "price_info": "Από 40 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Goat",
@@ -519,7 +583,8 @@
       "date": "2026-10-31",
       "venue": "Gazarte",
       "price_info": "40 e / 45 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Fifth Angel",
@@ -527,7 +592,8 @@
       "date": "2026-11-01",
       "venue": "Gazarte",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Holy Fawn, Allochiria",
@@ -535,7 +601,8 @@
       "date": "2026-11-01",
       "venue": "AN Club",
       "price_info": "22 e / 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Riot V, Angelo Perlepes' Mystery",
@@ -543,7 +610,8 @@
       "date": "2026-11-06",
       "venue": "Κύτταρο",
       "price_info": "25 e / 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Sleaford Mods",
@@ -551,7 +619,8 @@
       "date": "2026-11-07",
       "venue": "FLOYD",
       "price_info": "Από 32 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Veils",
@@ -559,7 +628,8 @@
       "date": "2026-11-07",
       "venue": "Arch Club",
       "price_info": "Από 18 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Delines Fest: Τάκι Τσαν & DJ ALX, Χατ Τρικ κ.α.",
@@ -567,7 +637,8 @@
       "date": "2026-11-07",
       "venue": "Gagarin 205",
       "price_info": "Από 13 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Uriah Heep",
@@ -575,7 +646,8 @@
       "date": "2026-11-08",
       "venue": "FLOYD",
       "price_info": "Από 45 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Paradise Lost",
@@ -583,7 +655,8 @@
       "date": "2026-11-11",
       "venue": "FLOYD",
       "price_info": "",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Kwoon",
@@ -591,7 +664,8 @@
       "date": "2026-11-11",
       "venue": "AN Club",
       "price_info": "Από 22 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Warning",
@@ -599,7 +673,8 @@
       "date": "2026-11-13",
       "venue": "AN Club",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Mother of Millions, Universe217, Deep Dive",
@@ -607,7 +682,8 @@
       "date": "2026-11-14",
       "venue": "Arch Club",
       "price_info": "Από 12 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Sólstafir",
@@ -615,7 +691,8 @@
       "date": "2026-11-14",
       "venue": "Fuzz Club",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "ΜΧ Lonely, ΛΔΛΜ, Messier 13",
@@ -623,7 +700,8 @@
       "date": "2026-11-16",
       "venue": "Ίλιον Plus",
       "price_info": "Από 19 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Prong",
@@ -631,7 +709,8 @@
       "date": "2026-11-22",
       "venue": "Gazarte",
       "price_info": "30 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Kreator, Overkill",
@@ -639,7 +718,8 @@
       "date": "2026-11-23",
       "venue": "FLOYD",
       "price_info": "Από 55 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Carpenter Brut",
@@ -647,7 +727,8 @@
       "date": "2026-11-26",
       "venue": "FLOYD",
       "price_info": "Από 36 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Napalm Death, Master, Brat, Goatburner",
@@ -655,7 +736,8 @@
       "date": "2026-11-27",
       "venue": "Gagarin 205",
       "price_info": "Από 31 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Belle & Sebastian",
@@ -663,7 +745,8 @@
       "date": "2026-11-27",
       "venue": "FLOYD",
       "price_info": "Από 40 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
@@ -671,7 +754,8 @@
       "date": "2026-11-27",
       "venue": "Temple Athens",
       "price_info": "28 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "InnerWish, Wardrum",
@@ -679,7 +763,8 @@
       "date": "2026-11-28",
       "venue": "Fuzz Club",
       "price_info": "Από 18 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Yellow Eyes, Ultha, Sun Worship",
@@ -687,7 +772,8 @@
       "date": "2026-11-28",
       "venue": "AN Club",
       "price_info": "Από 28 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Flotsam And Jetsam",
@@ -695,7 +781,8 @@
       "date": "2026-11-29",
       "venue": "Κύτταρο",
       "price_info": "",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Praying Mantis",
@@ -703,7 +790,8 @@
       "date": "2026-11-29",
       "venue": "Ίλιον Plus",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Arab Strap",
@@ -711,7 +799,8 @@
       "date": "2026-11-29",
       "venue": "Gazarte",
       "price_info": "28 e / 32 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Yellow Eyes, Ultha, Sun Worship",
@@ -719,7 +808,8 @@
       "date": "2026-11-29",
       "venue": "AN Club",
       "price_info": "Από 28 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "The Ocean, Psychonaut, The Devil's Trade",
@@ -727,7 +817,8 @@
       "date": "2026-12-03",
       "venue": "Gagarin 205",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Nine Below Zero, Bags Of Nails",
@@ -735,7 +826,8 @@
       "date": "2026-12-04",
       "venue": "Piraeus Club Academy",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Tyketto, Senses",
@@ -743,7 +835,8 @@
       "date": "2026-12-05",
       "venue": "Piraeus Club Academy",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Nazareth",
@@ -751,7 +844,8 @@
       "date": "2026-12-06",
       "venue": "Fuzz Club",
       "price_info": "Από 28 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "SPK",
@@ -759,7 +853,8 @@
       "date": "2026-12-06",
       "venue": "Temple Athens",
       "price_info": "Από 28 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Kovacs",
@@ -767,7 +862,8 @@
       "date": "2026-12-07",
       "venue": "Gagarin 205",
       "price_info": "Από 30 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Warhammer, Hope Behind the Hills, Noxulifer",
@@ -775,7 +871,8 @@
       "date": "2026-12-11",
       "venue": "Temple Athens",
       "price_info": "12 e / 15 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Memorials, Masturbation Goes Cloud",
@@ -783,7 +880,8 @@
       "date": "2026-12-12",
       "venue": "Ίλιον Plus",
       "price_info": "Από 23 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Old Man’s Child, Yoth Iria, Decipher",
@@ -791,7 +889,8 @@
       "date": "2026-12-18",
       "venue": "Gagarin 205",
       "price_info": "Από 37 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Bryan Adams",
@@ -799,7 +898,8 @@
       "date": "2026-12-19",
       "venue": "Ολυμπιακό Κλειστό Γυμναστήριο \"Telekom Center Athens\"",
       "price_info": "",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Chelsea Wolfe, A.A. Williams",
@@ -807,7 +907,8 @@
       "date": "2026-12-19",
       "venue": "Fuzz Club",
       "price_info": "Από 37 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "God Is An Astronaut",
@@ -815,7 +916,8 @@
       "date": "2026-12-19",
       "venue": "Gagarin 205",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Clan of Xymox",
@@ -823,7 +925,8 @@
       "date": "2027-01-09",
       "venue": "Temple Athens",
       "price_info": "28 e / 35 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
@@ -831,7 +934,8 @@
       "date": "2027-01-17",
       "venue": "Κύτταρο",
       "price_info": "15 e / 18 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Sincere Engineer, Bandage",
@@ -839,7 +943,8 @@
       "date": "2027-02-02",
       "venue": "Bad Tooth",
       "price_info": "8 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Black Veil Brides",
@@ -847,7 +952,8 @@
       "date": "2027-02-11",
       "venue": "FLOYD",
       "price_info": "Από 39 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Reinkaos (Dissection Tribute)",
@@ -855,7 +961,8 @@
       "date": "2027-02-13",
       "venue": "Piraeus Club Academy",
       "price_info": "Από 18 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "U.K. Subs",
@@ -863,7 +970,8 @@
       "date": "2027-03-20",
       "venue": "AN Club",
       "price_info": "Από 25 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Soen",
@@ -871,7 +979,8 @@
       "date": "2027-03-24",
       "venue": "FLOYD",
       "price_info": "Από 37 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "title": "Oh Hiroshima",
@@ -879,7 +988,8 @@
       "date": "2027-04-10",
       "venue": "AN Club",
       "price_info": "Από 24 e",
-      "source": "rocking.gr"
+      "source": "rocking.gr",
+      "first_seen": "2026-08-29"
     }
   ]
 }
