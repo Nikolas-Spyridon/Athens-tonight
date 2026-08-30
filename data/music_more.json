@@ -59,6 +59,26 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Γιώργος Νταλάρας - Ρεμπέτικο",
+      "url": "https://www.more.com/gr-el/tickets/music/giorgos-ntalaras-rempetiko-1/",
+      "genres": [
+        "rebetiko",
+        "rebetiki"
+      ],
+      "venues": [
+        {
+          "name": "Κατράκειο Θέατρο Νίκαιας",
+          "locality": "Αγ. Ιωάννης Ρέντης",
+          "street": "Μάνου Κατράκη & Άγιος Ιωάννης Ρέντης, Νίκαια 18451",
+          "start": "2026-09-24T21:00:00",
+          "end": "2026-09-24T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Γιάννης Χαρούλης - Live Tour 2026",
       "url": "https://www.more.com/gr-el/tickets/music/giannis-xaroulis-live-tour-2026/",
       "genres": [
@@ -73,26 +93,6 @@
           "street": "",
           "start": "2026-09-15T21:00:00",
           "end": "2026-09-15T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Γιώργος Νταλάρας - Ρεμπέτικο",
-      "url": "https://www.more.com/gr-el/tickets/music/giorgos-ntalaras-rempetiko-1/",
-      "genres": [
-        "rebetiko",
-        "rebetiki"
-      ],
-      "venues": [
-        {
-          "name": "Κατράκειο Θέατρο Νίκαιας",
-          "locality": "Αγ. Ιωάννης Ρέντης",
-          "street": "Μάνου Κατράκη & Άγιος Ιωάννης Ρέντης, Νίκαια 18451",
-          "start": "2026-09-24T21:00:00",
-          "end": "2026-09-24T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -424,25 +424,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Αλκίνοος Ιωαννίδης-Δημοτικό θέατρο Λυκαβηττού",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/alkinoos-ioannidis/",
-      "genres": [
-        "artmusic"
-      ],
-      "venues": [
-        {
-          "name": "Δημοτικό Θέατρο Λυκαβηττού",
-          "locality": "Λυκαβηττός",
-          "street": "",
-          "start": "2026-09-21T21:00:00",
-          "end": "2026-09-21T23:15:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "ΚΑΛΟΚΑΙΡΙ αλλιώς ΣΤΗΝ ΤΑΡΑΤΣΑ ΤΟΥ ΛΑΜΠΕΤΗ",
       "url": "https://www.more.com/gr-el/tickets/music/summer/taratsa-lampeti/",
       "genres": [
@@ -614,6 +595,25 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Αλκίνοος Ιωαννίδης-Δημοτικό θέατρο Λυκαβηττού",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/alkinoos-ioannidis/",
+      "genres": [
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Δημοτικό Θέατρο Λυκαβηττού",
+          "locality": "Λυκαβηττός",
+          "street": "",
+          "start": "2026-09-21T21:00:00",
+          "end": "2026-09-21T23:15:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Σκιαδαρέσες | Τεχνόπολη Δήμου Αθηναίων",
       "url": "https://www.more.com/gr-el/tickets/music/skiadareses-texnopoli-dimou-athinaion-2/",
       "genres": [
@@ -628,6 +628,25 @@
           "street": "Πειραιώς 100 & Περσεφόνης",
           "start": "2026-09-07T21:00:00",
           "end": "2026-09-07T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "VILLAGERS OF IOANNINA CITY - VENCEREMOS 2026",
+      "url": "https://www.more.com/gr-el/tickets/music/villagers-of-ioannina-city-venceremos-2026/",
+      "genres": [
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Δημοτικό Θέατρο Λυκαβηττού",
+          "locality": "Λυκαβηττός",
+          "street": "",
+          "start": "2026-09-20T21:00:00",
+          "end": "2026-09-20T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -656,25 +675,6 @@
           "start": "2026-09-18T17:00:00",
           "end": "2026-09-19T01:00:00",
           "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "VILLAGERS OF IOANNINA CITY - VENCEREMOS 2026",
-      "url": "https://www.more.com/gr-el/tickets/music/villagers-of-ioannina-city-venceremos-2026/",
-      "genres": [
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Δημοτικό Θέατρο Λυκαβηττού",
-          "locality": "Λυκαβηττός",
-          "street": "",
-          "start": "2026-09-20T21:00:00",
-          "end": "2026-09-20T22:00:00",
-          "region_status": "attica"
         }
       ],
       "source": "more.com",
@@ -755,6 +755,25 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "ΤΑΞΙΔΙ ΣΤΟ ΦΩΣ – Σε σύμπαν ερωτικό",
+      "url": "https://www.more.com/gr-el/tickets/music/taksidi-sto-fos-se-sympan-erotiko/",
+      "genres": [
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Δημοτικό Θέατρο Λυκαβηττού",
+          "locality": "Λυκαβηττός",
+          "street": "",
+          "start": "2026-09-30T20:30:00",
+          "end": "2026-09-30T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Χατζηφραγκέτα // Αθήνα",
       "url": "https://www.more.com/gr-el/tickets/music/xatzifragketa/athina/",
       "genres": [
@@ -776,25 +795,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ΤΑΞΙΔΙ ΣΤΟ ΦΩΣ – Σε σύμπαν ερωτικό",
-      "url": "https://www.more.com/gr-el/tickets/music/taksidi-sto-fos-se-sympan-erotiko/",
-      "genres": [
-        "artmusic"
-      ],
-      "venues": [
-        {
-          "name": "Δημοτικό Θέατρο Λυκαβηττού",
-          "locality": "Λυκαβηττός",
-          "street": "",
-          "start": "2026-09-30T20:30:00",
-          "end": "2026-09-30T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "20 χρόνια Λεωνίδας Μπαλάφας",
       "url": "https://www.more.com/gr-el/tickets/music/offer/20-xronia-leonidas-mpalafas/",
       "genres": [
@@ -807,26 +807,6 @@
           "street": "Πειραιώς 100 & Περσεφόνης",
           "start": "2026-09-03T20:30:00",
           "end": "2026-09-03T22:58:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "the RUMJACKS live in Greece",
-      "url": "https://www.more.com/gr-el/tickets/music/the-rumjacks-live-in-greece/",
-      "genres": [
-        "rock",
-        "indie"
-      ],
-      "venues": [
-        {
-          "name": "Κύτταρο Live",
-          "locality": "Αθήνα",
-          "street": "Athens, Attiki",
-          "start": "2026-09-02T20:30:00",
-          "end": "2026-09-02T23:30:00",
           "region_status": "attica"
         }
       ],
@@ -855,18 +835,19 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Μάρθα Φριντζήλα the Kubara Project & Kalogeraki Bros - Φ hill Sessions Λόφος Φιλοπάππου",
-      "url": "https://www.more.com/gr-el/tickets/music/martha-frintzila-the-kubara-project-kalogeraki-bros/",
+      "title": "the RUMJACKS live in Greece",
+      "url": "https://www.more.com/gr-el/tickets/music/the-rumjacks-live-in-greece/",
       "genres": [
-        "other"
+        "rock",
+        "indie"
       ],
       "venues": [
         {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-09T21:15:00",
-          "end": "2026-09-09T23:00:00",
+          "name": "Κύτταρο Live",
+          "locality": "Αθήνα",
+          "street": "Athens, Attiki",
+          "start": "2026-09-02T20:30:00",
+          "end": "2026-09-02T23:30:00",
           "region_status": "attica"
         }
       ],
@@ -902,6 +883,46 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Ο Γιώργος Σαμπάνης στο Κατράκειο Θέατρο",
+      "url": "https://www.more.com/gr-el/tickets/music/o-giorgos-sampanis-sto-katrakeio-theatro/",
+      "genres": [
+        "rebetiko",
+        "pop",
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Κατράκειο Θέατρο",
+          "locality": "Νίκαια",
+          "street": "Μάνου Κατράκη, Άγιος Ιωάννης, 184 51",
+          "start": "2026-10-02T21:00:00",
+          "end": "2026-10-02T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Μάρθα Φριντζήλα the Kubara Project & Kalogeraki Bros - Φ hill Sessions Λόφος Φιλοπάππου",
+      "url": "https://www.more.com/gr-el/tickets/music/martha-frintzila-the-kubara-project-kalogeraki-bros/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-09T21:15:00",
+          "end": "2026-09-09T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "ΧΡΥΣΗΙΔΑ ΓΚΑΓΚΟΥΤΗ LIVE - EAT.T - ΑΘΗΝΑ",
       "url": "https://www.more.com/gr-el/tickets/music/xrysiida-gkagkouti-live-eat-t-athina/",
       "genres": [
@@ -923,47 +944,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Ο Γιώργος Σαμπάνης στο Κατράκειο Θέατρο",
-      "url": "https://www.more.com/gr-el/tickets/music/o-giorgos-sampanis-sto-katrakeio-theatro/",
-      "genres": [
-        "pop",
-        "artmusic",
-        "rebetiko"
-      ],
-      "venues": [
-        {
-          "name": "Κατράκειο Θέατρο",
-          "locality": "Νίκαια",
-          "street": "Μάνου Κατράκη, Άγιος Ιωάννης, 184 51",
-          "start": "2026-10-02T21:00:00",
-          "end": "2026-10-02T22:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΣΥΝΑΥΛΙΑ ΓΙΑ ΤΗΝ ΟΙΚΟΝΟΜΙΚΗ ΕΝΙΣΧΥΣΗ ΤΗΣ ΣΕΛΗΝΗΣ",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/synaulia-gia-tin-oikonomiki-enisxysi-tis-selinis/",
-      "genres": [
-        "hiphop",
-        "rnb"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Βράχων Μελίνα Μερκούρη",
-          "locality": "-",
-          "street": "Νεαπόλεως 58",
-          "start": "2026-09-26T16:00:00",
-          "end": "2026-09-26T17:00:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "TECHNIQUES 2026: CHARLOTTE DE WITTE IN ATHENS",
       "url": "https://www.more.com/gr-el/tickets/music/blend/2026/techniques/",
       "genres": [
@@ -977,6 +957,26 @@
           "start": "2026-12-05T23:00:00",
           "end": "2026-12-06T07:00:00",
           "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΣΥΝΑΥΛΙΑ ΓΙΑ ΤΗΝ ΟΙΚΟΝΟΜΙΚΗ ΕΝΙΣΧΥΣΗ ΤΗΣ ΣΕΛΗΝΗΣ",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/synaulia-gia-tin-oikonomiki-enisxysi-tis-selinis/",
+      "genres": [
+        "rnb",
+        "hiphop"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Βράχων Μελίνα Μερκούρη",
+          "locality": "-",
+          "street": "Νεαπόλεως 58",
+          "start": "2026-09-26T16:00:00",
+          "end": "2026-09-26T17:00:00",
+          "region_status": "unconfirmed"
         }
       ],
       "source": "more.com",
@@ -1068,6 +1068,65 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Deep Purple Live",
+      "url": "https://www.more.com/gr-el/tickets/music/deep-purple-live/",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Telekom Center",
+          "locality": "Μαρούσι",
+          "street": "Λεωφ. Κηφισίας 37, Μαρούσι 151 23",
+          "start": "2026-10-13T20:00:00",
+          "end": "2026-10-13T21:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΠΑΝΟΣ ΒΛΑΧΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/summer/panos-blaxos/",
+      "genres": [
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Άλσος Νέας Σμύρνης",
+          "locality": "Νέα Σμύρνη",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
+          "start": "2026-09-19T20:30:00",
+          "end": "2026-09-19T21:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "NIGHTSTALKER - SPECIAL ANNIVERSARY SHOW",
+      "url": "https://www.more.com/gr-el/tickets/music/nightstalker-3/",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Τεχνόπολη Δήμου Αθηναίων",
+          "locality": "Γκάζι",
+          "street": "Πειραιώς 100 & Περσεφόνης",
+          "start": "2026-09-18T20:30:00",
+          "end": "2026-09-18T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Rock Hard Festival 2026",
       "url": "https://www.more.com/gr-el/tickets/music/festival/rock-hard-festival-2026/",
       "genres": [
@@ -1112,8 +1171,28 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ΠΑΝΟΣ ΒΛΑΧΟΣ",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/summer/panos-blaxos/",
+      "title": "Θοδωρής Βουτσικάκης - Λίνα Νικολακοπούλου - \"Τυχερό Αστέρι\"  - Φ hill Sessions Λόφος Φιλοπάππου",
+      "url": "https://www.more.com/gr-el/tickets/music/thodoris-boutsikakis-lina-nikolakopoulou-tyxero-asteri-f-hill-sessions-lofos-filopappou/",
+      "genres": [
+        "artmusic",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-07T21:15:00",
+          "end": "2026-09-07T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΝΕΦΕΛΗ ΦΑΣΟΥΛΗ",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/nefeli-fasouli/",
       "genres": [
         "artmusic"
       ],
@@ -1122,8 +1201,8 @@
           "name": "Άλσος Νέας Σμύρνης",
           "locality": "Νέα Σμύρνη",
           "street": "Ελευθέριου Βενιζέλου 14, 171 21",
-          "start": "2026-09-19T20:30:00",
-          "end": "2026-09-19T21:30:00",
+          "start": "2026-09-11T21:00:00",
+          "end": "2026-09-11T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -1131,40 +1210,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Deep Purple Live",
-      "url": "https://www.more.com/gr-el/tickets/music/deep-purple-live/",
+      "title": "JEFF MILLS' TOMORROW COMES THE HARVEST",
+      "url": "https://www.more.com/gr-el/tickets/music/jeff-mills-tomorrow-comes-the-harvest/",
       "genres": [
-        "metal",
-        "rock"
+        "jazz",
+        "techno"
       ],
       "venues": [
         {
-          "name": "Telekom Center",
-          "locality": "Μαρούσι",
-          "street": "Λεωφ. Κηφισίας 37, Μαρούσι 151 23",
-          "start": "2026-10-13T20:00:00",
-          "end": "2026-10-13T21:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "NIGHTSTALKER - SPECIAL ANNIVERSARY SHOW",
-      "url": "https://www.more.com/gr-el/tickets/music/nightstalker-3/",
-      "genres": [
-        "metal",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Τεχνόπολη Δήμου Αθηναίων",
-          "locality": "Γκάζι",
-          "street": "Πειραιώς 100 & Περσεφόνης",
-          "start": "2026-09-18T20:30:00",
-          "end": "2026-09-18T23:00:00",
-          "region_status": "attica"
+          "name": "Θέατρο Βράχων Μελίνα Μερκούρη",
+          "locality": "-",
+          "street": "Νεαπόλεως 58",
+          "start": "2026-09-20T19:30:00",
+          "end": "2026-09-20T20:30:00",
+          "region_status": "unconfirmed"
         }
       ],
       "source": "more.com",
@@ -1192,38 +1251,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ΝΕΦΕΛΗ ΦΑΣΟΥΛΗ",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/nefeli-fasouli/",
+      "title": "«ADELE Tribute Sympho Show»",
+      "url": "https://www.more.com/gr-el/tickets/music/adele-tribute-sympho-show/",
       "genres": [
-        "artmusic"
+        "opera",
+        "pop",
+        "classical"
       ],
       "venues": [
         {
-          "name": "Άλσος Νέας Σμύρνης",
-          "locality": "Νέα Σμύρνη",
-          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
-          "start": "2026-09-11T21:00:00",
-          "end": "2026-09-11T22:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Θοδωρής Βουτσικάκης - Λίνα Νικολακοπούλου - \"Τυχερό Αστέρι\"  - Φ hill Sessions Λόφος Φιλοπάππου",
-      "url": "https://www.more.com/gr-el/tickets/music/thodoris-boutsikakis-lina-nikolakopoulou-tyxero-asteri-f-hill-sessions-lofos-filopappou/",
-      "genres": [
-        "artmusic",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-07T21:15:00",
-          "end": "2026-09-07T23:00:00",
+          "name": "CHRISTMAS THEATER",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 137",
+          "start": "2027-01-03T20:00:00",
+          "end": "2027-01-03T21:40:00",
           "region_status": "attica"
         }
       ],
@@ -1250,66 +1291,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Luben BEACH PARTY στο BOLIVAR | 05/9",
-      "url": "https://www.more.com/gr-el/tickets/music/luben-beach-party-sto-bolivar-05/9/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Bolivar Beach Club",
-          "locality": "Αθήνα",
-          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
-          "start": "2026-09-05T21:00:00",
-          "end": "2026-09-06T06:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "«ADELE Tribute Sympho Show»",
-      "url": "https://www.more.com/gr-el/tickets/music/adele-tribute-sympho-show/",
-      "genres": [
-        "classical",
-        "opera",
-        "pop"
-      ],
-      "venues": [
-        {
-          "name": "CHRISTMAS THEATER",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 137",
-          "start": "2027-01-03T20:00:00",
-          "end": "2027-01-03T21:40:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "JEFF MILLS' TOMORROW COMES THE HARVEST",
-      "url": "https://www.more.com/gr-el/tickets/music/jeff-mills-tomorrow-comes-the-harvest/",
-      "genres": [
-        "techno",
-        "jazz"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Βράχων Μελίνα Μερκούρη",
-          "locality": "-",
-          "street": "Νεαπόλεως 58",
-          "start": "2026-09-20T19:30:00",
-          "end": "2026-09-20T20:30:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "Star Ovation - Το Rock που δεν ξεχάσαμε",
       "url": "https://www.more.com/gr-el/tickets/music/star-ovation-to-rock-pou-den-ksexasame/",
       "genres": [
@@ -1329,20 +1310,39 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Ο Παναγιώτης Μαύρος συναντά τους Δημήτρη & Μιχάλη Κουνάλη",
-      "url": "https://www.more.com/gr-el/tickets/music/o-panagiotis-mauros-synanta-tous-dimitri-mixali-kounali/",
+      "title": "Luben BEACH PARTY στο BOLIVAR | 05/9",
+      "url": "https://www.more.com/gr-el/tickets/music/luben-beach-party-sto-bolivar-05/9/",
       "genres": [
-        "traditional",
-        "rebetiki",
         "other"
       ],
       "venues": [
         {
-          "name": "City Garden",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 137, Γαλάτσι 111 46",
-          "start": "2026-09-06T22:00:00",
-          "end": "2026-09-07T06:00:00",
+          "name": "Bolivar Beach Club",
+          "locality": "Αθήνα",
+          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
+          "start": "2026-09-05T21:00:00",
+          "end": "2026-09-06T06:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Σπύρος Γραμμένος | Τεχνόπολη Δήμου Αθηναίων",
+      "url": "https://www.more.com/gr-el/tickets/music/spyros-grammenos-texnopoli-dimou-athinaion-1/",
+      "genres": [
+        "pop",
+        "other",
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Τεχνόπολη Δήμου Αθηναίων",
+          "locality": "Γκάζι",
+          "street": "Πειραιώς 100 & Περσεφόνης",
+          "start": "2026-09-04T21:00:00",
+          "end": "2026-09-04T23:30:00",
           "region_status": "attica"
         }
       ],
@@ -1369,20 +1369,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Σπύρος Γραμμένος | Τεχνόπολη Δήμου Αθηναίων",
-      "url": "https://www.more.com/gr-el/tickets/music/spyros-grammenos-texnopoli-dimou-athinaion-1/",
+      "title": "Ο Παναγιώτης Μαύρος συναντά τους Δημήτρη & Μιχάλη Κουνάλη",
+      "url": "https://www.more.com/gr-el/tickets/music/o-panagiotis-mauros-synanta-tous-dimitri-mixali-kounali/",
       "genres": [
-        "other",
-        "pop",
-        "artmusic"
+        "traditional",
+        "rebetiki",
+        "other"
       ],
       "venues": [
         {
-          "name": "Τεχνόπολη Δήμου Αθηναίων",
-          "locality": "Γκάζι",
-          "street": "Πειραιώς 100 & Περσεφόνης",
-          "start": "2026-09-04T21:00:00",
-          "end": "2026-09-04T23:30:00",
+          "name": "City Garden",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 137, Γαλάτσι 111 46",
+          "start": "2026-09-06T22:00:00",
+          "end": "2026-09-07T06:00:00",
           "region_status": "attica"
         }
       ],
@@ -1416,6 +1416,27 @@
           "street": "Ελευθέριου Βενιζέλου 14, 171 21",
           "start": "2026-09-08T21:00:00",
           "end": "2026-09-08T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Χαΐνηδες -  Φ hill Sessions Λόφος Φιλοπάππου",
+      "url": "https://www.more.com/gr-el/tickets/music/xainides-f-hill-sessions-lofos-filopappou/",
+      "genres": [
+        "traditional",
+        "other",
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-08T21:15:00",
+          "end": "2026-09-08T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -1464,27 +1485,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Χαΐνηδες -  Φ hill Sessions Λόφος Φιλοπάππου",
-      "url": "https://www.more.com/gr-el/tickets/music/xainides-f-hill-sessions-lofos-filopappou/",
-      "genres": [
-        "artmusic",
-        "traditional",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-08T21:15:00",
-          "end": "2026-09-08T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "BAXES FESTIVAL 2026",
       "url": "https://www.more.com/gr-el/tickets/music/baxes-festival-2026/",
       "genres": [
@@ -1514,19 +1514,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "SLIMANE - ΕΝΑ ΠΙΑΝΟ, ΜΙΑ ΦΩΝΗ",
-      "url": "https://www.more.com/gr-el/tickets/music/slimane-ena-piano-mia-foni/",
+      "title": "ATHENS HEART with YET MORE by Enteka Athens & Zappa",
+      "url": "https://www.more.com/gr-el/tickets/music/athens-heart-with-yet-more-by-enteka-athens-zappa/",
       "genres": [
-        "rnb",
-        "pop"
+        "house"
       ],
       "venues": [
         {
-          "name": "Δημοτικό Θέατρο Λυκαβηττού",
-          "locality": "Λυκαβηττός",
-          "street": "",
-          "start": "2026-09-29T21:00:00",
-          "end": "2026-09-29T22:30:00",
+          "name": "AIGLI YARD",
+          "locality": "Αθήνα",
+          "street": "Zappeion Garden, Athina 105 57",
+          "start": "2026-08-30T19:00:00",
+          "end": "2026-08-31T01:00:00",
           "region_status": "attica"
         }
       ],
@@ -1575,30 +1574,11 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ATHENS HEART with YET MORE by Enteka Athens & Zappa",
-      "url": "https://www.more.com/gr-el/tickets/music/athens-heart-with-yet-more-by-enteka-athens-zappa/",
-      "genres": [
-        "house"
-      ],
-      "venues": [
-        {
-          "name": "AIGLI YARD",
-          "locality": "Αθήνα",
-          "street": "Zappeion Garden, Athina 105 57",
-          "start": "2026-08-30T19:00:00",
-          "end": "2026-08-31T01:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "ΡΕΝΑ ΜΟΡΦΗ",
       "url": "https://www.more.com/gr-el/tickets/music/rena-morfi/",
       "genres": [
-        "artmusic",
-        "pop"
+        "pop",
+        "artmusic"
       ],
       "venues": [
         {
@@ -1614,58 +1594,19 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "K-POP SUPERSTARS",
-      "url": "https://www.more.com/gr-el/tickets/music/k-pop-infinity/",
+      "title": "SLIMANE - ΕΝΑ ΠΙΑΝΟ, ΜΙΑ ΦΩΝΗ",
+      "url": "https://www.more.com/gr-el/tickets/music/slimane-ena-piano-mia-foni/",
       "genres": [
+        "rnb",
         "pop"
       ],
       "venues": [
         {
-          "name": "CHRISTMAS THEATER",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 137",
-          "start": "2026-09-26T20:00:00",
-          "end": "2026-09-26T21:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "PAGAN",
-      "url": "https://www.more.com/gr-el/tickets/music/pagan-1/",
-      "genres": [
-        "ethnic",
-        "traditional",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "ΙΡΙΣ",
-          "locality": "Ελευσίνα",
-          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα",
-          "start": "2026-09-16T21:00:00",
-          "end": "2026-09-16T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΣΤΟΝ ΑΙΩΝΑ ΤΟΥ ΜΙΜΗ ΠΛΕΣΣΑ",
-      "url": "https://www.more.com/gr-el/tickets/music/ston-aiona-tou-mimi-plessa/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Δημοτικό Κηποθέατρο Παπάγου",
-          "locality": "Παπάγου",
-          "street": "Κορυτσάς, 6η Στάση",
-          "start": "2026-09-21T21:00:00",
-          "end": "2026-09-21T23:00:00",
+          "name": "Δημοτικό Θέατρο Λυκαβηττού",
+          "locality": "Λυκαβηττός",
+          "street": "",
+          "start": "2026-09-29T21:00:00",
+          "end": "2026-09-29T22:30:00",
           "region_status": "attica"
         }
       ],
@@ -1695,6 +1636,65 @@
           "street": "Πεσμαζόγλου 5 & Σταδίου, 105 64",
           "start": "2026-09-05T21:00:00",
           "end": "2026-09-05T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "K-POP SUPERSTARS",
+      "url": "https://www.more.com/gr-el/tickets/music/k-pop-infinity/",
+      "genres": [
+        "pop"
+      ],
+      "venues": [
+        {
+          "name": "CHRISTMAS THEATER",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 137",
+          "start": "2026-09-26T20:00:00",
+          "end": "2026-09-26T21:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΣΤΟΝ ΑΙΩΝΑ ΤΟΥ ΜΙΜΗ ΠΛΕΣΣΑ",
+      "url": "https://www.more.com/gr-el/tickets/music/ston-aiona-tou-mimi-plessa/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Δημοτικό Κηποθέατρο Παπάγου",
+          "locality": "Παπάγου",
+          "street": "Κορυτσάς, 6η Στάση",
+          "start": "2026-09-21T21:00:00",
+          "end": "2026-09-21T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "PAGAN",
+      "url": "https://www.more.com/gr-el/tickets/music/pagan-1/",
+      "genres": [
+        "traditional",
+        "other",
+        "ethnic"
+      ],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα",
+          "start": "2026-09-16T21:00:00",
+          "end": "2026-09-16T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -1743,44 +1743,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "TRANNOS Live στο Ηράκλειο",
-      "url": "https://www.more.com/gr-el/tickets/music/trannos-irakleio/",
-      "genres": [
-        "hiphop",
-        "pop",
-        "trap"
-      ],
-      "venues": [
-        {
-          "name": "ΕΛΜΕΠΑ (πρώην Τ.Ε.Ι.)",
-          "locality": "Ηράκλειο",
-          "street": "Εσταυρωμένος 0",
-          "start": "2026-09-11T19:00:00",
-          "end": "2026-09-11T23:00:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Daniel Sloss live in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/daniel-sloss-live-in-athens/",
-      "genres": [],
-      "venues": [
-        {
-          "name": "Θέατρο ΑΛΣΟΣ",
-          "locality": "Κυψέλη",
-          "street": "Ευελπίδων 4, Πεδίον του Άρεως",
-          "start": "2026-09-09T20:00:00",
-          "end": "2026-09-09T21:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "METALLICA & SYMPHONY by SCREAM INC",
       "url": "https://www.more.com/gr-el/tickets/music/metallica-symphony-by-scream-inc-1/",
       "genres": [
@@ -1796,6 +1758,27 @@
           "start": "2027-01-15T21:30:00",
           "end": "2027-01-16T00:00:00",
           "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "TRANNOS Live στο Ηράκλειο",
+      "url": "https://www.more.com/gr-el/tickets/music/trannos-irakleio/",
+      "genres": [
+        "hiphop",
+        "pop",
+        "trap"
+      ],
+      "venues": [
+        {
+          "name": "ΕΛΜΕΠΑ (πρώην Τ.Ε.Ι.)",
+          "locality": "Ηράκλειο",
+          "street": "Εσταυρωμένος 0",
+          "start": "2026-09-11T19:00:00",
+          "end": "2026-09-11T23:00:00",
+          "region_status": "unconfirmed"
         }
       ],
       "source": "more.com",
@@ -1822,18 +1805,16 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Χειμερινοί Κολυμβητές - Φ hill Sessions Λόφος Φιλοπάππου",
-      "url": "https://www.more.com/gr-el/tickets/music/xeimerinoi-kolymbites-f-hill-sessions-1/",
-      "genres": [
-        "other"
-      ],
+      "title": "Daniel Sloss live in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/daniel-sloss-live-in-athens/",
+      "genres": [],
       "venues": [
         {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-26T21:15:00",
-          "end": "2026-09-26T23:00:00",
+          "name": "Θέατρο ΑΛΣΟΣ",
+          "locality": "Κυψέλη",
+          "street": "Ευελπίδων 4, Πεδίον του Άρεως",
+          "start": "2026-09-09T20:00:00",
+          "end": "2026-09-09T21:00:00",
           "region_status": "attica"
         }
       ],
@@ -1841,18 +1822,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "TELETECH ATHENS 2026",
-      "url": "https://www.more.com/gr-el/tickets/music/blend/seds/vlct/teletech-athens-2026/",
+      "title": "Αφιέρωμα στον Μίκη Θεοδωράκη - Τραγουδά ο Θοδωρής Φέρρης",
+      "url": "https://www.more.com/gr-el/tickets/music/afieroma-ston-miki-theodoraki-tragouda-o-thodoris-ferris/",
       "genres": [
-        "techno"
+        "artmusic",
+        "rebetiko",
+        "other"
       ],
       "venues": [
         {
-          "name": "Universe - Multivenue",
-          "locality": "Αθήνα",
-          "street": "Λεωφ. Κηφισού 87",
-          "start": "2026-09-11T23:00:00",
-          "end": "2026-09-12T00:00:00",
+          "name": "Δημοτικό Θέατρο Λυκαβηττού",
+          "locality": "Λυκαβηττός",
+          "street": "",
+          "start": "2026-09-22T21:00:00",
+          "end": "2026-09-22T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -1881,20 +1864,37 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Αφιέρωμα στον Μίκη Θεοδωράκη - Τραγουδά ο Θοδωρής Φέρρης",
-      "url": "https://www.more.com/gr-el/tickets/music/afieroma-ston-miki-theodoraki-tragouda-o-thodoris-ferris/",
+      "title": "TELETECH ATHENS 2026",
+      "url": "https://www.more.com/gr-el/tickets/music/blend/seds/vlct/teletech-athens-2026/",
       "genres": [
-        "artmusic",
-        "rebetiko",
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "Universe - Multivenue",
+          "locality": "Αθήνα",
+          "street": "Λεωφ. Κηφισού 87",
+          "start": "2026-09-11T23:00:00",
+          "end": "2026-09-12T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Χειμερινοί Κολυμβητές - Φ hill Sessions Λόφος Φιλοπάππου",
+      "url": "https://www.more.com/gr-el/tickets/music/xeimerinoi-kolymbites-f-hill-sessions-1/",
+      "genres": [
         "other"
       ],
       "venues": [
         {
-          "name": "Δημοτικό Θέατρο Λυκαβηττού",
-          "locality": "Λυκαβηττός",
-          "street": "",
-          "start": "2026-09-22T21:00:00",
-          "end": "2026-09-22T22:00:00",
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-26T21:15:00",
+          "end": "2026-09-26T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2041,6 +2041,27 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "AUTECHRE",
+      "url": "https://www.more.com/gr-el/tickets/music/autechre/",
+      "genres": [
+        "jazz",
+        "rnb",
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "Universe | S-2000",
+          "locality": "Αθήνα",
+          "street": "Λεωφ. Κηφισού 87,  122 41",
+          "start": "2026-10-03T20:00:00",
+          "end": "2026-10-04T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Ο ΧΡΗΣΤΟΣ ΘΗΒΑΙΟΣ 30 χρόνια μέρες αδέσποτες...ΣΤΗΝ ΤΑΡΑΤΣΑ ΤΟΥ ΛΑΜΠΕΤΗ",
       "url": "https://www.more.com/gr-el/tickets/music/summer/o-xristos-thibaios-stin-taratsa-tou-lampeti/",
       "genres": [
@@ -2081,40 +2102,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ACID ARAB in Athens | 27.11.26",
-      "url": "https://www.more.com/gr-el/tickets/music/acid-arab-in-athens-27-11-26/",
-      "genres": [
-        "techno",
-        "ethnic"
-      ],
-      "venues": [
-        {
-          "name": "ARCH",
-          "locality": "Αθήνα",
-          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
-          "start": "2026-11-27T22:00:00",
-          "end": "2026-11-28T03:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "AUTECHRE",
-      "url": "https://www.more.com/gr-el/tickets/music/autechre/",
+      "title": "ELENI Live",
+      "url": "https://www.more.com/gr-el/tickets/music/eleni-arapoglou-live-1/",
       "genres": [
         "jazz",
-        "rnb",
-        "techno"
+        "ethnic",
+        "other"
       ],
       "venues": [
         {
-          "name": "Universe | S-2000",
+          "name": "Αίθριο ΣΤΟΑ Culture",
           "locality": "Αθήνα",
-          "street": "Λεωφ. Κηφισού 87,  122 41",
-          "start": "2026-10-03T20:00:00",
-          "end": "2026-10-04T00:00:00",
+          "street": "Πεσμαζόγλου 5 & Σταδίου, 105 64",
+          "start": "2026-09-11T21:00:00",
+          "end": "2026-09-11T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2141,6 +2142,26 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "ACID ARAB in Athens | 27.11.26",
+      "url": "https://www.more.com/gr-el/tickets/music/acid-arab-in-athens-27-11-26/",
+      "genres": [
+        "techno",
+        "ethnic"
+      ],
+      "venues": [
+        {
+          "name": "ARCH",
+          "locality": "Αθήνα",
+          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
+          "start": "2026-11-27T22:00:00",
+          "end": "2026-11-28T03:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Snarky Puppy",
       "url": "https://www.more.com/gr-el/tickets/music/snarky-puppy/",
       "genres": [
@@ -2153,6 +2174,26 @@
           "street": "Πειραιώς 117",
           "start": "2026-09-19T20:00:00",
           "end": "2026-09-20T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "EZHEL - LIVE IN EUROPE - ATHENS 2026",
+      "url": "https://www.more.com/gr-el/tickets/music/ezhel-live-in-europe-2026/",
+      "genres": [
+        "reggae",
+        "trap"
+      ],
+      "venues": [
+        {
+          "name": "Fuzz Club",
+          "locality": "Ταύρος",
+          "street": "Πατριάρχου Ιωακείμ 1, 17778",
+          "start": "2026-11-20T21:00:00",
+          "end": "2026-11-20T22:30:00",
           "region_status": "attica"
         }
       ],
@@ -2200,27 +2241,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "KOSHEEN [UK] live in Greece!",
-      "url": "https://www.more.com/gr-el/tickets/music/kosheen-uk-live-in-greece/",
-      "genres": [
-        "house",
-        "pop",
-        "industrial"
-      ],
-      "venues": [
-        {
-          "name": "ΠΛΥΦΑ - Αύλειος χώρος",
-          "locality": "Αθήνα",
-          "street": "Κορυτσάς 39",
-          "start": "2026-09-13T20:00:00",
-          "end": "2026-09-13T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "PARADISE LOST",
       "url": "https://www.more.com/gr-el/tickets/music/paradise-lost/",
       "genres": [
@@ -2240,38 +2260,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "EZHEL - LIVE IN EUROPE - ATHENS 2026",
-      "url": "https://www.more.com/gr-el/tickets/music/ezhel-live-in-europe-2026/",
+      "title": "KOSHEEN [UK] live in Greece!",
+      "url": "https://www.more.com/gr-el/tickets/music/kosheen-uk-live-in-greece/",
       "genres": [
-        "reggae",
-        "trap"
+        "house",
+        "pop",
+        "industrial"
       ],
       "venues": [
         {
-          "name": "Fuzz Club",
-          "locality": "Ταύρος",
-          "street": "Πατριάρχου Ιωακείμ 1, 17778",
-          "start": "2026-11-20T21:00:00",
-          "end": "2026-11-20T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Drumcode Athens  I Sat Sep 26",
-      "url": "https://www.more.com/gr-el/tickets/music/bolivar/drumcode/athens/",
-      "genres": [
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "Bolivar Beach Club",
+          "name": "ΠΛΥΦΑ - Αύλειος χώρος",
           "locality": "Αθήνα",
-          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
-          "start": "2026-09-26T21:00:00",
-          "end": "2026-09-27T07:00:00",
+          "street": "Κορυτσάς 39",
+          "start": "2026-09-13T20:00:00",
+          "end": "2026-09-13T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2319,6 +2321,46 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "City Of The Sun live στην Ελλάδα",
+      "url": "https://www.more.com/gr-el/tickets/music/city-of-the-sun-live-stin-ellada/",
+      "genres": [
+        "indie",
+        "rock",
+        "ethnic"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-09-19T20:00:00",
+          "end": "2026-09-19T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Drumcode Athens  I Sat Sep 26",
+      "url": "https://www.more.com/gr-el/tickets/music/bolivar/drumcode/athens/",
+      "genres": [
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "Bolivar Beach Club",
+          "locality": "Αθήνα",
+          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
+          "start": "2026-09-26T21:00:00",
+          "end": "2026-09-27T07:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "FSI w/ Tsuyoshi I Ajja I Drip Drop I Sat Oct 10 Bolivar",
       "url": "https://www.more.com/gr-el/tickets/music/bolivar/fsi/tsuyoshi/ajja/dripdrop/",
       "genres": [
@@ -2357,27 +2399,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "City Of The Sun live στην Ελλάδα",
-      "url": "https://www.more.com/gr-el/tickets/music/city-of-the-sun-live-stin-ellada/",
-      "genres": [
-        "indie",
-        "rock",
-        "ethnic"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-09-19T20:00:00",
-          "end": "2026-09-19T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "Κ. Τουρνάς - Δ. Τσακνής \"Το Ροκ το Ελληνικό\"",
       "url": "https://www.more.com/gr-el/tickets/music/k-tournas-d-tsaknis-to-rok-to-elliniko/",
       "genres": [
@@ -2390,6 +2411,25 @@
           "street": "Ευελπίδων 4, Πεδίον του Άρεως",
           "start": "2026-09-29T20:00:00",
           "end": "2026-09-29T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Mayans w/ Zamna Soundsystem I Thu Sep 3",
+      "url": "https://www.more.com/gr-el/tickets/music/mayans/zamna-soundsystem/",
+      "genres": [
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "Bolivar Beach Club",
+          "locality": "Αθήνα",
+          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
+          "start": "2026-09-03T21:00:00",
+          "end": "2026-09-04T07:00:00",
           "region_status": "attica"
         }
       ],
@@ -2426,46 +2466,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Mayans w/ Zamna Soundsystem I Thu Sep 3",
-      "url": "https://www.more.com/gr-el/tickets/music/mayans/zamna-soundsystem/",
-      "genres": [
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "Bolivar Beach Club",
-          "locality": "Αθήνα",
-          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
-          "start": "2026-09-03T21:00:00",
-          "end": "2026-09-04T07:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ELENI Live",
-      "url": "https://www.more.com/gr-el/tickets/music/eleni-arapoglou-live-1/",
-      "genres": [
-        "jazz",
-        "ethnic",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Αίθριο ΣΤΟΑ Culture",
-          "locality": "Αθήνα",
-          "street": "Πεσμαζόγλου 5 & Σταδίου, 105 64",
-          "start": "2026-09-11T21:00:00",
-          "end": "2026-09-11T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "Sólstafir live στην Ελλάδα",
       "url": "https://www.more.com/gr-el/tickets/music/solstafir-greece/",
       "genres": [
@@ -2490,8 +2490,8 @@
       "title": "CHRISTIAN MCBRIDE & URSA MAJOR live in Athens",
       "url": "https://www.more.com/gr-el/tickets/music/christian-mcbride-ursa-major-live-in-athens/",
       "genres": [
-        "other",
-        "jazz"
+        "jazz",
+        "other"
       ],
       "venues": [
         {
@@ -2508,6 +2508,25 @@
           "street": "Βουτάδων 34",
           "start": "2026-09-29T21:00:00",
           "end": "2026-09-29T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "LIVE ΜΠΡΑΤΙΜΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/music/live-mpratimia/",
+      "genres": [
+        "traditional"
+      ],
+      "venues": [
+        {
+          "name": "Κτήμα Φαίδρα",
+          "locality": "Κορωπί",
+          "street": "Θέση Πάτημα 0, Σπύρου Δάβαρη, Κορωπί 194 00",
+          "start": "2026-09-18T20:00:00",
+          "end": "2026-09-18T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2534,12 +2553,52 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Baxés 2026: Ν.Οικονομίδης & Κ.Σπανού",
+      "url": "https://www.more.com/gr-el/tickets/music/baxes-festival-aigaiopelagitiko-glenti/",
+      "genres": [
+        "rebetiko",
+        "artmusic",
+        "traditional"
+      ],
+      "venues": [
+        {
+          "name": "City Garden",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 137, Γαλάτσι 111 46",
+          "start": "2026-09-23T21:00:00",
+          "end": "2026-09-24T05:20:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΤΑ ΤΡΑΓΟΎΔΙΑ ΠΟΥ ΜΑΣ ΕΝΩΣΑΝ",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/summer/ta-tragoydia-pou-mas-enosan/",
+      "genres": [
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Άλσος Νέας Σμύρνης",
+          "locality": "Νέα Σμύρνη",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
+          "start": "2026-09-16T21:00:00",
+          "end": "2026-09-16T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "BUZZCOCKS live in Greece! 50years anniversary",
       "url": "https://www.more.com/gr-el/tickets/music/buzzcocks-live-in-greece-50years-anniversary/",
       "genres": [
+        "indie",
         "rock",
-        "other",
-        "indie"
+        "other"
       ],
       "venues": [
         {
@@ -2548,26 +2607,6 @@
           "street": "Athens, Attiki",
           "start": "2026-10-09T20:30:00",
           "end": "2026-10-09T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Grandbrothers - Φ hill Sessions - Filopappos Hill",
-      "url": "https://www.more.com/gr-el/tickets/music/grandbrothers-f-hill-sessions/",
-      "genres": [
-        "classical",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-16T21:15:00",
-          "end": "2026-09-16T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2596,20 +2635,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Baxés 2026: Ν.Οικονομίδης & Κ.Σπανού",
-      "url": "https://www.more.com/gr-el/tickets/music/baxes-festival-aigaiopelagitiko-glenti/",
+      "title": "MERZBOW  | Special Guests: MMMD | Opening Act: Ghone",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/merzbow-special-guests-mmmd-opening-act-ghone/",
       "genres": [
-        "rebetiko",
-        "artmusic",
-        "traditional"
+        "other"
       ],
       "venues": [
         {
-          "name": "City Garden",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 137, Γαλάτσι 111 46",
-          "start": "2026-09-23T21:00:00",
-          "end": "2026-09-24T05:20:00",
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-09-20T19:00:00",
+          "end": "2026-09-21T01:20:00",
           "region_status": "attica"
         }
       ],
@@ -2676,56 +2713,19 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "LIVE ΜΠΡΑΤΙΜΙΑ",
-      "url": "https://www.more.com/gr-el/tickets/music/live-mpratimia/",
+      "title": "Grandbrothers - Φ hill Sessions - Filopappos Hill",
+      "url": "https://www.more.com/gr-el/tickets/music/grandbrothers-f-hill-sessions/",
       "genres": [
-        "traditional"
-      ],
-      "venues": [
-        {
-          "name": "Κτήμα Φαίδρα",
-          "locality": "Κορωπί",
-          "street": "Θέση Πάτημα 0, Σπύρου Δάβαρη, Κορωπί 194 00",
-          "start": "2026-09-18T20:00:00",
-          "end": "2026-09-18T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΣΚΙΑΧΤΡΟ LIVE AT AN CLUB",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/skiaxtro-live-at-an-club/",
-      "genres": [
-        "hiphop"
-      ],
-      "venues": [
-        {
-          "name": "AN Club ",
-          "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-11-21T20:30:00",
-          "end": "2026-11-22T01:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "MERZBOW  | Special Guests: MMMD | Opening Act: Ghone",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/merzbow-special-guests-mmmd-opening-act-ghone/",
-      "genres": [
+        "classical",
         "other"
       ],
       "venues": [
         {
-          "name": "AN Club ",
-          "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-09-20T19:00:00",
-          "end": "2026-09-21T01:20:00",
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-16T21:15:00",
+          "end": "2026-09-16T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2754,20 +2754,39 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "VIENNA MOZART ORCHESTRA  New Year Celebration",
-      "url": "https://www.more.com/gr-el/tickets/music/vienna-mozart-orchestra-new-year-celebration/",
+      "title": "MANIA The ABBA Tribute show",
+      "url": "https://www.more.com/gr-el/tickets/music/mania-the-abba-tribute-show/",
       "genres": [
-        "artmusic",
-        "classical",
-        "opera"
+        "disco",
+        "pop",
+        "ethnic"
       ],
       "venues": [
         {
-          "name": "CHRISTMAS THEATER",
+          "name": "Christmas Theater, Athens",
           "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 137",
-          "start": "2027-01-02T20:30:00",
-          "end": "2027-01-02T22:10:00",
+          "street": "Λεωφ. Βεΐκου 139",
+          "start": "2027-01-16T20:30:00",
+          "end": "2027-01-16T22:10:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΣΚΙΑΧΤΡΟ LIVE AT AN CLUB",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/skiaxtro-live-at-an-club/",
+      "genres": [
+        "hiphop"
+      ],
+      "venues": [
+        {
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-11-21T20:30:00",
+          "end": "2026-11-22T01:00:00",
           "region_status": "attica"
         }
       ],
@@ -2794,6 +2813,25 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "ΓΙΩΡΓΟΣ ΜΑΡΓΑΡΙΤΗΣ ΛΑΪΚΗ ΒΡΑΔΙΑ ΣΤΑ ΛΑΓΥΝΑ",
+      "url": "https://www.more.com/gr-el/tickets/music/giorgos-margaritis-laiki-bradia-sta-lagyna/",
+      "genres": [
+        "rebetiko"
+      ],
+      "venues": [
+        {
+          "name": "Δημοτικά Γήπεδα Λαγυνών 5 Χ 5",
+          "locality": "",
+          "street": "Λαγυνά Θεσσαλονίκης",
+          "start": "2026-09-05T20:00:00",
+          "end": "2026-09-06T01:00:00",
+          "region_status": "unconfirmed"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "ΤΗΕ CHARLATANS",
       "url": "https://www.more.com/gr-el/tickets/music/the-charlatans2026/",
       "genres": [
@@ -2806,6 +2844,27 @@
           "street": "Πειραιώς 117",
           "start": "2026-10-17T20:00:00",
           "end": "2026-10-18T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "VIENNA MOZART ORCHESTRA  New Year Celebration",
+      "url": "https://www.more.com/gr-el/tickets/music/vienna-mozart-orchestra-new-year-celebration/",
+      "genres": [
+        "artmusic",
+        "classical",
+        "opera"
+      ],
+      "venues": [
+        {
+          "name": "CHRISTMAS THEATER",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 137",
+          "start": "2027-01-02T20:30:00",
+          "end": "2027-01-02T22:10:00",
           "region_status": "attica"
         }
       ],
@@ -2834,46 +2893,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ΤΑ ΤΡΑΓΟΎΔΙΑ ΠΟΥ ΜΑΣ ΕΝΩΣΑΝ",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/summer/ta-tragoydia-pou-mas-enosan/",
-      "genres": [
-        "artmusic"
-      ],
-      "venues": [
-        {
-          "name": "Άλσος Νέας Σμύρνης",
-          "locality": "Νέα Σμύρνη",
-          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
-          "start": "2026-09-16T21:00:00",
-          "end": "2026-09-16T22:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "MANIA The ABBA Tribute show",
-      "url": "https://www.more.com/gr-el/tickets/music/mania-the-abba-tribute-show/",
-      "genres": [
-        "disco",
-        "pop",
-        "ethnic"
-      ],
-      "venues": [
-        {
-          "name": "Christmas Theater, Athens",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 139",
-          "start": "2027-01-16T20:30:00",
-          "end": "2027-01-16T22:10:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "Bob Moses",
       "url": "https://www.more.com/gr-el/tickets/music/bob-moses/",
       "genres": [
@@ -2893,19 +2912,37 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Σαβίνα Γιαννάτου, Primavera en Salonico, Lamia Bedioui - Φ hill Sessions Λόφος Φιλοπάππου",
-      "url": "https://www.more.com/gr-el/tickets/music/sabina-giannatou-primavera-en-salonico/",
+      "title": "PARRA FOR CUVA",
+      "url": "https://www.more.com/gr-el/tickets/music/parra-for-cuva/",
       "genres": [
-        "ethnic",
-        "traditional"
+        "house"
       ],
       "venues": [
         {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-24T21:15:00",
-          "end": "2026-09-24T23:00:00",
+          "name": "Θέατρο Βράχων Μελίνα Μερκούρη",
+          "locality": "-",
+          "street": "Νεαπόλεως 58",
+          "start": "2026-09-24T20:00:00",
+          "end": "2026-09-24T22:00:00",
+          "region_status": "unconfirmed"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΔΗΜΗΤΡΗΣ ΜΥΣΤΑΚΙΔΗΣ 30 ΧΡΟΝΙΑ ΜΗΤΣΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/music/dimitris-mystakidis-30-xronia-mitsos/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα",
+          "start": "2026-09-18T21:00:00",
+          "end": "2026-09-18T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2927,6 +2964,26 @@
           "street": "Βουτάδων 32-34",
           "start": "2026-09-23T21:30:00",
           "end": "2026-09-23T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Σαβίνα Γιαννάτου, Primavera en Salonico, Lamia Bedioui - Φ hill Sessions Λόφος Φιλοπάππου",
+      "url": "https://www.more.com/gr-el/tickets/music/sabina-giannatou-primavera-en-salonico/",
+      "genres": [
+        "ethnic",
+        "traditional"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-24T21:15:00",
+          "end": "2026-09-24T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -2973,75 +3030,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "PARRA FOR CUVA",
-      "url": "https://www.more.com/gr-el/tickets/music/parra-for-cuva/",
+      "title": "Le Trio Joubran - Φ hill Sessions - Filopappos Hill",
+      "url": "https://www.more.com/gr-el/tickets/music/le-trio-joubran-f-hill-sessions-filopappos-hill/",
       "genres": [
-        "house"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Βράχων Μελίνα Μερκούρη",
-          "locality": "-",
-          "street": "Νεαπόλεως 58",
-          "start": "2026-09-24T20:00:00",
-          "end": "2026-09-24T22:00:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΓΙΩΡΓΟΣ ΜΑΡΓΑΡΙΤΗΣ ΛΑΪΚΗ ΒΡΑΔΙΑ ΣΤΑ ΛΑΓΥΝΑ",
-      "url": "https://www.more.com/gr-el/tickets/music/giorgos-margaritis-laiki-bradia-sta-lagyna/",
-      "genres": [
-        "rebetiko"
-      ],
-      "venues": [
-        {
-          "name": "Δημοτικά Γήπεδα Λαγυνών 5 Χ 5",
-          "locality": "",
-          "street": "Λαγυνά Θεσσαλονίκης",
-          "start": "2026-09-05T20:00:00",
-          "end": "2026-09-06T01:00:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "SCENIUS SOUND",
-      "url": "https://www.more.com/gr-el/tickets/music/scenius-sound/",
-      "genres": [
-        "jazz"
-      ],
-      "venues": [
-        {
-          "name": "PLYFA — Κτίρια 7Α & 7Γ",
-          "locality": "",
-          "street": "Κορυτσάς 39, Βοτανικός, 104 47 Αθήνα",
-          "start": "2026-10-24T17:00:00",
-          "end": "2026-10-24T23:00:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
-      "url": "https://www.more.com/gr-el/tickets/music/jameson-connects-god-is-an-astronaut/",
-      "genres": [
+        "jazz",
+        "ethnic",
         "other"
       ],
       "venues": [
         {
-          "name": "Gagarin 205 Live Music Space",
-          "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-12-19T20:30:00",
-          "end": "2026-12-20T00:29:00",
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-25T21:15:00",
+          "end": "2026-09-25T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -3069,41 +3071,19 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Le Trio Joubran - Φ hill Sessions - Filopappos Hill",
-      "url": "https://www.more.com/gr-el/tickets/music/le-trio-joubran-f-hill-sessions-filopappos-hill/",
+      "title": "SCENIUS SOUND",
+      "url": "https://www.more.com/gr-el/tickets/music/scenius-sound/",
       "genres": [
-        "jazz",
-        "ethnic",
-        "other"
+        "jazz"
       ],
       "venues": [
         {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-25T21:15:00",
-          "end": "2026-09-25T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Massano I Fri Sep 11",
-      "url": "https://www.more.com/gr-el/tickets/music/bolivar/massano/26/",
-      "genres": [
-        "house",
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "Bolivar Beach Club",
-          "locality": "Αθήνα",
-          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
-          "start": "2026-09-11T21:00:00",
-          "end": "2026-09-12T07:00:00",
-          "region_status": "attica"
+          "name": "PLYFA — Κτίρια 7Α & 7Γ",
+          "locality": "",
+          "street": "Κορυτσάς 39, Βοτανικός, 104 47 Αθήνα",
+          "start": "2026-10-24T17:00:00",
+          "end": "2026-10-24T23:00:00",
+          "region_status": "unconfirmed"
         }
       ],
       "source": "more.com",
@@ -3151,6 +3131,45 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "JAMESON CONNECTS \\\\ GOD IS AN ASTRONAUT",
+      "url": "https://www.more.com/gr-el/tickets/music/jameson-connects-god-is-an-astronaut/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Gagarin 205 Live Music Space",
+          "locality": "Αθήνα",
+          "street": "Λιοσιών 205",
+          "start": "2026-12-19T20:30:00",
+          "end": "2026-12-20T00:29:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Σταύρος Λάντσιας Octet - Waving Hands - Φ hill Sessions Λόφος Φιλοπάππου",
+      "url": "https://www.more.com/gr-el/tickets/music/stauros-lantsias-octet-waving-hands-f-hill-sessions-lofos-filopappou/",
+      "genres": [
+        "jazz",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Δόρας Στράτου",
+          "locality": "Φιλοπάππου",
+          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
+          "start": "2026-09-27T21:15:00",
+          "end": "2026-09-27T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "SHREK RAVE IN ATHENS",
       "url": "https://www.more.com/gr-el/tickets/music/shrek-rave-in-athens/",
       "genres": [
@@ -3165,25 +3184,6 @@
           "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
           "start": "2026-10-23T23:30:00",
           "end": "2026-10-24T00:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Mareux",
-      "url": "https://www.more.com/gr-el/tickets/music/mareux/",
-      "genres": [
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Floyd",
-          "locality": "Αθήνα",
-          "street": "Πειραιώς 117",
-          "start": "2026-11-03T20:00:00",
-          "end": "2026-11-04T00:00:00",
           "region_status": "attica"
         }
       ],
@@ -3211,6 +3211,44 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Mareux",
+      "url": "https://www.more.com/gr-el/tickets/music/mareux/",
+      "genres": [
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Floyd",
+          "locality": "Αθήνα",
+          "street": "Πειραιώς 117",
+          "start": "2026-11-03T20:00:00",
+          "end": "2026-11-04T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "HALLOWEEN LIVE CHAOS",
+      "url": "https://www.more.com/gr-el/tickets/music/halloween-live-chaos/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Gagarin 205 Live Music Space",
+          "locality": "Αθήνα",
+          "street": "Λιοσιών 205",
+          "start": "2026-10-31T21:00:00",
+          "end": "2026-10-31T21:59:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "FRENZEE LIVE AT AN CLUB with Special guest: THE KLAMMERS",
       "url": "https://www.more.com/gr-el/tickets/music/offer/frenzee-live-at-an-club-with-special-guest-the-klammers/",
       "genres": [
@@ -3230,29 +3268,60 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Kappart festival",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/festival/",
+      "title": "Pan-Pot I Sat Sep 12",
+      "url": "https://www.more.com/gr-el/tickets/music/bolivar/pan-pot/",
       "genres": [
-        "house",
-        "artmusic",
-        "classical"
+        "techno"
       ],
       "venues": [
         {
-          "name": "Kappart festival",
-          "locality": "",
-          "street": "Kapparia Androu, 845 02",
-          "start": "2026-08-30T12:30:00",
-          "end": "2026-08-30T13:30:00",
-          "region_status": "unconfirmed"
-        },
+          "name": "Bolivar Beach Club",
+          "locality": "Αθήνα",
+          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
+          "start": "2026-09-12T21:00:00",
+          "end": "2026-09-13T07:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "MISS POOJA",
+      "url": "https://www.more.com/gr-el/tickets/music/miss-pooja/",
+      "genres": [
+        "rebetiko",
+        "traditional",
+        "ethnic"
+      ],
+      "venues": [
         {
-          "name": "Kappart festival",
-          "locality": "",
-          "street": "Kapparia Androu, 845 02",
-          "start": "2026-08-30T18:30:00",
-          "end": "2026-08-30T22:40:00",
-          "region_status": "unconfirmed"
+          "name": "CHRISTMAS THEATER, Athens",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 139",
+          "start": "2026-09-05T17:00:00",
+          "end": "2026-09-05T18:40:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Η μουσική συναντά την ποίηση",
+      "url": "https://www.more.com/gr-el/tickets/music/i-mousiki-synanta-tin-poiisi/",
+      "genres": [
+        "artmusic",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Άλσος Νέας Σμύρνης",
+          "locality": "Νέα Σμύρνη",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
+          "start": "2026-09-04T21:00:00",
+          "end": "2026-09-04T22:00:00",
+          "region_status": "attica"
         }
       ],
       "source": "more.com",
@@ -3297,19 +3366,19 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Σταύρος Λάντσιας Octet - Waving Hands - Φ hill Sessions Λόφος Φιλοπάππου",
-      "url": "https://www.more.com/gr-el/tickets/music/stauros-lantsias-octet-waving-hands-f-hill-sessions-lofos-filopappou/",
+      "title": "Massano I Fri Sep 11",
+      "url": "https://www.more.com/gr-el/tickets/music/bolivar/massano/26/",
       "genres": [
-        "jazz",
-        "other"
+        "house",
+        "techno"
       ],
       "venues": [
         {
-          "name": "Θέατρο Δόρας Στράτου",
-          "locality": "Φιλοπάππου",
-          "street": "Λόφος Φιλοπάππου, Αθήνα 117 41",
-          "start": "2026-09-27T21:15:00",
-          "end": "2026-09-27T23:00:00",
+          "name": "Bolivar Beach Club",
+          "locality": "Αθήνα",
+          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
+          "start": "2026-09-11T21:00:00",
+          "end": "2026-09-12T07:00:00",
           "region_status": "attica"
         }
       ],
@@ -3346,26 +3415,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Η μουσική συναντά την ποίηση",
-      "url": "https://www.more.com/gr-el/tickets/music/i-mousiki-synanta-tin-poiisi/",
-      "genres": [
-        "artmusic",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Άλσος Νέας Σμύρνης",
-          "locality": "Νέα Σμύρνη",
-          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
-          "start": "2026-09-04T21:00:00",
-          "end": "2026-09-04T22:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "Riot V - 50th Anniversary Tour - Παρασκευή 6 Νοεμβρίου, Κύτταρο Αθήνα w Angelo Perlepes Mystery",
       "url": "https://www.more.com/gr-el/tickets/music/riot-50th-anniversary-tour-athens/",
       "genres": [
@@ -3378,25 +3427,6 @@
           "street": "Athens, Attiki",
           "start": "2026-11-06T20:00:00",
           "end": "2026-11-06T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "DEAD MOON NIGHT with TOODY COLE AND HER BAND | Special guest: Jenny Dont & the Spurs",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/toody-cole-and-her-band-dead-moon-night-with-jenny-dont-the-spurs/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "AN Club ",
-          "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-12-04T20:30:00",
-          "end": "2026-12-05T01:00:00",
           "region_status": "attica"
         }
       ],
@@ -3444,18 +3474,59 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "HALLOWEEN LIVE CHAOS",
-      "url": "https://www.more.com/gr-el/tickets/music/halloween-live-chaos/",
+      "title": "DEAD MOON NIGHT with TOODY COLE AND HER BAND | Special guest: Jenny Dont & the Spurs",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/toody-cole-and-her-band-dead-moon-night-with-jenny-dont-the-spurs/",
       "genres": [
         "other"
+      ],
+      "venues": [
+        {
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-12-04T20:30:00",
+          "end": "2026-12-05T01:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΟΙ ΑΔΑΜ ΤΣΑΡΟΥΧΗΣ & ΜΙΡΕΛΑ ΠΑΧΟΥ ΣΤΗΝ ΤΑΡΑΤΣΑ ΤΟΥ ΛΑΜΠΕΤΗ",
+      "url": "https://www.more.com/gr-el/tickets/music/summer/oi-adam-tsarouxis-mirela-paxou-stin-taratsa-tou-lampeti/",
+      "genres": [
+        "rock",
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Λαμπέτη - Ταράτσα",
+          "locality": "Αθήνα",
+          "street": "Λεωφ. Αλεξάνδρας 106,  114 72",
+          "start": "2026-09-04T21:00:00",
+          "end": "2026-09-04T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "KOVACS Live 2026",
+      "url": "https://www.more.com/gr-el/tickets/music/kovacs-live-2026/",
+      "genres": [
+        "pop",
+        "soul",
+        "indie"
       ],
       "venues": [
         {
           "name": "Gagarin 205 Live Music Space",
           "locality": "Αθήνα",
           "street": "Λιοσιών 205",
-          "start": "2026-10-31T21:00:00",
-          "end": "2026-10-31T21:59:00",
+          "start": "2026-12-07T21:00:00",
+          "end": "2026-12-07T22:30:00",
           "region_status": "attica"
         }
       ],
@@ -3502,37 +3573,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ΔΗΜΗΤΡΗΣ ΜΥΣΤΑΚΙΔΗΣ 30 ΧΡΟΝΙΑ ΜΗΤΣΟΣ",
-      "url": "https://www.more.com/gr-el/tickets/music/dimitris-mystakidis-30-xronia-mitsos/",
+      "title": "Sleaford Mods",
+      "url": "https://www.more.com/gr-el/tickets/music/sleaford-mods2026/",
       "genres": [
-        "other"
+        "indie"
       ],
       "venues": [
         {
-          "name": "ΙΡΙΣ",
-          "locality": "Ελευσίνα",
-          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα",
-          "start": "2026-09-18T21:00:00",
-          "end": "2026-09-18T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "JAMIE DUFFY",
-      "url": "https://www.more.com/gr-el/tickets/music/jamie-duffy/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Φιλολογικός Σύλλογος Παρνασσός",
+          "name": "Floyd",
           "locality": "Αθήνα",
-          "street": "Πλατεία Αγ. Γεωργίου Καρύτση 8",
-          "start": "2026-10-16T21:00:00",
-          "end": "2026-10-16T23:30:00",
+          "street": "Πειραιώς 117",
+          "start": "2026-11-07T20:00:00",
+          "end": "2026-11-08T00:00:00",
           "region_status": "attica"
         }
       ],
@@ -3540,20 +3592,60 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "MISS POOJA",
-      "url": "https://www.more.com/gr-el/tickets/music/miss-pooja/",
+      "title": "NAPALM DEATH | ATHENS",
+      "url": "https://www.more.com/gr-el/tickets/music/napalm-death-athens/",
       "genres": [
-        "rebetiko",
-        "traditional",
-        "ethnic"
+        "other"
       ],
       "venues": [
         {
-          "name": "CHRISTMAS THEATER, Athens",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 139",
-          "start": "2026-09-05T17:00:00",
-          "end": "2026-09-05T18:40:00",
+          "name": "Gagarin 205 Live Music Space",
+          "locality": "Αθήνα",
+          "street": "Λιοσιών 205",
+          "start": "2026-11-27T20:00:00",
+          "end": "2026-11-27T23:59:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "The Romantic ITALIAN TENORS",
+      "url": "https://www.more.com/gr-el/tickets/music/the-romantic-italian-tenors/",
+      "genres": [
+        "opera",
+        "pop",
+        "classical"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Εκθεσιακού Κέντρου Περιστερίου",
+          "locality": "Περιστέρι",
+          "street": "Δωδεκανήσου 106",
+          "start": "2026-12-23T20:30:00",
+          "end": "2026-12-23T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "IAMX",
+      "url": "https://www.more.com/gr-el/tickets/music/iamx-1/",
+      "genres": [
+        "indie",
+        "techno",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-09-13T21:00:00",
+          "end": "2026-09-14T00:00:00",
           "region_status": "attica"
         }
       ],
@@ -3601,178 +3693,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Sleaford Mods",
-      "url": "https://www.more.com/gr-el/tickets/music/sleaford-mods2026/",
+      "title": "ΧΑΡΑ live στην Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/music/xara-live-stin-athina-1/",
       "genres": [
-        "indie"
-      ],
-      "venues": [
-        {
-          "name": "Floyd",
-          "locality": "Αθήνα",
-          "street": "Πειραιώς 117",
-          "start": "2026-11-07T20:00:00",
-          "end": "2026-11-08T00:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "The Romantic ITALIAN TENORS",
-      "url": "https://www.more.com/gr-el/tickets/music/the-romantic-italian-tenors/",
-      "genres": [
-        "opera",
-        "pop",
-        "classical"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Εκθεσιακού Κέντρου Περιστερίου",
-          "locality": "Περιστέρι",
-          "street": "Δωδεκανήσου 106",
-          "start": "2026-12-23T20:30:00",
-          "end": "2026-12-23T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "KOVACS Live 2026",
-      "url": "https://www.more.com/gr-el/tickets/music/kovacs-live-2026/",
-      "genres": [
-        "indie",
-        "pop",
-        "soul"
+        "hiphop"
       ],
       "venues": [
         {
           "name": "Gagarin 205 Live Music Space",
           "locality": "Αθήνα",
           "street": "Λιοσιών 205",
-          "start": "2026-12-07T21:00:00",
-          "end": "2026-12-07T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Pan-Pot I Sat Sep 12",
-      "url": "https://www.more.com/gr-el/tickets/music/bolivar/pan-pot/",
-      "genres": [
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "Bolivar Beach Club",
-          "locality": "Αθήνα",
-          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
-          "start": "2026-09-12T21:00:00",
-          "end": "2026-09-13T07:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Active Member - 35 Χρόνια Low Bap Συνείδησης",
-      "url": "https://www.more.com/gr-el/tickets/music/active-member-35-xronia-low-bap-syneidisis/",
-      "genres": [
-        "hiphop",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "ARCH",
-          "locality": "Αθήνα",
-          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
-          "start": "2026-10-02T20:30:00",
-          "end": "2026-10-02T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "IAMX",
-      "url": "https://www.more.com/gr-el/tickets/music/iamx-1/",
-      "genres": [
-        "indie",
-        "techno",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-09-13T21:00:00",
-          "end": "2026-09-14T00:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "SLOMOSA | Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/slomosa-w/godsleep-rainyard-athens/",
-      "genres": [
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "ARCH",
-          "locality": "Αθήνα",
-          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
-          "start": "2026-09-25T21:00:00",
-          "end": "2026-09-26T02:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΟΙ ΑΔΑΜ ΤΣΑΡΟΥΧΗΣ & ΜΙΡΕΛΑ ΠΑΧΟΥ ΣΤΗΝ ΤΑΡΑΤΣΑ ΤΟΥ ΛΑΜΠΕΤΗ",
-      "url": "https://www.more.com/gr-el/tickets/music/summer/oi-adam-tsarouxis-mirela-paxou-stin-taratsa-tou-lampeti/",
-      "genres": [
-        "rock",
-        "artmusic"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Λαμπέτη - Ταράτσα",
-          "locality": "Αθήνα",
-          "street": "Λεωφ. Αλεξάνδρας 106,  114 72",
-          "start": "2026-09-04T21:00:00",
-          "end": "2026-09-04T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "NAPALM DEATH | ATHENS",
-      "url": "https://www.more.com/gr-el/tickets/music/napalm-death-athens/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Gagarin 205 Live Music Space",
-          "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-11-27T20:00:00",
-          "end": "2026-11-27T23:59:00",
+          "start": "2026-10-23T20:00:00",
+          "end": "2026-10-23T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -3799,58 +3731,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "ΧΑΡΑ live στην Αθήνα",
-      "url": "https://www.more.com/gr-el/tickets/music/xara-live-stin-athina-1/",
+      "title": "SLOMOSA | Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/slomosa-w/godsleep-rainyard-athens/",
       "genres": [
-        "hiphop"
+        "rock"
       ],
       "venues": [
         {
-          "name": "Gagarin 205 Live Music Space",
+          "name": "ARCH",
           "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-10-23T20:00:00",
-          "end": "2026-10-23T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "An Evening with we.own.the.sky",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/an-evening-with-we-own-the-sky/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "AN Club ",
-          "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-10-09T20:30:00",
-          "end": "2026-10-10T01:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "DIMITRIS KORGIALAS",
-      "url": "https://www.more.com/gr-el/tickets/music/dimitris-korgialas-2/",
-      "genres": [
-        "rock",
-        "disco",
-        "pop"
-      ],
-      "venues": [
-        {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-10-31T20:30:00",
-          "end": "2026-10-31T21:30:00",
+          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
+          "start": "2026-09-25T21:00:00",
+          "end": "2026-09-26T02:00:00",
           "region_status": "attica"
         }
       ],
@@ -3877,12 +3769,71 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "JAMIE DUFFY",
+      "url": "https://www.more.com/gr-el/tickets/music/jamie-duffy/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Φιλολογικός Σύλλογος Παρνασσός",
+          "locality": "Αθήνα",
+          "street": "Πλατεία Αγ. Γεωργίου Καρύτση 8",
+          "start": "2026-10-16T21:00:00",
+          "end": "2026-10-16T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "NIGHTFALL",
+      "url": "https://www.more.com/gr-el/tickets/music/nightfall/",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Fuzz Club",
+          "locality": "Ταύρος",
+          "street": "Πειραιώς 209 & Πατρ. Ιωακείμ 1",
+          "start": "2026-10-24T21:00:00",
+          "end": "2026-10-24T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Andrea Vanzo live in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/andrea-vanzo-live-in-athens/",
+      "genres": [
+        "classical",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Ωδείο Αθηνών - Αμφιθέατρο Ιωάννης Δεσποτόπουλος",
+          "locality": "Αθήνα",
+          "street": "Ρηγίλλης & Vasileos Georgiou B 17-19",
+          "start": "2027-01-30T20:00:00",
+          "end": "2027-01-30T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "KOVACS Live - Αθήνα",
       "url": "https://www.more.com/gr-el/tickets/music/kovacs-live-athina/",
       "genres": [
-        "soul",
         "indie",
-        "pop"
+        "pop",
+        "soul"
       ],
       "venues": [
         {
@@ -3917,6 +3868,45 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "INNERWISH",
+      "url": "https://www.more.com/gr-el/tickets/music/innerwish/",
+      "genres": [
+        "metal"
+      ],
+      "venues": [
+        {
+          "name": "Fuzz Club",
+          "locality": "Ταύρος",
+          "street": "Πειραιώς 209 & Πατρ. Ιωακείμ 1",
+          "start": "2026-11-28T21:00:00",
+          "end": "2026-11-28T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Active Member - 35 Χρόνια Low Bap Συνείδησης",
+      "url": "https://www.more.com/gr-el/tickets/music/active-member-35-xronia-low-bap-syneidisis/",
+      "genres": [
+        "hiphop",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "ARCH",
+          "locality": "Αθήνα",
+          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
+          "start": "2026-10-02T20:30:00",
+          "end": "2026-10-02T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Delta Goodrem // PURE World Tour",
       "url": "https://www.more.com/gr-el/tickets/music/delta-goodrem/pure-world-tour/",
       "genres": [
@@ -3929,6 +3919,65 @@
           "street": "Λιοσιών 205",
           "start": "2027-03-18T20:00:00",
           "end": "2027-03-18T21:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "DIMITRIS KORGIALAS",
+      "url": "https://www.more.com/gr-el/tickets/music/dimitris-korgialas-2/",
+      "genres": [
+        "rock",
+        "disco",
+        "pop"
+      ],
+      "venues": [
+        {
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-10-31T20:30:00",
+          "end": "2026-10-31T21:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "An Evening with we.own.the.sky",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/an-evening-with-we-own-the-sky/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-10-09T20:30:00",
+          "end": "2026-10-10T01:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Συναυλία Αλληλεγγύης «Χωρίς Αποστάσεις»",
+      "url": "https://www.more.com/gr-el/tickets/music/synaulia-allileggyis-xoris-apostaseis/",
+      "genres": [
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Κατράκειο Θέατρο",
+          "locality": "Νίκαια",
+          "street": "",
+          "start": "2026-09-30T20:30:00",
+          "end": "2026-09-30T23:30:00",
           "region_status": "attica"
         }
       ],
@@ -4010,6 +4059,27 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "MERCURY REV - Celebrating 25 Years of 'All is Dream'",
+      "url": "https://www.more.com/gr-el/tickets/music/mercury-rev-all-is-dream-25y-anniversary/",
+      "genres": [
+        "indie",
+        "rock",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-10-29T21:30:00",
+          "end": "2026-10-29T23:45:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "ARAB STRAP live in Athens",
       "url": "https://www.more.com/gr-el/tickets/music/arab-strap-live-in-athens/",
       "genres": [
@@ -4030,20 +4100,37 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "MERCURY REV - Celebrating 25 Years of 'All is Dream'",
-      "url": "https://www.more.com/gr-el/tickets/music/mercury-rev-all-is-dream-25y-anniversary/",
+      "title": "The Crazy World of Arthur Brown | Greece 2026",
+      "url": "https://www.more.com/gr-el/tickets/music/the-crazy-world-of-arthur-brown-greece-2026/",
       "genres": [
-        "indie",
-        "rock",
-        "other"
+        "rock"
       ],
       "venues": [
         {
           "name": "Gazarte - Ground Stage",
           "locality": "Γκάζι",
           "street": "Βουτάδων 32-34",
-          "start": "2026-10-29T21:30:00",
-          "end": "2026-10-29T23:45:00",
+          "start": "2026-09-18T20:00:00",
+          "end": "2026-09-18T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "BLOCKHEAD | PROLETER | ARMS and SLEEPERS live",
+      "url": "https://www.more.com/gr-el/tickets/music/blockhead-proleter-arms-and-sleepers-live/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Roof Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 34",
+          "start": "2026-10-02T21:30:00",
+          "end": "2026-10-02T23:50:00",
           "region_status": "attica"
         }
       ],
@@ -4072,25 +4159,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "BLOCKHEAD | PROLETER | ARMS and SLEEPERS live",
-      "url": "https://www.more.com/gr-el/tickets/music/blockhead-proleter-arms-and-sleepers-live/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Roof Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 34",
-          "start": "2026-10-02T21:30:00",
-          "end": "2026-10-02T23:50:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
       "title": "DORO PESCH",
       "url": "https://www.more.com/gr-el/tickets/music/doro-pesch/",
       "genres": [
@@ -4103,141 +4171,6 @@
           "street": "Πειραιώς 209 & Πατρ. Ιωακείμ 1",
           "start": "2026-10-09T21:00:00",
           "end": "2026-10-09T22:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Συναυλία Αλληλεγγύης «Χωρίς Αποστάσεις»",
-      "url": "https://www.more.com/gr-el/tickets/music/synaulia-allileggyis-xoris-apostaseis/",
-      "genres": [
-        "artmusic"
-      ],
-      "venues": [
-        {
-          "name": "Κατράκειο Θέατρο",
-          "locality": "Νίκαια",
-          "street": "",
-          "start": "2026-09-30T20:30:00",
-          "end": "2026-09-30T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "APON",
-      "url": "https://www.more.com/gr-el/tickets/music/apon-1/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο ΑΛΣΟΣ",
-          "locality": "Κυψέλη",
-          "street": "Ευελπίδων 4, Πεδίον του Άρεως",
-          "start": "2026-09-27T20:00:00",
-          "end": "2026-09-27T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "FRS X KAFASH! — ΠΑΡΟΥΣΙΑΣΗ ΔΙΣΚΟΥ GRIMOLOGY @ ILION plus",
-      "url": "https://www.more.com/gr-el/tickets/music/frs-x-kafash-parousiasi-diskou-grimology-ilion-plus/",
-      "genres": [
-        "hiphop"
-      ],
-      "venues": [
-        {
-          "name": "ΙΛΙΟΝ Plus",
-          "locality": "Αθήνα",
-          "street": "Κοδριγκτώνος 17, Αθήνα 104 34",
-          "start": "2026-09-25T21:00:00",
-          "end": "2026-09-26T00:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "NIGHTFALL",
-      "url": "https://www.more.com/gr-el/tickets/music/nightfall/",
-      "genres": [
-        "metal",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Fuzz Club",
-          "locality": "Ταύρος",
-          "street": "Πειραιώς 209 & Πατρ. Ιωακείμ 1",
-          "start": "2026-10-24T21:00:00",
-          "end": "2026-10-24T22:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "The Crazy World of Arthur Brown | Greece 2026",
-      "url": "https://www.more.com/gr-el/tickets/music/the-crazy-world-of-arthur-brown-greece-2026/",
-      "genres": [
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-09-18T20:00:00",
-          "end": "2026-09-18T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "CONWAY THE MACHINE Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/conway-the-machine-athens/",
-      "genres": [
-        "hiphop"
-      ],
-      "venues": [
-        {
-          "name": "Gagarin 205 Live Music Space",
-          "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-11-12T20:30:00",
-          "end": "2026-11-12T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Andrea Vanzo live in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/andrea-vanzo-live-in-athens/",
-      "genres": [
-        "classical",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Ωδείο Αθηνών - Αμφιθέατρο Ιωάννης Δεσποτόπουλος",
-          "locality": "Αθήνα",
-          "street": "Ρηγίλλης & Vasileos Georgiou B 17-19",
-          "start": "2027-01-30T20:00:00",
-          "end": "2027-01-30T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -4283,18 +4216,98 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Iron Beast live in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/ironbeastath2026/",
+      "title": "APON",
+      "url": "https://www.more.com/gr-el/tickets/music/apon-1/",
       "genres": [
-        "metal"
+        "other"
       ],
       "venues": [
         {
-          "name": "Gagarin 205 Live Music Space",
+          "name": "Θέατρο ΑΛΣΟΣ",
+          "locality": "Κυψέλη",
+          "street": "Ευελπίδων 4, Πεδίον του Άρεως",
+          "start": "2026-09-27T20:00:00",
+          "end": "2026-09-27T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "FRS X KAFASH! — ΠΑΡΟΥΣΙΑΣΗ ΔΙΣΚΟΥ GRIMOLOGY @ ILION plus",
+      "url": "https://www.more.com/gr-el/tickets/music/frs-x-kafash-parousiasi-diskou-grimology-ilion-plus/",
+      "genres": [
+        "hiphop"
+      ],
+      "venues": [
+        {
+          "name": "ΙΛΙΟΝ Plus",
           "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-10-10T19:30:00",
-          "end": "2026-10-10T22:30:00",
+          "street": "Κοδριγκτώνος 17, Αθήνα 104 34",
+          "start": "2026-09-25T21:00:00",
+          "end": "2026-09-26T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "DISCOVERY ZONE // PAINT // MR. SILLA live @ ILION PLUS",
+      "url": "https://www.more.com/gr-el/tickets/music/discovery-zone/paint/mr-silla-live-ilion-plus/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "ΙΛΙΟΝ Plus",
+          "locality": "Αθήνα",
+          "street": "Κοδριγκτώνος 17, Αθήνα 104 34",
+          "start": "2026-09-18T20:30:00",
+          "end": "2026-09-19T01:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "MAZOHA",
+      "url": "https://www.more.com/gr-el/tickets/music/mazoha-3/",
+      "genres": [
+        "hiphop",
+        "indie",
+        "pop"
+      ],
+      "venues": [
+        {
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-10-02T21:00:00",
+          "end": "2026-10-02T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "TRASHLAND - 10 SEASONS OF ZERO SHAME",
+      "url": "https://www.more.com/gr-el/tickets/music/trashland-10-seasons-of-zero-shame/",
+      "genres": [
+        "disco",
+        "pop",
+        "rnb"
+      ],
+      "venues": [
+        {
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-09-11T23:00:00",
+          "end": "2026-09-12T04:00:00",
           "region_status": "attica"
         }
       ],
@@ -4314,6 +4327,25 @@
           "street": "Πειραιώς 105, Αθήνα, Τ.Κ.: 118 54",
           "start": "2026-09-30T19:45:00",
           "end": "2026-09-30T20:45:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "CONWAY THE MACHINE Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/conway-the-machine-athens/",
+      "genres": [
+        "hiphop"
+      ],
+      "venues": [
+        {
+          "name": "Gagarin 205 Live Music Space",
+          "locality": "Αθήνα",
+          "street": "Λιοσιών 205",
+          "start": "2026-11-12T20:30:00",
+          "end": "2026-11-12T22:30:00",
           "region_status": "attica"
         }
       ],
@@ -4381,9 +4413,9 @@
       "title": "LIGHT ASYLUM",
       "url": "https://www.more.com/gr-el/tickets/music/light-asylum/",
       "genres": [
-        "techno",
         "indie",
-        "pop"
+        "pop",
+        "techno"
       ],
       "venues": [
         {
@@ -4392,187 +4424,6 @@
           "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
           "start": "2026-09-19T21:00:00",
           "end": "2026-09-20T00:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "TRASHLAND - 10 SEASONS OF ZERO SHAME",
-      "url": "https://www.more.com/gr-el/tickets/music/trashland-10-seasons-of-zero-shame/",
-      "genres": [
-        "disco",
-        "pop",
-        "rnb"
-      ],
-      "venues": [
-        {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-09-11T23:00:00",
-          "end": "2026-09-12T04:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "MAZOHA",
-      "url": "https://www.more.com/gr-el/tickets/music/mazoha-3/",
-      "genres": [
-        "hiphop",
-        "indie",
-        "pop"
-      ],
-      "venues": [
-        {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-10-02T21:00:00",
-          "end": "2026-10-02T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Mayans w/ Dave Seaman I Thu Sep 10",
-      "url": "https://www.more.com/gr-el/tickets/music/bolivar/mayans/dave-seaman/",
-      "genres": [
-        "house",
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "Bolivar Beach Club",
-          "locality": "Αθήνα",
-          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
-          "start": "2026-09-10T21:00:00",
-          "end": "2026-09-11T07:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "DISCOVERY ZONE // PAINT // MR. SILLA live @ ILION PLUS",
-      "url": "https://www.more.com/gr-el/tickets/music/discovery-zone/paint/mr-silla-live-ilion-plus/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "ΙΛΙΟΝ Plus",
-          "locality": "Αθήνα",
-          "street": "Κοδριγκτώνος 17, Αθήνα 104 34",
-          "start": "2026-09-18T20:30:00",
-          "end": "2026-09-19T01:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Horse Jumper of Love live στην Αθήνα",
-      "url": "https://www.more.com/gr-el/tickets/music/house-jumper-of-love-live-stin-athina/",
-      "genres": [
-        "indie",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-11-13T20:30:00",
-          "end": "2026-11-13T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "BEAT THE ROOM Το απόλυτο Game Show BACK TO 90s",
-      "url": "https://www.more.com/gr-el/tickets/music/beat-the-room-to-apolyto-game-show-back-to-90s/",
-      "genres": [
-        "pop",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Roof Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 34",
-          "start": "2026-09-28T21:00:00",
-          "end": "2026-09-28T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Tempers (US) · Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/tempers-us-athens/",
-      "genres": [
-        "indie",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "AUX CLUB",
-          "locality": "Αθήνα",
-          "street": "Αγίου Όρους 15, Αθήνα 104 35",
-          "start": "2026-10-09T20:30:00",
-          "end": "2026-10-09T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Seksendört LIVE in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/seksendort-live-in-athens/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Gagarin 205 Live Music Space",
-          "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-10-03T20:30:00",
-          "end": "2026-10-03T21:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "DIRE STRAITS LEGACY live in Greece!",
-      "url": "https://www.more.com/gr-el/tickets/music/dire-straits-legacy-live-in-greece-1/",
-      "genres": [
-        "blues",
-        "rock",
-        "soul"
-      ],
-      "venues": [
-        {
-          "name": "Floyd",
-          "locality": "Αθήνα",
-          "street": "Πειραιώς 117,  11854",
-          "start": "2026-11-13T19:00:00",
-          "end": "2026-11-13T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -4600,6 +4451,26 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Wizards Of Ozz vol4-RHOADS OF REVELATION band (Randy Rhoads/Ozzy Osbourne Tribute) @ΚΥΤΤΑΡΟ live",
+      "url": "https://www.more.com/gr-el/tickets/music/rhoads-of-revelation-randy-rhoads/ozzy-osbourne-tribute-kyttaro-live-stage/",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Κύτταρο Live",
+          "locality": "Αθήνα",
+          "street": "Athens, Attiki",
+          "start": "2026-09-26T20:30:00",
+          "end": "2026-09-26T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "Warning (UK) + The Temple (GR) live στην Αθήνα",
       "url": "https://www.more.com/gr-el/tickets/music/warning-uk-the-temple-gr-live-stin-athina/",
       "genres": [
@@ -4619,18 +4490,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "SOEN",
-      "url": "https://www.more.com/gr-el/tickets/music/soen/2027/",
+      "title": "Seksendört LIVE in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/seksendort-live-in-athens/",
       "genres": [
-        "metal"
+        "other"
       ],
       "venues": [
         {
-          "name": "Floyd",
+          "name": "Gagarin 205 Live Music Space",
           "locality": "Αθήνα",
-          "street": "Πειραιώς 117",
-          "start": "2027-03-24T20:00:00",
-          "end": "2027-03-25T00:00:00",
+          "street": "Λιοσιών 205",
+          "start": "2026-10-03T20:30:00",
+          "end": "2026-10-03T21:30:00",
           "region_status": "attica"
         }
       ],
@@ -4657,18 +4528,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "SAINTS & SINNERS & FIREFLY @ The ULTIMATE LIVE TRIBUTE NIGHT",
-      "url": "https://www.more.com/gr-el/tickets/music/saints-sinners-firefly-the-ultimate-live-tribute-night/",
+      "title": "THE OCEAN",
+      "url": "https://www.more.com/gr-el/tickets/music/the-ocean-gagarin/",
       "genres": [
-        "rock"
+        "other"
       ],
       "venues": [
         {
-          "name": "Κύτταρο Live",
+          "name": "Gagarin 205 Live Music Space",
           "locality": "Αθήνα",
-          "street": "Athens, Attiki",
-          "start": "2026-10-24T21:00:00",
-          "end": "2026-10-24T22:00:00",
+          "street": "Λιοσιών 205",
+          "start": "2026-12-03T20:00:00",
+          "end": "2026-12-03T20:59:00",
           "region_status": "attica"
         }
       ],
@@ -4696,18 +4567,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "THE OCEAN",
-      "url": "https://www.more.com/gr-el/tickets/music/the-ocean-gagarin/",
+      "title": "SAINTS & SINNERS & FIREFLY @ The ULTIMATE LIVE TRIBUTE NIGHT",
+      "url": "https://www.more.com/gr-el/tickets/music/saints-sinners-firefly-the-ultimate-live-tribute-night/",
       "genres": [
-        "other"
+        "rock"
       ],
       "venues": [
         {
-          "name": "Gagarin 205 Live Music Space",
+          "name": "Κύτταρο Live",
           "locality": "Αθήνα",
-          "street": "Λιοσιών 205",
-          "start": "2026-12-03T20:00:00",
-          "end": "2026-12-03T20:59:00",
+          "street": "Athens, Attiki",
+          "start": "2026-10-24T21:00:00",
+          "end": "2026-10-24T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -4715,18 +4586,37 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "INNERWISH",
-      "url": "https://www.more.com/gr-el/tickets/music/innerwish/",
+      "title": "SOEN",
+      "url": "https://www.more.com/gr-el/tickets/music/soen/2027/",
       "genres": [
         "metal"
       ],
       "venues": [
         {
-          "name": "Fuzz Club",
-          "locality": "Ταύρος",
-          "street": "Πειραιώς 209 & Πατρ. Ιωακείμ 1",
-          "start": "2026-11-28T21:00:00",
-          "end": "2026-11-28T22:30:00",
+          "name": "Floyd",
+          "locality": "Αθήνα",
+          "street": "Πειραιώς 117",
+          "start": "2027-03-24T20:00:00",
+          "end": "2027-03-25T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Iron Beast live in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/ironbeastath2026/",
+      "genres": [
+        "metal"
+      ],
+      "venues": [
+        {
+          "name": "Gagarin 205 Live Music Space",
+          "locality": "Αθήνα",
+          "street": "Λιοσιών 205",
+          "start": "2026-10-10T19:30:00",
+          "end": "2026-10-10T22:30:00",
           "region_status": "attica"
         }
       ],
@@ -4793,6 +4683,107 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Kappart festival",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/festival/",
+      "genres": [
+        "house",
+        "artmusic",
+        "classical"
+      ],
+      "venues": [
+        {
+          "name": "Kappart festival",
+          "locality": "",
+          "street": "Kapparia Androu, 845 02",
+          "start": "2026-08-30T18:30:00",
+          "end": "2026-08-30T22:40:00",
+          "region_status": "unconfirmed"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "BEAT THE ROOM Το απόλυτο Game Show BACK TO 90s",
+      "url": "https://www.more.com/gr-el/tickets/music/beat-the-room-to-apolyto-game-show-back-to-90s/",
+      "genres": [
+        "pop",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Roof Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 34",
+          "start": "2026-09-28T21:00:00",
+          "end": "2026-09-28T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Mayans w/ Dave Seaman I Thu Sep 10",
+      "url": "https://www.more.com/gr-el/tickets/music/bolivar/mayans/dave-seaman/",
+      "genres": [
+        "house",
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "Bolivar Beach Club",
+          "locality": "Αθήνα",
+          "street": "Λ. Ποσειδώνος, Ακτή του Ήλιου Άλιμος",
+          "start": "2026-09-10T21:00:00",
+          "end": "2026-09-11T07:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Horse Jumper of Love live στην Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/music/house-jumper-of-love-live-stin-athina/",
+      "genres": [
+        "indie",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-11-13T20:30:00",
+          "end": "2026-11-13T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ToTal ReCall - THE SOUND TRIBUTE",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/total-recall-the-sound-tribute/",
+      "genres": [
+        "rock",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Route 06",
+          "locality": "Βριλήσσια",
+          "street": "Λεωφ. Πεντέλης 1, Βριλήσσια 152 38",
+          "start": "2026-11-06T22:00:00",
+          "end": "2026-11-07T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "CITY KIDS & DIRTY DEALS Live | The MOTORHEAD & AC/DC Tribute",
       "url": "https://www.more.com/gr-el/tickets/music/city-kids-dirty-deals-live-the-motorhead-ac/dc-tribute/",
       "genres": [
@@ -4833,115 +4824,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Wizards Of Ozz vol4-RHOADS OF REVELATION band (Randy Rhoads/Ozzy Osbourne Tribute) @ΚΥΤΤΑΡΟ live",
-      "url": "https://www.more.com/gr-el/tickets/music/rhoads-of-revelation-randy-rhoads/ozzy-osbourne-tribute-kyttaro-live-stage/",
+      "title": "DIRE STRAITS LEGACY live in Greece!",
+      "url": "https://www.more.com/gr-el/tickets/music/dire-straits-legacy-live-in-greece-1/",
       "genres": [
-        "metal",
-        "rock"
+        "blues",
+        "rock",
+        "soul"
       ],
       "venues": [
         {
-          "name": "Κύτταρο Live",
+          "name": "Floyd",
           "locality": "Αθήνα",
-          "street": "Athens, Attiki",
-          "start": "2026-09-26T20:30:00",
-          "end": "2026-09-26T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Λ.ΠΑΠΑΔΟΠΟΥΛΟΣ Γ.ΓΙΟΚΑΡΙΝΗΣ Ν.ΖΙΩΓΑΛΑΣ Μ.ΦΑΜΕΛΛΟΣ Live στο ΚΥΤΤΑΡΟ!",
-      "url": "https://www.more.com/gr-el/tickets/music/l-papadopoulos-g-giokarinis-n-ziogalas-m-famellos-live-sto-kyttaro/",
-      "genres": [
-        "artmusic",
-        "pop",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Κύτταρο Live",
-          "locality": "Αθήνα",
-          "street": "Athens, Attiki",
-          "start": "2026-10-03T21:30:00",
-          "end": "2026-10-04T00:30:00",
-          "region_status": "attica"
-        },
-        {
-          "name": "Κύτταρο Live",
-          "locality": "Αθήνα",
-          "street": "Athens, Attiki",
-          "start": "2026-10-10T21:30:00",
-          "end": "2026-10-11T00:30:00",
-          "region_status": "attica"
-        },
-        {
-          "name": "Κύτταρο Live",
-          "locality": "Αθήνα",
-          "street": "Athens, Attiki",
-          "start": "2026-10-17T21:30:00",
-          "end": "2026-10-18T00:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "TUNNEL: Daniel Avery & Night Manoeuvres",
-      "url": "https://www.more.com/gr-el/tickets/music/tunnel-daniel-avery-night-manoeuvres/",
-      "genres": [
-        "industrial",
-        "house",
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "TBA",
-          "locality": "Αθήνα",
-          "street": "Athens, GR",
-          "start": "2026-12-19T20:00:00",
-          "end": "2026-12-20T03:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "TELENOVA live in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/telenova-live-in-athens-1/",
-      "genres": [
-        "pop"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-10-17T21:30:00",
-          "end": "2026-10-17T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "N.O.E. LIVE ΣΤΗΝ ΑΘΗΝΑ 💣🦉",
-      "url": "https://www.more.com/gr-el/tickets/music/n-o-e-live-stin-athina/",
-      "genres": [
-        "hiphop"
-      ],
-      "venues": [
-        {
-          "name": "AUX CLUB",
-          "locality": "Αθήνα",
-          "street": "Αγίου Όρους 15, Αθήνα 104 35",
-          "start": "2026-11-14T21:00:00",
-          "end": "2026-11-14T22:00:00",
+          "street": "Πειραιώς 117,  11854",
+          "start": "2026-11-13T19:00:00",
+          "end": "2026-11-13T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -4968,18 +4864,97 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Carpenter Brut",
-      "url": "https://www.more.com/gr-el/tickets/music/carpenter-brut2026/",
+      "title": "N.O.E. LIVE ΣΤΗΝ ΑΘΗΝΑ 💣🦉",
+      "url": "https://www.more.com/gr-el/tickets/music/n-o-e-live-stin-athina/",
       "genres": [
-        "metal"
+        "hiphop"
       ],
       "venues": [
         {
-          "name": "Floyd",
+          "name": "AUX CLUB",
           "locality": "Αθήνα",
-          "street": "Πειραιώς 117",
-          "start": "2026-11-26T20:00:00",
-          "end": "2026-11-27T00:00:00",
+          "street": "Αγίου Όρους 15, Αθήνα 104 35",
+          "start": "2026-11-14T21:00:00",
+          "end": "2026-11-14T22:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "TELENOVA live in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/telenova-live-in-athens-1/",
+      "genres": [
+        "pop"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-10-17T21:30:00",
+          "end": "2026-10-17T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Prong live in Athens , Gazarte , 22/11",
+      "url": "https://www.more.com/gr-el/tickets/music/prong-live-in-athens-gazarte-22/11/",
+      "genres": [
+        "metal",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-11-22T21:00:00",
+          "end": "2026-11-23T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "The Last Internationale",
+      "url": "https://www.more.com/gr-el/tickets/music/the-last-internationale/",
+      "genres": [
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2027-03-20T21:00:00",
+          "end": "2027-03-20T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "GONG live in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/gong-live-in-athens/",
+      "genres": [
+        "indie",
+        "other",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-10-03T21:30:00",
+          "end": "2026-10-03T23:00:00",
           "region_status": "attica"
         }
       ],
@@ -5027,59 +5002,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "GONG live in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/gong-live-in-athens/",
+      "title": "Carpenter Brut",
+      "url": "https://www.more.com/gr-el/tickets/music/carpenter-brut2026/",
       "genres": [
-        "indie",
-        "other",
-        "rock"
+        "metal"
       ],
       "venues": [
         {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-10-03T21:30:00",
-          "end": "2026-10-03T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Prong live in Athens , Gazarte , 22/11",
-      "url": "https://www.more.com/gr-el/tickets/music/prong-live-in-athens-gazarte-22/11/",
-      "genres": [
-        "metal",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-11-22T21:00:00",
-          "end": "2026-11-23T00:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "The Last Internationale",
-      "url": "https://www.more.com/gr-el/tickets/music/the-last-internationale/",
-      "genres": [
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2027-03-20T21:00:00",
-          "end": "2027-03-20T22:30:00",
+          "name": "Floyd",
+          "locality": "Αθήνα",
+          "street": "Πειραιώς 117",
+          "start": "2026-11-26T20:00:00",
+          "end": "2026-11-27T00:00:00",
           "region_status": "attica"
         }
       ],
@@ -5101,26 +5035,6 @@
           "street": "Βουτάδων 32-34",
           "start": "2026-10-16T21:30:00",
           "end": "2026-10-16T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "PATRIARKH (PL) LIVE IN ATHENS",
-      "url": "https://www.more.com/gr-el/tickets/music/patriarkh-pl-live-in-athens/",
-      "genres": [
-        "metal",
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "ARCH",
-          "locality": "Αθήνα",
-          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
-          "start": "2026-11-28T21:00:00",
-          "end": "2026-11-28T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -5168,38 +5082,19 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Terminal Serious + The Man & His Failures",
-      "url": "https://www.more.com/gr-el/tickets/music/terminal-serious-the-man-his-failures/",
+      "title": "PATRIARKH (PL) LIVE IN ATHENS",
+      "url": "https://www.more.com/gr-el/tickets/music/patriarkh-pl-live-in-athens/",
       "genres": [
-        "indie",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-10-23T21:00:00",
-          "end": "2026-10-24T00:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "SEX MASK",
-      "url": "https://www.more.com/gr-el/tickets/music/sex-mask/",
-      "genres": [
+        "metal",
         "rock"
       ],
       "venues": [
         {
-          "name": "Bios Ρομάντσο",
+          "name": "ARCH",
           "locality": "Αθήνα",
-          "street": "Αναξαγόρα 3 - 5",
-          "start": "2026-11-13T20:30:00",
-          "end": "2026-11-13T22:30:00",
+          "street": "Κρήτης 1 & Πέτρου Ράλλη 29",
+          "start": "2026-11-28T21:00:00",
+          "end": "2026-11-28T22:00:00",
           "region_status": "attica"
         }
       ],
@@ -5207,78 +5102,77 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "EAGLE EYE CHERRY live in Greece!",
-      "url": "https://www.more.com/gr-el/tickets/music/eagle-eye-cherry-live-in-greece/",
+      "title": "TUNNEL: Daniel Avery & Night Manoeuvres",
+      "url": "https://www.more.com/gr-el/tickets/music/tunnel-daniel-avery-night-manoeuvres/",
       "genres": [
-        "blues",
+        "industrial",
+        "house",
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "TBA",
+          "locality": "Αθήνα",
+          "street": "Athens, GR",
+          "start": "2026-12-19T20:00:00",
+          "end": "2026-12-20T03:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Tempers (US) · Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/tempers-us-athens/",
+      "genres": [
+        "indie",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "AUX CLUB",
+          "locality": "Αθήνα",
+          "street": "Αγίου Όρους 15, Αθήνα 104 35",
+          "start": "2026-10-09T20:30:00",
+          "end": "2026-10-09T23:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Λ.ΠΑΠΑΔΟΠΟΥΛΟΣ Γ.ΓΙΟΚΑΡΙΝΗΣ Ν.ΖΙΩΓΑΛΑΣ Μ.ΦΑΜΕΛΛΟΣ Live στο ΚΥΤΤΑΡΟ!",
+      "url": "https://www.more.com/gr-el/tickets/music/l-papadopoulos-g-giokarinis-n-ziogalas-m-famellos-live-sto-kyttaro/",
+      "genres": [
+        "artmusic",
         "pop",
         "rock"
       ],
       "venues": [
         {
-          "name": "Fuzz Club",
-          "locality": "Ταύρος",
-          "street": "Πατριάρχου Ιωακείμ 1, 17778",
-          "start": "2026-11-30T20:30:00",
-          "end": "2026-11-30T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Fifth Angel (US) 40Y Anniversary Tour",
-      "url": "https://www.more.com/gr-el/tickets/music/fifth-angel-us-40y-anniversary-tour/",
-      "genres": [
-        "metal"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-11-01T20:00:00",
-          "end": "2026-11-01T23:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Phrenelith | Special guests: Rapture / Casket Dweller",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/phrenelith-special-guests-rapture/casket/",
-      "genres": [
-        "metal"
-      ],
-      "venues": [
-        {
-          "name": "AN Club ",
+          "name": "Κύτταρο Live",
           "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-10-29T20:00:00",
-          "end": "2026-10-30T01:00:00",
+          "street": "Athens, Attiki",
+          "start": "2026-10-03T21:30:00",
+          "end": "2026-10-04T00:30:00",
           "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Corpus Delicti",
-      "url": "https://www.more.com/gr-el/tickets/music/corpus-delicti-1/",
-      "genres": [
-        "indie",
-        "rock"
-      ],
-      "venues": [
+        },
         {
-          "name": "Death Disco",
-          "locality": "Μοναστηράκι",
-          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
-          "start": "2026-10-10T21:00:00",
-          "end": "2026-10-11T00:00:00",
+          "name": "Κύτταρο Live",
+          "locality": "Αθήνα",
+          "street": "Athens, Attiki",
+          "start": "2026-10-10T21:30:00",
+          "end": "2026-10-11T00:30:00",
+          "region_status": "attica"
+        },
+        {
+          "name": "Κύτταρο Live",
+          "locality": "Αθήνα",
+          "street": "Athens, Attiki",
+          "start": "2026-10-17T21:30:00",
+          "end": "2026-10-18T00:30:00",
           "region_status": "attica"
         }
       ],
@@ -5307,79 +5201,59 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "TUNNEL: Hunee & Paula Tape",
-      "url": "https://www.more.com/gr-el/tickets/music/tunnel-hunee-paula-tape/",
+      "title": "Terminal Serious + The Man & His Failures",
+      "url": "https://www.more.com/gr-el/tickets/music/terminal-serious-the-man-his-failures/",
       "genres": [
-        "disco",
-        "house",
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "TBA",
-          "locality": "Αθήνα",
-          "street": "Athens, GR",
-          "start": "2026-11-14T20:00:00",
-          "end": "2026-11-14T21:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/summer/giannis-kotsiras/",
-      "genres": [
-        "artmusic"
-      ],
-      "venues": [
-        {
-          "name": "Άλσος Νέας Σμύρνης",
-          "locality": "Νέα Σμύρνη",
-          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
-          "start": "2026-09-23T20:30:00",
-          "end": "2026-09-23T21:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ΖΩΗ ΤΗΓΑΝΟΥΡΙΑ - Μια Μαγική Μουσική Βραδιά",
-      "url": "https://www.more.com/gr-el/tickets/music/zoi-tiganouria-mia-magiki-mousiki-bradia/",
-      "genres": [
-        "artmusic",
+        "indie",
         "other"
       ],
       "venues": [
         {
-          "name": "PRIVILEGE EVENT HOUSE – ΠΑΤΡΑ",
-          "locality": "",
-          "street": "Kontaxi, Patra 264 42",
-          "start": "2026-09-16T21:00:00",
-          "end": "2026-09-16T23:00:00",
-          "region_status": "unconfirmed"
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-10-23T21:00:00",
+          "end": "2026-10-24T00:00:00",
+          "region_status": "attica"
         }
       ],
       "source": "more.com",
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Exclusive Launch - Lava Blues Super Group",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/exclusive-launch-lava-blues-super-group/",
+      "title": "Fifth Angel (US) 40Y Anniversary Tour",
+      "url": "https://www.more.com/gr-el/tickets/music/fifth-angel-us-40y-anniversary-tour/",
+      "genres": [
+        "metal"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-11-01T20:00:00",
+          "end": "2026-11-01T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "EAGLE EYE CHERRY live in Greece!",
+      "url": "https://www.more.com/gr-el/tickets/music/eagle-eye-cherry-live-in-greece/",
       "genres": [
         "blues",
+        "pop",
         "rock"
       ],
       "venues": [
         {
-          "name": "Route 06",
-          "locality": "Βριλήσσια",
-          "street": "Λεωφ. Πεντέλης 1, Βριλήσσια 152 38",
-          "start": "2026-09-11T22:00:00",
-          "end": "2026-09-11T23:00:00",
+          "name": "Fuzz Club",
+          "locality": "Ταύρος",
+          "street": "Πατριάρχου Ιωακείμ 1, 17778",
+          "start": "2026-11-30T20:30:00",
+          "end": "2026-11-30T23:30:00",
           "region_status": "attica"
         }
       ],
@@ -5387,18 +5261,57 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "A NEW KIND OF KICK: SOMA | ARIANNA K & ΤΟ ΚΟΜΜΑΤΙ ΠΟΥ ΛΕΙΠΕΙ | VINA AND JOHNY",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/a-new-kind-of-kick-soma-arianna-k-to-kommati-pou-leipei-vina-and-johny/",
+      "title": "SEX MASK",
+      "url": "https://www.more.com/gr-el/tickets/music/sex-mask/",
       "genres": [
-        "other"
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Bios Ρομάντσο",
+          "locality": "Αθήνα",
+          "street": "Αναξαγόρα 3 - 5",
+          "start": "2026-11-13T20:30:00",
+          "end": "2026-11-13T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Corpus Delicti",
+      "url": "https://www.more.com/gr-el/tickets/music/corpus-delicti-1/",
+      "genres": [
+        "indie",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Death Disco",
+          "locality": "Μοναστηράκι",
+          "street": "ΩΓΥΓΟΥ 16 & ΛΕΠΕΝΙΩΤΟΥ, 10654 ΑΘΗΝΑ",
+          "start": "2026-10-10T21:00:00",
+          "end": "2026-10-11T00:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Phrenelith | Special guests: Rapture / Casket Dweller",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/phrenelith-special-guests-rapture/casket/",
+      "genres": [
+        "metal"
       ],
       "venues": [
         {
           "name": "AN Club ",
           "locality": "Αθήνα",
           "street": "Σολομού 13-15 ",
-          "start": "2026-10-10T21:00:00",
-          "end": "2026-10-11T02:20:00",
+          "start": "2026-10-29T20:00:00",
+          "end": "2026-10-30T01:00:00",
           "region_status": "attica"
         }
       ],
@@ -5406,75 +5319,37 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Exilium pres. 360' - Snob Club Rhodes",
-      "url": "https://www.more.com/gr-el/tickets/music/exilium-pres-360-snob-club-rhodes/",
+      "title": "The Beatles Symphonic Fantasy με την Κρατική Ορχήστρα Αθηνών",
+      "url": "https://www.more.com/gr-el/tickets/music/beatles/",
+      "genres": [
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "CHRISTMAS THEATER",
+          "locality": "Γαλάτσι",
+          "street": "Λεωφ. Βεΐκου 137",
+          "start": "2026-12-02T20:00:00",
+          "end": "2026-12-02T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Pre-Techniques w/ RICHIE HAWTIN (more acts tba)",
+      "url": "https://www.more.com/gr-el/tickets/music/blend/pre-techniques/",
       "genres": [
         "techno"
       ],
       "venues": [
         {
-          "name": "SNOB bar & club",
-          "locality": "",
-          "street": "Ακτή Μιαούλη 28, Ρόδος 851 00",
-          "start": "2026-09-05T23:30:00",
-          "end": "2026-09-06T06:30:00",
-          "region_status": "unconfirmed"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "\"Μεταμορφώσεις\" Ρεσιτάλ Πιάνου Βασίλη Γάββαρη",
-      "url": "https://www.more.com/gr-el/tickets/music/metamorfoseis-recital-pianou-vassilis-gavvaris/",
-      "genres": [
-        "classical"
-      ],
-      "venues": [
-        {
-          "name": "Ιωνικό Κέντρο",
+          "name": "Universe - Multivenue",
           "locality": "Αθήνα",
-          "street": "Λυσίου 11, Αθήνα 105 56",
-          "start": "2026-09-11T20:00:00",
-          "end": "2026-09-11T21:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Sissy Doutsiou • Cilia Katrali • Lia Hide",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/sissy-doutsiou-cilia-katrali-lia-hide/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "AN Club ",
-          "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-10-04T20:00:00",
-          "end": "2026-10-05T01:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Tyketto - Σάββατο 5 Δεκεμβρίου 2026 | Piraeus Academy - Support Act Senses",
-      "url": "https://www.more.com/gr-el/tickets/music/tyketto/",
-      "genres": [
-        "rock"
-      ],
-      "venues": [
-        {
-          "name": "Piraeus Club Academy",
-          "locality": "Αθήνα",
-          "street": "Πειραιώς 105, Αθήνα, Τ.Κ.: 118 54",
-          "start": "2026-12-05T20:00:00",
-          "end": "2026-12-05T23:20:00",
+          "street": "Λεωφ. Κηφισού 87",
+          "start": "2026-10-10T23:00:00",
+          "end": "2026-10-11T07:00:00",
           "region_status": "attica"
         }
       ],
@@ -5523,137 +5398,18 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "The Beatles Symphonic Fantasy με την Κρατική Ορχήστρα Αθηνών",
-      "url": "https://www.more.com/gr-el/tickets/music/beatles/",
+      "title": "Tyketto - Σάββατο 5 Δεκεμβρίου 2026 | Piraeus Academy - Support Act Senses",
+      "url": "https://www.more.com/gr-el/tickets/music/tyketto/",
       "genres": [
         "rock"
       ],
       "venues": [
         {
-          "name": "CHRISTMAS THEATER",
-          "locality": "Γαλάτσι",
-          "street": "Λεωφ. Βεΐκου 137",
-          "start": "2026-12-02T20:00:00",
-          "end": "2026-12-02T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Pre-Techniques w/ RICHIE HAWTIN (more acts tba)",
-      "url": "https://www.more.com/gr-el/tickets/music/blend/pre-techniques/",
-      "genres": [
-        "techno"
-      ],
-      "venues": [
-        {
-          "name": "Universe - Multivenue",
+          "name": "Piraeus Club Academy",
           "locality": "Αθήνα",
-          "street": "Λεωφ. Κηφισού 87",
-          "start": "2026-10-10T23:00:00",
-          "end": "2026-10-11T07:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "Όλη η Ελλάδα μια Αγκαλιά",
-      "url": "https://www.more.com/gr-el/tickets/music/oli-i-ellada-mia-agkalia-3/",
-      "genres": [
-        "rebetiko",
-        "traditional"
-      ],
-      "venues": [
-        {
-          "name": "Βεάκειο Θέατρο, Πειραιάς",
-          "locality": "Πειραιάς",
-          "street": "Ηρακλείου 13,Πειραιάς 185 33",
-          "start": "2026-09-21T21:00:00",
-          "end": "2026-09-21T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "THEODORE Live - A Cold Summer @Στοά Culture",
-      "url": "https://www.more.com/gr-el/tickets/music/theodore-live-a-cold-summer/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Αίθριο Στοά Culture",
-          "locality": "Αθήνα",
-          "street": "Πεσμαζόγλου 5 με Πανεπιστημίου",
-          "start": "2026-10-10T20:00:00",
-          "end": "2026-10-10T21:00:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "VAPORS OF MORPHINE live in Athens",
-      "url": "https://www.more.com/gr-el/tickets/music/vapors-of-morphine-live-in-athens/",
-      "genres": [
-        "rock",
-        "indie",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Gazarte - Ground Stage",
-          "locality": "Γκάζι",
-          "street": "Βουτάδων 32-34",
-          "start": "2026-11-11T21:30:00",
-          "end": "2026-11-11T23:50:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "CINEMA in Concert - Galaxy Orchestra",
-      "url": "https://www.more.com/gr-el/tickets/music/cinema-in-concert-galaxy-orchestra/",
-      "genres": [
-        "rock",
-        "ethnic",
-        "pop"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Εκθεσιακού Κέντρου Περιστερίου",
-          "locality": "Περιστέρι",
-          "street": "Δωδεκανήσου 106",
-          "start": "2027-01-02T20:30:00",
-          "end": "2027-01-02T22:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "2nd Greek Dungeon Synth Festival",
-      "url": "https://www.more.com/gr-el/tickets/music/offer/2nd-greek-dungeon-synth-festival/",
-      "genres": [
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "AN Club ",
-          "locality": "Αθήνα",
-          "street": "Σολομού 13-15 ",
-          "start": "2026-11-06T20:00:00",
-          "end": "2026-11-07T01:00:00",
+          "street": "Πειραιώς 105, Αθήνα, Τ.Κ.: 118 54",
+          "start": "2026-12-05T20:00:00",
+          "end": "2026-12-05T23:20:00",
           "region_status": "attica"
         }
       ],
@@ -5761,6 +5517,106 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Όλη η Ελλάδα μια Αγκαλιά",
+      "url": "https://www.more.com/gr-el/tickets/music/oli-i-ellada-mia-agkalia-3/",
+      "genres": [
+        "rebetiko",
+        "traditional"
+      ],
+      "venues": [
+        {
+          "name": "Βεάκειο Θέατρο, Πειραιάς",
+          "locality": "Πειραιάς",
+          "street": "Ηρακλείου 13,Πειραιάς 185 33",
+          "start": "2026-09-21T21:00:00",
+          "end": "2026-09-21T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "THEODORE Live - A Cold Summer @Στοά Culture",
+      "url": "https://www.more.com/gr-el/tickets/music/theodore-live-a-cold-summer/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Αίθριο Στοά Culture",
+          "locality": "Αθήνα",
+          "street": "Πεσμαζόγλου 5 με Πανεπιστημίου",
+          "start": "2026-10-10T20:00:00",
+          "end": "2026-10-10T21:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "CINEMA in Concert - Galaxy Orchestra",
+      "url": "https://www.more.com/gr-el/tickets/music/cinema-in-concert-galaxy-orchestra/",
+      "genres": [
+        "rock",
+        "ethnic",
+        "pop"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Εκθεσιακού Κέντρου Περιστερίου",
+          "locality": "Περιστέρι",
+          "street": "Δωδεκανήσου 106",
+          "start": "2027-01-02T20:30:00",
+          "end": "2027-01-02T22:30:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "VAPORS OF MORPHINE live in Athens",
+      "url": "https://www.more.com/gr-el/tickets/music/vapors-of-morphine-live-in-athens/",
+      "genres": [
+        "rock",
+        "indie",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "Gazarte - Ground Stage",
+          "locality": "Γκάζι",
+          "street": "Βουτάδων 32-34",
+          "start": "2026-11-11T21:30:00",
+          "end": "2026-11-11T23:50:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "2nd Greek Dungeon Synth Festival",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/2nd-greek-dungeon-synth-festival/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-11-06T20:00:00",
+          "end": "2026-11-07T01:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
       "title": "BURGER PROJECT X ILISIAKOS 100 YEARS HISTORY",
       "url": "https://www.more.com/gr-el/tickets/music/burger-project-x-ilisiakos-100-years-history/",
       "genres": [
@@ -5824,9 +5680,9 @@
       "title": "Μιχάλης Χατζηγιάννης - Καλοκαίρι 2026",
       "url": "https://www.more.com/gr-el/tickets/music/mixalis-xatzigiannis-kalokairi-2026/",
       "genres": [
+        "pop",
         "artmusic",
-        "rebetiko",
-        "pop"
+        "rebetiko"
       ],
       "venues": [
         {
@@ -5854,8 +5710,8 @@
       "url": "https://www.more.com/gr-el/tickets/music/oi-destiny-calls-dentures-hideaway-sto-ilion-plus/",
       "genres": [
         "metal",
-        "other",
-        "rock"
+        "rock",
+        "other"
       ],
       "venues": [
         {
@@ -5947,26 +5803,6 @@
           "street": "Athens, Attiki",
           "start": "2026-09-19T21:00:00",
           "end": "2026-09-19T23:30:00",
-          "region_status": "attica"
-        }
-      ],
-      "source": "more.com",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "ToTal ReCall - THE SOUND TRIBUTE",
-      "url": "https://www.more.com/gr-el/tickets/music/festival/total-recall-the-sound-tribute/",
-      "genres": [
-        "rock",
-        "other"
-      ],
-      "venues": [
-        {
-          "name": "Route 06",
-          "locality": "Βριλήσσια",
-          "street": "Λεωφ. Πεντέλης 1, Βριλήσσια 152 38",
-          "start": "2026-11-06T22:00:00",
-          "end": "2026-11-07T00:00:00",
           "region_status": "attica"
         }
       ],
@@ -6111,6 +5947,182 @@
           "street": "Αβραμιώτου 6-8, Μοναστηράκι",
           "start": "2026-09-05T21:00:00",
           "end": "2026-09-06T01:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "\"Μεταμορφώσεις\" Ρεσιτάλ Πιάνου Βασίλη Γάββαρη",
+      "url": "https://www.more.com/gr-el/tickets/music/metamorfoseis-recital-pianou-vassilis-gavvaris/",
+      "genres": [
+        "classical"
+      ],
+      "venues": [
+        {
+          "name": "Ιωνικό Κέντρο",
+          "locality": "Αθήνα",
+          "street": "Λυσίου 11, Αθήνα 105 56",
+          "start": "2026-09-11T20:00:00",
+          "end": "2026-09-11T21:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Sissy Doutsiou • Cilia Katrali • Lia Hide",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/sissy-doutsiou-cilia-katrali-lia-hide/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-10-04T20:00:00",
+          "end": "2026-10-05T01:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "422: Mass Season Opening & 2Years Anniversary",
+      "url": "https://www.more.com/gr-el/tickets/music/422mass/",
+      "genres": [
+        "techno",
+        "trance"
+      ],
+      "venues": [
+        {
+          "name": "AUX CLUB",
+          "locality": "Αθήνα",
+          "street": "Αγίου Όρους 15, Αθήνα 104 35",
+          "start": "2026-10-03T23:00:00",
+          "end": "2026-10-04T09:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-30"
+    },
+    {
+      "title": "A NEW KIND OF KICK: SOMA | ARIANNA K & ΤΟ ΚΟΜΜΑΤΙ ΠΟΥ ΛΕΙΠΕΙ | VINA AND JOHNY",
+      "url": "https://www.more.com/gr-el/tickets/music/offer/a-new-kind-of-kick-soma-arianna-k-to-kommati-pou-leipei-vina-and-johny/",
+      "genres": [
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "AN Club ",
+          "locality": "Αθήνα",
+          "street": "Σολομού 13-15 ",
+          "start": "2026-10-10T21:00:00",
+          "end": "2026-10-11T02:20:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Exilium pres. 360' - Snob Club Rhodes",
+      "url": "https://www.more.com/gr-el/tickets/music/exilium-pres-360-snob-club-rhodes/",
+      "genres": [
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "SNOB bar & club",
+          "locality": "",
+          "street": "Ακτή Μιαούλη 28, Ρόδος 851 00",
+          "start": "2026-09-05T23:30:00",
+          "end": "2026-09-06T06:30:00",
+          "region_status": "unconfirmed"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΖΩΗ ΤΗΓΑΝΟΥΡΙΑ - Μια Μαγική Μουσική Βραδιά",
+      "url": "https://www.more.com/gr-el/tickets/music/zoi-tiganouria-mia-magiki-mousiki-bradia/",
+      "genres": [
+        "artmusic",
+        "other"
+      ],
+      "venues": [
+        {
+          "name": "PRIVILEGE EVENT HOUSE – ΠΑΤΡΑ",
+          "locality": "",
+          "street": "Kontaxi, Patra 264 42",
+          "start": "2026-09-16T21:00:00",
+          "end": "2026-09-16T23:00:00",
+          "region_status": "unconfirmed"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Exclusive Launch - Lava Blues Super Group",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/exclusive-launch-lava-blues-super-group/",
+      "genres": [
+        "blues",
+        "rock"
+      ],
+      "venues": [
+        {
+          "name": "Route 06",
+          "locality": "Βριλήσσια",
+          "street": "Λεωφ. Πεντέλης 1, Βριλήσσια 152 38",
+          "start": "2026-09-11T22:00:00",
+          "end": "2026-09-11T23:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "TUNNEL: Hunee & Paula Tape",
+      "url": "https://www.more.com/gr-el/tickets/music/tunnel-hunee-paula-tape/",
+      "genres": [
+        "disco",
+        "house",
+        "techno"
+      ],
+      "venues": [
+        {
+          "name": "TBA",
+          "locality": "Αθήνα",
+          "street": "Athens, GR",
+          "start": "2026-11-14T20:00:00",
+          "end": "2026-11-14T21:00:00",
+          "region_status": "attica"
+        }
+      ],
+      "source": "more.com",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/music/festival/summer/giannis-kotsiras/",
+      "genres": [
+        "artmusic"
+      ],
+      "venues": [
+        {
+          "name": "Άλσος Νέας Σμύρνης",
+          "locality": "Νέα Σμύρνη",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21",
+          "start": "2026-09-23T20:30:00",
+          "end": "2026-09-23T21:30:00",
           "region_status": "attica"
         }
       ],
