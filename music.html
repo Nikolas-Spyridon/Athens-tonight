@@ -39,6 +39,30 @@
   .month-header{font-family:'Fraunces',serif;font-size:14px;font-weight:600;color:var(--coral);text-transform:uppercase;letter-spacing:.04em;margin:20px 2px 8px;}
   .month-header:first-child{margin-top:0;}
 
+  .monthbar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 12px;margin-bottom:4px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
+  .monthbar::-webkit-scrollbar{display:none;}
+  .monthpill{flex:0 0 auto;padding:8px 13px;border-radius:10px;border:1px solid var(--line);background:var(--ink2);cursor:pointer;font-size:12px;font-weight:600;color:var(--paper);white-space:nowrap;position:relative;}
+  .monthpill.active{background:var(--coral);border-color:var(--coral);color:var(--ink);}
+  .monthpill .dot{position:absolute;top:4px;right:5px;width:6px;height:6px;border-radius:50%;background:var(--coral);}
+  .monthpill.active .dot{background:var(--ink);}
+
+  .new-banner{display:block;width:100%;text-align:left;font-family:'Inter',sans-serif;padding:10px 13px;border-radius:9px;background:rgba(193,82,75,0.14);border:1px solid rgba(193,82,75,0.4);color:var(--paper);font-size:12.5px;font-weight:600;cursor:pointer;margin:10px 0;}
+  .new-banner .count-badge{display:inline-block;background:var(--coral);color:var(--ink);border-radius:20px;padding:1px 8px;font-size:11px;margin-right:6px;}
+  .new-banner .match-note{color:var(--muted);font-weight:500;font-size:11.5px;display:block;margin-top:2px;}
+
+  .watchlist{margin:6px 0 4px;}
+  .watchlist-toggle{font-size:11.5px;color:var(--muted);cursor:pointer;text-decoration:underline;background:none;border:none;padding:0;font-family:'Inter',sans-serif;}
+  .watchlist-panel{margin-top:8px;padding:10px;border-radius:9px;background:var(--ink2);border:1px solid var(--line);}
+  .watchlist-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
+  .watchlist-tag{display:flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;padding:4px 8px;border-radius:6px;background:var(--coral-dim);color:var(--coral);}
+  .watchlist-tag button{background:none;border:none;color:var(--coral);cursor:pointer;font-size:13px;line-height:1;padding:0;font-weight:700;}
+  .watchlist-add{display:flex;gap:6px;}
+  .watchlist-add input{flex:1;margin:0;font-size:12.5px;padding:7px 10px;}
+  .watchlist-add button{padding:7px 12px;border-radius:8px;border:none;background:var(--coral);color:var(--ink);font-weight:700;font-size:12px;cursor:pointer;}
+  .watchlist-empty{font-size:11.5px;color:var(--muted);margin-bottom:8px;}
+
+  .e-watch{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:transparent;border:1.5px solid var(--coral);color:var(--coral);margin-top:6px;margin-right:6px;}
+
   .event{background:var(--ink2);border-radius:10px;padding:14px 16px;margin-bottom:10px;border-left:3px solid var(--coral);}
   .e-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
   .e-date{font-family:'Fraunces',serif;font-size:14px;font-weight:600;color:var(--coral);white-space:nowrap;flex-shrink:0;min-width:44px;}
@@ -70,6 +94,15 @@
 <h1>Ζωντανή μουσική</h1>
 <p class="sub">Συναυλίες στην Αττική, από το more.com, το ticketservices.gr και το rocking.gr.</p>
 
+<div class="monthbar" id="monthBar"></div>
+
+<div id="newBanner"></div>
+
+<div class="watchlist">
+  <button class="watchlist-toggle" id="watchlistToggle">⚙ Ενδιαφέροντα (καλλιτέχνες/είδη)</button>
+  <div class="watchlist-panel" id="watchlistPanel" style="display:none;"></div>
+</div>
+
 <input type="text" id="search" placeholder="Αναζήτηση καλλιτέχνη, χώρου ή είδους...">
 <div class="count" id="count"></div>
 
@@ -89,6 +122,10 @@ const NEW_WINDOW_DAYS = 3; // how many days an event stays flagged "ΝΕΟ" afte
 let allRows = [];
 let sourceStatus = []; // [{name, updated, ok}] — for the footer, and so
                         // one source failing doesn't take down the other.
+let availableMonths = []; // ['2026-09', '2026-10', ...] — computed once
+                           // from today-onward rows after data loads.
+let selectedMonth = 'all'; // 'all' or a 'YYYY-MM' key
+let showOnlyNew = false; // toggled by the "X new shows" banner
 
 function todayKey(){
   const d = new Date();
@@ -103,6 +140,37 @@ function isRecentlyAnnounced(firstSeen){
   const seenDate = new Date(firstSeen + 'T00:00:00');
   const daysSince = (new Date() - seenDate) / (1000*60*60*24);
   return daysSince >= 0 && daysSince < NEW_WINDOW_DAYS;
+}
+
+// --- Watchlist (artists/genres you care about) ---
+// Stored per-device in localStorage, same tradeoff already accepted for
+// this project: no cross-device sync, but zero backend needed for a
+// short list of personal interests.
+const WATCHLIST_KEY = 'athensTonightWatchlist';
+
+function loadWatchlist(){
+  try{
+    const raw = localStorage.getItem(WATCHLIST_KEY);
+    return raw ? JSON.parse(raw) : [];
+  }catch(e){
+    return [];
+  }
+}
+
+function saveWatchlist(list){
+  try{
+    localStorage.setItem(WATCHLIST_KEY, JSON.stringify(list));
+  }catch(e){
+    // storage full/disabled — fail silently, watchlist just won't persist
+  }
+}
+
+let watchlist = loadWatchlist();
+
+function matchesWatchlist(row){
+  if(watchlist.length === 0) return false;
+  const blob = normalizeText(row.title + ' ' + row.venueName + ' ' + row.genres.join(' '));
+  return watchlist.some(term => blob.includes(normalizeText(term)));
 }
 
 // more.com: one event per JSON entry, a single ISO `start` datetime,
@@ -293,7 +361,17 @@ async function load(){
 }
 
 function init(){
-  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('search').addEventListener('input', () => {
+    showOnlyNew = false; // typing a search is a fresh intent, clear the "new only" filter
+    render();
+  });
+
+  document.getElementById('watchlistToggle').addEventListener('click', () => {
+    const panel = document.getElementById('watchlistPanel');
+    const isOpen = panel.style.display !== 'none';
+    panel.style.display = isOpen ? 'none' : 'block';
+    if(!isOpen) renderWatchlistPanel();
+  });
 
   const footerParts = sourceStatus.map(s =>
     s.ok ? `${s.name} (${s.updated || '—'})` : `${s.name} μη διαθέσιμο`
@@ -301,7 +379,133 @@ function init(){
   document.getElementById('footer').textContent =
     'Δεδομένα από: ' + footerParts.join(' · ');
 
+  // Compute which months actually have upcoming events, once — this
+  // doesn't need to be recomputed on every render() call, only when the
+  // underlying data changes (i.e. on page load).
+  const today = todayKey();
+  const monthSet = new Set();
+  allRows.forEach(r => { if(r.date && r.date >= today) monthSet.add(r.date.slice(0,7)); });
+  availableMonths = Array.from(monthSet).sort();
+  selectedMonth = availableMonths.length ? availableMonths[0] : 'all';
+
+  renderMonthBar();
   render();
+}
+
+function renderWatchlistPanel(){
+  const panel = document.getElementById('watchlistPanel');
+  panel.innerHTML = '';
+
+  const tagsDiv = document.createElement('div');
+  tagsDiv.className = 'watchlist-tags';
+  if(watchlist.length === 0){
+    const empty = document.createElement('div');
+    empty.className = 'watchlist-empty';
+    empty.textContent = 'Δεν έχεις προσθέσει ενδιαφέροντα ακόμη.';
+    panel.appendChild(empty);
+  } else {
+    watchlist.forEach((term, i) => {
+      const tag = document.createElement('div');
+      tag.className = 'watchlist-tag';
+      tag.innerHTML = `<span></span><button aria-label="Αφαίρεση">×</button>`;
+      tag.querySelector('span').textContent = term;
+      tag.querySelector('button').addEventListener('click', () => {
+        watchlist.splice(i, 1);
+        saveWatchlist(watchlist);
+        renderWatchlistPanel();
+        renderNewBanner();
+        render();
+      });
+      tagsDiv.appendChild(tag);
+    });
+    panel.appendChild(tagsDiv);
+  }
+
+  const addRow = document.createElement('div');
+  addRow.className = 'watchlist-add';
+  addRow.innerHTML = `
+    <input type="text" placeholder="π.χ. metal, Deep Purple, jazz...">
+    <button>Προσθήκη</button>
+  `;
+  const input = addRow.querySelector('input');
+  const addTerm = () => {
+    const val = input.value.trim();
+    if(!val) return;
+    if(!watchlist.some(t => t.toLowerCase() === val.toLowerCase())){
+      watchlist.push(val);
+      saveWatchlist(watchlist);
+      renderWatchlistPanel();
+      renderNewBanner();
+      render();
+    }
+    input.value = '';
+  };
+  addRow.querySelector('button').addEventListener('click', addTerm);
+  input.addEventListener('keydown', e => { if(e.key === 'Enter') addTerm(); });
+  panel.appendChild(addRow);
+}
+
+function renderNewBanner(){
+  const today = todayKey();
+  const upcoming = allRows.filter(r => r.date && r.date >= today);
+  const newRows = upcoming.filter(r => isRecentlyAnnounced(r.firstSeen));
+  const banner = document.getElementById('newBanner');
+
+  if(newRows.length === 0){
+    banner.innerHTML = '';
+    return;
+  }
+
+  const matchCount = newRows.filter(matchesWatchlist).length;
+  const matchLine = watchlist.length > 0
+    ? `<span class="match-note">${matchCount} ταιριάζουν στα ενδιαφέροντά σου</span>`
+    : '';
+
+  banner.innerHTML = `
+    <button class="new-banner" id="newBannerBtn">
+      <span class="count-badge">${newRows.length}</span>νέες συναυλίες τις τελευταίες ${NEW_WINDOW_DAYS} μέρες
+      ${matchLine}
+    </button>
+  `;
+  document.getElementById('newBannerBtn').addEventListener('click', () => {
+    showOnlyNew = !showOnlyNew;
+    render();
+  });
+}
+
+function monthPillLabel(monthKey){
+  const [y, m] = monthKey.split('-').map(Number);
+  return `${MONTHS[m-1]} ${y}`;
+}
+
+function renderMonthBar(){
+  const bar = document.getElementById('monthBar');
+  bar.innerHTML = '';
+
+  const today = todayKey();
+  const newByMonth = new Set();
+  allRows.forEach(r => {
+    if(r.date && r.date >= today && isRecentlyAnnounced(r.firstSeen)) newByMonth.add(r.date.slice(0,7));
+  });
+
+  const allPill = document.createElement('div');
+  allPill.className = 'monthpill' + (selectedMonth === 'all' ? ' active' : '');
+  allPill.textContent = 'Όλα';
+  allPill.addEventListener('click', () => { selectedMonth = 'all'; showOnlyNew = false; renderMonthBar(); render(); });
+  bar.appendChild(allPill);
+
+  availableMonths.forEach(mk => {
+    const pill = document.createElement('div');
+    pill.className = 'monthpill' + (selectedMonth === mk ? ' active' : '');
+    pill.textContent = monthPillLabel(mk);
+    if(newByMonth.has(mk)){
+      const dot = document.createElement('span');
+      dot.className = 'dot';
+      pill.appendChild(dot);
+    }
+    pill.addEventListener('click', () => { selectedMonth = mk; showOnlyNew = false; renderMonthBar(); render(); });
+    bar.appendChild(pill);
+  });
 }
 
 function render(){
@@ -316,7 +520,6 @@ function render(){
   // on the same day, which is an acceptable ambiguity given the source
   // genuinely doesn't provide a time).
   let rows = allRows.filter(r => r.date && r.date >= today);
-  rows.sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
 
   if(q){
     rows = rows.filter(r => {
@@ -325,17 +528,52 @@ function render(){
     });
   }
 
+  // "Show only new" (from the banner) bypasses the month tab too, same
+  // reasoning as search — it's a cross-cutting view, not a browsing one.
+  if(showOnlyNew){
+    rows = rows.filter(r => isRecentlyAnnounced(r.firstSeen));
+  }
+
+  // Month tab only applies when NOT actively searching and NOT in
+  // "show only new" mode.
+  const monthFilterActive = !q && !showOnlyNew && selectedMonth !== 'all';
+  if(monthFilterActive){
+    rows = rows.filter(r => r.date.slice(0,7) === selectedMonth);
+  }
+
+  if(showOnlyNew){
+    // Watchlist matches first, then chronological within each group.
+    rows.sort((a,b) => {
+      const am = matchesWatchlist(a) ? 0 : 1;
+      const bm = matchesWatchlist(b) ? 0 : 1;
+      if(am !== bm) return am - bm;
+      return (a.date+a.time).localeCompare(b.date+b.time);
+    });
+  } else {
+    rows.sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
+  }
+
+  // Inline month headers are only useful when multiple months are being
+  // shown together (i.e. "Όλα", or a search/new-only view spanning
+  // several months).
+  const showMonthHeaders = !monthFilterActive && !showOnlyNew;
   let lastMonthKey = null;
   rows.forEach(r => {
     const dt = new Date(r.date + 'T00:00:00');
-    const monthKey = `${dt.getFullYear()}-${dt.getMonth()}`;
-    if(monthKey !== lastMonthKey){
-      const h = document.createElement('div');
-      h.className = 'month-header';
-      h.textContent = `${MONTHS[dt.getMonth()]} ${dt.getFullYear()}`;
-      results.appendChild(h);
-      lastMonthKey = monthKey;
+
+    if(showMonthHeaders){
+      const monthKey = `${dt.getFullYear()}-${dt.getMonth()}`;
+      if(monthKey !== lastMonthKey){
+        const h = document.createElement('div');
+        h.className = 'month-header';
+        h.textContent = `${MONTHS[dt.getMonth()]} ${dt.getFullYear()}`;
+        results.appendChild(h);
+        lastMonthKey = monthKey;
+      }
     }
+
+    const isNew = isRecentlyAnnounced(r.firstSeen);
+    const isMatch = isNew && matchesWatchlist(r);
 
     const div = document.createElement('div');
     div.className = 'event';
@@ -352,7 +590,8 @@ function render(){
           ? `<span class="genre-tag-approx" title="Κατά προσέγγιση — η πηγή (rocking.gr) δεν δηλώνει είδος, υποθέτουμε με βάση τον χαρακτήρα του site">${g} ?</span>`
           : `<span class="genre-tag">${g}</span>`
       ).join('')}</div>` : ''}
-      ${isRecentlyAnnounced(r.firstSeen) ? `<div class="e-new">Νέο</div>` : ''}
+      ${isNew ? `<div class="e-new">Νέο</div>` : ''}
+      ${isMatch ? `<div class="e-watch">★ Ταιριάζει</div>` : ''}
       ${r.unconfirmedRegion ? `<div class="e-unconfirmed">Περιοχή μη επιβεβαιωμένη</div>` : ''}
       <div class="e-source"><a href="${r.url}" target="_blank">${r.source}</a></div>
     `;
@@ -363,7 +602,8 @@ function render(){
     results.innerHTML = '<div class="state">Καμία συναυλία δεν βρέθηκε' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
   }
 
-  document.getElementById('count').textContent = rows.length + ' συναυλίες' + (q ? ' · φίλτρο "'+q+'"' : '');
+  document.getElementById('count').textContent = rows.length + ' συναυλίες' + (q ? ' · φίλτρο "'+q+'"' : '') + (showOnlyNew ? ' · μόνο νέες' : '');
+  renderNewBanner();
 }
 
 load();
