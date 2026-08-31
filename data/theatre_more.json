@@ -1,0 +1,4341 @@
+{
+  "updated": "2026-08-31",
+  "events": [
+    {
+      "title": "ΤΟΥ ΑΓΟΡΙΟΥ ΑΠΕΝΑΝΤΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/tou-agoriou-apenanti/",
+      "start": "2026-09-03T20:00",
+      "end": "2026-10-03T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλσος",
+          "locality": "Κυψέλη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "\"SEXY LAUNDRY\"",
+      "url": "https://www.more.com/gr-el/tickets/theater/sexy-laundry-2026/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-09-06T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Βριλήσσια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΓΕΛΑΣ - ΔΕΛΦΙΝΑΡΙΟ 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/gelas-delfinario-2026/",
+      "start": "2026-09-02T21:00",
+      "end": "2026-09-20T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Δελφιναριο",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΣΤΡΑΚΑΣΤΡΟΥΚΕΣ | 4ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/strakastroukes-kalokairini-periodeia/",
+      "start": "2026-10-23T21:00",
+      "end": "2026-11-29T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "AUDITORIUM",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΘΕΛΩ ΝΑ ΣΟΥ ΚΡΑΤΑΩ ΤΟ ΧΕΡΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/thelo-na-sou-kratao-to-xeri/",
+      "start": "2026-09-01T21:00",
+      "end": "2026-09-07T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Βριλήσσια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΚΑΤΑ ΦΑΝΤΑΣΙΑΝ ΑΣΘΕΝΗΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-katafantasian-asthenis/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-09-08T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Λυκαβηττός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΑΛΕΚΟΣ ΒΓΗΚΕ ΑΠ’ ΤΟΝ ΠΑΡΑΔΕΙΣΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-alekos-bgike-ap-ton-paradeiso/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-09-19T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Πέρσες  (περιοδεία)",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/perses-periodeia/",
+      "start": "2026-09-02T21:00",
+      "end": "2026-09-29T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Μια άλλη Θήβα | Καλοκαιρινή Περιοδεία 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/mia-alli-thiba-kalokairini-periodeia/",
+      "start": "2026-09-03T21:00",
+      "end": "2026-09-11T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Νίκαια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "McNEAL",
+      "url": "https://www.more.com/gr-el/tickets/theater/mcneal/",
+      "start": "2026-10-07T20:00",
+      "end": "2026-12-20T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΝΕΟΣ Ακαδημος",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΛΕΞ / ΑΛΕΞΑΝΔΡΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/aleks/aleksandros/",
+      "start": "2026-11-07T21:00",
+      "end": "2026-11-28T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΜΚ Κεντρικη Σκηνη",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Δίκη σε σκηνοθεσια Αρη Μπινιάρη 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-diki-se-skinothesia-ari-mpiniari-2os-xronos/",
+      "start": "2026-10-28T20:00",
+      "end": "2026-12-20T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ark",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑΚΗΣ ΖΑΧΑΡΑΤΟΣ - ΔΕΣΠΟΙΝΙΣ ΜΑΡΓΑΡΙΤΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/takis-zaxaratos-despoinis-margarita/",
+      "start": "2026-10-16T21:00",
+      "end": "2026-11-29T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΠΤΙ ΠΑΛΑΙ",
+          "locality": "Παγκράτι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ανεξάρτητα Κράτη | 2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/aneksartita-krati-2os-xronos/",
+      "start": "2026-09-02T21:00",
+      "end": "2026-09-11T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Βριλήσσια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΠΑΜΠΑΔΕΣ ΜΕ ΡΟΥΜΙ 5ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/mpampades-me-roumi-5os-xronos/",
+      "start": "2026-10-07T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλικη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΕΙΡΗΝΗ περιοδεια",
+      "url": "https://www.more.com/gr-el/tickets/theater/eirini-periodeia/",
+      "start": "2026-09-01T21:00",
+      "end": "2026-09-26T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "-",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΠΛΟΥΤΟΣ ΠΕΡΙΟΔΕΙΑ 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/ploutos-periodeia-2026/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-09-15T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Λυσιστράτη Περιοδεία 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/lysistrati-periodeia-1/",
+      "start": "2026-09-04T21:00",
+      "end": "2026-09-13T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Λυκαβηττός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΛΥΣΙΣΤΡΑΤΗ- ΚΘΒΕ",
+      "url": "https://www.more.com/gr-el/tickets/theater/lysistrati-kthbe/",
+      "start": "2026-09-06T21:00",
+      "end": "2026-09-06T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "region": "Αττική",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΖΟΝΙ ΜΠΛΕ  2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/tzonimple/",
+      "start": "2026-09-30T19:00",
+      "end": "2026-11-20T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ανεσις",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΙΑ ΖΩΗ-Ο Μονόλογος μιας Μοδίστρας ΠΕΡΙΟΔΕΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/mia-zoi-o-monologos-mias-modistras-periodeia/",
+      "start": "2026-09-06T21:00",
+      "end": "2026-09-18T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Λαύριο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΚΑΡΥΑΤΙΔΑ! του Γιώργου Καπουτζίδη ΠΕΡΙΟΔΕΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-karyatida-tou-giorgou-kapoutzidi-periodeia/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-08-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Κηποθεατρο Παπαγου",
+          "locality": "Παπάγου",
+          "region": "Αττική",
+          "street": "Κορυτσάς, 6η Στάση"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Πως ο GRINCH έκλεψε τα Χριστούγεννα",
+      "url": "https://www.more.com/gr-el/tickets/theater/pos-o-grinch-eklepse-ta-xristougenna/",
+      "start": "2026-11-22T17:00",
+      "end": "2026-12-30T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "CHRISTMAS THEATER, Athens",
+          "locality": "Γαλάτσι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΑΣΠΡΑ ΑΛΟΓΑ του ΕΡΡΙΚΟΥ ΙΨΕΝ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-aspra-aloga-tou-errikou-ipsen/",
+      "start": "2026-10-09T21:00",
+      "end": "2026-11-22T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μαβιλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "170 ΤΕΤΡΑΓΩΝΙΚΑ - 8ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/170-tetragonika-8os-xronos/",
+      "start": "2026-11-06T21:00",
+      "end": "2027-01-02T17:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Διανα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑΚΟΥΝΙΑ ΣΤΟΝ ΒΑΛΤΟ - ΤΑΡΑΤΣΑ ΛΑΜΠΕΤΗ",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/takounia-ston-balto/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-09-23T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Λαμπετη - Ταρατσα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Τικ και Τέλα: Ο καινούργιος φίλος",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/tik-kai-tela-o-kainourgios-filos/",
+      "start": "2026-09-02T18:15",
+      "end": "2026-09-09T18:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Βοτανικος Κηπος Διομηδους",
+          "locality": "Χαιδάρι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΡΟΣΜΕΡΣΧΟΛΜ",
+      "url": "https://www.more.com/gr-el/tickets/theater/rosmersxolm/",
+      "start": "2026-11-12T20:30",
+      "end": "2026-12-20T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τεχνης Κ. Κουν - Σκηνη Φρυνιχου",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΕΠΙΘΕΩΡΗΣΗ - «Εγώ θα σας τα πω!»",
+      "url": "https://www.more.com/gr-el/tickets/theater/ego-tha-sas-ta-po-epitheorisi/",
+      "start": "2026-08-31T21:15",
+      "end": "2026-09-20T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Πετρούπολη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΝΕΞΑΡΤΗΤΑ ΚΡΑΤΗ",
+      "url": "https://www.more.com/gr-el/tickets/theater/aneksartita-krati-1/",
+      "start": "2026-09-13T21:00",
+      "end": "2026-09-13T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "region": "Αττική",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΛΚΗΣΤΙΣ ΕΘΝΙΚΟ ΘΕΑΤΡΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/alkistis-ethniko-theatro/",
+      "start": "2026-09-09T21:00",
+      "end": "2026-09-09T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "region": "Αττική",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΑΥΡΗ ΣΑΜΠΟΥΚΑ iconic",
+      "url": "https://www.more.com/gr-el/tickets/theater/mauri-sampouka-iconic/",
+      "start": "2026-09-28T21:00",
+      "end": "2026-09-28T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Λυκαβηττου",
+          "locality": "Λυκαβηττός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΑΘΕ ΠΕΜΠΤΗ ΚΥΡΙΕ ΓΚΡΗΝ | ΠΕΡΙΟΔΕΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kathe-pempti-kyrie-gkrin-periodeia/",
+      "start": "2026-09-08T21:00",
+      "end": "2026-09-23T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Κορυδαλλός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Έλσα και το Μαγικό Στέμμα !! / ΘΕΑΤΡΟ ΑΛΕΑ στο Γκάζι (ΜΟΝΟ για 4 παραστάσεις)",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/i-elsa-kai-to-magiko-stemma/theatro-alea-sto-gkazi-mono-gia-4-parastaseis/",
+      "start": "2026-08-31T19:30",
+      "end": "2026-09-03T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΛΕΑ ΠΕΙΡΑΙΩΣ 107",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΜΑΓΟΣ ΤΟΥ ΟΖ - καλοκαιρινή περιοδεία",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-magos-tou-oz-kalokairini-periodeia/",
+      "start": "2026-08-31T20:30",
+      "end": "2026-09-14T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Λαύριο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Παραμυθοχώρα",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/paramithohora/",
+      "start": "2026-09-03T18:15",
+      "end": "2026-09-04T18:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Βοτανικος Κηπος Διομηδους",
+          "locality": "Χαιδάρι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΣΚΟΤΑΔΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-skotadi/",
+      "start": "2026-10-21T20:00",
+      "end": "2026-12-20T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αργω",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΕΝΑΣ ΥΠΗΡΕΤΗΣ , ΔΥΟ ΑΦΕΝΤΙΚΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/enas-ypiretis-dyo-afentika/",
+      "start": "2026-10-03T18:00",
+      "end": "2026-10-31T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ιλισια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Στρακαστρούκες | 4ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/strakastroukes-4os-xronos/",
+      "start": "2026-10-23T21:00",
+      "end": "2026-11-29T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "AUDITORIUM",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Professor BRIAN COX: Emergence",
+      "url": "https://www.more.com/gr-el/tickets/professor-brian-cox-in-athens/",
+      "start": "2026-09-24T19:30",
+      "end": "2026-09-25T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "CHRISTMAS THEATER",
+          "locality": "Γαλάτσι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΕΓΑΣ ΑΛΕΞΑΝΔΡΟΣ της Κάρμεν Ρουγγέρη",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/megas-aleksandros-tis-karmen-rouggeri/",
+      "start": "2026-10-24T16:00",
+      "end": "2026-11-08T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Christmas Theater, Athens",
+          "locality": "Γαλάτσι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "CLEANSED",
+      "url": "https://www.more.com/gr-el/tickets/theater/cleansed/",
+      "start": "2026-09-28T20:30",
+      "end": "2026-12-01T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΜΚ Κεντρικη Σκηνη",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "MANOLIS καρδιά σε τέσσερις χορδές",
+      "url": "https://www.more.com/gr-el/tickets/theater/manolis-kardia-se-tesseris-xordes/",
+      "start": "2026-09-03T21:00",
+      "end": "2026-09-13T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΑΙΘΡΙΟ ΚΕΝΤΡΟ ΠΟΛΙΤΙΣΜΟΥ ΕΛΛΗΝΙΚΟΣ ΚΟΣΜΟΣ",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΡΩΜΑΙΟΣ ΚΑΙ ΙΟΥΛΙΕΤΑ του Μποστ",
+      "url": "https://www.more.com/gr-el/tickets/theater/festival/summer/romaios-kai-ioulieta-tou-mpost/",
+      "start": "2026-09-17T20:30",
+      "end": "2026-09-17T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αλσος Νεας Σμυρνης",
+          "locality": "Νέα Σμύρνη",
+          "region": "Αττική",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Restart",
+      "url": "https://www.more.com/gr-el/tickets/theater/restart/",
+      "start": "2026-10-14T19:30",
+      "end": "2026-12-06T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Συγγρου 33",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "BACON 2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/bacon/",
+      "start": "2026-09-28T20:00",
+      "end": "2026-12-15T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ανεσις",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΜΛΕΤ",
+      "url": "https://www.more.com/gr-el/tickets/theater/amlet-1/",
+      "start": "2026-12-19T21:00",
+      "end": "2026-12-27T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βεακη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "BREAKING GOD",
+      "url": "https://www.more.com/gr-el/tickets/theater/breaking-god/",
+      "start": "2026-10-09T21:00",
+      "end": "2026-12-20T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλαμπρα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΡΟΜΠΕΡΤΟ ΤΣΟΥΚΚΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/romperto-tsoukko/",
+      "start": "2026-10-23T21:00",
+      "end": "2026-11-29T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Προσκηνιο",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "DOGVILLE του Lars Von Trier σε σκηνοθεσία Αρη Μπινιάρη",
+      "url": "https://www.more.com/gr-el/tickets/theater/dogville-se-skinothesia-ari-mpiniari/",
+      "start": "2026-11-25T19:00",
+      "end": "2026-12-23T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Πειραια",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΠΟΡΝΗ ΑΠΟ ΠΑΝΩ 15ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/iporniapopano/",
+      "start": "2026-10-12T18:45",
+      "end": "2026-12-21T18:45",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΝΕΟΣ Ακαδημος",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Λιωμένο Βούτυρο",
+      "url": "https://www.more.com/gr-el/tickets/theater/liomeno-boutyro/",
+      "start": "2026-11-30T21:00",
+      "end": "2026-12-29T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Επι Κολωνω",
+          "locality": "Κολωνός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΕΥΤΥΧΙΣΜΕΝΕΣ ΜΕΡΕΣ ΤΟΥ ΜΠΕΚΕΤ",
+      "url": "https://www.more.com/gr-el/tickets/theater/eutyxismenes-meres-tou-mpeket/",
+      "start": "2026-09-03T21:00",
+      "end": "2026-09-03T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "region": "Αττική",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΙ ΔΙΚΑΙΟΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/oi-dikaioi/",
+      "start": "2026-10-21T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αποθηκη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΑΡΤΥΡΑΣ ΚΑΤΗΓΟΡΙΑΣ - ΤΕΛΕΥΤΑΙΑ ΕΞΟΔΟΣ ΡΙΤΑ ΧΕΙΓΟΥΟΡΘ",
+      "url": "https://www.more.com/gr-el/tickets/theater/martyras-rita/",
+      "start": "2026-09-30T19:00",
+      "end": "2026-12-20T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΣΥΡΑΝΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/cyrano/",
+      "start": "2026-11-11T19:00",
+      "end": "2026-11-22T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΚΡΟΠΟΛ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΕΚΚΛΗΣΙΑΖΟΥΣΕΣ | ΓΥΝΑΙΚΕΣ ΣΤΗΝ ΕΞΟΥΣΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/festival/summer/ekklisiazouses-gynaikes-stin-eksousia/",
+      "start": "2026-09-15T21:00",
+      "end": "2026-09-15T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αλσος Νεας Σμυρνης",
+          "locality": "Νέα Σμύρνη",
+          "region": "Αττική",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ιούλιος Βερν 200: Η Συναρπαστική Εμπειρία",
+      "url": "https://www.more.com/gr-el/tickets/theater/jv200/",
+      "start": "2026-09-25T17:00",
+      "end": "2026-10-25T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Κεντρο Πολιτισμου Ελληνικος Κοσμος",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Διαβάζοντας τη Λολίτα στην Τεχεράνη",
+      "url": "https://www.more.com/gr-el/tickets/theater/diabazontas-ti-lolita-stin-texerani/",
+      "start": "2026-10-19T21:00",
+      "end": "2026-12-15T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τεχνης Κ. Κουν, Υπογειο",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΓΥΝΑΙΚΑ ΠΟΥ ΜΑΓΕΙΡΕΨΕ ΤΟΝ ΑΝΤΡΑ ΤΗΣ 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-gynaika-pou-mageirepse-ton-antra-tis-2os-xronos/",
+      "start": "2026-10-03T18:00",
+      "end": "2026-10-11T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βεακη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΠΟΨΕ ΤΡΩΜΕ ΣΤΗΣ ΙΟΚΑΣΤΗΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/apopse-trome-stis-iokastis-1/",
+      "start": "2026-10-08T20:00",
+      "end": "2026-12-20T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΦΙΛΙΠ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΒΡΙΚΟΛΑΚΕΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/brikolakes/",
+      "start": "2026-09-25T21:00",
+      "end": "2026-11-01T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο RADAR",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΑΤΩΜΈΝΟΣ ΓΆΜΟΣ του F.G. Lorka",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/matomenos-gamos-tou-fg-lorka/",
+      "start": "2026-09-12T21:00",
+      "end": "2026-09-12T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αλσος Νεας Σμυρνης",
+          "locality": "Νέα Σμύρνη",
+          "region": "Αττική",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΒΥΣΣΙΝΟΚΗΠΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-byssinokipos-1/",
+      "start": "2026-10-30T21:00",
+      "end": "2026-12-23T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Κατια Δανδουλακη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΕΒΡΟΣ ΑΠΕΝΑΝΤΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/oevrosapenanti/",
+      "start": "2026-10-07T21:00",
+      "end": "2026-12-20T17:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ανεσις - Πανω Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ανα - τίναξε την ανθισμένη αμυγδαλιά",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/ana-tinakse-tin-anthismeni-amygdalia/",
+      "start": "2026-09-02T20:00",
+      "end": "2026-10-04T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλσος",
+          "locality": "Κυψέλη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "🍎 SNOW WHITE ON ICE - Η Χιονάτη στον πάγο",
+      "url": "https://www.more.com/gr-el/tickets/theater/snow-white-on-ice-i-xionati-ston-pago/",
+      "start": "2027-01-22T20:00",
+      "end": "2027-01-24T16:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Christmas Theater, Athens",
+          "locality": "Γαλάτσι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΧΙ ΑΛΛΟ ΚΑΡΒΟΥΝΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/festival/summer/oxi-allo-karbouno/",
+      "start": "2026-09-21T20:30",
+      "end": "2026-09-21T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αλσος Νεας Σμυρνης",
+          "locality": "Νέα Σμύρνη",
+          "region": "Αττική",
+          "street": "Ελευθέριου Βενιζέλου 14, 171 21"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΣΚΕΦΤΟΜΑΙ ΔΥΝΑΤΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/skeftomai-dynata/",
+      "start": "2026-10-08T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Μικρο Παλλας",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΥΤΗ Η ΝΥΧΤΑ ΜΕΝΕΙ ΑΘΗΝΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/auti-i-nyxta-menei-athina/",
+      "start": "2026-09-19T21:00",
+      "end": "2026-09-27T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ολυμπια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "The Dreamers",
+      "url": "https://www.more.com/gr-el/tickets/theater/the-dreamers-1/",
+      "start": "2026-10-03T21:15",
+      "end": "2026-11-29T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Συγχρονο Θεατρο",
+          "locality": "Κεραμεικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΖΕΝΗ ΤΖΕΝΗ",
+      "url": "https://www.more.com/gr-el/tickets/theater/tzeni-tzeni/",
+      "start": "2026-09-30T19:00",
+      "end": "2026-11-08T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Πειραια",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ένα μωρό για τρείς",
+      "url": "https://www.more.com/gr-el/tickets/theater/summer/ena-moro-gia-treis/",
+      "start": "2026-09-03T21:00",
+      "end": "2026-09-27T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αθηνα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "The West Kingdom",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/the-west-kingdom/",
+      "start": "2026-09-02T18:00",
+      "end": "2026-10-04T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Ίλιον",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΕΜΠΟΡΟΣ ΤΗΣ ΒΕΝΕΤΙΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-emporos-tis-benetias-1/",
+      "start": "2026-10-21T19:00",
+      "end": "2026-11-15T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκυονις",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΛΥΣΙΣΤΡΑΤΗ του Σταμάτη Κραουνάκη",
+      "url": "https://www.more.com/gr-el/tickets/theater/lysistrati-tou-stamati-kraounaki/",
+      "start": "2026-10-10T21:30",
+      "end": "2026-10-11T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Ελληνικος Κοσμος - ΘΕΑΤΡΟΝ (Αιθ. Αντιγονη)",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΑΡΤΥΡΑΣ ΚΑΤΗΓΟΡΙΑΣ 4ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/martyras-katigorias/",
+      "start": "2026-09-30T19:00",
+      "end": "2026-12-20T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Χορν",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Στα χνάρια του Ομήρου: από τον ραψωδό στον παραμυθά",
+      "url": "https://www.more.com/gr-el/tickets/theater/sta-xnaria-tou-omirou-apo-ton-rapsodo-ston-paramytha/",
+      "start": "2026-09-04T20:00",
+      "end": "2026-09-04T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Εθνικο Αστεροσκοπειο Αθηνων - Κεντρο Επισκεπτων Θησειου",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": "Λόφος Νυμφών"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ηλίας, ο πρώτος γάτος χορευτής της γατοϊστορίας - 5ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/ilias-o-protos-gatos-xoreutis-tis-gatoistori/",
+      "start": "2026-10-03T18:00",
+      "end": "2027-01-17T15:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αβατον",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΝΝΑ ΚΑΡΕΝΙΝΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/anna-karenina/",
+      "start": "2026-11-06T21:00",
+      "end": "2026-12-20T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Ελληνικος Κοσμος - ΘΕΑΤΡΟΝ (Αιθ. Αντιγονη)",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΘΑΥΜΑ (MIRACOLO) του Giuseppe Massa (πρώτη ελληνική παραγωγή)",
+      "url": "https://www.more.com/gr-el/tickets/theater/womendirectors/to-thauma-tou-giuseppe-massa/",
+      "start": "2026-09-07T21:00",
+      "end": "2026-09-08T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αιθριο ΣΤΟΑ Culture",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΣΥΓΚΑΤΟΙΚΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-sygkatoikos/",
+      "start": "2026-10-12T20:00",
+      "end": "2026-11-30T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Πειραιως 131",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "«ΘΕΟΔΩΡΑ,Αυτοκράτειρα του Βυζαντίου» OPERA",
+      "url": "https://www.more.com/gr-el/tickets/theater/theodoraaytokrateira-tou-byzantiou-opera/",
+      "start": "2026-09-30T20:30",
+      "end": "2026-10-01T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ολυμπια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΧΡΟΝΟΣ ΑΠΟ ΔΕΥΤΕΡΟ ΧΕΡΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/xronos-apo-deutero-xeri/",
+      "start": "2026-10-09T20:30",
+      "end": "2026-11-29T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Πειραια - Φουαγιε",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Κιβώτιο του Άρη Αλεξάνδρου για 11η χρονιά",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-kibotio-tou-ari-aleksandrou-gia-11i-xronia/",
+      "start": "2026-10-09T21:00",
+      "end": "2027-01-01T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Studio Μαυρομιχαλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "STILL! Ένα άγαλμα που γύρισε τον κόσμο [2ος Χρόνος]",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/still/",
+      "start": "2026-10-11T11:30",
+      "end": "2027-01-10T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ανεσις",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΠΟΙΟΣ ΦΟΒΑΤΑΙ ΤΗΝ ΒΙΡΤΖΙΝΙΑ ΓΟΥΛΦ 2ος ΧΡΟΝΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/poios-fobatai-tin-birtzinia-goulf-2os-xronos/",
+      "start": "2026-10-01T20:00",
+      "end": "2026-12-06T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ζινα",
+          "locality": "Εξάρχεια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Μιλήστε Ελεύθερα",
+      "url": "https://www.more.com/gr-el/tickets/theater/miliste-eleuthera/",
+      "start": "2026-09-04T20:30",
+      "end": "2026-09-06T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Σκηνη Ωμεγα, Δημοτικο θεατρο Πειραια",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΚΟΥΖΙΝΑ σε σκηνοθεσία Γ.Κουτλή 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-kouzina-se-skinothesia-g-koutli-2os-xronos/",
+      "start": "2026-10-14T20:00",
+      "end": "2026-12-20T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Κιβωτος",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΙ 12 ΕΝΟΡΚΟΙ | 12ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/offer/oi-12-enorkoi-12os-xronos/",
+      "start": "2026-10-03T21:30",
+      "end": "2027-01-03T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΑΔΑΓΑΣΚΑΡΗ The Musical",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/madagaskari-the-musical/",
+      "start": "2026-12-18T19:00",
+      "end": "2027-01-06T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Εκθεσιακου Κεντρου Περιστεριου",
+          "locality": "Περιστέρι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΑΘΕ ΤΡΙΤΗ ΜΕ ΤΟΝ ΜΟΡΙ - 2ος ΧΡΟΝΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kathe-triti-me-ton-mori/",
+      "start": "2026-10-09T21:00",
+      "end": "2026-11-01T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ιλισια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΤΕΛΕΙΟΣ ΦΟΝΟΣ (ΠΕΡΙΟΔΕΙΑ)",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-teleios-fonos-periodeia-1/",
+      "start": "2026-09-04T21:00",
+      "end": "2026-09-13T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Νίκαια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ρίταμαργαρίταρίταμαργαρίταρίταμαργαρί…",
+      "url": "https://www.more.com/gr-el/tickets/theater/ritamargarita/",
+      "start": "2026-10-26T21:00",
+      "end": "2027-01-06T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ανεσις - Πανω Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "DEADLIFT Άρση θανάτου",
+      "url": "https://www.more.com/gr-el/tickets/theater/deadlift/",
+      "start": "2026-10-05T20:00",
+      "end": "2026-10-31T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Εμπορικον",
+          "locality": "Ψυρρή",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Μοναξιά της Δύσης",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-monaksia-tis-dysis/",
+      "start": "2026-10-15T21:00",
+      "end": "2026-10-30T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Επι Κολωνω",
+          "locality": "Κολωνός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΙΚΟΓΕΝΕΙΑ ADDAMS 2η ΧΡΟΝΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/womendirectors/oikogeneia-addams-2i-xronia/",
+      "start": "2026-10-16T21:00",
+      "end": "2026-12-06T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βεμπο",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "... καλά, εσύ σκοτώθηκες νωρίς-5ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/kala-esy-skotothikes-noris-5os-xronos/",
+      "start": "2026-09-26T17:15",
+      "end": "2026-11-28T17:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Συγχρονο Θεατρο",
+          "locality": "Κεραμεικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Να ξέρετε πως αυτό που ακούτε είναι ΣΦΥΡΙΓΜΑ ΤΡΕΝΟΥ - του Θ. Τριαρίδη",
+      "url": "https://www.more.com/gr-el/tickets/theater/offer/na-kserete-pos-auto-pou-akoute-einai-sfyrigma-trenou-tou-th-triaridi/",
+      "start": "2026-09-30T21:00",
+      "end": "2026-11-25T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο OLVIO",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΣΠΙΤΙΑ ΑΛΛΑΖΟΥΝ ΘΕΣΗ ΤΗ ΝΥΧΤΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-spitia-allazoun-thesi-ti-nyxta-2/",
+      "start": "2026-10-02T21:15",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Βοτανικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΑΛΙΚΗ ΣΤΗ ΧΩΡΑ ΤΩΝ ΨΑΡΙΩΝ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-aliki-sti-xora-ton-psarion/",
+      "start": "2026-09-04T20:30",
+      "end": "2026-09-04T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Πετρας",
+          "locality": "Πετρούπολη",
+          "region": "Αττική",
+          "street": "Ρωμυλίας 1"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΓΡΙΟΣ ΣΠΟΡΟΣ 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/agrios-sporos-2os-xronos/",
+      "start": "2026-10-01T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μικρο Χορν",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Βουλίτσα",
+      "url": "https://www.more.com/gr-el/tickets/theater/boulitsa/",
+      "start": "2026-10-07T21:15",
+      "end": "2026-10-28T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο 104",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΟΜΠΙ ΝΤΙΚ",
+      "url": "https://www.more.com/gr-el/tickets/theater/mompintik/",
+      "start": "2026-10-26T21:15",
+      "end": "2027-01-05T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΝΕΟΣ Ακαδημος",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΕΛΕΥΤΑΙΑ ΕΞΟΔΟΣ - ΡΙΤΑ ΧΕΙΓΟΥΟΡΘ 2oς Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/teleftaiaexodos/",
+      "start": "2026-10-02T21:00",
+      "end": "2026-12-21T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ανεσις",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΞΑΦΝΙΚΟ STAND UP ΣΤΗΝ ΚΥΨΕΛΗ @ ΣΤΕΛΛΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ksafniko-stand-up-stin-kypseli-stella/",
+      "start": "2026-09-01T20:15",
+      "end": "2026-09-01T20:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Cinema Stella (Open Air)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": "Τενέδου 34, 113 61"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Πλεξούδα - 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/offer/i-pleksouda-2i-xronia/",
+      "start": "2026-10-10T20:30",
+      "end": "2027-01-03T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μεταξουργειο",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Πετάει Πετάει",
+      "url": "https://www.more.com/gr-el/tickets/theater/petaei-petaei/",
+      "start": "2026-09-05T21:15",
+      "end": "2026-09-27T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΑΛΕΑ ΠΕΙΡΑΙΩΣ 107",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΟΡΙΟΛΑΝΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/koriolanos/",
+      "start": "2027-02-01T19:00",
+      "end": "2027-03-30T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Θησειον",
+          "locality": "Θησείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Γκρούφαλο Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/to-gkroufalo-athina/",
+      "start": "2026-10-10T14:30",
+      "end": "2026-10-31T14:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Ελληνικος Κοσμος - Αιθ. Ιφιγενεια 2",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "24 Hours Rush Project Festival 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/festival/24-hours-rush-project-festival-2026/",
+      "start": "2026-09-06T16:45",
+      "end": "2026-09-13T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Ρεκτιφιε",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Socrates: My Life",
+      "url": "https://www.more.com/gr-el/tickets/theater/socrates-my-life/",
+      "start": "2026-08-31T20:40",
+      "end": "2026-09-13T20:40",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Museum of History",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "The Queen’s Secret Mission",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/the-queens-secret-mission/",
+      "start": "2026-09-04T18:30",
+      "end": "2026-10-04T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πυργος Βασιλισσης",
+          "locality": "Ίλιον",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "1984 - George Orwell - ΑΘΗΝΑ -  2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/1984-george-orwell-athina/",
+      "start": "2026-10-12T21:00",
+      "end": "2026-11-03T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Διπυλον",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "\"Μια μικρή παρηγοριά\" του Ρέυμοντ Κάρβερ",
+      "url": "https://www.more.com/gr-el/tickets/theater/mia-mikri-parigoria-tou-reymont-karber/",
+      "start": "2026-12-12T21:00",
+      "end": "2027-02-28T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Studio Μαυρομιχαλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Artist Unknown *Η Ήβη ήταν εδώ *",
+      "url": "https://www.more.com/gr-el/tickets/theater/artist-unknown-i-ibi-itan-edo/",
+      "start": "2026-09-20T20:00",
+      "end": "2026-09-20T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Πειραια",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": "Λεωφόρος Ηρώων Πολυτεχνείου"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Οι Κάλπηδες 4ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/oi-kalpides-2os-xronos/",
+      "start": "2026-10-10T21:00",
+      "end": "2027-01-10T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο OLVIO",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "θα σ΄αγαπώ και του χρόνου - 3ος χρόνος/ARROYO",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/tha-sagapo-kai-tou-xronou-3os-xronos/arroyo/",
+      "start": "2026-10-03T10:30",
+      "end": "2026-11-28T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ARROYO",
+          "locality": "Κεραμεικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΘΑΝΑΤΟΣ ΤΟΥ ΙΒΑΝ ΙΛΙΤΣ | 7ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-thanatos-tou-ivan-ilits7/",
+      "start": "2026-10-16T18:00",
+      "end": "2027-01-01T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "The Night Forest",
+      "url": "https://www.more.com/gr-el/tickets/the-night-forest/",
+      "start": "2026-09-02T20:00",
+      "end": "2026-09-13T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Folia Culture and Education",
+          "locality": "Ίλιον",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΔΙΚΟΣ ΣΟΥ, ΦΡΑΝΤΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/dikos-sou-franz/",
+      "start": "2026-09-12T20:00",
+      "end": "2026-09-20T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Γερμανικη Εκκλησια Αθηνων",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΝΑ ΖΕΙ ΚΑΝΕΙΣ Η ΝΑ ΜΗ ΖΕΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/na-zei-kaneis-i-na-mi-zei/",
+      "start": "2026-10-14T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ΛΑΜΠΕΤΗ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Μάργκι - Η Υπόθεση ΚΟΚΚΙΝΕΣ ΤΟΥΛΙΠΕΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/margki-i-ypothesi-kokkines-toulipes/",
+      "start": "2026-10-16T21:15",
+      "end": "2026-12-25T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΝΕΟΣ ΑΚΑΔΗΜΟΣ 3in1 PASS",
+      "url": "https://www.more.com/gr-el/tickets/theater/neos-akadimos-3in1-pass/",
+      "start": "2027-04-25T23:30",
+      "end": "2027-04-25T23:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΝΕΟΣ ΑΚΑΔΗΜΟΣ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": "Ακαδημίας και Ιπποκράτους 17"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΓΚΛΟΡΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/gloria/",
+      "start": "2026-10-12T20:00",
+      "end": "2026-10-27T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Χορν",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΕΝΟΙΚΙΑΖΕΤΑΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/enoikiazetai/",
+      "start": "2026-10-10T18:00",
+      "end": "2026-10-31T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μικρο Χορν",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΧΑΜΕΝΟ ΓΡΑΜΜΑ ΤΟ ΜΑΓΙΚΟ ΚΛΕΙΔΙ & Ο ΑΪ ΒΑΣΙΛΗΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/to-xameno-gramma-to-magiko-kleidi-o-ai-basilis/",
+      "start": "2026-11-22T11:30",
+      "end": "2027-01-03T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "EVELYN EVELYN the musical | 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/evelyn-evelyn-2os-xronos/",
+      "start": "2026-10-27T21:15",
+      "end": "2026-12-08T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο 104",
+          "locality": "Κεραμεικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΤΡΙΑ ΓΟΥΡΟΥΝΑΚΙΑ (15ος χρόνος)",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/ta-tria-gourounakia-13os-xronos/",
+      "start": "2026-09-12T18:00",
+      "end": "2026-10-10T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βαφειο",
+          "locality": "Βοτανικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Μαμά, φοβάμαι",
+      "url": "https://www.more.com/gr-el/tickets/theater/mamafovamai/",
+      "start": "2026-10-22T21:00",
+      "end": "2026-12-17T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βαφειο - Λακης Καραλης",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΠΑΙΔΙΑ ΕΝΟΣ ΚΑΤΩΤΕΡΟΥ ΘΕΟΥ-2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-paidia-enos-katoterou-theou/",
+      "start": "2026-09-26T21:00",
+      "end": "2026-11-29T17:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλφα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Όλα...Λάθος! (The Play That Goes Wrong)",
+      "url": "https://www.more.com/gr-el/tickets/theater/ola-lathos-the-play-that-goes-wrong-2/",
+      "start": "2026-10-09T21:00",
+      "end": "2026-11-29T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αθηνα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΚΡΙΒΟΙ ΜΑΣ ΓΟΝΕΙΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/chers-parents/",
+      "start": "2026-10-14T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Εμπορικον",
+          "locality": "Ψυρρή",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΦΤΕΡΩΤΟ ΑΛΟΓΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/to-fteroto-alogo/",
+      "start": "2026-10-18T12:00",
+      "end": "2026-12-27T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βεακη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΠΙΝΑΚΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-pinakas/",
+      "start": "2026-10-15T21:00",
+      "end": "2026-11-29T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ψυρρη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Νούμερο 21",
+      "url": "https://www.more.com/gr-el/tickets/theater/noumero-21/",
+      "start": "2026-10-17T18:00",
+      "end": "2027-01-31T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μικρο Γκλορια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ANESIS 5in1 PASS",
+      "url": "https://www.more.com/gr-el/tickets/theater/anesis-5in1-pass/",
+      "start": "2027-04-25T23:30",
+      "end": "2027-04-25T23:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρον Ανεσις",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": "Λεωφόρος Κηφισίας 14"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΜΙΚΡΟΣ ΠΡΙΓΚΙΠΑΣ - Θέατρο Μαριονέτας Γκότση",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-mikros-prigkipas-theatro-marionetas-gkotsi/",
+      "start": "2026-09-07T19:00",
+      "end": "2026-09-12T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Ηλιούπολη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "4ο BE-HIVE THEATRE FESTIVAL 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/4o-be-hive-theatre-festival-2026/",
+      "start": "2026-09-15T21:15",
+      "end": "2026-09-27T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ΔΡΟΜΟΣ",
+          "locality": "Κυψέλη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Κύκνειο Άσμα - Άντον Τσέχοφ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kykneio-asma-anton-tsexof/",
+      "start": "2026-09-19T19:00",
+      "end": "2026-09-20T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "6th ATHENS SUITCASE THEATRE FESTIVAL",
+      "url": "https://www.more.com/gr-el/tickets/theater/festival/6th-athens-suitcase-theatre-festival/",
+      "start": "2026-09-12T19:00",
+      "end": "2026-09-20T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Έλμερ ο Παρδαλός Ελέφαντας Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/elmer-o-pardalos-elefantas/",
+      "start": "2026-10-04T11:30",
+      "end": "2026-11-01T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Ελληνικος Κοσμος - Αιθ. Ιφιγενεια 2",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Όνειρο καλοκαιρινής νύχτας",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/oneiro-kalokairinis-nyxtas/",
+      "start": "2026-10-03T12:00",
+      "end": "2027-01-09T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μαβιλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΠΑΤΕΡΑΣ ΜΟΥ 2026",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-pateras-mou-2026/",
+      "start": "2026-10-02T20:30",
+      "end": "2026-11-29T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Στοα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Καραγκιόζης του Τάσου Κώνστα στον Φλοίσβο",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-karagkiozis-tou-tasou-konsta-sto-floisbo/",
+      "start": "2026-09-02T20:00",
+      "end": "2026-09-26T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θερινο θεατρο σκιων Τασου Κωνστα",
+          "locality": "Φάληρο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Γλάρος",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-glaros-3/",
+      "start": "2026-09-18T21:00",
+      "end": "2026-10-04T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Θησειον",
+          "locality": "Θησείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Γκριμ και Γκριμ στον Ωρωπό",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/gkrim-kai-gkrim-ston-oropo/",
+      "start": "2026-09-12T18:00",
+      "end": "2026-09-12T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Βιωματικο παρκο \" Παιζω και παρατηρω\"",
+          "locality": "Ωρωπός",
+          "region": "Αττική",
+          "street": "Μάρκου Μπότσαρη 30, Μαρκόπουλο Ωρωπού 190 15"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΡΥΦΤΟ 2ος ΧΡΟΝΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kryfto-2os-xronos/",
+      "start": "2026-10-20T21:00",
+      "end": "2026-12-30T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλαμπρα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Της Γιαγιάς Σου",
+      "url": "https://www.more.com/gr-el/tickets/theater/tis-giagias-sou/",
+      "start": "2026-11-02T20:00",
+      "end": "2026-12-29T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αργω - Κεντρικη Σκηνη",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το καταραμένο παιδί / 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-katarameno-paidi/2os-xronos/",
+      "start": "2026-10-19T21:15",
+      "end": "2026-12-01T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ARROYO",
+          "locality": "Κεραμεικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Baby Θέατρο της Ιρίνα Μπόικο",
+      "url": "https://www.more.com/gr-el/tickets/theater/baby-theatro-irina-boiko/",
+      "start": "2026-09-12T11:00",
+      "end": "2026-11-29T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο OLVIO",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Αλυσοδεμένος ελέφαντας και ο τρομερός εχθρός 3ος χρόνος επιτυχίας",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-alysodemenos-elefantas-kai-o-tromeros-exthros/",
+      "start": "2026-09-27T11:30",
+      "end": "2026-11-29T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Studio Μαυρομιχαλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "SD20 Live Event - Θρύλοι γύρω από το Τραπέζι",
+      "url": "https://www.more.com/gr-el/tickets/theater/sd20-live-event-thryloi-gyro-apo-to-trapezi/",
+      "start": "2026-10-06T20:00",
+      "end": "2026-10-06T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Βεακειο Θεατρο, Πειραιας",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": "Ηρακλείου 13,Πειραιάς 185 33"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΘΕΟΦΙΛΟΣ Sold",
+      "url": "https://www.more.com/gr-el/tickets/theater/theofilos-sold/",
+      "start": "2026-10-06T20:00",
+      "end": "2026-11-30T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ψυρρη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Κύριος Ζυλ - 2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-kyrios-zyl-2os-xronos/",
+      "start": "2026-10-10T21:00",
+      "end": "2026-11-30T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Πορτα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΑΛΥΤΕΡΑ ΝΑ ΣΟΥ ΒΓΕΙ ΤΟ ΜΑΤΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kalytera-na-sou-bgei-to-mati/",
+      "start": "2026-10-07T21:00",
+      "end": "2026-11-05T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Studio Μαυρομιχαλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "The Secret Paths",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/the-secret-paths/",
+      "start": "2026-09-02T18:00",
+      "end": "2026-09-13T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Folia Culture and Education",
+          "locality": "Ίλιον",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "«Ο Θαυματοποιός»",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-thaumatopoios/",
+      "start": "2026-10-10T18:00",
+      "end": "2027-01-10T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΜΠΕΛΛΟΣ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΚΟΚΚΙΝΟΣΚΟΥΦΙΤΣΑ - στο Λαύριο! (Παιδική Θεατρική Παράσταση)",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/summer/i-kokkinoskoufitsa-sto-laurio-paidiki-theatriki-parastasi/",
+      "start": "2026-09-02T20:00",
+      "end": "2026-09-02T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ΑΚΕΛ",
+          "locality": "Λαύριο",
+          "region": "Αττική",
+          "street": "Ιωάννη Κακκαβά, 195 00, Λαύριο"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "πολίτες β' κατηγορίας - 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/polites-b-katigorias-1/",
+      "start": "2026-10-05T20:00",
+      "end": "2026-10-27T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τζενη Καρεζη",
+          "locality": "Σύνταγμα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΦΩΝΗ ΤΗΣ ΛΟΥΝΤΜΙΛΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-foni-tis-lountmila/",
+      "start": "2026-09-15T21:15",
+      "end": "2026-09-16T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τζενη Καρεζη",
+          "locality": "Σύνταγμα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Κουσουρολάνδη",
+      "url": "https://www.more.com/gr-el/tickets/theater/kousourolandi/",
+      "start": "2026-11-01T11:30",
+      "end": "2027-04-25T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ",
+          "locality": "Ρούφ",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "TOC TOC  #Αγάπη_ρε...",
+      "url": "https://www.more.com/gr-el/tickets/theater/toctoc/",
+      "start": "2026-10-12T21:00",
+      "end": "2026-11-30T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βρετανια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "«ΣΤΗ ΣΙΩΠΗ» |  4ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/sti-siopi/",
+      "start": "2026-10-17T19:00",
+      "end": "2027-01-02T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Παραμύθια για να σπάτε κέφι",
+      "url": "https://www.more.com/gr-el/tickets/theater/paramythia-gia-na-spate-kefi/",
+      "start": "2026-10-04T12:00",
+      "end": "2026-11-29T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μικρο Γκλορια",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΠΑΓΟΒΟΥΝΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-pagobouno/",
+      "start": "2026-10-08T20:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Embassy Theater",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΜΑΓΙΚΟΣ ΚΟΣΜΟΣ ΤΩΝ ΠΑΡΑΜΥΘΙΩΝ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-magikos-kosmos-ton-paramythion/",
+      "start": "2026-09-04T20:30",
+      "end": "2026-09-04T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αττικου Αλσους",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Εκτροφείο Τεράτων - 2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/ektrofeio-teraton-2os-xronos/",
+      "start": "2026-10-16T20:30",
+      "end": "2026-12-18T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αργω-Studio",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΟΚΚΑΛΟ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kokkalo-simeio-theatre/",
+      "start": "2026-12-14T20:30",
+      "end": "2027-01-12T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Σημειο",
+          "locality": "Καλλιθέα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΜΜΟΣ - Η πρώτη ανάγνωση [αναλόγιο]",
+      "url": "https://www.more.com/gr-el/tickets/theater/ammos-i-proti-anagnosi/",
+      "start": "2026-09-05T21:00",
+      "end": "2026-09-12T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αβατον",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΛΥΚΟΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/lykoi/",
+      "start": "2026-10-12T20:00",
+      "end": "2026-10-31T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Μικρο Παλλας",
+          "locality": "Κολωνάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Κιβωτός του Νώε & ο Καραγκιόζης",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/summer/movietheaters/i-kibotos-tou-noe-o-karagkiozis/",
+      "start": "2026-08-31T21:00",
+      "end": "2026-08-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Κηποθεατρο Νικαιας",
+          "locality": "Νίκαια",
+          "region": "Αττική",
+          "street": "Κύπρου & Προύσσης"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΣΕΜΙΝΑΡΙΟ ΒΛΑΚΕΙΑΣ | 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/seminario-blakeias-2os-xronos/",
+      "start": "2026-10-20T21:15",
+      "end": "2026-12-29T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "VOUCHER Διαβάζοντας τη Λολίτα στην Τεχεράνη",
+      "url": "https://www.more.com/gr-el/tickets/theater/voucher-diabazontas-ti-lolita-stin-texerani/",
+      "start": "2026-12-31T23:30",
+      "end": "2026-12-31T23:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "VOUCHER",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": "Ελλάδα"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΔΥΟ ΧΡΟΝΙΑ ΔΙΑΚΟΠΕΣ του ΙΟΥΛΙΟΥ ΒΕΡΝ",
+      "url": "https://www.more.com/gr-el/tickets/theater/dyo-xronia-diakopes-tou-iouliou-bern/",
+      "start": "2026-10-18T11:30",
+      "end": "2027-04-25T15:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Γυαλινο Μουσικο Θεατρο",
+          "locality": "Νέα Σμύρνη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΡΩΓΜΕΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/womendirectors/rogmes/",
+      "start": "2026-09-03T20:30",
+      "end": "2026-09-06T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Πειραια - Φουαγιε",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "«Απόψε κανείς δεν πεθαίνει» Σεξ – Βία – Εξουσία – Πίστη – Αγάπη",
+      "url": "https://www.more.com/gr-el/tickets/theater/apopse-kaneis-den-pethainei/",
+      "start": "2026-10-16T20:30",
+      "end": "2027-01-10T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΜΠΕΛΛΟΣ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΠΑΝΑΓΙΑ ΤΩΝ ΠΑΡΙΣΙΩΝ 2ος ΧΡΟΝΟΣ ΕΠΙΤΥΧΙΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/i-panagia-ton-parision/",
+      "start": "2026-10-24T14:30",
+      "end": "2026-12-20T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Ελληνικος Κοσμος - ΘΕΑΤΡΟΝ (Αιθ. Αντιγονη)",
+          "locality": "Ταύρος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΠΙΟ ΥΠΕΡΟΧΗ ΧΕΙΡΟΤΕΡΗ ΤΟΥ ΚΟΣΜΟΥ 2ος χρόνος .",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-pio-yperoxi-xeiroteri-tou-kosmou/",
+      "start": "2026-10-05T21:00",
+      "end": "2026-10-27T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Ιλισια Βολανακης",
+          "locality": "Ιλίσια",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "20 ΒΗΜΑΤΑ ΜΠΡΟΣΤΑ του ΧΟΡΧΕ ΜΠΟΥΚΑΪ",
+      "url": "https://www.more.com/gr-el/tickets/theater/20-bimata-mprosta-xorxe-mpoukai/",
+      "start": "2026-10-02T21:00",
+      "end": "2026-10-25T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τζενη Καρεζη",
+          "locality": "Σύνταγμα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Πριγκίπισσα των Αγίων Σαράντα! 2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-prigkipissa-ton-agion-saranta/",
+      "start": "2026-11-19T20:00",
+      "end": "2026-12-27T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "CORONET THEATER",
+          "locality": "Παγκράτι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΧΡΙΣΤΟΥΓΕΝΝΑ ΤΟΥ ΣΚΡΟΥΤΖ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-xristougenna-tou-skroutz-2/",
+      "start": "2026-12-06T12:00",
+      "end": "2027-01-03T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Πειραιως 131",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΣΕΡΛΟΚ ΧΟΛΜΣ: Το Μυστήριο του Βάλτου, Sir Arthur Conan Doyle 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/serlok-xolms-to-mystirio-tou-baltou/",
+      "start": "2026-10-17T18:30",
+      "end": "2027-01-16T18:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Κεντρικη Σκηνη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Παραμύθια Λαϊκά με Ουρές και με Φτερά!",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/paramythia-laika-me-oyres-kai-me-ftera/",
+      "start": "2026-09-06T18:30",
+      "end": "2026-09-06T18:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Μικρο βουνο",
+          "locality": "Καλύβια Θορικού",
+          "region": "Αττική",
+          "street": "Ρόδων 1, Λαγονήσι"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΜΑΥΡΟ ΚΟΥΤΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/tomavrokouti/",
+      "start": "2026-10-02T21:00",
+      "end": "2026-10-25T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Εν Αθηναις",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "\"η μικρή λέξη αγάπη\" - Α. Κορτώ, 4ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-mikri-leksi-agapi-a-korto-4os-xronos/",
+      "start": "2026-10-03T21:00",
+      "end": "2026-11-28T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Απο Κοινου",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΘΕΑΤΡΟ ΣΚΙΩΝ ΑΘΑΝΑΣΙΟΥ ΑΝΑΡΓΥΡΟΥ",
+      "url": "https://www.more.com/gr-el/tickets/theater/pollaploi-horoi/theatro-skion-athanasiou-anargyrou/",
+      "start": "2026-08-31T19:00",
+      "end": "2026-09-07T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Ραφήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "\" Ο Μίλτος\" - της Ξένιας Καλογεροπούλου",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-miltos-kouklotheatro-aleksias-aleksiou/",
+      "start": "2026-10-03T17:00",
+      "end": "2027-01-03T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Paraga",
+          "locality": "Ν. Κόσμος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΚΑΡΑΦΛΟΜΠΕΚΑΤΣΟΣ της Λ. Κιτσοπούλου",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-karaflompekatsos-tis-l-kitsopoulou/",
+      "start": "2026-10-10T19:00",
+      "end": "2026-11-29T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο OLVIO",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΙΑ ΧΡΙΣΤΟΥΓΕΝΝΙΑΤΙΚΗ ΙΣΤΟΡΙΑ του Κάρολου Ντίκενς | 7ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/mia-xristougenniatiki-istoria-tou-karolou-ntikens-7os-xronos/",
+      "start": "2026-11-22T11:30",
+      "end": "2027-01-01T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΓΚΛΟΡΙΑ - ΚΕΝΤΡΙΚΗ ΣΚΗΝΗ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ελίζα - 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/eliza-2os-xronos/",
+      "start": "2026-10-24T15:00",
+      "end": "2026-11-29T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Πορτα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΙ ΚΑΛΟΙ ΣΥΝΤΡΟΦΟΙ | Από την Θεατρική Ομάδα ΜΗΔΕΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/good-companions/",
+      "start": "2026-10-17T21:00",
+      "end": "2027-01-31T18:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ΔΡΟΜΟΣ",
+          "locality": "Κυψέλη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Μυστήριος κύριος Φάουστ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-mystirios-kyrios-faoust/",
+      "start": "2026-12-02T21:00",
+      "end": "2027-01-27T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ",
+          "locality": "Ρούφ",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "IN MOTION | ΔΙΑΔΡΑΣΤΙΚΗ ΠΑΡΑΣΤΑΣΗ - 3ος χρόνος επιτυχίας!",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/womendirectors/inmotion/",
+      "start": "2026-10-18T11:00",
+      "end": "2026-12-27T11:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Εν Αθηναις",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΗΜΕΡΟΛΟΓΙΟ ΕΝΟΣ ΤΡΕΛΛΟΥ",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-imerologio-enos-trellou/",
+      "start": "2026-09-02T20:30",
+      "end": "2027-03-31T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Οικος Ερμηνειας Ελευθερια",
+          "locality": "Δραπετσώνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΛΑΙΔΗ ΜΑΚΒΕΘ 4ος Xρόνoς",
+      "url": "https://www.more.com/gr-el/tickets/theater/laidi-makbeth-3os-xronos/",
+      "start": "2026-11-04T21:00",
+      "end": "2026-12-30T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βαφειο - Λακης Καραλης",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "SIX WΟΜΕΝ in Greek Tragedy",
+      "url": "https://www.more.com/gr-el/tickets/theater/six-women-in-greek-tragedy-1/",
+      "start": "2026-09-01T20:40",
+      "end": "2026-09-08T20:40",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Museum of History",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Μια τελεία... Είναι μόνο η αρχή!",
+      "url": "https://www.more.com/gr-el/tickets/theater/mia-teleia-einai-mono-i-arxi/",
+      "start": "2026-10-04T14:30",
+      "end": "2026-12-20T14:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Σταθμος - Stathmos Theater",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΝΕΙΡΟΚΟύΤΙ - Βρεφική παράσταση (έως 4 ετών)",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/oneirokouti/",
+      "start": "2026-10-17T17:00",
+      "end": "2026-11-22T11:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Προβα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "PRISON... KEIK!  2ος Χρόνος Επιτυχίας",
+      "url": "https://www.more.com/gr-el/tickets/theater/prison-keik-2os-xronos-epityxias/",
+      "start": "2026-10-11T18:30",
+      "end": "2027-01-17T18:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΓΚΟΛΦΩ",
+      "url": "https://www.more.com/gr-el/tickets/theater/gkolfo/",
+      "start": "2026-10-01T20:30",
+      "end": "2026-11-01T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Σκηνη Ωμεγα, Δημοτικο θεατρο Πειραια",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΚΥΑΝΟΠΩΓΩΝΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/kyanopogonas-1/",
+      "start": "2026-10-23T21:00",
+      "end": "2026-12-25T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "K4",
+          "locality": "Κουκάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΠΟΛΥΑΝΝΑ - ΤΟ ΠΑΙΧΝΙΔΙ ΤΗΣ ΧΑΡΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/polyanna-to-paixnidi-tis-xaras/",
+      "start": "2026-09-06T21:00",
+      "end": "2026-09-06T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αμφιθεατρο Θαν.Βεγγος",
+          "locality": "Κορυδαλλός",
+          "region": "Αττική",
+          "street": "Πελοποννήσου 173, 18122"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ένα Φτωχικό Δωμάτιο",
+      "url": "https://www.more.com/gr-el/tickets/theater/ena-ftoxiko-domatio/",
+      "start": "2026-10-03T21:00",
+      "end": "2026-10-31T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Χωρος Τεχνης ΗΧΟΔΡΑΣΗ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η Αλήθεια Είναι",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-alitheia-einai-2/",
+      "start": "2026-10-12T21:00",
+      "end": "2026-11-24T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΠΛΥΦΑ - Κτιριο 7Γ",
+          "locality": "Βοτανικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΡΕΜΠΕΤΙΚΟ ΓΙΑ ΠΑΙΔΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/rempetiko-gia-paidia/",
+      "start": "2026-09-18T18:30",
+      "end": "2026-09-20T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Δημοτικο Θεατρο Πειραια - Φουαγιε",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Miss Julie.",
+      "url": "https://www.more.com/gr-el/tickets/theater/miss-julie-1/",
+      "start": "2026-09-26T21:00",
+      "end": "2026-09-27T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η κατάρρευση",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-katarreusi/",
+      "start": "2026-10-19T21:00",
+      "end": "2026-11-24T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "RABBITHOLE",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "The Earth Festival",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/the-earth-festival/",
+      "start": "2026-09-03T18:00",
+      "end": "2026-09-12T16:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Folia Culture and Education",
+          "locality": "Ίλιον",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΧΡΥΣΟΣ ΔΙΣΚΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/xrysos-diskos/",
+      "start": "2026-10-12T21:00",
+      "end": "2026-11-16T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΠΛΥΦΑ - 7Α",
+          "locality": "Βοτανικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "«Ο Tinderάς!»",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-tinderas/",
+      "start": "2026-10-10T21:30",
+      "end": "2027-01-17T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Όνειρο (καλοκαιρινής νύχτας)",
+      "url": "https://www.more.com/gr-el/tickets/theater/oneiro-kalokairinis-nyxtas-1/",
+      "start": "2026-11-20T20:00",
+      "end": "2026-12-13T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Πορτα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Christopher Marlowe \"Ο ΕΒΡΑΙΟΣ ΤΗΣ ΜΑΛΤΑΣ\"",
+      "url": "https://www.more.com/gr-el/tickets/theater/jew-of-malta/",
+      "start": "2027-01-20T20:00",
+      "end": "2027-04-07T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ΔΡΟΜΟΣ",
+          "locality": "Κυψέλη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Οι γριές που μαζεύουν την τσουκνίδα +4",
+      "url": "https://www.more.com/gr-el/tickets/theater/oi-gries-pou-mazeuoun-tin-tsouknida-8/",
+      "start": "2026-10-05T21:00",
+      "end": "2026-12-01T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Σταθμος - Stathmos Theater",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΣΤΕΝΑ ΠΑΠΟΥΤΣΙΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-stena-papoutsia/",
+      "start": "2026-09-07T20:30",
+      "end": "2026-09-07T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΙΡΙΣ",
+          "locality": "Ελευσίνα",
+          "region": "Αττική",
+          "street": "Αθανασίου Στάθη & Βάρναλη, 19200 Ελευσίνα"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Έμπορος της Βενετίας - 2η Σεζόν",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-emporos-tis-benetias-2i-sezon/",
+      "start": "2026-10-10T21:00",
+      "end": "2026-11-08T18:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο 104",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΛΙΒΕΡ ΤΟΥΙΣΤ σε σκηνοθεσία Δημήτρη Αδάμη",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/oliber-touist/",
+      "start": "2026-10-11T11:30",
+      "end": "2026-10-25T15:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βασιλακου _ Μαριαννα Τολη",
+          "locality": "Κεραμεικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "TENDER",
+      "url": "https://www.more.com/gr-el/tickets/theater/tender/",
+      "start": "2026-10-12T19:00",
+      "end": "2026-12-28T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Secret Room (Μικρη Σκηνη)",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Οι περιπέτειες του Καραγκιόζη",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/festival/summer/oi-peripeteies-tou-karagkiozi/",
+      "start": "2026-09-06T18:30",
+      "end": "2026-09-27T18:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Νοσταλγια Θερινος Κινηματογραφος",
+          "locality": "Ν. Ηράκλειο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Οι Από Κάτω - 2ος Χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/oi-apo-kato/",
+      "start": "2026-11-05T21:00",
+      "end": "2026-12-06T18:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "AUDITORIUM",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΚΥΡΙΟΣ ΒΡΟΜΥΛΟΣ 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-kyrios-bromylos-2os-xronos/",
+      "start": "2026-10-25T11:30",
+      "end": "2026-12-27T15:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τεχνης Κ. Κουν - Σκηνη Φρυνιχου",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΕΛΕΥΘΕΡΟ ΖΕΥΓΑΡΙ",
+      "url": "https://www.more.com/gr-el/tickets/theater/eleuthero-zeugari-1/",
+      "start": "2026-10-22T20:30",
+      "end": "2027-01-14T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Intermedia",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΣΤΙΓΜΗ ΤΟΥ ΕΘΝΟΥΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-stigmi-tou-ethnous/",
+      "start": "2026-10-25T20:00",
+      "end": "2026-12-27T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "K4",
+          "locality": "Κουκάκι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Τελευταίο Debate ή το Μενού της Επανάστασης",
+      "url": "https://www.more.com/gr-el/tickets/theater/teleutaio-debate-i-to-menou-tis-epanastasis/",
+      "start": "2026-11-13T20:30",
+      "end": "2027-01-10T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Τοπος Αλλου",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Τα γενέθλια της Ριρίκας - 4η χρονιά",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/ta-genethlia-tis-ririkas-4i-xronia/",
+      "start": "2026-10-18T12:00",
+      "end": "2027-01-03T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μεταξουργειο",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Πλησίασε με.. Φοβάμαι το κοντά!",
+      "url": "https://www.more.com/gr-el/tickets/theater/plisiase-me-fobamai-to-konta/",
+      "start": "2026-12-20T19:15",
+      "end": "2027-03-14T19:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολυχωρος Αυλαια",
+          "locality": "Πειραιάς",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΙΚΑΡΟΣ _ ΘΕΑΤΡΟ ΧΩΡΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/ikaros-theatro-xoros/",
+      "start": "2026-11-01T12:00",
+      "end": "2026-12-06T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Χωρος",
+          "locality": "Βοτανικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΑΥΤΟΥ ΕΛΑΦΡΟΤΗΣ Ο ΠΕΡΕΛΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-autou-elafrotis-o-perela/",
+      "start": "2026-10-10T18:00",
+      "end": "2026-11-22T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο 104",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Λαχτάρα για κεράσια",
+      "url": "https://www.more.com/gr-el/tickets/theater/laxtara-gia-kerasia-1/",
+      "start": "2026-10-30T21:00",
+      "end": "2027-01-31T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αμαξοστοιχια - Θεατρο το Τρενο στο Ρουφ",
+          "locality": "Ρούφ",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Μαγικό Πάρτυ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/to-magiko-party/",
+      "start": "2026-09-05T18:30",
+      "end": "2026-09-08T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Πολλαπλοι χωροι",
+          "locality": "Πόρτο Ράφτη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΟΙ ΛΕΞΕΙΣ ΤΩΝ ΑΛΛΩΝ - 3ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/oi-lekseis-ton-allon-3os-xronos/",
+      "start": "2026-10-12T21:00",
+      "end": "2027-01-18T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αβατον",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΔΙΑΘΗΚΗ 2ος Χρόνος ...ένα ενθύμιο από την μαμά και τον μπαμπά...",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-diathiki-2os-xronos-ena-enthymio-apo-tin-mama-kai-ton-mpampa/",
+      "start": "2026-10-31T21:00",
+      "end": "2026-12-27T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βαφειο - Λακης Καραλης",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "\"Επτά \" - Θέατρο Σκιών Τάσου Κώνστα",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/epta-theatro-skion-tasou-konsta/",
+      "start": "2026-11-01T12:00",
+      "end": "2027-01-31T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Paraga",
+          "locality": "Ν. Κόσμος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΧΑΣΑΜΕ ΤΗ ΘΕΙΑ ΣΤΟΠ",
+      "url": "https://www.more.com/gr-el/tickets/theater/xasame-ti-theia-stop/",
+      "start": "2026-09-17T21:15",
+      "end": "2026-09-17T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Αμφιθεατρο Θαν.Βεγγος",
+          "locality": "Κορυδαλλός",
+          "region": "Αττική",
+          "street": "Πελοποννήσου 173, 18122"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Νόημα της Ζωής Νο 1 - Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-noima-tis-zois-no1/",
+      "start": "2026-11-19T21:00",
+      "end": "2026-11-19T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": "Ακαδήμου 13"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ραπουνζέλ - Χρυσά Κουβάρια !!",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/rapounzel-xrysa-koubaria/",
+      "start": "2026-10-04T17:00",
+      "end": "2026-11-08T17:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Βαφειο",
+          "locality": "Βοτανικός",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΑΡΣΕΝ ΛΟΥΠΕΝ: Το μυστήριο της Κούφιας Βελόνας 2ος ΧΡΟΝΟΣ ΕΠΙΤΥΧΙΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/offer/arsen-loupen-to-mystirio-tis-koufias-belonas/",
+      "start": "2026-10-25T11:30",
+      "end": "2026-12-20T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλαμπρα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΛΑΓΟΣ ΚΑΙ Η ΧΕΛΩΝΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-lagos-kai-i-xelona-2/",
+      "start": "2026-09-26T10:00",
+      "end": "2026-12-26T10:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Τεχνοχωρος Εργοταξιον",
+          "locality": "Αγ. Δημήτριος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "O Καραγκιόζης στο PARAGA !",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-karagkiozis-tou-tasou-konsta-paei-paraga/",
+      "start": "2026-10-11T12:00",
+      "end": "2027-01-06T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Paraga",
+          "locality": "Ν. Κόσμος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Μαθητευόμενος Μάγος",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-mathitevomenos-magos/",
+      "start": "2026-09-19T17:45",
+      "end": "2026-12-19T17:45",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Τεχνοχωρος Εργοταξιον",
+          "locality": "Αγ. Δημήτριος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Να σου πω μια ιστορία του Χόρχε Μπουκάι 6ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/na-sou-po-mia-istoria/",
+      "start": "2026-10-04T19:00",
+      "end": "2026-11-29T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Studio Μαυρομιχαλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Θέατρο Κούκλας της Ιρίνα Μπόικο WHITE PUPPET",
+      "url": "https://www.more.com/gr-el/tickets/theater/theatro-kouklas-irina-boiko-white-puppet-1/",
+      "start": "2026-09-12T12:15",
+      "end": "2026-11-29T12:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο OLVIO",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΦΩΚΙΑ - 2ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-fokia/",
+      "start": "2026-10-03T21:30",
+      "end": "2027-01-16T21:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αβατον",
+          "locality": "Γκάζι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "\"O Λούτσιο και το Ταξίδι στον Πλανήτη Κιαροσκούρο\"",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/o-loutsio-kai-to-taksidi-ston-planiti-kiaroskouro/",
+      "start": "2026-10-18T11:30",
+      "end": "2026-11-29T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μαβιλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Κοριτσάκι με τα Σπίρτα: Το Μιούζικαλ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/christmas/to-koritsaki-me-ta-spirta-1/",
+      "start": "2026-11-15T11:00",
+      "end": "2027-01-31T11:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Κατια Δανδουλακη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ξημερώνει χωρίς..",
+      "url": "https://www.more.com/gr-el/tickets/theater/ksimeronei-xoris/",
+      "start": "2026-09-26T21:00",
+      "end": "2026-10-10T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Τεχνοχωρος Εργοταξιον",
+          "locality": "Αγ. Δημήτριος",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Νόημα της Ζωής Νο 2 - Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/theater/offer/to-noima-tis-zois-2/",
+      "start": "2026-11-04T21:00",
+      "end": "2026-11-04T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": "Ακαδήμου 13"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Τα Άσπρα Άλογα - Ρόσμερσχολμ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-aspra-aloga-rosmersxolm/",
+      "start": "2026-09-26T21:00",
+      "end": "2026-11-29T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Εκατη",
+          "locality": "Κυψέλη",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ψυχάρης Το Ταξίδι μου  (2ος χρόνος)",
+      "url": "https://www.more.com/gr-el/tickets/theater/psycharis-to-taksidi-mou-2os-chronos/",
+      "start": "2026-10-19T20:00",
+      "end": "2026-12-01T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μεταξουργειο",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο ΘΕΟΣ ΤΗΣ ΣΦΑΓΗΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-theos-tis-sfagis-2/",
+      "start": "2026-10-17T18:00",
+      "end": "2026-12-06T21:15",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Studio Μαυρομιχαλη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Πάρτυ της ζωής μου - 5ος χρόνος",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-party-tis-zois-mou-5os-xronos/",
+      "start": "2026-10-24T21:00",
+      "end": "2026-11-29T19:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Διανα",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Πες μου ένα Παραμύθι",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/pesmouenaparamithi/",
+      "start": "2026-09-27T12:00",
+      "end": "2026-09-27T12:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο ΕΞΑΡΧΗΣ",
+          "locality": "Εξάρχεια",
+          "region": "Αττική",
+          "street": "Σπύρου Τρικούπη 44"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΠΙΝΕΛΟΠΗ",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/i-pinelopi/",
+      "start": "2026-10-04T11:30",
+      "end": "2026-11-15T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΠΡΟΣΕΥΧΗ ΤΗΣ ΘΑΛΑΣΣΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-proseuxi-tis-thalassas/",
+      "start": "2026-11-09T21:00",
+      "end": "2027-01-05T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΜΠΕΛΛΟΣ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Τερματικός Σταθμός: CIRCUS CITY",
+      "url": "https://www.more.com/gr-el/tickets/theater/termatikos-stathmos-circus-city/",
+      "start": "2027-01-25T20:30",
+      "end": "2027-04-06T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΜΠΕΛΛΟΣ",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Εσύ και τα σύννεφά σου (2η χρονιά)",
+      "url": "https://www.more.com/gr-el/tickets/theater/esy-kai-ta-synnefa-sou-2i-xronia/",
+      "start": "2026-11-02T21:00",
+      "end": "2027-01-19T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Μετς",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ματωμένος Γάμος",
+      "url": "https://www.more.com/gr-el/tickets/theater/matomenos-gamos-2/",
+      "start": "2026-10-18T21:00",
+      "end": "2027-01-17T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκμηνη - Κεντρικη Σκηνη",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ώρα για Κόλπα / The Tricking Hour",
+      "url": "https://www.more.com/gr-el/tickets/theater/ora-gia-kolpa/the-tricking-hour/",
+      "start": "2026-09-24T21:00",
+      "end": "2026-10-18T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "TZAMIA KRYSTALLA",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "#Support_Hara από τον Μικρό Βορρά στην Αθήνα",
+      "url": "https://www.more.com/gr-el/tickets/theater/support-hara-apo-ton-mikro-borra-stin-athina-1/",
+      "start": "2026-11-22T16:00",
+      "end": "2026-12-13T16:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Theatre Nous-Creative space",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΟ ΑΠΟΤΥΠΩΜΑ",
+      "url": "https://www.more.com/gr-el/tickets/theater/to-apotypoma-1/",
+      "start": "2026-09-12T19:00",
+      "end": "2026-09-13T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Teen Talk about Bullying από τον Μικρό Βορρά",
+      "url": "https://www.more.com/gr-el/tickets/theater/teen-talk-about-bullying-apo-ton-mikro-borra/",
+      "start": "2026-10-04T16:00",
+      "end": "2026-11-08T16:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Theatre Nous-Creative space",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΤΑ ΦΩΤΑ ΤΗΣ ΡΑΜΠΑΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/ta-fota-tis-rampas-1/",
+      "start": "2026-11-20T21:00",
+      "end": "2026-12-25T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Σκηνη BRECHT - 2510",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Στον πλανήτη του Καντίνσκι",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/ston-planiti-tou-kantinski/",
+      "start": "2026-09-26T11:30",
+      "end": "2026-12-19T11:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Σταθμος - Stathmos Theater",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Η ΙΦΙΓΕΝΕΙΑ ΣΤΟ ΑΡΓΟΣ",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-ifigeneia-sto-argos/",
+      "start": "2026-09-12T21:00",
+      "end": "2026-09-13T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Το Κουτί",
+      "url": "https://www.more.com/gr-el/tickets/theater/children/to-kouti/",
+      "start": "2026-09-19T14:30",
+      "end": "2026-12-19T14:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Σταθμος - Stathmos Theater",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "SeaWall   -  Ison Theatrical Projects",
+      "url": "https://www.more.com/gr-el/tickets/theater/seawall-ison-theatrical-projects/",
+      "start": "2026-09-17T19:00",
+      "end": "2026-09-18T21:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "«Η βαλίτσα» - Νίκος Παλλάδιος",
+      "url": "https://www.more.com/gr-el/tickets/theater/i-balitsa-nikos-palladios/",
+      "start": "2026-09-17T21:00",
+      "end": "2026-09-18T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Σονάτα για μια…. Ελένη",
+      "url": "https://www.more.com/gr-el/tickets/theater/sonata-gia-mia-eleni/",
+      "start": "2026-09-19T21:00",
+      "end": "2026-09-20T19:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο της Ημερας - Μπλε Σκηνη",
+          "locality": "Αμπελόκηποι",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Ο Καραγκιόζης Φεγγαρολουσμένος",
+      "url": "https://www.more.com/gr-el/tickets/theater/o-karagkiozis-feggarolousmenos/",
+      "start": "2026-09-10T20:00",
+      "end": "2026-09-10T20:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Εθνικο Αστεροσκοπειο Αθηνων - Κεντρο Επισκεπτων Θησειου",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": "Λόφος Νυμφών"
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "ΜΑΝΤΕΨΕ ΠΟΣΟ Σ'ΑΓΑΠΩ",
+      "url": "https://www.more.com/gr-el/tickets/theater/mantepse-poso-sagapo/",
+      "start": "2026-10-27T20:30",
+      "end": "2026-12-01T20:30",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Θεατρο Αλκυονις",
+          "locality": "Αθήνα",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    },
+    {
+      "title": "Οι Μαγικές Βαλίτσες του Ερμή",
+      "url": "https://www.more.com/gr-el/tickets/theater/oi-magikes-valitses-tou-ermi/",
+      "start": "2026-10-11T15:00",
+      "end": "2027-01-10T15:00",
+      "genres": [],
+      "venues": [
+        {
+          "name": "Απο Μηχανης Θεατρο - Κατω Σκηνη",
+          "locality": "Μεταξουργείο",
+          "region": "Αττική",
+          "street": ""
+        }
+      ],
+      "source": "more.com"
+    }
+  ]
+}
