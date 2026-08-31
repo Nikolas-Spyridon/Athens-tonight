@@ -1,40 +1,6 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "events": [
-    {
-      "event_id": "14356",
-      "title": "No Truth, No Justice European Tour 2026 — SACRED REICH (U.S.A.) — +ACID REIGN (U.K.)+The TROOPS Of DOOM (Brazil)",
-      "url": "/event/gagarin-no-truth-no-justice-european-tour-2026/?lang=el",
-      "dates": [
-        "2026-08-30"
-      ],
-      "venues": [
-        "Gagarin 205 Live Music Space"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14941",
-      "title": "HUNTRIX K-POP PARTY",
-      "url": "/event/huntrix-k-pop-party-2026/?lang=el",
-      "dates": [
-        "2026-08-30"
-      ],
-      "venues": [
-        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15024",
       "title": "ΜΑΡΙΟΣ ΦΡΑΓΚΟΥΛΗΣ — «Χέρια Φτερά« — με τον Κωνσταντίνο Γιουρτσίδη",
@@ -599,6 +565,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15136",
+      "title": "ΠΑΝΑΓΙΩΤΗΣ ΛΑΜΠΟΥΡΑΣ",
+      "url": "/event/panagiotis-lambouras-plyfa/?lang=el",
+      "dates": [
+        "2026-10-23"
+      ],
+      "venues": [
+        "ΠΛΥΦΑ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-31"
     },
     {
       "event_id": "14995",
