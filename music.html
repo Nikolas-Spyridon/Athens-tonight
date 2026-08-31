@@ -48,20 +48,6 @@
 
   .new-banner{display:block;width:100%;text-align:left;font-family:'Inter',sans-serif;padding:10px 13px;border-radius:9px;background:rgba(193,82,75,0.14);border:1px solid rgba(193,82,75,0.4);color:var(--paper);font-size:12.5px;font-weight:600;cursor:pointer;margin:10px 0;}
   .new-banner .count-badge{display:inline-block;background:var(--coral);color:var(--ink);border-radius:20px;padding:1px 8px;font-size:11px;margin-right:6px;}
-  .new-banner .match-note{color:var(--muted);font-weight:500;font-size:11.5px;display:block;margin-top:2px;}
-
-  .watchlist{margin:6px 0 4px;}
-  .watchlist-toggle{font-size:11.5px;color:var(--muted);cursor:pointer;text-decoration:underline;background:none;border:none;padding:0;font-family:'Inter',sans-serif;}
-  .watchlist-panel{margin-top:8px;padding:10px;border-radius:9px;background:var(--ink2);border:1px solid var(--line);}
-  .watchlist-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px;}
-  .watchlist-tag{display:flex;align-items:center;gap:5px;font-size:11.5px;font-weight:600;padding:4px 8px;border-radius:6px;background:var(--coral-dim);color:var(--coral);}
-  .watchlist-tag button{background:none;border:none;color:var(--coral);cursor:pointer;font-size:13px;line-height:1;padding:0;font-weight:700;}
-  .watchlist-add{display:flex;gap:6px;}
-  .watchlist-add input{flex:1;margin:0;font-size:12.5px;padding:7px 10px;}
-  .watchlist-add button{padding:7px 12px;border-radius:8px;border:none;background:var(--coral);color:var(--ink);font-weight:700;font-size:12px;cursor:pointer;}
-  .watchlist-empty{font-size:11.5px;color:var(--muted);margin-bottom:8px;}
-
-  .e-watch{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:5px;background:transparent;border:1.5px solid var(--coral);color:var(--coral);margin-top:6px;margin-right:6px;}
 
   .event{background:var(--ink2);border-radius:10px;padding:14px 16px;margin-bottom:10px;border-left:3px solid var(--coral);}
   .e-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
@@ -97,11 +83,6 @@
 <div class="monthbar" id="monthBar"></div>
 
 <div id="newBanner"></div>
-
-<div class="watchlist">
-  <button class="watchlist-toggle" id="watchlistToggle">⚙ Ενδιαφέροντα (καλλιτέχνες/είδη)</button>
-  <div class="watchlist-panel" id="watchlistPanel" style="display:none;"></div>
-</div>
 
 <input type="text" id="search" placeholder="Αναζήτηση καλλιτέχνη, χώρου ή είδους...">
 <div class="count" id="count"></div>
@@ -142,40 +123,7 @@ function isRecentlyAnnounced(firstSeen){
   return daysSince >= 0 && daysSince < NEW_WINDOW_DAYS;
 }
 
-// --- Watchlist (artists/genres you care about) ---
-// Stored per-device in localStorage, same tradeoff already accepted for
-// this project: no cross-device sync, but zero backend needed for a
-// short list of personal interests.
-const WATCHLIST_KEY = 'athensTonightWatchlist';
-
-function loadWatchlist(){
-  try{
-    const raw = localStorage.getItem(WATCHLIST_KEY);
-    return raw ? JSON.parse(raw) : [];
-  }catch(e){
-    return [];
-  }
-}
-
-function saveWatchlist(list){
-  try{
-    localStorage.setItem(WATCHLIST_KEY, JSON.stringify(list));
-  }catch(e){
-    // storage full/disabled — fail silently, watchlist just won't persist
-  }
-}
-
-let watchlist = loadWatchlist();
-
-function matchesWatchlist(row){
-  if(watchlist.length === 0) return false;
-  const blob = normalizeText(row.title + ' ' + row.venueName + ' ' + row.genres.join(' '));
-  return watchlist.some(term => blob.includes(normalizeText(term)));
-}
-
-// more.com: one event per JSON entry, a single ISO `start` datetime,
-// venues as objects ({name, locality, ...}), genre tags present.
-// more.com: one event per JSON entry, but EACH venue now carries its
+// --- more.com: one event per JSON entry, but EACH venue now carries its
 // OWN start/end (fixed 28/8/2026 — a multi-city tour used to share one
 // date across every city, which was wrong; now each venue/date pair is
 // independent, and can independently be "attica" or "unconfirmed" via
@@ -366,13 +314,6 @@ function init(){
     render();
   });
 
-  document.getElementById('watchlistToggle').addEventListener('click', () => {
-    const panel = document.getElementById('watchlistPanel');
-    const isOpen = panel.style.display !== 'none';
-    panel.style.display = isOpen ? 'none' : 'block';
-    if(!isOpen) renderWatchlistPanel();
-  });
-
   const footerParts = sourceStatus.map(s =>
     s.ok ? `${s.name} (${s.updated || '—'})` : `${s.name} μη διαθέσιμο`
   );
@@ -392,59 +333,6 @@ function init(){
   render();
 }
 
-function renderWatchlistPanel(){
-  const panel = document.getElementById('watchlistPanel');
-  panel.innerHTML = '';
-
-  const tagsDiv = document.createElement('div');
-  tagsDiv.className = 'watchlist-tags';
-  if(watchlist.length === 0){
-    const empty = document.createElement('div');
-    empty.className = 'watchlist-empty';
-    empty.textContent = 'Δεν έχεις προσθέσει ενδιαφέροντα ακόμη.';
-    panel.appendChild(empty);
-  } else {
-    watchlist.forEach((term, i) => {
-      const tag = document.createElement('div');
-      tag.className = 'watchlist-tag';
-      tag.innerHTML = `<span></span><button aria-label="Αφαίρεση">×</button>`;
-      tag.querySelector('span').textContent = term;
-      tag.querySelector('button').addEventListener('click', () => {
-        watchlist.splice(i, 1);
-        saveWatchlist(watchlist);
-        renderWatchlistPanel();
-        renderNewBanner();
-        render();
-      });
-      tagsDiv.appendChild(tag);
-    });
-    panel.appendChild(tagsDiv);
-  }
-
-  const addRow = document.createElement('div');
-  addRow.className = 'watchlist-add';
-  addRow.innerHTML = `
-    <input type="text" placeholder="π.χ. metal, Deep Purple, jazz...">
-    <button>Προσθήκη</button>
-  `;
-  const input = addRow.querySelector('input');
-  const addTerm = () => {
-    const val = input.value.trim();
-    if(!val) return;
-    if(!watchlist.some(t => t.toLowerCase() === val.toLowerCase())){
-      watchlist.push(val);
-      saveWatchlist(watchlist);
-      renderWatchlistPanel();
-      renderNewBanner();
-      render();
-    }
-    input.value = '';
-  };
-  addRow.querySelector('button').addEventListener('click', addTerm);
-  input.addEventListener('keydown', e => { if(e.key === 'Enter') addTerm(); });
-  panel.appendChild(addRow);
-}
-
 function renderNewBanner(){
   const today = todayKey();
   const upcoming = allRows.filter(r => r.date && r.date >= today);
@@ -456,15 +344,9 @@ function renderNewBanner(){
     return;
   }
 
-  const matchCount = newRows.filter(matchesWatchlist).length;
-  const matchLine = watchlist.length > 0
-    ? `<span class="match-note">${matchCount} ταιριάζουν στα ενδιαφέροντά σου</span>`
-    : '';
-
   banner.innerHTML = `
     <button class="new-banner" id="newBannerBtn">
       <span class="count-badge">${newRows.length}</span>νέες συναυλίες τις τελευταίες ${NEW_WINDOW_DAYS} μέρες
-      ${matchLine}
     </button>
   `;
   document.getElementById('newBannerBtn').addEventListener('click', () => {
@@ -541,17 +423,7 @@ function render(){
     rows = rows.filter(r => r.date.slice(0,7) === selectedMonth);
   }
 
-  if(showOnlyNew){
-    // Watchlist matches first, then chronological within each group.
-    rows.sort((a,b) => {
-      const am = matchesWatchlist(a) ? 0 : 1;
-      const bm = matchesWatchlist(b) ? 0 : 1;
-      if(am !== bm) return am - bm;
-      return (a.date+a.time).localeCompare(b.date+b.time);
-    });
-  } else {
-    rows.sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
-  }
+  rows.sort((a,b) => (a.date+a.time).localeCompare(b.date+b.time));
 
   // Inline month headers are only useful when multiple months are being
   // shown together (i.e. "Όλα", or a search/new-only view spanning
@@ -573,7 +445,6 @@ function render(){
     }
 
     const isNew = isRecentlyAnnounced(r.firstSeen);
-    const isMatch = isNew && matchesWatchlist(r);
 
     const div = document.createElement('div');
     div.className = 'event';
@@ -591,7 +462,6 @@ function render(){
           : `<span class="genre-tag">${g}</span>`
       ).join('')}</div>` : ''}
       ${isNew ? `<div class="e-new">Νέο</div>` : ''}
-      ${isMatch ? `<div class="e-watch">★ Ταιριάζει</div>` : ''}
       ${r.unconfirmedRegion ? `<div class="e-unconfirmed">Περιοχή μη επιβεβαιωμένη</div>` : ''}
       <div class="e-source"><a href="${r.url}" target="_blank">${r.source}</a></div>
     `;
