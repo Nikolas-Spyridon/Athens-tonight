@@ -94,58 +94,34 @@ HEADERS = {
 
 GENRE_CLASS_RE = re.compile(r"^music([a-z]+)$")
 
-# Best-effort, non-exhaustive — see "ATTICA FILTERING" note above.
-# REVISED 29/8/2026 after reviewing a real ~150-event scraper run: the
-# original version of both this set and NON_ATTICA_HINTS was too sparse,
-# and matching required an EXACT whole-string match — real locality
-# values are often multi-word or abbreviated ("Αγ. Ιωάννης Ρέντης",
-# "Κατράκειο Θέατρο Νίκαιας"), so exact matching silently missed real
-# Attica neighbourhoods (Λυκαβηττός, Φιλοπάππου, Μοναστηράκι, Ομόνοια,
-# Άλιμος were ALL missing before and fell through to "unconfirmed").
-# Switched to SUBSTRING matching below, which also handles case endings
-# for free (e.g. "νικαια" matches inside "νικαιας").
-#
-# "Ηράκλειο" is DELIBERATELY absent from both this set and
-# NON_ATTICA_HINTS — it's genuinely ambiguous (a small Athens suburb
-# near Nea Ionia, but far more commonly Crete's capital), and a real run
-# showed two actual Cretan venues (ΕΛΜΕΠΑ, Θέατρο Τεχνόπολις Ηράκλειο)
-# getting wrongly matched as Attica when "ηρακλειο" was in this set.
-# Leaving it out of both lists means it correctly falls through to
-# "unconfirmed" instead of confidently guessing wrong either way.
+# CONFIRMED, not guessed — transcribed directly from more.com's own "Πού"
+# (Where) filter tree on the live listing page (28/8/2026 fetch). This
+# filter turns out to be entirely client-side (every event for all of
+# Greece is server-rendered on one page; "Πού" just toggles visibility
+# via a CSS class already in the markup) — there's no AJAX endpoint to
+# call. So instead of guessing region membership from free-text
+# addresses, these two sets are the SITE'S OWN authoritative locality
+# groupings. This also resolves the earlier Ηράκλειο ambiguity cleanly:
+# more.com's own data confirms "Ηράκλειο" is its own separate region
+# (Crete's Heraklion), never Αττική — it's now correctly in
+# NON_ATTICA_HINTS instead of being left out of both sets.
 ATTICA_LOCALITIES = {
-    "αθηνα", "πειραιας", "γκαζι", "γλυφαδα", "χαλανδρι", "μαρουσι",
-    "αμαρουσιο", "κηφισια", "νεα σμυρνη", "καλλιθεα", "περιστερι",
-    "αγια παρασκευη", "ψυχικο", "νεο ψυχικο", "παγκρατι", "πετραλωνα",
-    "ανω πετραλωνα", "κουκακι", "εξαρχεια", "κολωνακι", "ζωγραφου",
-    "ιλιον", "αιγαλεω", "νικαια", "βουλα", "βουλιαγμενη", "βαρη",
-    "ραφηνα", "λαυριο", "ελευσινα", "αχαρνες", "μενιδι", "αργυρουπολη",
-    "ηλιουπολη", "βυρωνας", "δαφνη", "υμηττος", "γαλατσι", "κυψελη",
-    "πατησια", "αμπελοκηποι", "χαιδαρι", "μοσχατο", "ταυρος", "ρεντη",
-    "κερατσινι", "δραπετσωνα", "κορυδαλλος", "αγια βαρβαρα", "πευκη",
-    "λυκοβρυση", "μεταμορφωση", "νεα ιωνια",
-    "νεα φιλαδελφεια", "νεα χαλκηδονα", "βριλησσια", "πεντελη",
-    "παλληνη", "γερακας", "σταματα", "διονυσος", "σπατα", "παιανια",
-    "κορωπι", "μαρκοπουλο", "μεγαρα", "ασπροπυργος", "φυλη",
-    "ανω λιοσια", "ζεφυρι", "περαμα", "χολαργος", "παπαγου", "βαρκιζα",
-    # added after real-data review (29/8/2026):
-    "λυκαβηττος", "φιλοπαππου", "μοναστηρακι", "ομονοια", "αλιμος",
+    "αγ. ιωαννης ρεντης", "αθηνα", "αλιμος", "βαρη", "βοτανικος",
+    "βριλησσια", "γαλατσι", "γκαζι", "ελευσινα", "ιερα οδος",
+    "κορυδαλλος", "κορωπι", "κυψελη", "λυκαβηττος", "μαρουσι",
+    "μοναστηρακι", "νεα σμυρνη", "νικαια", "ομονοια", "παπαγου",
+    "πειραιας", "περιστερι", "πετρουπολη", "ρουφ", "ταυρος",
+    "φιλοπαππου", "χαλανδρι",
 }
 
-# Also expanded after the same real-data review — this list existing at
-# all is a maintenance burden (see the module docstring's honest note
-# about this), but it materially shrinks how often a clearly-elsewhere
-# event shows up as "unconfirmed" clutter instead of being cleanly
-# dropped.
 NON_ATTICA_HINTS = {
-    "θεσσαλονικη", "πατρα", "χανια", "ρεθυμνο",
-    "λαρισα", "βολος", "καβαλα", "σερρες", "τριπολη", "ιωαννινα",
-    "γιαννενα", "καρδιτσα", "κοζανη", "αγρινιο", "καλαματα", "χαλκιδα",
-    "λαμια", "κομοτηνη", "ξανθη", "δραμα", "βεροια", "κατερινη",
-    "τρικαλα", "κερκυρα", "ροδος", "χιος", "μυτιληνη", "καλαβρυτα",
-    "ναυπλιο", "μυκονος", "συρος", "σκιαθος", "πυλος", "αμπελωνας",
-    "διστομο", "κιλκις", "πυλαια", "καλαμαρια", "τουμπα", "σταυρουπολη",
-    "κορινθος", "παρος", "ζακυνθος", "λευκαδα", "κεφαλονια", "ναξος",
-    "σαντορινη", "θηρα", "αλεξανδρουπολη",
+    "αμπελωνας", "ανδρος", "αργος", "βεροια", "βολος", "γιαννενα",
+    "διον", "διστομο", "ηρακλειο", "θεσσαλονικη", "ιωαννινα", "καβαλα",
+    "καλαμαρια", "καλαματα", "καρδιτσα", "κατω τουμπα", "κιλκις",
+    "κοζανη", "κομοτηνη", "κορινθος", "λαγυνα", "λαρισα", "μουδανια",
+    "μυκονος", "ξανθη", "πατρα", "πτολεμαιδα", "πυλαια", "ρεθυμνο",
+    "ροδος", "σερρες", "σκιαθος", "σταυρουπολη", "συρος", "τρικαλα",
+    "υπατη λαμιας", "χαλκιδα", "χανια", "χιλιομοδι", "χιος",
 }
 
 
@@ -157,17 +133,11 @@ def strip_accents(s: str) -> str:
 
 
 def classify_locality(city_text: str) -> str:
-    """Returns "attica", "not_attica", or "unconfirmed" — an unrecognized
-    locality is NEVER silently treated as "not_attica"; only a positive
-    substring match against NON_ATTICA_HINTS earns that. Same "don't
-    silently drop what we can't confirm" philosophy as the
-    ticketservices.gr scraper's area-id handling.
-
-    Uses SUBSTRING containment, not exact match — real locality values
+    """Returns "attica", "not_attica", or "unconfirmed" against the
+    authoritative ATTICA_LOCALITIES/NON_ATTICA_HINTS sets above. Uses
+    SUBSTRING containment, not exact match, since real locality values
     are often multi-word or abbreviated (e.g. "Αγ. Ιωάννης Ρέντης",
-    "Κατράκειο Θέατρο Νίκαιας"), and a strict whole-string match against
-    a real dataset missed real Attica neighbourhoods entirely (confirmed
-    28/8/2026 — see the ATTICA_LOCALITIES comment above)."""
+    "Κατράκειο Θέατρο Νίκαιας")."""
     if not city_text or city_text.strip() == "-":
         return "unconfirmed"
     normalized = strip_accents(city_text).strip().lower()
@@ -176,6 +146,10 @@ def classify_locality(city_text: str) -> str:
     if any(k in normalized for k in NON_ATTICA_HINTS):
         return "not_attica"
     return "unconfirmed"
+
+
+def is_blank_locality(city_text: str) -> bool:
+    return not city_text or city_text.strip() == "-"
 
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -269,7 +243,15 @@ def parse_event_venues(booking_data: dict) -> list[dict]:
     entries, each independently classified for Attica. This is what
     fixes the multi-city date bug: every entry gets ITS OWN start/end,
     read from the matching "events" record via venueId, instead of one
-    shared date applied to every venue."""
+    shared date applied to every venue.
+
+    When `venue-city` itself is blank/dash, falls back to classifying
+    the street address instead — real cases confirmed 30/8/2026: e.g.
+    "Anyma presents ÆDEN ATHENS" has city="" but street="Μαρούσι, 151 23"
+    (a real Attica address), while "ΛΕΞ Tour 2026" has city="" but
+    street="...Βόλος...ΜΑΓΝΗΣΙΑΣ" (genuinely not Attica). Without this,
+    both cases were stuck as "unconfirmed" even though the real answer
+    was recoverable from data already on hand."""
     venues_by_id = {v["id"]: v for v in booking_data.get("venues", [])}
     results = []
 
@@ -279,14 +261,18 @@ def parse_event_venues(booking_data: dict) -> list[dict]:
             continue
 
         city = venue.get("venue-city", "")
-        region_status = classify_locality(city)
+        street = venue.get("venue-address", "")
+        if is_blank_locality(city) and street:
+            region_status = classify_locality(street)
+        else:
+            region_status = classify_locality(city)
         if region_status == "not_attica":
             continue  # confirmed elsewhere in Greece — skip entirely
 
         results.append({
             "name": venue.get("venue-name", ""),
             "locality": city,
-            "street": venue.get("venue-address", ""),
+            "street": street,
             "start": ev.get("event-date", ""),
             "end": ev.get("event-end-date", ""),
             "region_status": region_status,
