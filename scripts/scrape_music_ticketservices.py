@@ -124,7 +124,14 @@ def parse_events() -> list[dict]:
         title = clean_title(title_raw)
 
         link = li.select_one("a[href]")
-        url = link["href"].strip() if link and link.get("href") else ""
+        raw_href = link["href"].strip() if link and link.get("href") else ""
+        # The site's own markup is inconsistent about this: some hrefs are
+        # already absolute, others are root-relative ("/event/..."). A
+        # root-relative href rendered on GitHub Pages resolves against
+        # the GitHub Pages origin, not ticketservices.gr, producing a
+        # broken link (404) — same bug already fixed in the theatre
+        # ticketservices scraper; applying the same fix here.
+        url = raw_href if raw_href.startswith("http") else (BASE + raw_href if raw_href else "")
 
         dates = [d for d in li.get("data-dates", "").split("|") if d]
         venues = [v.strip() for v in li.get("data-venues", "").split("|") if v.strip()]
