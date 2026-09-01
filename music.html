@@ -42,8 +42,10 @@
   .monthbar-wrap{position:relative;margin-bottom:4px;}
   .monthbar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 12px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;touch-action:pan-x;scroll-behavior:smooth;}
   .monthbar::-webkit-scrollbar{display:none;}
-  .monthbar-fade{position:absolute;top:0;right:0;width:32px;height:calc(100% - 12px);pointer-events:none;background:linear-gradient(to right, rgba(24,35,56,0), var(--ink) 85%);opacity:1;transition:opacity .15s;}
-  .monthbar-fade.hidden{opacity:0;}
+  .monthbar-arrow{position:absolute;top:0;height:calc(100% - 12px);width:30px;display:flex;align-items:center;justify-content:center;border:none;cursor:pointer;color:var(--paper);font-size:15px;font-weight:700;opacity:1;transition:opacity .15s;pointer-events:auto;}
+  .monthbar-arrow.hidden{opacity:0;pointer-events:none;}
+  .monthbar-arrow.right{right:0;background:linear-gradient(to right, rgba(24,35,56,0), var(--ink) 40%);justify-content:flex-end;padding-right:2px;}
+  .monthbar-arrow.left{left:0;background:linear-gradient(to left, rgba(24,35,56,0), var(--ink) 40%);justify-content:flex-start;padding-left:2px;}
   .monthpill{flex:0 0 auto;padding:8px 13px;border-radius:10px;border:1px solid var(--line);background:var(--ink2);cursor:pointer;font-size:12px;font-weight:600;color:var(--paper);white-space:nowrap;position:relative;}
   .monthpill.active{background:var(--coral);border-color:var(--coral);color:var(--ink);}
   .monthpill .dot{position:absolute;top:4px;right:5px;width:6px;height:6px;border-radius:50%;background:var(--coral);}
@@ -85,7 +87,8 @@
 
 <div class="monthbar-wrap">
   <div class="monthbar" id="monthBar"></div>
-  <div class="monthbar-fade" id="monthBarFade"></div>
+  <button class="monthbar-arrow left hidden" id="monthBarLeft" aria-label="Προηγούμενοι μήνες" type="button">‹</button>
+  <button class="monthbar-arrow right" id="monthBarRight" aria-label="Επόμενοι μήνες" type="button">›</button>
 </div>
 
 <div id="newBanner"></div>
@@ -370,16 +373,19 @@ function monthPillLabel(monthKey){
 // only default visual cue that there's more content off-screen — the
 // bar can end up LOOKING like a complete, non-scrollable list (e.g.
 // stopping at "Φεβ 2027") even though later months exist further right.
-// This fade fixes that: visible whenever there's unscrolled content to
-// the right, hidden once the bar is scrolled all the way / doesn't
-// overflow at all.
-function updateMonthBarFade(){
+// Real, clickable arrow buttons fix this more reliably than a fade or a
+// bare CSS overflow — swipe/drag/wheel gestures are easy to miss
+// entirely, especially on desktop with a plain mouse.
+function updateMonthBarArrows(){
   const bar = document.getElementById('monthBar');
-  const fade = document.getElementById('monthBarFade');
-  if(!bar || !fade) return;
+  const left = document.getElementById('monthBarLeft');
+  const right = document.getElementById('monthBarRight');
+  if(!bar || !left || !right) return;
   const hasOverflow = bar.scrollWidth > bar.clientWidth + 2;
+  const atStart = bar.scrollLeft <= 2;
   const atEnd = bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 2;
-  fade.classList.toggle('hidden', !hasOverflow || atEnd);
+  left.classList.toggle('hidden', !hasOverflow || atStart);
+  right.classList.toggle('hidden', !hasOverflow || atEnd);
 }
 
 let monthBarListenersAttached = false;
@@ -387,13 +393,17 @@ function attachMonthBarListeners(){
   if(monthBarListenersAttached) return;
   monthBarListenersAttached = true;
   const bar = document.getElementById('monthBar');
-  bar.addEventListener('scroll', updateMonthBarFade);
-  window.addEventListener('resize', updateMonthBarFade);
+  const left = document.getElementById('monthBarLeft');
+  const right = document.getElementById('monthBarRight');
+  const scrollStep = () => Math.max(120, bar.clientWidth * 0.6);
+  left.addEventListener('click', () => bar.scrollBy({left: -scrollStep(), behavior:'smooth'}));
+  right.addEventListener('click', () => bar.scrollBy({left: scrollStep(), behavior:'smooth'}));
+  bar.addEventListener('scroll', updateMonthBarArrows);
+  window.addEventListener('resize', updateMonthBarArrows);
   // Desktop mice/trackpads usually only send vertical wheel deltas, so a
   // horizontal-only overflow row like this one can feel "stuck" — a
   // plain vertical scroll over it does nothing. Translate vertical wheel
-  // motion into horizontal scrolling here so dragging isn't the only way
-  // to reach later months.
+  // motion into horizontal scrolling here too, on top of the arrows.
   bar.addEventListener('wheel', (e) => {
     if(Math.abs(e.deltaY) > Math.abs(e.deltaX)){
       bar.scrollLeft += e.deltaY;
@@ -434,7 +444,7 @@ function renderMonthBar(){
   attachMonthBarListeners();
   // Re-check on next frame — right after (re)building pills, scrollWidth
   // isn't reliably measurable until layout settles.
-  requestAnimationFrame(updateMonthBarFade);
+  requestAnimationFrame(updateMonthBarArrows);
 }
 
 function render(){
