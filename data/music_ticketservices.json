@@ -1,23 +1,6 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "events": [
-    {
-      "event_id": "15024",
-      "title": "ΜΑΡΙΟΣ ΦΡΑΓΚΟΥΛΗΣ — «Χέρια Φτερά« — με τον Κωνσταντίνο Γιουρτσίδη",
-      "url": "/event/mario-frangoulis-theatro-vrahon/?lang=el",
-      "dates": [
-        "2026-08-31"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΒΡΑΧΩΝ - ΜΕΛΙΝΑ ΜΕΡΚΟΥΡΗ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14982",
       "title": "Να Νικήσει το Δίκιο μας, για να Αλλάξει ο Κόσμος — BANDA ENTOPICA",
@@ -52,14 +35,14 @@
       "first_seen": "2026-08-29"
     },
     {
-      "event_id": "14697",
-      "title": "Καίτη Γαρμπή - Διονύσης Σχοινάς — «Με Εσένα Μόνο»",
-      "url": "/event/katrakeio-garbi-schoinas-me-esena-mono/?lang=el",
+      "event_id": "14550",
+      "title": "ΕΛΕΝΑ ΠΑΠΑΡΙΖΟΥ — ~Αλήθεια Τώρα~ — Summer 2026",
+      "url": "/event/helena-paparizou-summer-2026/?lang=el",
       "dates": [
         "2026-09-07"
       ],
       "venues": [
-        "ΚΑΤΡΑΚΕΙΟ ΘΕΑΤΡΟ ΝΙΚΑΙΑΣ"
+        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
       ],
       "area_ids": [
         1
@@ -69,14 +52,14 @@
       "first_seen": "2026-08-29"
     },
     {
-      "event_id": "14550",
-      "title": "ΕΛΕΝΑ ΠΑΠΑΡΙΖΟΥ — ~Αλήθεια Τώρα~ — Summer 2026",
-      "url": "/event/helena-paparizou-summer-2026/?lang=el",
+      "event_id": "14697",
+      "title": "Καίτη Γαρμπή - Διονύσης Σχοινάς — «Με Εσένα Μόνο»",
+      "url": "/event/katrakeio-garbi-schoinas-me-esena-mono/?lang=el",
       "dates": [
         "2026-09-07"
       ],
       "venues": [
-        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
+        "ΚΑΤΡΑΚΕΙΟ ΘΕΑΤΡΟ ΝΙΚΑΙΑΣ"
       ],
       "area_ids": [
         1
