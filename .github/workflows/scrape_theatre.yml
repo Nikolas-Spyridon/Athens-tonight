@@ -31,18 +31,14 @@ jobs:
       - name: Run more.com theatre scraper
         run: python scripts/scrape_theatre_more.py
 
-      # NOTE: leave this step commented out until
-      # scrape_theatre_ticketservices.py has been verified locally
-      # against real markup (see its STATUS docstring) — don't let an
-      # unverified scraper run unattended on a schedule.
-      # - name: Run ticketservices.gr theatre scraper
-      #   run: python scripts/scrape_theatre_ticketservices.py
+      - name: Run ticketservices.gr theatre scraper
+        run: python scripts/scrape_theatre_ticketservices.py
 
       - name: Commit updated data
         run: |
           git config user.name "athens-tonight-bot"
           git config user.email "actions@github.com"
-          git add data/theatre_more.json
+          git add data/theatre_more.json data/theatre_ticketservices.json
           git diff --quiet --cached || git commit -m "Update theatre listings"
           git pull --rebase origin main
           git push
