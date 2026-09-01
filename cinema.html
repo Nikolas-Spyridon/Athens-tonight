@@ -14,18 +14,12 @@
     --paper:#F6F0E4;
     --amber:#E8A33D;
     --amber-dim: rgba(232,163,61,0.18);
-    --accent: var(--amber);
     --line: rgba(246,240,228,0.14);
     --muted: rgba(246,240,228,0.55);
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--ink);color:var(--paper);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
   .wrap{max-width:640px;margin:0 auto;padding:24px 16px 60px;}
-
-  .app-nav{display:flex;gap:6px;margin-bottom:18px;}
-  .app-nav a, .app-nav span{flex:1;text-align:center;padding:8px 6px;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none;color:var(--muted);background:var(--ink2);border:1px solid var(--line);}
-  .app-nav a.active{background:var(--accent);color:var(--ink);border-color:var(--accent);}
-  .app-nav span.disabled{opacity:.45;}
   .eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600;}
   h1{font-family:'Fraunces',serif;font-weight:600;font-size:32px;line-height:1.05;margin:6px 0 4px;}
   .sub{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
@@ -33,6 +27,16 @@
   input[type=text]{width:100%;padding:10px 13px;border-radius:8px;border:1px solid var(--line);background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;font-size:14px;margin:14px 0 4px;}
   input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
   input[type=text]:focus{outline:none;border-color:var(--amber);}
+
+  .gps-row{display:flex;align-items:center;gap:8px;margin:4px 0 2px;}
+  #gpsBtn{
+    padding:8px 13px;border-radius:8px;border:1px solid var(--line);
+    background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;
+    font-size:12.5px;font-weight:600;cursor:pointer;white-space:nowrap;
+  }
+  #gpsBtn.active{background:var(--amber);border-color:var(--amber);color:var(--ink);}
+  .gps-status{font-size:11.5px;color:var(--muted);}
+  .st-distance{color:var(--amber);font-weight:600;font-size:11px;white-space:nowrap;margin-left:8px;}
 
   .datebar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 14px;margin-bottom:4px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
   .datebar::-webkit-scrollbar{display:none;}
@@ -65,6 +69,23 @@
 
   .state{text-align:center;padding:50px 10px;color:var(--muted);font-size:13.5px;line-height:1.6;}
   footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
+
+  .app-nav{display:flex;gap:6px;margin-bottom:18px;}
+  .app-nav a, .app-nav span{flex:1;text-align:center;padding:8px 6px;border-radius:8px;font-size:12px;font-weight:600;text-decoration:none;color:var(--muted);background:var(--ink2);border:1px solid var(--line);}
+  .app-nav a.active{background:var(--amber);color:var(--ink);border-color:var(--amber);}
+  .app-nav span.disabled{opacity:.45;}
+
+  .nearby-box{margin:10px 2px 0;padding:12px 14px;background:var(--ink2);border-radius:10px;border:1px solid var(--line);text-align:left;}
+  .nearby-title{font-size:12.5px;font-weight:600;color:var(--amber);margin:0 0 8px;line-height:1.4;}
+  .nearby-loading{font-size:12.5px;color:var(--muted);}
+  .nearby-cinema{padding:8px 0;border-bottom:1px solid rgba(246,240,228,0.06);}
+  .nearby-cinema:last-child{border-bottom:none;}
+  .nc-top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;}
+  .nc-name{font-weight:600;font-size:13px;color:rgba(246,240,228,0.92);}
+  .nc-dist{color:var(--amber);font-weight:600;font-size:11px;white-space:nowrap;}
+  .nc-area{font-size:11px;color:var(--muted);margin-top:1px;}
+  .nc-movie{display:flex;justify-content:space-between;gap:8px;font-size:12px;padding:3px 0 0;color:rgba(246,240,228,0.85);}
+  .nc-movie .nc-times{color:var(--amber);font-weight:600;font-variant-numeric:tabular-nums;white-space:nowrap;}
 </style>
 </head>
 <body>
@@ -84,7 +105,11 @@
 <div class="datebar" id="datebar"></div>
 <div class="cycle-note" id="cycleNote">Το πρόγραμμα ανανεώνεται κάθε Πέμπτη. Δείχνουμε μόνο τις ημέρες του τρέχοντος προγράμματος — η επόμενη εβδομάδα δεν έχει ανακοινωθεί ακόμη.</div>
 
-<input type="text" id="search" placeholder="Αναζήτηση ταινίας ή σινεμά...">
+<input type="text" id="search" placeholder="Αναζήτηση ταινίας, σινεμά ή περιοχής...">
+<div class="gps-row">
+  <button id="gpsBtn">📍 Κοντά μου</button>
+  <span class="gps-status" id="gpsStatus"></span>
+</div>
 <div class="count" id="count"></div>
 
 <div id="results"><div class="state">Φόρτωση...</div></div>
@@ -100,9 +125,6 @@ let selectedDate = '';
 let updatedStr = '';
 
 function todayKey(){
-  // Use LOCAL date components, not toISOString() (which is UTC and would
-  // return yesterday's date for Athens users between 00:00–03:00 local,
-  // since Athens is UTC+3).
   const d = new Date();
   return keyFor(d);
 }
@@ -126,6 +148,219 @@ function earliestTime(times){
   return times.slice().sort()[0];
 }
 
+// --- GPS / distance sorting ---
+let userLoc = null;
+let gpsMode = false;
+
+function parseCoord(str){
+  if(!str) return null;
+  const n = parseFloat(String(str).replace(',', '.'));
+  if(isNaN(n) || n === 0) return null;
+  return n;
+}
+
+function haversineKm(lat1, lon1, lat2, lon2){
+  const R = 6371;
+  const toRad = d => d * Math.PI / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a = Math.sin(dLat/2)**2 +
+            Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon/2)**2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+}
+
+function formatDistance(km){
+  return km < 1 ? Math.round(km*1000)+' μ' : km.toFixed(1)+' χλμ';
+}
+
+function distanceTo(screening){
+  if(!userLoc) return null;
+  const lat = parseCoord(screening.lat);
+  const lon = parseCoord(screening.lon);
+  if(lat === null || lon === null) return null;
+  return haversineKm(userLoc.lat, userLoc.lon, lat, lon);
+}
+
+function setupGpsButton(){
+  const btn = document.getElementById('gpsBtn');
+  const status = document.getElementById('gpsStatus');
+  btn.addEventListener('click', () => {
+    if(gpsMode){
+      gpsMode = false;
+      btn.classList.remove('active');
+      status.textContent = '';
+      render();
+      return;
+    }
+    if(!navigator.geolocation){
+      status.textContent = 'Η τοποθεσία δεν υποστηρίζεται σε αυτόν τον browser.';
+      return;
+    }
+    status.textContent = 'Αναζήτηση τοποθεσίας...';
+    navigator.geolocation.getCurrentPosition(
+      pos => {
+        userLoc = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+        gpsMode = true;
+        btn.classList.add('active');
+        status.textContent = '';
+        render();
+      },
+      err => {
+        status.textContent = 'Δεν δόθηκε πρόσβαση στην τοποθεσία.';
+      },
+      { timeout: 10000 }
+    );
+  });
+}
+
+// --- "No results in this area, but nearby..." fallback ---
+//
+// The search box already matches against each cinema's own "area" text
+// (e.g. "Κολωνάκι"), so a search like "Γκύζη" correctly finds nothing if
+// no cinema's area field literally says Γκύζη — even if there ARE
+// cinemas a few streets away in a neighbouring area. This resolves the
+// searched text to a real point (via OpenStreetMap's free Nominatim
+// geocoder — no API key, but rate-limit-friendly: only fired after the
+// person stops typing, cached per search term for the session) and
+// shows what's playing at cinemas near THAT point, clearly labelled
+// with distance so it's never confused with an exact area match.
+const NEARBY_RADIUS_KM = 3;
+const NEARBY_FALLBACK_COUNT = 5; // shown if nothing at all is within the radius
+const geocodeCache = {}; // { normalizedQuery: {lat,lon,displayName} | null }
+let nearbySuggestion = null; // current result, or null if none/stale
+let nearbyLookupToken = 0;   // guards against a slow older lookup overwriting a newer one
+let nearbyDebounceTimer = null;
+
+async function geocodeArea(query){
+  const key = query.trim().toLowerCase();
+  if(key in geocodeCache) return geocodeCache[key];
+  try{
+    const url = 'https://nominatim.openstreetmap.org/search'
+      + '?format=json&limit=1&countrycodes=gr&addressdetails=0'
+      + '&viewbox=23.30,38.30,24.10,37.60' // rough Attica bounding box, biases results without hard-excluding
+      + '&q=' + encodeURIComponent(query + ', Αττική, Ελλάδα');
+    const res = await fetch(url, { headers: { 'Accept-Language': 'el' } });
+    if(!res.ok) throw new Error('geocode HTTP ' + res.status);
+    const data = await res.json();
+    if(!data || !data.length){
+      geocodeCache[key] = null;
+      return null;
+    }
+    const hit = data[0];
+    const result = {
+      lat: parseFloat(hit.lat),
+      lon: parseFloat(hit.lon),
+      displayName: (hit.display_name || query).split(',')[0].trim(),
+    };
+    geocodeCache[key] = result;
+    return result;
+  }catch(err){
+    return null; // network hiccup — don't cache, allow retrying on the next attempt
+  }
+}
+
+// One entry per cinema actually showing something on `selectedDate`,
+// with the list of movies playing there — used to answer "what's near
+// this point today", independent of the free-text search filter.
+function buildTodayCinemaIndex(){
+  const byKey = new Map();
+  allMovies.forEach(m => {
+    (m.screenings || []).forEach(s => {
+      const times = (s.showtimes && s.showtimes[selectedDate]) || [];
+      if(times.length === 0) return;
+      const lat = parseCoord(s.lat);
+      const lon = parseCoord(s.lon);
+      if(lat === null || lon === null) return; // can't place it on the map, skip for this feature only
+      const key = s.cinema + '|' + s.lat + '|' + s.lon;
+      if(!byKey.has(key)){
+        byKey.set(key, { cinema: s.cinema, area: s.area || '', lat, lon, movies: [] });
+      }
+      byKey.get(key).movies.push({ title: m.title, times: times.slice().sort() });
+    });
+  });
+  return Array.from(byKey.values());
+}
+
+function scheduleNearbyLookup(query){
+  clearTimeout(nearbyDebounceTimer);
+  nearbySuggestion = null; // clear immediately so a stale suggestion never lingers under a changed query
+  const trimmed = query.trim();
+  if(trimmed.length < 3) return;
+  nearbyDebounceTimer = setTimeout(() => attemptNearbyLookup(trimmed), 600);
+}
+
+async function attemptNearbyLookup(query){
+  const myToken = ++nearbyLookupToken;
+  nearbySuggestion = { status: 'loading', query };
+  render();
+
+  const geo = await geocodeArea(query);
+  if(myToken !== nearbyLookupToken) return; // superseded by a newer search — drop this result
+
+  if(!geo){
+    nearbySuggestion = { status: 'notfound', query };
+    render();
+    return;
+  }
+
+  const candidates = buildTodayCinemaIndex()
+    .map(c => ({ ...c, distance: haversineKm(geo.lat, geo.lon, c.lat, c.lon) }));
+
+  let cinemas = candidates.filter(c => c.distance <= NEARBY_RADIUS_KM).sort((a,b) => a.distance - b.distance);
+  let usedFallback = false;
+  if(cinemas.length === 0){
+    cinemas = candidates.sort((a,b) => a.distance - b.distance).slice(0, NEARBY_FALLBACK_COUNT);
+    usedFallback = true;
+  }else{
+    cinemas = cinemas.slice(0, 8);
+  }
+
+  nearbySuggestion = {
+    status: cinemas.length ? 'found' : 'empty',
+    query,
+    areaLabel: geo.displayName,
+    usedFallback,
+    cinemas,
+  };
+  render();
+}
+
+function renderNearbyBox(container, q){
+  if(!nearbySuggestion || nearbySuggestion.query.trim().toLowerCase() !== q) return;
+
+  const box = document.createElement('div');
+  box.className = 'nearby-box';
+
+  if(nearbySuggestion.status === 'loading'){
+    box.innerHTML = `<div class="nearby-loading">Αναζήτηση κοντινών αιθουσών για «${nearbySuggestion.query}»...</div>`;
+    container.appendChild(box);
+    return;
+  }
+  if(nearbySuggestion.status === 'notfound' || nearbySuggestion.status === 'empty'){
+    return; // don't clutter the page — the plain "no results" message already stands
+  }
+
+  const headline = nearbySuggestion.usedFallback
+    ? `Καμία αίθουσα εντός ${NEARBY_RADIUS_KM} χλμ από «${nearbySuggestion.areaLabel}». Οι πιο κοντινές σήμερα:`
+    : `Καμία προβολή στην περιοχή «${nearbySuggestion.areaLabel}» σήμερα. Κοντά όμως παίζουν:`;
+
+  const rows = nearbySuggestion.cinemas.map(c => {
+    const movieRows = c.movies.map(m =>
+      `<div class="nc-movie"><span>${m.title}</span><span class="nc-times">${m.times.join(', ')}</span></div>`
+    ).join('');
+    return `
+      <div class="nearby-cinema">
+        <div class="nc-top"><span class="nc-name">${c.cinema}</span><span class="nc-dist">${formatDistance(c.distance)}</span></div>
+        <div class="nc-area">${c.area}</div>
+        ${movieRows}
+      </div>
+    `;
+  }).join('');
+
+  box.innerHTML = `<div class="nearby-title">${headline}</div>${rows}`;
+  container.appendChild(box);
+}
+
 async function load(){
   try{
     const res = await fetch('data/cinema.json', {cache:'no-store'});
@@ -141,13 +376,9 @@ async function load(){
 }
 
 function init(){
-  // Cinema programmes run Thursday -> Wednesday. Only show days within the
-  // CURRENT, already-confirmed cycle: today through the next Wednesday
-  // (inclusive). Never show days from the next cycle, since that
-  // programme isn't announced yet.
   const today = new Date();
-  const todayDow = today.getDay(); // Sun=0 .. Sat=6, Wed=3
-  const daysUntilWed = (3 - todayDow + 7) % 7; // 0 if today IS Wednesday
+  const todayDow = today.getDay();
+  const daysUntilWed = (3 - todayDow + 7) % 7;
   const cutoff = addDays(today, daysUntilWed);
 
   const dates = [];
@@ -169,18 +400,29 @@ function init(){
       document.querySelectorAll('.datepill').forEach(p=>p.classList.remove('active'));
       pill.classList.add('active');
       selectedDate = key;
+      // A nearby-area suggestion is computed against a specific date's
+      // screenings, so it goes stale the moment the date tab changes —
+      // clear it and, if there's still a live area search, recompute
+      // for the new date (cheap: geocoding itself is cached per term).
+      clearTimeout(nearbyDebounceTimer);
+      nearbySuggestion = null;
+      const currentQ = document.getElementById('search').value;
+      if(currentQ.trim().length >= 3) scheduleNearbyLookup(currentQ);
       render();
     });
     datebar.appendChild(pill);
   });
 
-  // Hide the "next week unannounced" note if today already IS the cycle's
-  // last day (Wednesday) — there's nothing to caveat, only one tab shows.
   if(dates.length <= 1){
     document.getElementById('cycleNote').style.display = 'none';
   }
 
-  document.getElementById('search').addEventListener('input', render);
+  document.getElementById('search').addEventListener('input', () => {
+    const val = document.getElementById('search').value;
+    scheduleNearbyLookup(val);
+    render();
+  });
+  setupGpsButton();
   document.getElementById('footer').textContent =
     'Δεδομένα από athinorama.gr, τελευταία ενημέρωση: ' + (updatedStr || '—') +
     '. Ανανεώνεται αυτόματα κάθε πρωί.';
@@ -192,24 +434,49 @@ function render(){
   const q = document.getElementById('search').value.trim().toLowerCase();
   const results = document.getElementById('results');
   results.innerHTML = '';
-  let shown = 0;
 
+  let entries = [];
   allMovies.forEach(m => {
     const todays = m.screenings
       .map(s => ({ ...s, times: (s.showtimes && s.showtimes[selectedDate]) || [] }))
-      .filter(s => s.times.length > 0);
+      .filter(s => s.times.length > 0)
+      .map(s => ({ ...s, distance: gpsMode ? distanceTo(s) : null }));
 
     if(todays.length === 0) return;
 
-    const blob = (m.title + ' ' + todays.map(s=>s.cinema).join(' ')).toLowerCase();
+    const blob = (m.title + ' ' + todays.map(s=>s.cinema+' '+(s.area||'')).join(' ')).toLowerCase();
     if(q && !blob.includes(q)) return;
 
-    todays.sort((a,b) => earliestTime(a.times).localeCompare(earliestTime(b.times)));
+    if(gpsMode){
+      todays.sort((a,b) => {
+        const da = a.distance === null ? Infinity : a.distance;
+        const db = b.distance === null ? Infinity : b.distance;
+        return da - db;
+      });
+    } else {
+      todays.sort((a,b) => earliestTime(a.times).localeCompare(earliestTime(b.times)));
+    }
+
+    const minDistance = gpsMode
+      ? Math.min(...todays.map(s => s.distance === null ? Infinity : s.distance))
+      : null;
+
+    entries.push({ movie: m, todays, minDistance });
+  });
+
+  if(gpsMode){
+    entries.sort((a,b) => a.minDistance - b.minDistance);
+  }
+
+  entries.forEach(({movie: m, todays}) => {
     const soonest = earliestTime(todays[0].times);
 
     const rows = todays.map(s => {
       const times = s.times.slice().sort().join(', ');
-      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span> <span class="st-area">· ${s.area || ''}</span></span><span class="st-times">${times}</span></div>`;
+      const distLabel = (s.distance !== null)
+        ? `<span class="st-distance">${formatDistance(s.distance)}</span>`
+        : '';
+      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span> <span class="st-area">· ${s.area || ''}</span>${distLabel}</span><span class="st-times">${times}</span></div>`;
     }).join('');
 
     const div = document.createElement('div');
@@ -219,18 +486,21 @@ function render(){
         <h3 class="m-title">${m.title}</h3>
         <span class="m-tag">${todays.length} αίθουσ${todays.length===1?'α':'ες'}</span>
       </div>
-      <p class="m-next">Πρώτη προβολή στις ${soonest}</p>
+      <p class="m-next">${gpsMode && todays[0].distance !== null
+        ? `Πλησιέστερη: ${todays[0].cinema} (${formatDistance(todays[0].distance)})`
+        : `Πρώτη προβολή στις ${soonest}`}</p>
       <details>
         <summary>Ώρες &amp; αίθουσες</summary>
         <div class="showtimes">${rows}</div>
       </details>
     `;
     results.appendChild(div);
-    shown++;
   });
 
+  const shown = entries.length;
   if(shown === 0){
     results.innerHTML = '<div class="state">Καμία ταινία δεν βρέθηκε για αυτή την ημέρα' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
+    if(q) renderNearbyBox(results, q);
   }
 
   document.getElementById('count').textContent = shown + ' ταινίες' + (q ? ' · φίλτρο "'+q+'"' : '');
