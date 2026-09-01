@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Θέατρο Αθήνα — Απόψε</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#182338;
+    --ink2:#233252;
+    --paper:#F6F0E4;
+    --amber:#E8A33D;
+    --amber-dim: rgba(232,163,61,0.18);
+    --line: rgba(246,240,228,0.14);
+    --muted: rgba(246,240,228,0.55);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--ink);color:var(--paper);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:640px;margin:0 auto;padding:24px 16px 60px;}
+  .eyebrow{font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--amber);font-weight:600;}
+  h1{font-family:'Fraunces',serif;font-weight:600;font-size:32px;line-height:1.05;margin:6px 0 4px;}
+  .sub{font-size:13.5px;color:var(--muted);line-height:1.5;margin:0 0 16px;}
+
+  input[type=text]{width:100%;padding:10px 13px;border-radius:8px;border:1px solid var(--line);background:var(--ink2);color:var(--paper);font-family:'Inter',sans-serif;font-size:14px;margin:14px 0 4px;}
+  input[type=text]::placeholder{color:rgba(246,240,228,0.4);}
+  input[type=text]:focus{outline:none;border-color:var(--amber);}
+
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 4px;}
+  .chip{padding:7px 12px;border-radius:20px;border:1px solid var(--line);background:var(--ink2);font-size:12.5px;cursor:pointer;color:var(--paper);user-select:none;}
+  .chip.active{background:var(--amber);border-color:var(--amber);color:var(--ink);font-weight:600;}
+
+  .genrebar{display:flex;gap:6px;overflow-x:auto;padding:4px 0 10px;margin-top:8px;-webkit-overflow-scrolling:touch;}
+  .genrebar::-webkit-scrollbar{display:none;}
+  .gchip{flex:0 0 auto;padding:6px 11px;border-radius:16px;border:1px solid var(--line);background:transparent;font-size:11.5px;color:var(--muted);cursor:pointer;white-space:nowrap;}
+  .gchip.active{background:var(--amber-dim);border-color:var(--amber);color:var(--amber);}
+
+  .count{font-size:11.5px;color:var(--muted);margin:10px 2px 12px;}
+
+  .show{background:var(--ink2);border-radius:10px;padding:14px 16px;margin-bottom:10px;border-left:3px solid var(--amber);}
+  .show.unconfirmed{border-left-color:rgba(246,240,228,0.3);}
+  .s-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
+  .s-title{font-family:'Fraunces',serif;font-size:16.5px;font-weight:600;margin:0;}
+  .s-badges{display:flex;gap:5px;flex-shrink:0;flex-wrap:wrap;justify-content:flex-end;}
+  .badge{font-size:9.5px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:3px 7px;border-radius:5px;white-space:nowrap;}
+  .badge.today{background:var(--amber);color:var(--ink);}
+  .badge.unconf{background:rgba(246,240,228,0.12);color:var(--muted);}
+  .badge.genre{background:var(--amber-dim);color:var(--amber);text-transform:none;font-weight:500;}
+
+  .s-range{font-size:12.5px;color:var(--muted);margin:5px 0 0;}
+  .s-venues{font-size:12.5px;color:rgba(246,240,228,0.8);margin:3px 0 0;}
+
+  details{margin-top:8px;}
+  summary{cursor:pointer;font-size:12px;font-weight:600;color:var(--amber);list-style:none;display:flex;align-items:center;gap:5px;}
+  summary::-webkit-details-marker{display:none;}
+  summary::before{content:"▸";display:inline-block;transition:transform .15s;}
+  details[open] summary::before{transform:rotate(90deg);}
+  .schedule{margin-top:8px;border-top:1px solid var(--line);padding-top:8px;}
+  .sc-row{display:flex;justify-content:space-between;align-items:baseline;padding:5px 0;font-size:12.5px;border-bottom:1px solid rgba(246,240,228,0.06);gap:10px;}
+  .sc-venue{color:rgba(246,240,228,0.92);font-weight:500;}
+  .sc-area{color:var(--muted);font-size:11px;}
+  .sc-date{color:var(--amber);font-weight:600;font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap;}
+  .sc-note{font-size:11px;color:var(--muted);font-style:italic;margin-top:6px;}
+
+  .s-links{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+  .s-links a{font-size:11.5px;color:var(--amber);text-decoration:none;border:1px solid rgba(232,163,61,0.35);border-radius:7px;padding:5px 10px;}
+  .s-links a:hover{background:var(--amber-dim);}
+
+  .state{text-align:center;padding:50px 10px;color:var(--muted);font-size:13.5px;line-height:1.6;}
+  footer{margin-top:22px;padding-top:14px;border-top:1px solid var(--line);font-size:11.5px;color:var(--muted);line-height:1.6;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="eyebrow">Οδηγός Θεάτρου</div>
+<h1>Τι παίζει στην Αθήνα</h1>
+<p class="sub">Παραστάσεις σε όλη την Αττική, από δύο πηγές, χωρίς διπλοεγγραφές.</p>
+
+<input type="text" id="search" placeholder="Αναζήτηση παράστασης ή χώρου...">
+
+<div class="filters">
+  <div class="chip active" data-filter="all">Όλα</div>
+  <div class="chip" data-filter="today">Παίζει σήμερα</div>
+  <div class="chip" data-filter="week">Αυτή την εβδομάδα</div>
+</div>
+<div class="genrebar" id="genrebar"></div>
+
+<div class="count" id="count"></div>
+
+<div id="results"><div class="state">Φόρτωση...</div></div>
+
+<footer id="footer"></footer>
+
+</div>
+
+<script>
+const GENRE_LABELS = {
+  comedy:"Κωμωδία", musical:"Μιούζικαλ", other:"Άλλο", revue:"Επιθεώρηση",
+  socialdrama:"Κοινωνικό δράμα", classical:"Κλασικό", biography:"Βιογραφικό",
+  ancientdrama:"Αρχαίο δράμα", drama:"Δράμα", courtthriller:"Δικαστικό θρίλερ",
+  blackcomedy:"Μαύρη κωμωδία", experiential:"Βιωματικό", parody:"Σάτιρα",
+  history:"Ιστορικό", novel:"Μυθιστόρημα", tragedy:"Τραγωδία", mystery:"Μυστηρίου",
+  monologue:"Μονόλογος", forkids:"Παιδικό", shadow:"Θέατρο Σκιών",
+  interactive:"Διαδραστικό", stunts:"Ακροβατικά", musictheater:"Μουσικό θέατρο",
+  magicshow:"Magic Show", performance:"Performance", improv:"Αυτοσχεδιασμός"
+};
+
+let merged = [];
+let activeFilter = 'all';
+let activeGenre = null;
+
+function todayISO(){
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+function addDaysISO(iso, n){
+  const [y,m,d] = iso.split('-').map(Number);
+  const dt = new Date(y, m-1, d);
+  dt.setDate(dt.getDate()+n);
+  return `${dt.getFullYear()}-${String(dt.getMonth()+1).padStart(2,'0')}-${String(dt.getDate()).padStart(2,'0')}`;
+}
+
+function stripAccents(s){
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+function normTitle(s){
+  let t = stripAccents(s).toLowerCase();
+  t = t.replace(/[«»"'!.…]/g, '');
+  t = t.replace(/\b\d+(ος|ης|η)?\s*(χρονος|χρονια)\b/g, '');
+  t = t.replace(/\bπεριοδεια\b/g, '');
+  t = t.replace(/[^a-zα-ω0-9\s]/g, ' ');
+  t = t.replace(/\s+/g, ' ').trim();
+  return t;
+}
+function normWords(s){
+  return new Set(stripAccents(s).toLowerCase().replace(/[^a-zα-ω0-9\s]/g,' ').split(/\s+/).filter(w=>w.length>=4));
+}
+function titlesSimilar(a, b){
+  const na = normTitle(a), nb = normTitle(b);
+  if(!na || !nb) return false;
+  if(na === nb) return true;
+  if(na.length > 6 && nb.length > 6 && (na.includes(nb) || nb.includes(na))) return true;
+  return false;
+}
+function venuesOverlap(namesA, namesB){
+  const wordsA = new Set();
+  namesA.forEach(n => normWords(n).forEach(w => wordsA.add(w)));
+  for(const n of namesB){
+    for(const w of normWords(n)){
+      if(wordsA.has(w)) return true;
+    }
+  }
+  return false;
+}
+
+// ---- Normalize more.com events ----
+function fromMore(events){
+  return events.map(e => {
+    const venueNames = [...new Set(e.screenings.map(s=>s.venue).filter(Boolean))];
+    const dates = e.screenings.map(s=>s.date).filter(Boolean).sort();
+    return {
+      title: e.title,
+      genres: e.genres || [],
+      urls: [{source:'more.com', url:e.url}],
+      screenings: e.screenings.map(s => ({date:s.date, venue:s.venue, locality:s.locality})),
+      venueNames,
+      dates,
+      rangeStart: e.start ? e.start.slice(0,10) : (dates[0]||null),
+      rangeEnd: e.end ? e.end.slice(0,10) : (dates[dates.length-1]||null),
+      unconfirmed: !e.region_confirmed,
+      sources: ['more.com'],
+    };
+  });
+}
+
+// ---- Normalize ticketservices.gr events ----
+function fromTicketservices(events){
+  return events.map(e => {
+    const venueNames = [...new Set(e.venues.map(v=>v.name).filter(n=>n && n!=='ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ'))];
+    const dates = (e.dates||[]).slice().sort();
+    let screenings = [];
+    if(e.dates_venues_paired && e.venues.length <= 1){
+      const v = e.venues[0];
+      screenings = dates.map(d => ({date:d, venue: v ? v.name : '', locality: v ? v.area : ''}));
+    }
+    return {
+      title: e.title,
+      genres: [],
+      urls: [{source:'ticketservices.gr', url:e.url}],
+      screenings,
+      venueNames,
+      dates,
+      rangeStart: dates[0] || null,
+      rangeEnd: dates[dates.length-1] || null,
+      unconfirmed: e.any_attica_venue !== true,
+      datesVenuesPaired: e.dates_venues_paired,
+      sources: ['ticketservices.gr'],
+    };
+  });
+}
+
+// ---- Dedup: merge events that are almost certainly the same show ----
+function dedupe(list){
+  const out = [];
+  list.forEach(item => {
+    const match = out.find(existing =>
+      titlesSimilar(existing.title, item.title) &&
+      (existing.venueNames.length === 0 || item.venueNames.length === 0 ||
+       venuesOverlap(existing.venueNames, item.venueNames))
+    );
+    if(!match){
+      out.push({...item, urls:[...item.urls]});
+      return;
+    }
+    // Merge: keep the richer (more.com, with genres/screenings) as base,
+    // add the other source's link, union dates/venues, OR unconfirmed
+    // flags together (never claim confirmed if either side is unsure).
+    match.urls.push(...item.urls);
+    match.sources = [...new Set([...match.sources, ...item.sources])];
+    match.genres = [...new Set([...match.genres, ...item.genres])];
+    match.venueNames = [...new Set([...match.venueNames, ...item.venueNames])];
+    match.dates = [...new Set([...match.dates, ...item.dates])].sort();
+    if(item.screenings.length && match.screenings.length < item.screenings.length + match.screenings.length){
+      // prefer whichever side actually has per-date venue pairing
+    }
+    if(item.rangeStart && (!match.rangeStart || item.rangeStart < match.rangeStart)) match.rangeStart = item.rangeStart;
+    if(item.rangeEnd && (!match.rangeEnd || item.rangeEnd > match.rangeEnd)) match.rangeEnd = item.rangeEnd;
+    match.unconfirmed = match.unconfirmed && item.unconfirmed; // confirmed by EITHER source is enough
+  });
+  return out;
+}
+
+async function load(){
+  try{
+    const [moreRes, tsRes] = await Promise.all([
+      fetch('data/theatre_more.json', {cache:'no-store'}),
+      fetch('data/theatre_ticketservices.json', {cache:'no-store'})
+    ]);
+    const moreData = moreRes.ok ? await moreRes.json() : {events:[]};
+    const tsData = tsRes.ok ? await tsRes.json() : {events:[]};
+
+    const a = fromMore(moreData.events || []);
+    const b = fromTicketservices(tsData.events || []);
+    merged = dedupe([...a, ...b]);
+
+    // Drop shows with literally no confirmed or even approximate future
+    // dates left (fully expired runs) — but never drop on region
+    // uncertainty alone.
+    const cutoff = addDaysISO(todayISO(), -1);
+    merged = merged.filter(s => !s.rangeEnd || s.rangeEnd >= cutoff);
+
+    merged.sort((x,y) => (x.rangeStart||'9999').localeCompare(y.rangeStart||'9999'));
+
+    buildGenreBar();
+    document.getElementById('footer').textContent =
+      'Δεδομένα από more.com και ticketservices.gr, τελευταία ενημέρωση: ' +
+      (moreData.updated || tsData.updated || '—') + '. Ανανεώνεται αυτόματα κάθε πρωί.';
+    render();
+  }catch(err){
+    document.getElementById('results').innerHTML =
+      '<div class="state">Δεν ήταν δυνατή η φόρτωση των δεδομένων.<br>('+err.message+')</div>';
+  }
+}
+
+function buildGenreBar(){
+  const counts = {};
+  merged.forEach(s => s.genres.forEach(g => counts[g] = (counts[g]||0)+1));
+  const genres = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]).slice(0,14);
+  const bar = document.getElementById('genrebar');
+  bar.innerHTML = '';
+  genres.forEach(g => {
+    const chip = document.createElement('div');
+    chip.className = 'gchip';
+    chip.textContent = GENRE_LABELS[g] || g;
+    chip.addEventListener('click', () => {
+      activeGenre = (activeGenre === g) ? null : g;
+      document.querySelectorAll('.gchip').forEach(c=>c.classList.remove('active'));
+      if(activeGenre) chip.classList.add('active');
+      render();
+    });
+    bar.appendChild(chip);
+  });
+}
+
+document.querySelectorAll('.chip[data-filter]').forEach(chip => {
+  chip.addEventListener('click', () => {
+    activeFilter = chip.dataset.filter;
+    document.querySelectorAll('.chip[data-filter]').forEach(c=>c.classList.remove('active'));
+    chip.classList.add('active');
+    render();
+  });
+});
+document.getElementById('search').addEventListener('input', render);
+
+function playsOn(show, iso){
+  if(show.dates.includes(iso)) return true;
+  if(show.dates.length === 0 && show.rangeStart && show.rangeEnd){
+    return iso >= show.rangeStart && iso <= show.rangeEnd;
+  }
+  return false;
+}
+function playsInRange(show, fromIso, toIso){
+  if(show.dates.some(d => d >= fromIso && d <= toIso)) return true;
+  if(show.dates.length === 0 && show.rangeStart && show.rangeEnd){
+    return show.rangeStart <= toIso && show.rangeEnd >= fromIso;
+  }
+  return false;
+}
+
+function fmtRange(show){
+  if(!show.rangeStart) return '';
+  const opts = {day:'numeric', month:'short'};
+  const s = new Date(show.rangeStart+'T00:00:00').toLocaleDateString('el-GR', opts);
+  if(!show.rangeEnd || show.rangeEnd === show.rangeStart) return s;
+  const e = new Date(show.rangeEnd+'T00:00:00').toLocaleDateString('el-GR', opts);
+  return s + ' – ' + e;
+}
+
+function render(){
+  const q = document.getElementById('search').value.trim().toLowerCase();
+  const today = todayISO();
+  const weekEnd = addDaysISO(today, 6);
+  const results = document.getElementById('results');
+  results.innerHTML = '';
+  let shown = 0;
+
+  merged.forEach(show => {
+    if(activeFilter === 'today' && !playsOn(show, today)) return;
+    if(activeFilter === 'week' && !playsInRange(show, today, weekEnd)) return;
+    if(activeGenre && !show.genres.includes(activeGenre)) return;
+
+    const blob = (show.title + ' ' + show.venueNames.join(' ')).toLowerCase();
+    if(q && !blob.includes(q)) return;
+
+    const isToday = playsOn(show, today);
+    const genreChips = show.genres.slice(0,3).map(g =>
+      `<span class="badge genre">${GENRE_LABELS[g]||g}</span>`).join('');
+
+    let scheduleRows = '';
+    if(show.screenings.length){
+      scheduleRows = show.screenings
+        .slice().sort((a,b)=>(a.date||'').localeCompare(b.date||''))
+        .map(s => {
+          const dLabel = s.date ? new Date(s.date+'T00:00:00').toLocaleDateString('el-GR',{day:'numeric',month:'short'}) : '—';
+          return `<div class="sc-row"><span><span class="sc-venue">${s.venue||'—'}</span> <span class="sc-area">· ${s.locality||''}</span></span><span class="sc-date">${dLabel}</span></div>`;
+        }).join('');
+    } else if(show.dates.length){
+      scheduleRows = `<div class="sc-note">Ημερομηνίες: ${show.dates.map(d=>new Date(d+'T00:00:00').toLocaleDateString('el-GR',{day:'numeric',month:'short'})).join(', ')}</div>`;
+      if(show.venueNames.length){
+        scheduleRows += `<div class="sc-note">Χώροι: ${show.venueNames.join(', ')} (χωρίς αντιστοίχιση ημερομηνίας–χώρου)</div>`;
+      }
+    }
+
+    const linkTags = show.urls.map(u =>
+      `<a href="${u.url}" target="_blank" rel="noopener">${u.source === 'more.com' ? 'more.com' : 'ticketservices.gr'}</a>`
+    ).join('');
+
+    const div = document.createElement('div');
+    div.className = 'show' + (show.unconfirmed ? ' unconfirmed' : '');
+    div.innerHTML = `
+      <div class="s-top">
+        <h3 class="s-title">${show.title}</h3>
+        <div class="s-badges">
+          ${isToday ? '<span class="badge today">Σήμερα</span>' : ''}
+          ${show.unconfirmed ? '<span class="badge unconf">Προς επιβεβαίωση</span>' : ''}
+          ${genreChips}
+        </div>
+      </div>
+      <p class="s-range">${fmtRange(show)}</p>
+      <p class="s-venues">${show.venueNames.slice(0,3).join(' · ') || 'Δείτε αναλυτικά'}</p>
+      ${scheduleRows ? `<details><summary>Αναλυτικό πρόγραμμα</summary><div class="schedule">${scheduleRows}</div></details>` : ''}
+      <div class="s-links">${linkTags}</div>
+    `;
+    results.appendChild(div);
+    shown++;
+  });
+
+  if(shown === 0){
+    results.innerHTML = '<div class="state">Καμία παράσταση δεν βρέθηκε' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
+  }
+  document.getElementById('count').textContent = shown + ' παραστάσεις' + (q ? ' · φίλτρο "'+q+'"' : '');
+}
+
+load();
+</script>
+</body>
+</html>
