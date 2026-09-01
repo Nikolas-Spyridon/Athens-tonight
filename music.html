@@ -39,8 +39,11 @@
   .month-header{font-family:'Fraunces',serif;font-size:14px;font-weight:600;color:var(--coral);text-transform:uppercase;letter-spacing:.04em;margin:20px 2px 8px;}
   .month-header:first-child{margin-top:0;}
 
-  .monthbar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 12px;margin-bottom:4px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;}
+  .monthbar-wrap{position:relative;margin-bottom:4px;}
+  .monthbar{display:flex;gap:6px;overflow-x:auto;padding:2px 0 12px;border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch;touch-action:pan-x;scroll-behavior:smooth;}
   .monthbar::-webkit-scrollbar{display:none;}
+  .monthbar-fade{position:absolute;top:0;right:0;width:32px;height:calc(100% - 12px);pointer-events:none;background:linear-gradient(to right, rgba(24,35,56,0), var(--ink) 85%);opacity:1;transition:opacity .15s;}
+  .monthbar-fade.hidden{opacity:0;}
   .monthpill{flex:0 0 auto;padding:8px 13px;border-radius:10px;border:1px solid var(--line);background:var(--ink2);cursor:pointer;font-size:12px;font-weight:600;color:var(--paper);white-space:nowrap;position:relative;}
   .monthpill.active{background:var(--coral);border-color:var(--coral);color:var(--ink);}
   .monthpill .dot{position:absolute;top:4px;right:5px;width:6px;height:6px;border-radius:50%;background:var(--coral);}
@@ -73,14 +76,17 @@
   <a href="index.html">Αρχική</a>
   <a href="cinema.html">Σινεμά</a>
   <a href="music.html" class="active">Μουσική</a>
-  <span class="disabled">Θέατρο</span>
+  <a href="Theatre.html">Θέατρο</a>
 </nav>
 
 <div class="eyebrow">Οδηγός Μουσικής</div>
 <h1>Ζωντανή μουσική</h1>
 <p class="sub">Συναυλίες στην Αττική, από το more.com, το ticketservices.gr και το rocking.gr.</p>
 
-<div class="monthbar" id="monthBar"></div>
+<div class="monthbar-wrap">
+  <div class="monthbar" id="monthBar"></div>
+  <div class="monthbar-fade" id="monthBarFade"></div>
+</div>
 
 <div id="newBanner"></div>
 
@@ -360,6 +366,42 @@ function monthPillLabel(monthKey){
   return `${MONTHS[m-1]} ${y}`;
 }
 
+// The scrollbar itself is hidden for a cleaner look, which removes the
+// only default visual cue that there's more content off-screen — the
+// bar can end up LOOKING like a complete, non-scrollable list (e.g.
+// stopping at "Φεβ 2027") even though later months exist further right.
+// This fade fixes that: visible whenever there's unscrolled content to
+// the right, hidden once the bar is scrolled all the way / doesn't
+// overflow at all.
+function updateMonthBarFade(){
+  const bar = document.getElementById('monthBar');
+  const fade = document.getElementById('monthBarFade');
+  if(!bar || !fade) return;
+  const hasOverflow = bar.scrollWidth > bar.clientWidth + 2;
+  const atEnd = bar.scrollLeft + bar.clientWidth >= bar.scrollWidth - 2;
+  fade.classList.toggle('hidden', !hasOverflow || atEnd);
+}
+
+let monthBarListenersAttached = false;
+function attachMonthBarListeners(){
+  if(monthBarListenersAttached) return;
+  monthBarListenersAttached = true;
+  const bar = document.getElementById('monthBar');
+  bar.addEventListener('scroll', updateMonthBarFade);
+  window.addEventListener('resize', updateMonthBarFade);
+  // Desktop mice/trackpads usually only send vertical wheel deltas, so a
+  // horizontal-only overflow row like this one can feel "stuck" — a
+  // plain vertical scroll over it does nothing. Translate vertical wheel
+  // motion into horizontal scrolling here so dragging isn't the only way
+  // to reach later months.
+  bar.addEventListener('wheel', (e) => {
+    if(Math.abs(e.deltaY) > Math.abs(e.deltaX)){
+      bar.scrollLeft += e.deltaY;
+      e.preventDefault();
+    }
+  }, {passive:false});
+}
+
 function renderMonthBar(){
   const bar = document.getElementById('monthBar');
   bar.innerHTML = '';
@@ -388,6 +430,11 @@ function renderMonthBar(){
     pill.addEventListener('click', () => { selectedMonth = mk; showOnlyNew = false; renderMonthBar(); render(); });
     bar.appendChild(pill);
   });
+
+  attachMonthBarListeners();
+  // Re-check on next frame — right after (re)building pills, scrollWidth
+  // isn't reliably measurable until layout settles.
+  requestAnimationFrame(updateMonthBarFade);
 }
 
 function render(){
@@ -427,8 +474,11 @@ function render(){
 
   // Inline month headers are only useful when multiple months are being
   // shown together (i.e. "Όλα", or a search/new-only view spanning
-  // several months).
-  const showMonthHeaders = !monthFilterActive && !showOnlyNew;
+  // several months) — that includes "show only new", since new events
+  // are pulled from across every month, not just the one currently
+  // selected, so without a header there's no way to tell which month a
+  // given new event actually falls in.
+  const showMonthHeaders = !monthFilterActive;
   let lastMonthKey = null;
   rows.forEach(r => {
     const dt = new Date(r.date + 'T00:00:00');
