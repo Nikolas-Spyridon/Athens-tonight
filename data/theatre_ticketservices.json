@@ -1041,6 +1041,36 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "«Η ΚΙΤΡΙΝΗ ΤΑΠΕΤΣΑΡΙΑ»  της Σάρλοτ Πέρκινς Γκίλμαν",
+      "url": "https://www.ticketservices.gr/event/theatro-alkmini-kitrini-tapetsaria/?lang=el",
+      "dates": [
+        "2026-10-07",
+        "2026-10-14",
+        "2026-10-21",
+        "2026-10-28",
+        "2026-11-04",
+        "2026-11-11",
+        "2026-11-18",
+        "2026-11-25",
+        "2026-12-02",
+        "2026-12-09",
+        "2026-12-16",
+        "2026-12-23",
+        "2026-12-30",
+        "2027-01-06"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "«ΜΕΝΓΚΕΛΕ» του Θανάση Τριαρίδη 2ος Χρόνος",
       "url": "https://www.ticketservices.gr/event/plyfa-mengkele-2os-xronos/?lang=el",
       "dates": [
@@ -1585,6 +1615,32 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "ΓΥΜΝΗ",
+      "url": "https://www.ticketservices.gr/event/gymni-theatro-kallirrois/?lang=el",
+      "dates": [
+        "2026-10-15",
+        "2026-10-22",
+        "2026-10-29",
+        "2026-11-05",
+        "2026-11-12",
+        "2026-11-19",
+        "2026-11-26",
+        "2026-12-03",
+        "2026-12-10",
+        "2026-12-17"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "ΣΥΝΑΙΝΕΣΗ",
       "url": "https://www.ticketservices.gr/event/synainesi-sychrono-theatro/?lang=el",
       "dates": [
@@ -1827,6 +1883,23 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΜΕΤΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Το γιοφύρι που έμοιαζε σαμάρι στη ράχη του θεού",
+      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-to-giofiri-pou-emoiaze-samari-sti-raxi-tou-theou/?lang=el",
+      "dates": [
+        "2026-10-30"
+      ],
+      "venues": [
+        {
+          "name": "Μικρός Κεραμεικός",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
