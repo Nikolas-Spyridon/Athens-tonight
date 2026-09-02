@@ -219,44 +219,84 @@ function setupGpsButton(){
 // (e.g. "Κολωνάκι"), so a search like "Γκύζη" correctly finds nothing if
 // no cinema's area field literally says Γκύζη — even if there ARE
 // cinemas a few streets away in a neighbouring area. This resolves the
-// searched text to a real point (via OpenStreetMap's free Nominatim
-// geocoder — no API key, but rate-limit-friendly: only fired after the
-// person stops typing, cached per search term for the session) and
-// shows what's playing at cinemas near THAT point, clearly labelled
-// with distance so it's never confused with an exact area match.
+// searched text against a small built-in list of Attica neighbourhoods
+// (coordinates verified via Google Places, not guessed) and shows what's
+// playing at cinemas near THAT point, clearly labelled with distance so
+// it's never confused with an exact area match.
+//
+// This is a static, offline lookup on purpose — an earlier version of
+// this feature called a free third-party geocoder (Nominatim) from the
+// browser, but that service frequently blocks or fails plain
+// browser-side requests (a known, common issue with no clean fix from a
+// static site), which made the whole feature silently do nothing. A
+// small built-in list has no such failure mode and needs no network
+// call, matching the rest of this project's fully static architecture.
+// Extend AREA_GAZETTEER over time if a commonly-searched area is missing.
 const NEARBY_RADIUS_KM = 3;
 const NEARBY_FALLBACK_COUNT = 5; // shown if nothing at all is within the radius
-const geocodeCache = {}; // { normalizedQuery: {lat,lon,displayName} | null }
-let nearbySuggestion = null; // current result, or null if none/stale
-let nearbyLookupToken = 0;   // guards against a slow older lookup overwriting a newer one
-let nearbyDebounceTimer = null;
 
-async function geocodeArea(query){
-  const key = query.trim().toLowerCase();
-  if(key in geocodeCache) return geocodeCache[key];
-  try{
-    const url = 'https://nominatim.openstreetmap.org/search'
-      + '?format=json&limit=1&countrycodes=gr&addressdetails=0'
-      + '&viewbox=23.30,38.30,24.10,37.60' // rough Attica bounding box, biases results without hard-excluding
-      + '&q=' + encodeURIComponent(query + ', Αττική, Ελλάδα');
-    const res = await fetch(url, { headers: { 'Accept-Language': 'el' } });
-    if(!res.ok) throw new Error('geocode HTTP ' + res.status);
-    const data = await res.json();
-    if(!data || !data.length){
-      geocodeCache[key] = null;
-      return null;
+const AREA_GAZETTEER = [
+  { name: 'Γκύζη', lat: 37.9909165, lon: 23.7459493 },
+  { name: 'Κυψέλη', lat: 38.0027173, lon: 23.7423148 },
+  { name: 'Εξάρχεια', lat: 37.9878442, lon: 23.7356600 },
+  { name: 'Αμπελόκηποι', lat: 37.9886745, lon: 23.7637517 },
+  { name: 'Πατήσια', lat: 38.0209212, lon: 23.7296286 },
+  { name: 'Πολύγωνο', lat: 37.9974566, lon: 23.7457984 },
+  { name: 'Νέα Σμύρνη', lat: 37.9444167, lon: 23.7127056 },
+  { name: 'Παγκράτι', lat: 37.9677597, lon: 23.7469741 },
+  { name: 'Κολωνάκι', lat: 37.9782361, lon: 23.7449263 },
+  { name: 'Πλάκα', lat: 37.9725529, lon: 23.7303364 },
+  { name: 'Μοναστηράκι', lat: 37.9758108, lon: 23.7268379 },
+  { name: 'Κουκάκι', lat: 37.9634916, lon: 23.7213451 },
+  { name: 'Πετράλωνα', lat: 37.9684569, lon: 23.7092974 },
+  { name: 'Γκάζι', lat: 37.9789812, lon: 23.7119618 },
+  { name: 'Ψυρρή', lat: 37.9783606, lon: 23.7247958 },
+  { name: 'Ζωγράφου', lat: 37.9778512, lon: 23.7700461 },
+  { name: 'Καισαριανή', lat: 37.9686111, lon: 23.7572246 },
+  { name: 'Βύρωνας', lat: 37.9592596, lon: 23.7563687 },
+  { name: 'Δάφνη', lat: 37.9498129, lon: 23.7347840 },
+  { name: 'Ιλίσια', lat: 37.9778401, lon: 23.7595457 },
+  { name: 'Χολαργός', lat: 37.9975628, lon: 23.8027203 },
+  { name: 'Παπάγου', lat: 37.9866851, lon: 23.7924494 },
+  { name: 'Χαλάνδρι', lat: 38.0214214, lon: 23.7987679 },
+  { name: 'Μαρούσι', lat: 38.0463101, lon: 23.8074163 },
+  { name: 'Κηφισιά', lat: 38.0868635, lon: 23.8003029 },
+  { name: 'Νέο Ψυχικό', lat: 38.0047591, lon: 23.7797255 },
+  { name: 'Ψυχικό', lat: 38.0104471, lon: 23.7732650 },
+  { name: 'Φιλοθέη', lat: 38.0227334, lon: 23.7765697 },
+  { name: 'Βριλήσσια', lat: 38.0373632, lon: 23.8374167 },
+  { name: 'Αγία Παρασκευή', lat: 38.0135829, lon: 23.8218079 },
+  { name: 'Καλλιθέα', lat: 37.9558930, lon: 23.7020975 },
+  { name: 'Νίκαια', lat: 37.9746194, lon: 23.6412944 },
+  { name: 'Περιστέρι', lat: 38.0166168, lon: 23.6915756 },
+  { name: 'Αιγάλεω', lat: 37.9924361, lon: 23.6781246 },
+  { name: 'Ίλιον', lat: 38.0379077, lon: 23.7053490 },
+  { name: 'Γλυφάδα', lat: 37.8756151, lon: 23.7564773 },
+  { name: 'Άγιος Δημήτριος', lat: 37.9357211, lon: 23.7295198 },
+  { name: 'Αργυρούπολη', lat: 37.9059505, lon: 23.7536675 },
+  { name: 'Βουλιαγμένη', lat: 37.8216582, lon: 23.7754127 },
+  { name: 'Πειραιάς', lat: 37.9429857, lon: 23.6469832 },
+].map(a => ({ ...a, norm: normalizeGreek(a.name) }));
+
+// Same accent-stripping approach already used server-side in the cinema
+// scraper (strip_accents / NFD normalization) — Greek tonos marks would
+// otherwise make "Γκύζη" and a plain-typed "γκυζη" compare as different.
+function normalizeGreek(s){
+  return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+}
+
+function resolveArea(rawQuery){
+  const nq = normalizeGreek(rawQuery);
+  if(nq.length < 3) return null;
+  let hit = AREA_GAZETTEER.find(a => a.norm === nq);
+  if(!hit){
+    const candidates = AREA_GAZETTEER.filter(a => a.norm.includes(nq) || nq.includes(a.norm));
+    if(candidates.length){
+      candidates.sort((a, b) => b.norm.length - a.norm.length);
+      hit = candidates[0];
     }
-    const hit = data[0];
-    const result = {
-      lat: parseFloat(hit.lat),
-      lon: parseFloat(hit.lon),
-      displayName: (hit.display_name || query).split(',')[0].trim(),
-    };
-    geocodeCache[key] = result;
-    return result;
-  }catch(err){
-    return null; // network hiccup — don't cache, allow retrying on the next attempt
   }
+  return hit ? { lat: hit.lat, lon: hit.lon, displayName: hit.name } : null;
 }
 
 // One entry per cinema actually showing something on `selectedDate`,
@@ -281,70 +321,28 @@ function buildTodayCinemaIndex(){
   return Array.from(byKey.values());
 }
 
-function scheduleNearbyLookup(query){
-  clearTimeout(nearbyDebounceTimer);
-  nearbySuggestion = null; // clear immediately so a stale suggestion never lingers under a changed query
-  const trimmed = query.trim();
-  if(trimmed.length < 3) return;
-  nearbyDebounceTimer = setTimeout(() => attemptNearbyLookup(trimmed), 600);
-}
-
-async function attemptNearbyLookup(query){
-  const myToken = ++nearbyLookupToken;
-  nearbySuggestion = { status: 'loading', query };
-  render();
-
-  const geo = await geocodeArea(query);
-  if(myToken !== nearbyLookupToken) return; // superseded by a newer search — drop this result
-
-  if(!geo){
-    nearbySuggestion = { status: 'notfound', query };
-    render();
-    return;
-  }
+function appendNearbyBox(container, q){
+  const area = resolveArea(q);
+  if(!area) return; // not a recognized Attica neighbourhood — leave the plain "no results" message as-is
 
   const candidates = buildTodayCinemaIndex()
-    .map(c => ({ ...c, distance: haversineKm(geo.lat, geo.lon, c.lat, c.lon) }));
+    .map(c => ({ ...c, distance: haversineKm(area.lat, area.lon, c.lat, c.lon) }));
 
-  let cinemas = candidates.filter(c => c.distance <= NEARBY_RADIUS_KM).sort((a,b) => a.distance - b.distance);
+  let cinemas = candidates.filter(c => c.distance <= NEARBY_RADIUS_KM).sort((a, b) => a.distance - b.distance);
   let usedFallback = false;
   if(cinemas.length === 0){
-    cinemas = candidates.sort((a,b) => a.distance - b.distance).slice(0, NEARBY_FALLBACK_COUNT);
+    cinemas = candidates.sort((a, b) => a.distance - b.distance).slice(0, NEARBY_FALLBACK_COUNT);
     usedFallback = true;
   }else{
     cinemas = cinemas.slice(0, 8);
   }
+  if(cinemas.length === 0) return; // no cinema today has known coordinates at all — nothing sensible to suggest
 
-  nearbySuggestion = {
-    status: cinemas.length ? 'found' : 'empty',
-    query,
-    areaLabel: geo.displayName,
-    usedFallback,
-    cinemas,
-  };
-  render();
-}
+  const headline = usedFallback
+    ? `Καμία αίθουσα εντός ${NEARBY_RADIUS_KM} χλμ από «${area.displayName}». Οι πιο κοντινές σήμερα:`
+    : `Καμία προβολή στην περιοχή «${area.displayName}» σήμερα. Κοντά όμως παίζουν:`;
 
-function renderNearbyBox(container, q){
-  if(!nearbySuggestion || nearbySuggestion.query.trim().toLowerCase() !== q) return;
-
-  const box = document.createElement('div');
-  box.className = 'nearby-box';
-
-  if(nearbySuggestion.status === 'loading'){
-    box.innerHTML = `<div class="nearby-loading">Αναζήτηση κοντινών αιθουσών για «${nearbySuggestion.query}»...</div>`;
-    container.appendChild(box);
-    return;
-  }
-  if(nearbySuggestion.status === 'notfound' || nearbySuggestion.status === 'empty'){
-    return; // don't clutter the page — the plain "no results" message already stands
-  }
-
-  const headline = nearbySuggestion.usedFallback
-    ? `Καμία αίθουσα εντός ${NEARBY_RADIUS_KM} χλμ από «${nearbySuggestion.areaLabel}». Οι πιο κοντινές σήμερα:`
-    : `Καμία προβολή στην περιοχή «${nearbySuggestion.areaLabel}» σήμερα. Κοντά όμως παίζουν:`;
-
-  const rows = nearbySuggestion.cinemas.map(c => {
+  const rows = cinemas.map(c => {
     const movieRows = c.movies.map(m =>
       `<div class="nc-movie"><span>${m.title}</span><span class="nc-times">${m.times.join(', ')}</span></div>`
     ).join('');
@@ -357,9 +355,12 @@ function renderNearbyBox(container, q){
     `;
   }).join('');
 
+  const box = document.createElement('div');
+  box.className = 'nearby-box';
   box.innerHTML = `<div class="nearby-title">${headline}</div>${rows}`;
   container.appendChild(box);
 }
+
 
 async function load(){
   try{
@@ -400,14 +401,6 @@ function init(){
       document.querySelectorAll('.datepill').forEach(p=>p.classList.remove('active'));
       pill.classList.add('active');
       selectedDate = key;
-      // A nearby-area suggestion is computed against a specific date's
-      // screenings, so it goes stale the moment the date tab changes —
-      // clear it and, if there's still a live area search, recompute
-      // for the new date (cheap: geocoding itself is cached per term).
-      clearTimeout(nearbyDebounceTimer);
-      nearbySuggestion = null;
-      const currentQ = document.getElementById('search').value;
-      if(currentQ.trim().length >= 3) scheduleNearbyLookup(currentQ);
       render();
     });
     datebar.appendChild(pill);
@@ -417,15 +410,12 @@ function init(){
     document.getElementById('cycleNote').style.display = 'none';
   }
 
-  document.getElementById('search').addEventListener('input', () => {
-    const val = document.getElementById('search').value;
-    scheduleNearbyLookup(val);
-    render();
-  });
+  document.getElementById('search').addEventListener('input', render);
   setupGpsButton();
   document.getElementById('footer').textContent =
     'Δεδομένα από athinorama.gr, τελευταία ενημέρωση: ' + (updatedStr || '—') +
     '. Ανανεώνεται αυτόματα κάθε πρωί.';
+
 
   render();
 }
@@ -500,7 +490,7 @@ function render(){
   const shown = entries.length;
   if(shown === 0){
     results.innerHTML = '<div class="state">Καμία ταινία δεν βρέθηκε για αυτή την ημέρα' + (q ? ' με αυτά τα κριτήρια' : '') + '.</div>';
-    if(q) renderNearbyBox(results, q);
+    if(q) appendNearbyBox(results, q);
   }
 
   document.getElementById('count').textContent = shown + ' ταινίες' + (q ? ' · φίλτρο "'+q+'"' : '');
