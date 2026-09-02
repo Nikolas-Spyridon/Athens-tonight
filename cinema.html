@@ -479,7 +479,7 @@ function render(){
     const div = document.createElement('div');
     div.className = 'movie';
     const imdbLink = m.imdb_url
-      ? `<a href="${m.imdb_url}" target="_blank" rel="noopener" class="m-imdb">IMDb ↗</a>`
+      ? `<a href="${m.imdb_url}" target="_blank" rel="noopener" class="m-imdb">IMDb${m.imdb_rating != null ? ' ' + m.imdb_rating.toFixed(1) : ''} ↗</a>`
       : '';
     div.innerHTML = `
       <div class="m-top">
