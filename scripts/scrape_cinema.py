@@ -4,13 +4,25 @@ Athens Tonight — cinema scraper (athinorama.gr)
 WHAT THIS DOES
 1. Visits athinorama's "new releases" listing page to get the current week's
    movies (and a link to each movie's own page).
-2. Visits each movie's page to pull the per-cinema, per-day showtimes.
-3. Writes everything to data/cinema.json, which the website reads.
+2. Visits each movie's page to pull the per-cinema, per-day showtimes, AND
+   (from the same page fetch — no extra request) the movie's own info:
+   original (non-Greek) title, full plot description, athinorama's own
+   1-5 rating, and a direct IMDb link when athinorama has one.
+3. Flags each screening as open-air ("θερινός") or not, based on the sun
+   icon athinorama shows next to open-air cinemas.
+4. Writes everything to data/cinema.json, which the website reads.
 
-STATUS (25/8/2026): all selectors below have been confirmed against the
-real page via browser inspector — this is not guesswork. The one remaining
-soft spot is `.title-infos` for a cinema's area/address text, which is a
-reasonable guess but wasn't individually confirmed like the others.
+STATUS (2/9/2026): all selectors — including the new open-air marker,
+original title, description, rating, and IMDb link — were confirmed
+against a real saved movie page (Αμελί / Amélie) via its saved HTML, not
+guessed. The one remaining soft spot is `.title-infos` for a cinema's
+area/address text, which is a reasonable guess but wasn't individually
+confirmed like the others.
+
+Note: not every movie has an IMDb link or athinorama rating (older or
+obscure titles sometimes don't) — those fields fall back to "" / None
+rather than guessing, matching the project rule to flag uncertainty
+rather than silently invent a value.
 
 Run locally first with: python scripts/scrape_cinema.py
 and check data/cinema.json looks sane before relying on the automated run.
@@ -182,10 +194,61 @@ def expand_day_range(day_spec: str, time_str: str, today: date) -> dict[str, lis
     return out
 
 
+# Confirmed against a real saved page (Αμελί / Amélie, 1/9/2026) — this
+# header block appears once per movie page, above the per-cinema listing:
+#   <div class="review-header">
+#     <div class="review-title">
+#       <h1>Αμελί</h1>
+#       <ul class="review-details">
+#         <li><span class="original-title">Le Fabuleux Destin d'Amelie Poulain</span></li>
+#         ...
+#         <li><div class="rating-stars ..."><span class="rating-value">3</span></div></li>
+#       </ul>
+#       <div class="summary"><p>full plot synopsis...</p></div>
+#     </div>
+#     <div class="review-links">
+#       <div class="external-links"><ul>
+#         <li><a class="imdb" href="http://www.imdb.com/title/tt0211915/">...</a></li>
+#       </ul></div>
+#     </div>
+#   </div>
+# Not every movie will have all of these (older/obscure titles may lack
+# an IMDb link or a rating) — each field falls back to "" / None rather
+# than guessing, consistent with never silently fabricating a value.
+def parse_movie_info(soup: BeautifulSoup) -> dict:
+    header = soup.select_one("div.review-header")
+    if not header:
+        return {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": ""}
+
+    orig_el = header.select_one(".original-title")
+    original_title = orig_el.get_text(strip=True) if orig_el else ""
+
+    desc_el = header.select_one("div.summary p")
+    description = desc_el.get_text(" ", strip=True) if desc_el else ""
+
+    rating_el = header.select_one(".rating-stars .rating-value")
+    rating = None
+    if rating_el:
+        try:
+            rating = float(rating_el.get_text(strip=True))
+        except ValueError:
+            rating = None
+
+    imdb_el = header.select_one("a.imdb[href]")
+    imdb_url = imdb_el["href"].strip() if imdb_el else ""
+
+    return {
+        "original_title": original_title,
+        "description": description,
+        "athinorama_rating": rating,
+        "imdb_url": imdb_url,
+    }
+
+
 def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]:
     """
     Return a list of screenings for one movie:
-    [{'cinema': ..., 'area': ..., 'lat': ..., 'lon': ...,
+    [{'cinema': ..., 'area': ..., 'lat': ..., 'lon': ..., 'is_open_air': ...,
       'showtimes': {'2026-08-24': ['20:30'], ...}}]
     """
     today = today or date.today()
@@ -203,6 +266,13 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
 
         lat = block.get("data-lat", "")
         lon = block.get("data-lon", "")
+
+        # Confirmed against the real page: an open-air ("θερινός") cinema
+        # carries a small sun icon (summerRoom.png) inside its .tags list,
+        # right next to the phone number — matching on the distinctive
+        # icon filename rather than the Greek text itself, so this still
+        # works if the wording around it ever changes.
+        is_open_air = block.select_one('.tags img[src*="summerRoom"]') is not None
 
         showtimes_by_date: dict[str, list[str]] = {}
         for time_span in block.select("ul.schedule-infos li .time"):
@@ -236,10 +306,12 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
             "area": area,
             "lat": lat,
             "lon": lon,
+            "is_open_air": is_open_air,
             "showtimes": showtimes_by_date,
         })
 
-    return screenings
+    movie_info = parse_movie_info(soup)
+    return movie_info, screenings
 
 
 def main():
@@ -251,13 +323,17 @@ def main():
     for m in movies:
         print(f"  Scraping {m['title']}...")
         try:
-            screenings = parse_showtimes_for_movie(m["url"])
+            movie_info, screenings = parse_showtimes_for_movie(m["url"])
         except Exception as e:
             print(f"    FAILED: {e}")
-            screenings = []
+            movie_info, screenings = {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": ""}, []
         results.append({
             "title": m["title"],
             "url": m["url"],
+            "original_title": movie_info["original_title"],
+            "description": movie_info["description"],
+            "athinorama_rating": movie_info["athinorama_rating"],
+            "imdb_url": movie_info["imdb_url"],
             "screenings": screenings,
         })
         time.sleep(1.5)  # be polite — don't hammer the site
