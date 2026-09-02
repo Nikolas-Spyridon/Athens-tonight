@@ -10,25 +10,34 @@ WHAT THIS DOES
    1-5 rating, and a direct IMDb link when athinorama has one.
 3. Flags each screening as open-air ("θερινός") or not, based on the sun
    icon athinorama shows next to open-air cinemas.
-4. Writes everything to data/cinema.json, which the website reads.
+4. When an IMDb link is found, looks up the current IMDb user rating via
+   OMDb API (omdbapi.com) — a separate, free third-party service that
+   licenses this data. We deliberately do NOT scrape imdb.com directly:
+   IMDb's own Terms of Use prohibit data-mining/scraping their site, and
+   doing so from a daily automated workflow would be exactly that.
+   Requires an OMDB_API_KEY environment variable (free key from
+   https://www.omdbapi.com/apikey.aspx); if it's not set, imdb_rating is
+   just left as None rather than the run failing.
+5. Writes everything to data/cinema.json, which the website reads.
 
-STATUS (2/9/2026): all selectors — including the new open-air marker,
+STATUS (2/9/2026): all selectors — including the open-air marker,
 original title, description, rating, and IMDb link — were confirmed
 against a real saved movie page (Αμελί / Amélie) via its saved HTML, not
 guessed. The one remaining soft spot is `.title-infos` for a cinema's
 area/address text, which is a reasonable guess but wasn't individually
 confirmed like the others.
 
-Note: not every movie has an IMDb link or athinorama rating (older or
-obscure titles sometimes don't) — those fields fall back to "" / None
-rather than guessing, matching the project rule to flag uncertainty
-rather than silently invent a value.
+Note: not every movie has an IMDb link, athinorama rating, or OMDb
+rating (older/obscure titles sometimes don't have any of these) — those
+fields fall back to "" / None rather than guessing, matching the project
+rule to flag uncertainty rather than silently invent a value.
 
 Run locally first with: python scripts/scrape_cinema.py
 and check data/cinema.json looks sane before relying on the automated run.
 """
 
 import json
+import os
 import re
 import time
 from datetime import date, timedelta
@@ -48,6 +57,12 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     )
 }
+
+# OMDb (omdbapi.com) rating lookup — see module docstring for why we use
+# this instead of scraping imdb.com directly. If the key isn't set, the
+# scraper still runs fine; imdb_rating just comes back as None everywhere.
+OMDB_API_KEY = os.environ.get("OMDB_API_KEY", "")
+IMDB_ID_RE = re.compile(r"(tt\d+)")
 
 
 def get_soup(url: str) -> BeautifulSoup:
@@ -215,6 +230,35 @@ def expand_day_range(day_spec: str, time_str: str, today: date) -> dict[str, lis
 # Not every movie will have all of these (older/obscure titles may lack
 # an IMDb link or a rating) — each field falls back to "" / None rather
 # than guessing, consistent with never silently fabricating a value.
+def fetch_imdb_rating(imdb_url: str) -> float | None:
+    """Look up the current IMDb user rating for a movie via OMDb API,
+    using the IMDb ID already present in athinorama's own imdb_url — NOT
+    by visiting imdb.com itself (see module docstring). Returns None if:
+    there's no imdb_url to begin with, OMDB_API_KEY isn't configured,
+    OMDb doesn't have this title, or the request fails for any reason.
+    Never guesses a number — a missing rating is left missing."""
+    if not imdb_url or not OMDB_API_KEY:
+        return None
+    match = IMDB_ID_RE.search(imdb_url)
+    if not match:
+        return None
+    imdb_id = match.group(1)
+    try:
+        resp = requests.get(
+            "https://www.omdbapi.com/",
+            params={"i": imdb_id, "apikey": OMDB_API_KEY},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        rating_str = data.get("imdbRating")
+        if not rating_str or rating_str == "N/A":
+            return None
+        return float(rating_str)
+    except (requests.RequestException, ValueError):
+        return None
+
+
 def parse_movie_info(soup: BeautifulSoup) -> dict:
     header = soup.select_one("div.review-header")
     if not header:
@@ -319,6 +363,9 @@ def main():
     movies = get_current_movies()
     print(f"Found {len(movies)} movies")
 
+    if not OMDB_API_KEY:
+        print("  NOTE: OMDB_API_KEY not set — imdb_rating will be null for every movie.")
+
     results = []
     for m in movies:
         print(f"  Scraping {m['title']}...")
@@ -327,6 +374,7 @@ def main():
         except Exception as e:
             print(f"    FAILED: {e}")
             movie_info, screenings = {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": ""}, []
+        imdb_rating = fetch_imdb_rating(movie_info["imdb_url"])
         results.append({
             "title": m["title"],
             "url": m["url"],
@@ -334,6 +382,7 @@ def main():
             "description": movie_info["description"],
             "athinorama_rating": movie_info["athinorama_rating"],
             "imdb_url": movie_info["imdb_url"],
+            "imdb_rating": imdb_rating,
             "screenings": screenings,
         })
         time.sleep(1.5)  # be polite — don't hammer the site
