@@ -1,23 +1,6 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "events": [
-    {
-      "event_id": "14982",
-      "title": "Να Νικήσει το Δίκιο μας, για να Αλλάξει ο Κόσμος — BANDA ENTOPICA",
-      "url": "https://www.ticketservices.gr/event/theatro-petras-banda-entopica-2026/?lang=el",
-      "dates": [
-        "2026-09-01"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΠΕΤΡΑΣ - ΠΕΤΡΟΥΠΟΛΗ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14790",
       "title": "ΔΡΥΑΔΕΣ Quartet",
