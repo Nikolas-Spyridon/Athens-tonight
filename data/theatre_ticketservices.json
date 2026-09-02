@@ -1,11 +1,10 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "events": [
     {
       "title": "ΘΡΑΥΣΜΑΤΑ: Ευριπίδης",
       "url": "https://www.ticketservices.gr/event/n-t-thrausmata-2026/?lang=el",
       "dates": [
-        "2026-09-01",
         "2026-09-02",
         "2026-09-03"
       ],
@@ -18,141 +17,6 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Οιδίπους Τύραννος του Σοφοκλή",
-      "url": "https://www.ticketservices.gr/event/periodeia-oedipus-tyrannus-2026/?lang=el",
-      "dates": [
-        "2026-09-01"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
-      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
-      "dates": [
-        "2026-09-01",
-        "2026-09-03",
-        "2026-09-04",
-        "2026-09-05",
-        "2026-09-06",
-        "2026-09-07",
-        "2026-09-08",
-        "2026-09-10",
-        "2026-09-12",
-        "2026-09-13",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16"
-      ],
-      "venues": [
-        {
-          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΔΗΜΟΤΙΚΟ ΘΕΑΤΡΟ ΛΥΚΑΒΗΤΤΟΥ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΘΕΑΤΡΟ ΘΑΝΑΣΗΣ ΒΕΓΓΟΣ - ΚΟΡΥΔΑΛΛΟΣ",
-          "area": "",
-          "is_attica": null
-        },
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
-      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
-      "dates": [
-        "2026-09-01",
-        "2026-09-08",
-        "2026-09-09"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
-      "dates": [
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-10",
-        "2026-11-11"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
-      "dates": [
-        "2026-10-19",
-        "2026-10-26",
-        "2026-11-02",
-        "2026-11-09",
-        "2026-11-16",
-        "2026-11-23"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -211,6 +75,99 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ «ΑΠΟ ΚΟΙΝΟΥ»",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
+      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
+      "dates": [
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "venues": [
+        {
+          "name": "ΔΗΜΟΤΙΚΟ ΘΕΑΤΡΟ ΛΥΚΑΒΗΤΤΟΥ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΘΕΑΤΡΟ ΘΑΝΑΣΗΣ ΒΕΓΓΟΣ - ΚΟΡΥΔΑΛΛΟΣ",
+          "area": "",
+          "is_attica": null
+        },
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": false,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
+      "dates": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
+      "dates": [
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -321,6 +278,24 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
+      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
+      "dates": [
+        "2026-09-08",
+        "2026-09-09"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
