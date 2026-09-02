@@ -52,9 +52,15 @@
 
   .movie{background:var(--ink2);border-radius:10px;padding:14px 16px;margin-bottom:10px;border-left:3px solid var(--amber);}
   .m-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;}
-  .m-title{font-family:'Fraunces',serif;font-size:16.5px;font-weight:600;margin:0;}
-  .m-tag{font-size:10.5px;font-weight:600;color:var(--amber);white-space:nowrap;flex-shrink:0;padding-top:2px;}
+  .m-title{font-family:'Fraunces',serif;font-size:16.5px;font-weight:600;margin:0;cursor:pointer;}
+  .m-title:hover{color:var(--amber);}
+  .m-top-right{display:flex;align-items:center;gap:8px;flex-shrink:0;padding-top:2px;}
+  .m-imdb{font-size:10.5px;font-weight:600;color:var(--amber);text-decoration:none;white-space:nowrap;border:1px solid rgba(232,163,61,0.4);border-radius:5px;padding:2px 6px;}
+  .m-imdb:hover{background:var(--amber-dim);}
+  .m-tag{font-size:10.5px;font-weight:600;color:var(--amber);white-space:nowrap;flex-shrink:0;}
   .m-next{font-size:12.5px;color:var(--muted);margin:4px 0 0;}
+  .m-desc{font-size:12.5px;color:rgba(246,240,228,0.78);line-height:1.55;margin:6px 0 0;padding-top:8px;border-top:1px dashed var(--line);}
+  .oa-icon{margin-left:5px;font-size:10.5px;}
 
   details{margin-top:8px;}
   summary{cursor:pointer;font-size:12px;font-weight:600;color:var(--amber);list-style:none;display:flex;align-items:center;gap:5px;}
@@ -466,24 +472,42 @@ function render(){
       const distLabel = (s.distance !== null)
         ? `<span class="st-distance">${formatDistance(s.distance)}</span>`
         : '';
-      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span> <span class="st-area">· ${s.area || ''}</span>${distLabel}</span><span class="st-times">${times}</span></div>`;
+      const oaIcon = s.is_open_air ? '<span class="oa-icon" title="Θερινός (υπαίθριος κινηματογράφος)">☀️</span>' : '';
+      return `<div class="st-row"><span><span class="st-cinema">${s.cinema}</span>${oaIcon} <span class="st-area">· ${s.area || ''}</span>${distLabel}</span><span class="st-times">${times}</span></div>`;
     }).join('');
 
     const div = document.createElement('div');
     div.className = 'movie';
+    const imdbLink = m.imdb_url
+      ? `<a href="${m.imdb_url}" target="_blank" rel="noopener" class="m-imdb">IMDb ↗</a>`
+      : '';
     div.innerHTML = `
       <div class="m-top">
-        <h3 class="m-title">${m.title}</h3>
-        <span class="m-tag">${todays.length} αίθουσ${todays.length===1?'α':'ες'}</span>
+        <h3 class="m-title" role="button" tabindex="0">${m.title}</h3>
+        <div class="m-top-right">
+          ${imdbLink}
+          <span class="m-tag">${todays.length} αίθουσ${todays.length===1?'α':'ες'}</span>
+        </div>
       </div>
       <p class="m-next">${gpsMode && todays[0].distance !== null
         ? `Πλησιέστερη: ${todays[0].cinema} (${formatDistance(todays[0].distance)})`
         : `Πρώτη προβολή στις ${soonest}`}</p>
+      <div class="m-desc" hidden>${m.description || 'Δεν υπάρχει διαθέσιμη περιγραφή για αυτή την ταινία.'}</div>
       <details>
         <summary>Ώρες &amp; αίθουσες</summary>
         <div class="showtimes">${rows}</div>
       </details>
     `;
+    // Click (or Enter/Space, for keyboard users) on the title toggles the
+    // synopsis — kept hidden by default since most people already know
+    // what they want to watch, and it would otherwise crowd every card.
+    const titleEl = div.querySelector('.m-title');
+    const descEl = div.querySelector('.m-desc');
+    const toggleDesc = () => { descEl.hidden = !descEl.hidden; };
+    titleEl.addEventListener('click', toggleDesc);
+    titleEl.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); toggleDesc(); }
+    });
     results.appendChild(div);
   });
 
