@@ -18,7 +18,15 @@ WHAT THIS DOES
    Requires an OMDB_API_KEY environment variable (free key from
    https://www.omdbapi.com/apikey.aspx); if it's not set, imdb_rating is
    just left as None rather than the run failing.
-5. Writes everything to data/cinema.json, which the website reads.
+5. When athinorama has NO direct IMDb link for a movie at all (common —
+   it links maybe half the time even for well-known films), falls back
+   to an OMDb TITLE search using the movie's original (non-Greek) title
+   plus its year, both pulled from the same page. Title+year together
+   is a strong enough combination to trust directly; the one guardrail
+   kept is discarding a result if OMDb's own year is off by more than 1,
+   since that means it's very likely a different film with a similar
+   title rather than the one that's actually playing.
+6. Writes everything to data/cinema.json, which the website reads.
 
 STATUS (2/9/2026): all selectors — including the open-air marker,
 original title, description, rating, and IMDb link — were confirmed
@@ -230,6 +238,44 @@ def expand_day_range(day_spec: str, time_str: str, today: date) -> dict[str, lis
 # Not every movie will have all of these (older/obscure titles may lack
 # an IMDb link or a rating) — each field falls back to "" / None rather
 # than guessing, consistent with never silently fabricating a value.
+def search_imdb_by_title(title: str, year: int | None) -> dict | None:
+    """Fallback for when athinorama has no direct IMDb link at all: search
+    OMDb by title instead of by ID. Only used as a fallback, and only
+    trusted when OMDb's own reported year is within 1 year of athinorama's
+    — titles alone are often ambiguous (remakes, common words), and a
+    year mismatch is treated as 'not a confident match' rather than
+    silently attaching a plausible-looking but wrong film's rating.
+    Returns {'imdb_url':..., 'imdb_rating':...} or None."""
+    if not title or not OMDB_API_KEY:
+        return None
+    try:
+        params = {"t": title, "apikey": OMDB_API_KEY}
+        if year:
+            params["y"] = year
+        resp = requests.get("https://www.omdbapi.com/", params=params, timeout=10)
+        resp.raise_for_status()
+        data = resp.json()
+        if data.get("Response") != "True":
+            return None
+        imdb_id = data.get("imdbID")
+        if not imdb_id:
+            return None
+        if year:
+            omdb_year_digits = re.sub(r"\D", "", data.get("Year", ""))
+            if omdb_year_digits and abs(int(omdb_year_digits[:4]) - year) > 1:
+                return None  # likely a different film with a similar title — don't guess
+        rating_str = data.get("imdbRating")
+        rating = None
+        if rating_str and rating_str != "N/A":
+            try:
+                rating = float(rating_str)
+            except ValueError:
+                rating = None
+        return {"imdb_url": f"https://www.imdb.com/title/{imdb_id}/", "imdb_rating": rating}
+    except requests.RequestException:
+        return None
+
+
 def fetch_imdb_rating(imdb_url: str) -> float | None:
     """Look up the current IMDb user rating for a movie via OMDb API,
     using the IMDb ID already present in athinorama's own imdb_url — NOT
@@ -262,7 +308,7 @@ def fetch_imdb_rating(imdb_url: str) -> float | None:
 def parse_movie_info(soup: BeautifulSoup) -> dict:
     header = soup.select_one("div.review-header")
     if not header:
-        return {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": ""}
+        return {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": "", "year": None}
 
     orig_el = header.select_one(".original-title")
     original_title = orig_el.get_text(strip=True) if orig_el else ""
@@ -281,11 +327,23 @@ def parse_movie_info(soup: BeautifulSoup) -> dict:
     imdb_el = header.select_one("a.imdb[href]")
     imdb_url = imdb_el["href"].strip() if imdb_el else ""
 
+    # Confirmed on the same real saved page (Αμελί): <li><span class="year">2001</span></li>,
+    # sitting right next to .original-title in .review-details. Used below
+    # to sanity-check OMDb title-search matches when athinorama has no
+    # direct IMDb link to look up by ID instead.
+    year_el = header.select_one(".year")
+    year = None
+    if year_el:
+        digits = re.sub(r"\D", "", year_el.get_text(strip=True))
+        if digits:
+            year = int(digits[:4])
+
     return {
         "original_title": original_title,
         "description": description,
         "athinorama_rating": rating,
         "imdb_url": imdb_url,
+        "year": year,
     }
 
 
@@ -373,15 +431,31 @@ def main():
             movie_info, screenings = parse_showtimes_for_movie(m["url"])
         except Exception as e:
             print(f"    FAILED: {e}")
-            movie_info, screenings = {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": ""}, []
-        imdb_rating = fetch_imdb_rating(movie_info["imdb_url"])
+            movie_info, screenings = {"original_title": "", "description": "", "athinorama_rating": None, "imdb_url": "", "year": None}, []
+
+        imdb_url = movie_info["imdb_url"]
+        imdb_rating = fetch_imdb_rating(imdb_url)
+
+        # athinorama itself has no IMDb link for this one — try resolving
+        # it via a title search instead (original title preferred over
+        # the Greek title, since that's what's actually on IMDb), rather
+        # than leaving every un-linked movie without a rating.
+        if not imdb_url:
+            fallback = search_imdb_by_title(
+                movie_info["original_title"] or m["title"],
+                movie_info["year"],
+            )
+            if fallback:
+                imdb_url = fallback["imdb_url"]
+                imdb_rating = fallback["imdb_rating"]
+
         results.append({
             "title": m["title"],
             "url": m["url"],
             "original_title": movie_info["original_title"],
             "description": movie_info["description"],
             "athinorama_rating": movie_info["athinorama_rating"],
-            "imdb_url": movie_info["imdb_url"],
+            "imdb_url": imdb_url,
             "imdb_rating": imdb_rating,
             "screenings": screenings,
         })
