@@ -31,6 +31,8 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run cinema scraper
+        env:
+          OMDB_API_KEY: ${{ secrets.OMDB_API_KEY }}
         run: python scripts/scrape_cinema.py
 
       - name: Commit updated data
