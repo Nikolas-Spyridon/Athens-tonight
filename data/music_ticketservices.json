@@ -1,22 +1,6 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "events": [
-    {
-      "event_id": "14790",
-      "title": "ΔΡΥΑΔΕΣ Quartet",
-      "url": "https://www.ticketservices.gr/event/paros-2026-dryades/?lang=el",
-      "dates": [
-        "2026-09-02"
-      ],
-      "venues": [
-        "Θέατρο Αρχίλοχος",
-        "Αϊ Γιάννης Δέτης, Νάουσα Πάρος"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14550",
       "title": "ΕΛΕΝΑ ΠΑΠΑΡΙΖΟΥ — ~Αλήθεια Τώρα~ — Summer 2026",
@@ -565,6 +549,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15154",
+      "title": "Γεωργία Νταγάκη — «Από την Κρήτη ως το 'Απειρο»",
+      "url": "https://www.ticketservices.gr/event/georgia-dagaki-apo-tin-kriti-os-to-apeiro/?lang=el",
+      "dates": [
+        "2026-10-24"
+      ],
+      "venues": [
+        "ΑΓΓΛΙΚΑΝΙΚΗ ΕΚΚΛΗΣΙΑ ΑΓΙΟΥ ΠΑΥΛΟΥ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-03"
     },
     {
       "event_id": "14350",
