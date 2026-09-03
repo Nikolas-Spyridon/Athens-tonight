@@ -1,11 +1,10 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "events": [
     {
       "title": "ΘΡΑΥΣΜΑΤΑ: Ευριπίδης",
       "url": "https://www.ticketservices.gr/event/n-t-thrausmata-2026/?lang=el",
       "dates": [
-        "2026-09-02",
         "2026-09-03"
       ],
       "venues": [
@@ -17,70 +16,6 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ιφιγένεια η εν Αυλίδι  του Ευριπίδη",
-      "url": "https://www.ticketservices.gr/event/ifigeneia-i-en-avlidi-tou-evripidi-periodeia/?lang=el",
-      "dates": [
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-08"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΤΡΩΑΔΕΣ",
-      "url": "https://www.ticketservices.gr/event/n-t-trwades-2026/?lang=el",
-      "dates": [
-        "2026-09-02",
-        "2026-09-03",
-        "2026-09-05",
-        "2026-09-06",
-        "2026-09-22"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Σ ΑΓΑΠΩ;",
-      "url": "https://www.ticketservices.gr/event/sagapo-theatro-apo-koinou/?lang=el",
-      "dates": [
-        "2026-09-02",
-        "2026-09-16",
-        "2026-09-23"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ «ΑΠΟ ΚΟΙΝΟΥ»",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -124,6 +59,67 @@
       ],
       "dates_venues_paired": false,
       "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ιφιγένεια η εν Αυλίδι  του Ευριπίδη",
+      "url": "https://www.ticketservices.gr/event/ifigeneia-i-en-avlidi-tou-evripidi-periodeia/?lang=el",
+      "dates": [
+        "2026-09-03",
+        "2026-09-08"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΤΡΩΑΔΕΣ",
+      "url": "https://www.ticketservices.gr/event/n-t-trwades-2026/?lang=el",
+      "dates": [
+        "2026-09-03",
+        "2026-09-05",
+        "2026-09-06",
+        "2026-09-22",
+        "2026-09-23"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": false,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο φίλος μου ο Ντοστογιέφσκι",
+      "url": "https://www.ticketservices.gr/event/o-filos-mou-o-dostoyevsky-2026/?lang=el",
+      "dates": [
+        "2026-09-04"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
@@ -174,23 +170,6 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ο φίλος μου ο Ντοστογιέφσκι",
-      "url": "https://www.ticketservices.gr/event/o-filos-mou-o-dostoyevsky-2026/?lang=el",
-      "dates": [
-        "2026-09-04"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
@@ -406,6 +385,24 @@
       "venues": [
         {
           "name": "Θέατρο Δίπυλον",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Σ ΑΓΑΠΩ;",
+      "url": "https://www.ticketservices.gr/event/sagapo-theatro-apo-koinou/?lang=el",
+      "dates": [
+        "2026-09-16",
+        "2026-09-23"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ «ΑΠΟ ΚΟΙΝΟΥ»",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -1804,10 +1801,7 @@
         "2026-11-05",
         "2026-11-12",
         "2026-11-19",
-        "2026-11-26",
-        "2026-12-03",
-        "2026-12-10",
-        "2026-12-17"
+        "2026-11-26"
       ],
       "venues": [
         {
@@ -1846,14 +1840,7 @@
         "2026-12-12",
         "2026-12-13",
         "2026-12-18",
-        "2026-12-19",
-        "2026-12-20",
-        "2026-12-25",
-        "2026-12-26",
-        "2026-12-27",
-        "2027-01-01",
-        "2027-01-02",
-        "2027-01-03"
+        "2026-12-19"
       ],
       "venues": [
         {
@@ -2099,7 +2086,7 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "ΒΥΣΣΙΝΟΚΗΠΟΣ",
+      "title": "Ο ΒΥΣΣΙΝΟΚΗΠΟΣ",
       "url": "https://www.ticketservices.gr/event/n-t-vissinokipos-2/?lang=el",
       "dates": [
         "2026-11-28",
