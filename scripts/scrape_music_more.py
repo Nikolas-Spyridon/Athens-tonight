@@ -107,11 +107,26 @@ GENRE_CLASS_RE = re.compile(r"^music([a-z]+)$")
 # NON_ATTICA_HINTS instead of being left out of both sets.
 ATTICA_LOCALITIES = {
     "αγ. ιωαννης ρεντης", "αθηνα", "αλιμος", "βαρη", "βοτανικος",
-    "βριλησσια", "γαλατσι", "γκαζι", "ελευσινα", "ιερα οδος",
+    "βριλησσια", "γαλατσι", "γκαζι", "ελευσινα", "ζωγραφου", "ιερα οδος",
     "κορυδαλλος", "κορωπι", "κυψελη", "λυκαβηττος", "μαρουσι",
     "μοναστηρακι", "νεα σμυρνη", "νικαια", "ομονοια", "παπαγου",
     "πειραιας", "περιστερι", "πετρουπολη", "ρουφ", "ταυρος",
     "φιλοπαππου", "χαλανδρι",
+    # Latin-script transliterations of the same places — added after a
+    # confirmed real case (30/8/2026 more.com data): venue-address for a
+    # genuinely-Attica event read "Unnamed Road, Zografou 115 27", all in
+    # Latin script. strip_accents() only removes diacritics, it does NOT
+    # transliterate between alphabets, so a Latin "Zografou" was never
+    # going to match the Greek-only "ζωγραφου" and fell through to
+    # unconfirmed. more.com's own address data is inconsistently Greek
+    # vs. Latin script depending on the event, so both need covering.
+    "athens", "athina", "alimos", "vari", "votanikos", "vrilissia",
+    "galatsi", "gazi", "elefsina", "eleusis", "iera odos", "korydallos",
+    "koropi", "kypseli", "lykavittos", "lycabettus", "marousi",
+    "maroussi", "monastiraki", "nea smyrni", "nikaia", "nikea",
+    "omonoia", "omonia", "papagou", "piraeus", "pireas", "peristeri",
+    "petroupoli", "petroupolis", "rouf", "tavros", "filopappou",
+    "philopappou", "chalandri", "halandri", "zografou", "zographou",
 }
 
 NON_ATTICA_HINTS = {
@@ -122,6 +137,27 @@ NON_ATTICA_HINTS = {
     "μυκονος", "ξανθη", "πατρα", "πτολεμαιδα", "πυλαια", "ρεθυμνο",
     "ροδος", "σερρες", "σκιαθος", "σταυρουπολη", "συρος", "τρικαλα",
     "υπατη λαμιας", "χαλκιδα", "χανια", "χιλιομοδι", "χιος",
+    # "χορτ" (stem, not full word) deliberately catches BOTH "Χόρτος"
+    # (nominative) and "Χόρτου" (genitive, as it actually appeared in a
+    # real venue name: "Υπαίθριο Θέατρο Χόρτου") — Greek case endings
+    # change the tail of the word, so matching on the stem is needed to
+    # catch grammatical variants, the same way "θερινος"-style matching
+    # already works elsewhere in this project via prefix/stem matching.
+    "χορτ",
+    # Latin-script transliterations — see the comment on ATTICA_LOCALITIES
+    # above for why these are needed. "patra"/"patras" is the confirmed
+    # real case (30/8/2026): venue-address "Kontaxi, Patra 264 42" was
+    # falling through to unconfirmed and being shown as if it might be
+    # an Attica event, when it's actually a Patras venue.
+    "ampelonas", "andros", "argos", "veroia", "veria", "volos",
+    "ioannina", "giannena", "dion", "distomo", "irakleio", "iraklio",
+    "heraklion", "thessaloniki", "kavala", "kalamaria", "kalamata",
+    "karditsa", "kato toumpa", "kilkis", "kozani", "komotini",
+    "korinthos", "corinth", "lagyna", "larisa", "moudania", "mykonos",
+    "xanthi", "patra", "patras", "ptolemaida", "pylaia", "rethymno",
+    "rodos", "rhodes", "serres", "skiathos", "stavroupoli", "syros",
+    "trikala", "ypati lamias", "chalkida", "chania", "hiliomodi",
+    "chios", "chortos", "chorto",
 }
 
 
@@ -262,15 +298,25 @@ def parse_event_venues(booking_data: dict) -> list[dict]:
 
         city = venue.get("venue-city", "")
         street = venue.get("venue-address", "")
-        if is_blank_locality(city) and street:
+        venue_name = venue.get("venue-name", "")
+
+        # Try city first, then street, then the venue's own display name
+        # (some venues spell the city out directly in their name, e.g.
+        # "PRIVILEGE EVENT HOUSE – ΠΑΤΡΑ" — confirmed real case,
+        # 2/9/2026) — stopping at the first field that actually resolves
+        # to something other than "unconfirmed", rather than committing
+        # to a single field and giving up if that one happens to be
+        # blank or unrecognized.
+        region_status = classify_locality(city)
+        if region_status == "unconfirmed" and street:
             region_status = classify_locality(street)
-        else:
-            region_status = classify_locality(city)
+        if region_status == "unconfirmed" and venue_name:
+            region_status = classify_locality(venue_name)
         if region_status == "not_attica":
             continue  # confirmed elsewhere in Greece — skip entirely
 
         results.append({
-            "name": venue.get("venue-name", ""),
+            "name": venue_name,
             "locality": city,
             "street": street,
             "start": ev.get("event-date", ""),
