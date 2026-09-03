@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "events": [
     {
       "title": "Parklife: Beatles Symphonic",
@@ -63,6 +63,15 @@
       "price_info": "Από 67 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-01"
+    },
+    {
+      "title": "Dub Inc, Jammaroots, Dread Power",
+      "url": "https://www.rocking.gr/agenda/2026/9/12/27507",
+      "date": "2026-09-12",
+      "venue": "Gagarin 205",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-03"
     },
     {
       "title": "Allah-Las, Noda & The Pappas",
@@ -416,6 +425,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "we.own.the.sky, Afterwise",
+      "url": "https://www.rocking.gr/agenda/2026/10/9/27510",
+      "date": "2026-10-09",
+      "venue": "AN Club",
+      "price_info": "12 e / 15 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-03"
+    },
+    {
       "title": "Iron Beast: Caught Somewhere in Greece - 40 Years of Somewhere in Time",
       "url": "https://www.rocking.gr/agenda/2026/10/10/27435",
       "date": "2026-10-10",
@@ -477,6 +495,15 @@
       "price_info": "Από 49 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Tuber: Live Recording Project",
+      "url": "https://www.rocking.gr/agenda/2026/10/16/27508",
+      "date": "2026-10-16",
+      "venue": "Κύτταρο",
+      "price_info": "15 e / 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-03"
     },
     {
       "title": "Swallow The Sun, Ocean Of Grief, Euphrosyne",
