@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "events": [
     {
       "title": "Parklife: Beatles Symphonic",
@@ -234,6 +234,15 @@
       "price_info": "7 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-02"
+    },
+    {
+      "title": "Μητέρα Φάλαινα Τυφλή: 20 Χρόνια Αναδύσεις",
+      "url": "https://www.rocking.gr/agenda/2026/9/19/27511",
+      "date": "2026-09-19",
+      "venue": "Κύτταρο",
+      "price_info": "12 e / 14 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-04"
     },
     {
       "title": "Villagers Of Ioannina City",
