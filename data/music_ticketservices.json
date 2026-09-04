@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "events": [
     {
       "event_id": "14550",
@@ -10,23 +10,6 @@
       ],
       "venues": [
         "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14697",
-      "title": "Καίτη Γαρμπή - Διονύσης Σχοινάς — «Με Εσένα Μόνο»",
-      "url": "https://www.ticketservices.gr/event/katrakeio-garbi-schoinas-me-esena-mono/?lang=el",
-      "dates": [
-        "2026-09-07"
-      ],
-      "venues": [
-        "ΚΑΤΡΑΚΕΙΟ ΘΕΑΤΡΟ ΝΙΚΑΙΑΣ"
       ],
       "area_ids": [
         1
@@ -773,6 +756,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15159",
+      "title": "Παρουσίαση δίσκου Κος Κ. — «Γραμματόσημα»",
+      "url": "https://www.ticketservices.gr/event/parousiasi-diskou-kos-k-grammatoshma-theatro-nous/?lang=el",
+      "dates": [
+        "2026-11-06"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ NO&#362;S"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-04"
     },
     {
       "event_id": "15005",
