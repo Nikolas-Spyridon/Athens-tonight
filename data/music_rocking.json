@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05",
+  "updated": "2026-09-06",
   "events": [
     {
       "title": "Parklife: Beatles Symphonic",
@@ -484,15 +484,6 @@
       "date": "2026-10-11",
       "venue": "Gagarin 205",
       "price_info": "30 e / 35 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "title": "YOB, Automaton",
-      "url": "https://www.rocking.gr/agenda/2026/10/12/27425",
-      "date": "2026-10-12",
-      "venue": "Κύτταρο",
-      "price_info": "Από 29 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
     },
@@ -1089,6 +1080,15 @@
       "price_info": "Από 24 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "YOB, Automaton",
+      "url": "https://www.rocking.gr/agenda/2027/5/25/27425",
+      "date": "2027-05-25",
+      "venue": "Κύτταρο",
+      "price_info": "Από 29 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-06"
     }
   ]
 }
