@@ -1,49 +1,20 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "events": [
     {
-      "title": "Κούκου!...μια βόλτα στο δάσος",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
+      "title": "Summer Camp ART & NATURE",
+      "url": "https://www.ticketservices.gr/event/summer-camp-art-and-nature-2026/?lang=el",
       "dates": [
-        "2026-09-06",
-        "2026-09-13",
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25",
-        "2027-01-17",
-        "2027-01-24",
-        "2027-01-31",
-        "2027-02-07",
-        "2027-02-14",
-        "2027-02-21",
-        "2027-02-28",
-        "2027-03-07",
-        "2027-03-14",
-        "2027-03-21",
-        "2027-03-28",
-        "2027-04-04",
-        "2027-04-11",
-        "2027-04-18",
-        "2027-04-25",
-        "2027-05-09",
-        "2027-05-16"
+        "2026-09-07"
       ],
       "venues": [
         {
           "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΘΕΑΤΡΟ ΜΟΡΦΕΣ ΕΚΦΡΑΣΗΣ",
           "area": "ΧΑΙΔΑΡΙ",
           "is_attica": true
         }
       ],
-      "dates_venues_paired": false,
+      "dates_venues_paired": true,
       "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
@@ -51,7 +22,6 @@
       "title": "Ευριπίδη, ΜΗΔΕΙΑ",
       "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
       "dates": [
-        "2026-09-06",
         "2026-09-07",
         "2026-09-08",
         "2026-09-10",
@@ -62,11 +32,6 @@
         "2026-09-16"
       ],
       "venues": [
-        {
-          "name": "ΔΗΜΟΤΙΚΟ ΘΕΑΤΡΟ ΛΥΚΑΒΗΤΤΟΥ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
         {
           "name": "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ",
           "area": "ΑΘΗΝΑ",
@@ -88,44 +53,38 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "ΤΡΩΑΔΕΣ",
-      "url": "https://www.ticketservices.gr/event/n-t-trwades-2026/?lang=el",
+      "title": "Ιφιγένεια η εν Αυλίδι  του Ευριπίδη",
+      "url": "https://www.ticketservices.gr/event/ifigeneia-i-en-avlidi-tou-evripidi-periodeia/?lang=el",
       "dates": [
-        "2026-09-06",
-        "2026-09-22",
-        "2026-09-23"
+        "2026-09-08"
       ],
       "venues": [
         {
           "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
           "area": "",
           "is_attica": null
         }
       ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
-      "title": "Summer Camp ART & NATURE",
-      "url": "https://www.ticketservices.gr/event/summer-camp-art-and-nature-2026/?lang=el",
+      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
+      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
       "dates": [
-        "2026-09-07"
+        "2026-09-08",
+        "2026-09-09"
       ],
       "venues": [
         {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
         }
       ],
       "dates_venues_paired": true,
-      "any_attica_venue": true,
+      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
@@ -179,41 +138,6 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "Ιφιγένεια η εν Αυλίδι  του Ευριπίδη",
-      "url": "https://www.ticketservices.gr/event/ifigeneia-i-en-avlidi-tou-evripidi-periodeia/?lang=el",
-      "dates": [
-        "2026-09-08"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
-      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
-      "dates": [
-        "2026-09-08",
-        "2026-09-09"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
-    {
       "title": "Ο Δράκος των Χρωμάτων",
       "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
       "dates": [
@@ -251,6 +175,51 @@
         }
       ],
       "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Κούκου!...μια βόλτα στο δάσος",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
+      "dates": [
+        "2026-09-13",
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25",
+        "2027-01-17",
+        "2027-01-24",
+        "2027-01-31",
+        "2027-02-07",
+        "2027-02-14",
+        "2027-02-21",
+        "2027-02-28",
+        "2027-03-07",
+        "2027-03-14",
+        "2027-03-21",
+        "2027-03-28",
+        "2027-04-04",
+        "2027-04-11",
+        "2027-04-18",
+        "2027-04-25",
+        "2027-05-09",
+        "2027-05-16"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΘΕΑΤΡΟ ΜΟΡΦΕΣ ΕΚΦΡΑΣΗΣ",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": false,
       "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
@@ -458,6 +427,24 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΤΡΩΑΔΕΣ",
+      "url": "https://www.ticketservices.gr/event/n-t-trwades-2026/?lang=el",
+      "dates": [
+        "2026-09-22",
+        "2026-09-23"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
