@@ -1,28 +1,10 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "events": [
-    {
-      "title": "Summer Camp ART & NATURE",
-      "url": "https://www.ticketservices.gr/event/summer-camp-art-and-nature-2026/?lang=el",
-      "dates": [
-        "2026-09-07"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "Ευριπίδη, ΜΗΔΕΙΑ",
       "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
       "dates": [
-        "2026-09-07",
         "2026-09-08",
         "2026-09-10",
         "2026-09-12",
@@ -38,14 +20,9 @@
           "is_attica": true
         },
         {
-          "name": "ΘΕΑΤΡΟ ΘΑΝΑΣΗΣ ΒΕΓΓΟΣ - ΚΟΡΥΔΑΛΛΟΣ",
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
           "area": "",
           "is_attica": null
-        },
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
         }
       ],
       "dates_venues_paired": false,
@@ -85,6 +62,47 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο Δράκος των Χρωμάτων",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
+      "dates": [
+        "2026-09-12",
+        "2026-09-19",
+        "2026-09-26",
+        "2026-10-03",
+        "2026-10-10",
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΑΛΚΗΣΤΙΣ",
+      "url": "https://www.ticketservices.gr/event/n-t-alkistis-2026/?lang=el",
+      "dates": [
+        "2026-09-12",
+        "2026-09-13"
+      ],
+      "venues": [
+        {
+          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -129,47 +147,6 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ο Δράκος των Χρωμάτων",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
-      "dates": [
-        "2026-09-12",
-        "2026-09-19",
-        "2026-09-26",
-        "2026-10-03",
-        "2026-10-10",
-        "2026-10-17",
-        "2026-10-24"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΛΚΗΣΤΙΣ",
-      "url": "https://www.ticketservices.gr/event/n-t-alkistis-2026/?lang=el",
-      "dates": [
-        "2026-09-12",
-        "2026-09-13"
-      ],
-      "venues": [
-        {
-          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -445,6 +422,25 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο Ακροβάτης και Ο Παρατηρητής",
+      "url": "https://www.ticketservices.gr/event/o-akrovatis-kai-o-paratiritis-theatro-vafeio/?lang=el",
+      "dates": [
+        "2026-09-25",
+        "2026-09-26",
+        "2026-09-27"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -862,30 +858,6 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "ΝΤΑΡFΣΤΕΛΕΡ",
-      "url": "https://www.ticketservices.gr/event/rektifie-ntarfsteler/?lang=el",
-      "dates": [
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-26",
-        "2026-10-27"
-      ],
-      "venues": [
-        {
-          "name": "ΡΕΚΤΙΦΙΕ - Κέντρο Έρευνας<br> Μεικτών Παραστατικών Τεχνών",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
       "title": "ΑΛΗΘΕΙΑ ΣΟΥ ΛΕΩ ΨΕΜΑΤΑ",
       "url": "https://www.ticketservices.gr/event/alpha-theater-alitheia-sou-leo-psemata/?lang=el",
       "dates": [
@@ -1266,6 +1238,48 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "«Η ΣΟΝΑΤΑ ΤΟΥ ΣΕΛΗΝΟΦΩΤΟΣ»  του Γιάννη Ρίτσου",
+      "url": "https://www.ticketservices.gr/event/theatro-alkmini-i-sonata-tou-selinofwtos/?lang=el",
+      "dates": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΝΕΚΥΙΑ",
+      "url": "https://www.ticketservices.gr/event/nekyia/?lang=el",
+      "dates": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-11-02",
+        "2026-11-18",
+        "2026-11-23",
+        "2026-11-30"
+      ],
+      "venues": [
+        {
+          "name": "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "Η εγκληματική οργάνωση μιας παράστασης",
       "url": "https://www.ticketservices.gr/event/theatro-xoros-i-egklimatiki-organosi-mias-parastasis/?lang=el",
       "dates": [
@@ -1514,6 +1528,32 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "Ο Παρίας",
+      "url": "https://www.ticketservices.gr/event/o-parias/?lang=el",
+      "dates": [
+        "2026-10-15",
+        "2026-10-22",
+        "2026-10-29",
+        "2026-11-05",
+        "2026-11-12",
+        "2026-11-19",
+        "2026-11-26",
+        "2026-12-03",
+        "2026-12-10",
+        "2026-12-17"
+      ],
+      "venues": [
+        {
+          "name": "Μικρός Κεραμεικός",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "ΓΥΜΝΗ",
       "url": "https://www.ticketservices.gr/event/gymni-theatro-kallirrois/?lang=el",
       "dates": [
@@ -1531,6 +1571,32 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΝΤΑΡFΣΤΕΛΕΡ",
+      "url": "https://www.ticketservices.gr/event/rektifie-ntarfsteler/?lang=el",
+      "dates": [
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-09",
+        "2026-11-10"
+      ],
+      "venues": [
+        {
+          "name": "ΡΕΚΤΙΦΙΕ - Κέντρο Έρευνας<br> Μεικτών Παραστατικών Τεχνών",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
