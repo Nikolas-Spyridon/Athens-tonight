@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "movies": [
     {
       "title": "Οι Άγριες Μέρες μας",
@@ -541,7 +541,7 @@
       "description": "Η Βαϊάνα ακούει το κάλεσμα του Ωκεανού και ξεκινάει μια θαλάσσια περιπέτεια\nπαρέα με τον ημίθεο Μάουι, για να σώσει τον λαό του νησιού της.",
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt27419466/",
-      "imdb_rating": null,
+      "imdb_rating": 5.8,
       "screenings": [
         {
           "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
