@@ -1,23 +1,6 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "events": [
-    {
-      "event_id": "14550",
-      "title": "ΕΛΕΝΑ ΠΑΠΑΡΙΖΟΥ — ~Αλήθεια Τώρα~ — Summer 2026",
-      "url": "https://www.ticketservices.gr/event/helena-paparizou-summer-2026/?lang=el",
-      "dates": [
-        "2026-09-07"
-      ],
-      "venues": [
-        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15066",
       "title": "δεκαοχτώ ενάτου",
