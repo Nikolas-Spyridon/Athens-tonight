@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "movies": [
     {
       "title": "Οι Άγριες Μέρες μας",
@@ -139,7 +139,7 @@
       "description": "Όταν ο εφοπλιστής εργοδότης του δολοφονείται, ο πιστός σωματοφύλακάς του Κόουλ Ριντ παγιδεύεται ώστε να επωμιστεί την ευθύνη. Αναγκάζεται να τραπεί σε φυγή και να επιβιβαστεί κρυφά στο τάνκερ όπου έχει καταφύγει ο δράστης του εγκλήματος.",
       "athinorama_rating": 1.0,
       "imdb_url": "https://www.imdb.com/title/tt32338669/",
-      "imdb_rating": null,
+      "imdb_rating": 5.7,
       "screenings": [
         {
           "cinema": "Σινέ Σελήνη",
@@ -567,7 +567,7 @@
       "description": "Σε μια Αμερική όπου το σεξ μεταξύ ανύπαντρων επιτρέπεται μόνο μια νύχτα το χρόνο, ο Όουεν και η Άλι θα περάσουν ένα ερωτικό δωδεκάωρο γεμάτο απανωτά απρόοπτα.",
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt37853455/",
-      "imdb_rating": 6.4,
+      "imdb_rating": 6.3,
       "screenings": [
         {
           "cinema": "Cine Paris",
@@ -2037,7 +2037,7 @@
       "description": "Η Τζέμα ζει μια ήσυχη ζωή με την κόρη της μέχρι που μαθαίνει ότι έχει το χάρισμα να μεταφέρει πράγματα από τον αληθινό κόσμο στο Απώτερο. Με τους νεκρούς να την καταδιώκουν, θα πρέπει να βρει έναν τρόπο να προστατεύσει την κόρη της.",
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt32393988/",
-      "imdb_rating": 6.3,
+      "imdb_rating": 6.2,
       "screenings": [
         {
           "cinema": "Athinaion Experience powered by Allianz",
@@ -2785,7 +2785,7 @@
       "title": "The Match",
       "url": "https://www.athinorama.gr/cinema/movie/the_match-10091039/",
       "original_title": "El Partido",
-      "description": "",
+      "description": "Τι είναι αυτό που μετέτρεψε τον αγώνα Αργεντινής – Αγγλίας για το Μουντιάλ του 1986 σε έναν από τους μυθικότερους της ποδοσφαιρικής ιστορίας; 40 χρόνια μετά, οι απαντήσεις γίνονται όλο και πιο ξεκάθαρες.",
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
@@ -2833,8 +2833,12 @@
           "lon": "23,754112",
           "is_open_air": true,
           "showtimes": {
-            "2026-09-06": [
-              "20:10"
+            "2026-09-07": [
+              "20:00",
+              "22:15"
+            ],
+            "2026-09-09": [
+              "22:15"
             ]
           }
         },
@@ -3138,7 +3142,7 @@
       "description": "Τα Minions κατακτούν το Χόλιγουντ της δεκαετίας του 1920 αλλά όταν δύο από αυτά καλούν αληθινά τέρατα για να παίξουν στην ταινία τους, ο κόσμος διατρέχει μεγάλο κίνδυνο.",
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt32890033/",
-      "imdb_rating": 6.4,
+      "imdb_rating": 6.3,
       "screenings": [
         {
           "cinema": "Cine Φλοίσβος",
