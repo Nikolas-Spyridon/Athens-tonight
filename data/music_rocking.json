@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "events": [
     {
       "title": "Χατ Τρικ, Fundracar",
@@ -164,7 +164,7 @@
       "first_seen": "2026-09-02"
     },
     {
-      "title": "Tormentor",
+      "title": "Tormentor, Order Of The Ebon Hand",
       "url": "https://www.rocking.gr/agenda/2026/9/19/27214",
       "date": "2026-09-19",
       "venue": "Temple Athens",
@@ -839,6 +839,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Into Battle Festival: Artillery, Strana Officina κ.α.",
+      "url": "https://www.rocking.gr/agenda/2026/11/27/27513",
+      "date": "2026-11-27",
+      "venue": "Κύτταρο",
+      "price_info": "Από 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-09"
+    },
+    {
       "title": "InnerWish, Wardrum",
       "url": "https://www.rocking.gr/agenda/2026/11/28/27439",
       "date": "2026-11-28",
@@ -857,11 +866,20 @@
       "first_seen": "2026-08-29"
     },
     {
-      "title": "Flotsam And Jetsam",
+      "title": "Into Battle Festival: Whiplash, Elixir κ.α.",
+      "url": "https://www.rocking.gr/agenda/2026/11/28/27514",
+      "date": "2026-11-28",
+      "venue": "Κύτταρο",
+      "price_info": "Από 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-09"
+    },
+    {
+      "title": "Into Battle Festival: Flotsam And Jetsam, Mindless Sinner κ.α.",
       "url": "https://www.rocking.gr/agenda/2026/11/29/27378",
       "date": "2026-11-29",
       "venue": "Κύτταρο",
-      "price_info": "",
+      "price_info": "Από 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
     },
