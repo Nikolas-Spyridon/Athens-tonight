@@ -1,39 +1,11 @@
 {
-  "updated": "2026-09-08",
+  "updated": "2026-09-09",
   "events": [
     {
-      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
-      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
+      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
+      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
       "dates": [
-        "2026-09-08",
-        "2026-09-10",
-        "2026-09-12",
-        "2026-09-13",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16"
-      ],
-      "venues": [
-        {
-          "name": "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ιφιγένεια η εν Αυλίδι  του Ευριπίδη",
-      "url": "https://www.ticketservices.gr/event/ifigeneia-i-en-avlidi-tou-evripidi-periodeia/?lang=el",
-      "dates": [
-        "2026-09-08"
+        "2026-09-09"
       ],
       "venues": [
         {
@@ -47,11 +19,15 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
-      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
+      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
+      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
       "dates": [
-        "2026-09-08",
-        "2026-09-09"
+        "2026-09-10",
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16"
       ],
       "venues": [
         {
@@ -106,6 +82,51 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "Κούκου!...μια βόλτα στο δάσος",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
+      "dates": [
+        "2026-09-13",
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25",
+        "2027-01-17",
+        "2027-01-24",
+        "2027-01-31",
+        "2027-02-07",
+        "2027-02-14",
+        "2027-02-21",
+        "2027-02-28",
+        "2027-03-07",
+        "2027-03-14",
+        "2027-03-21",
+        "2027-03-28",
+        "2027-04-04",
+        "2027-04-11",
+        "2027-04-18",
+        "2027-04-25",
+        "2027-05-09",
+        "2027-05-16"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΘΕΑΤΡΟ ΜΟΡΦΕΣ ΕΚΦΡΑΣΗΣ",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": false,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
       "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
       "dates": [
@@ -152,51 +173,6 @@
         }
       ],
       "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Κούκου!...μια βόλτα στο δάσος",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
-      "dates": [
-        "2026-09-13",
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25",
-        "2027-01-17",
-        "2027-01-24",
-        "2027-01-31",
-        "2027-02-07",
-        "2027-02-14",
-        "2027-02-21",
-        "2027-02-28",
-        "2027-03-07",
-        "2027-03-14",
-        "2027-03-21",
-        "2027-03-28",
-        "2027-04-04",
-        "2027-04-11",
-        "2027-04-18",
-        "2027-04-25",
-        "2027-05-09",
-        "2027-05-16"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΘΕΑΤΡΟ ΜΟΡΦΕΣ ΕΚΦΡΑΣΗΣ",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": false,
       "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
@@ -699,6 +675,36 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "'Ατα 'Ατα χρώματα",
+      "url": "https://www.ticketservices.gr/event/ata-ata-xrwmata-theatro-eler/?lang=el",
+      "dates": [
+        "2026-10-03",
+        "2026-10-10",
+        "2026-10-17",
+        "2026-10-24",
+        "2026-10-31",
+        "2026-11-07",
+        "2026-11-14",
+        "2026-11-21",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26",
+        "2027-01-02"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΕΛΕΡ - ΕΛΕΝΗ ΕΡΗΜΟΥ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "ΔΕΚΑΞΙ (2ος χρόνος)",
       "url": "https://www.ticketservices.gr/event/theatro-104-dekaxi-2os-xronos/?lang=el",
       "dates": [
@@ -997,6 +1003,44 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ NOŪS",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Νοχαβελάνδη - ένα western δωματίου  του Γιάννη Αποσκίτη",
+      "url": "https://www.ticketservices.gr/event/theatro-104-noxavelandi/?lang=el",
+      "dates": [
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-12-03",
+        "2026-12-04",
+        "2026-12-10",
+        "2026-12-11",
+        "2026-12-17",
+        "2026-12-18"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ 104",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -1633,6 +1677,55 @@
       "venues": [
         {
           "name": "ΣΥΓΧΡΟΝΟ ΘΕΑΤΡΟ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Γιοι και κόρες",
+      "url": "https://www.ticketservices.gr/event/gioi-kai-kores-theatro-eler/?lang=el",
+      "dates": [
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-06",
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-13",
+        "2026-12-18",
+        "2026-12-19",
+        "2026-12-20",
+        "2026-12-25",
+        "2026-12-26",
+        "2026-12-27"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΕΛΕΡ - ΕΛΕΝΗ ΕΡΗΜΟΥ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
