@@ -416,13 +416,65 @@ def parse_showtimes_for_movie(url: str, today: date | None = None) -> list[dict]
     return movie_info, screenings
 
 
+def load_previous_first_seen(output_path: Path) -> dict[str, str]:
+    """Return {movie_url: first_seen_date} read from the PREVIOUS run's
+    output file (still on disk before this run overwrites it) — same
+    pattern already used by the music scrapers. Without this, "ΝΕΟ"
+    would be meaningless: since the whole cinema list is re-scraped in
+    full every run (not incrementally), a naive 'seen today = new'
+    approach would flag EVERY movie as new on every single run. Carrying
+    the date forward for movies that already existed last time is what
+    makes ΝΕΟ mean 'first appeared this cycle' instead of 'appeared in
+    today's scrape' (which is always true for everything).
+    Returns {} on first run or if the previous file can't be read —
+    safe default, same as a genuine first run would produce."""
+    if not output_path.exists():
+        return {}
+    try:
+        old_data = json.loads(output_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    result = {}
+    for movie in old_data.get("movies", []):
+        url = movie.get("url")
+        first_seen = movie.get("first_seen")
+        if url and first_seen:
+            result[url] = first_seen
+    return result
+
+
 def main():
     print("Fetching current movie list...")
     movies = get_current_movies()
     print(f"Found {len(movies)} movies")
 
+    # A cinema-guide page returning almost nothing is far more likely to
+    # mean athinorama blocked/rate-limited this run, hadn't published
+    # this cycle's programme yet, or changed some markup — not that
+    # Athens genuinely has 10 movies playing across 100+ cinemas. Bail
+    # out loudly (failed run, visible in the Actions tab) rather than
+    # silently overwriting yesterday's good data.json with a near-empty
+    # one; the site keeps showing yesterday's listings until the next
+    # run succeeds, instead of showing "no results" to real visitors.
+    MIN_SANE_MOVIE_COUNT = 15
+    if len(movies) < MIN_SANE_MOVIE_COUNT:
+        print(
+            f"ERROR: only {len(movies)} movies found (expected a normal "
+            f"run to find several dozen+). Not overwriting "
+            f"{OUTPUT_PATH} — leaving the last good data in place. This "
+            f"usually means athinorama blocked/rate-limited this run, "
+            f"the new weekly programme wasn't published yet at scrape "
+            f"time, or the listing page's markup changed."
+        )
+        raise SystemExit(1)
+
     if not OMDB_API_KEY:
         print("  NOTE: OMDB_API_KEY not set — imdb_rating will be null for every movie.")
+
+    today_iso = date.today().isoformat()
+    previous_first_seen = load_previous_first_seen(OUTPUT_PATH)
+    new_count = sum(1 for m in movies if m["url"] not in previous_first_seen)
+    print(f"  {new_count} movie(s) not seen in the previous run (will be flagged ΝΕΟ this cycle)")
 
     results = []
     for m in movies:
@@ -457,6 +509,7 @@ def main():
             "athinorama_rating": movie_info["athinorama_rating"],
             "imdb_url": imdb_url,
             "imdb_rating": imdb_rating,
+            "first_seen": previous_first_seen.get(m["url"], today_iso),
             "screenings": screenings,
         })
         time.sleep(1.5)  # be polite — don't hammer the site
@@ -464,7 +517,7 @@ def main():
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(
         json.dumps(
-            {"updated": date.today().isoformat(), "movies": results},
+            {"updated": today_iso, "movies": results},
             ensure_ascii=False,
             indent=2,
         ),
