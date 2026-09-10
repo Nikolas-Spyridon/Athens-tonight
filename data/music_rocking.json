@@ -1,15 +1,6 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "events": [
-    {
-      "title": "Χατ Τρικ, Fundracar",
-      "url": "https://www.rocking.gr/agenda/2026/9/9/27426",
-      "date": "2026-09-09",
-      "venue": "Τεχνόπολη Δήμου Αθηναίων",
-      "price_info": "Από 12 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
     {
       "title": "Rock Hard Festival: Blood Fire Death, Stratovarius, Morgana Lefay κ.α.",
       "url": "https://www.rocking.gr/agenda/2026/9/11/27341",
@@ -1035,6 +1026,15 @@
       "price_info": "15 e / 18 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "The Exploited",
+      "url": "https://www.rocking.gr/agenda/2027/1/18/27516",
+      "date": "2027-01-18",
+      "venue": "Arch Club",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-10"
     },
     {
       "title": "Sincere Engineer, Bandage",
