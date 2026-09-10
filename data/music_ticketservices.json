@@ -1,38 +1,6 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "events": [
-    {
-      "event_id": "15066",
-      "title": "δεκαοχτώ ενάτου",
-      "url": "https://www.ticketservices.gr/event/theatro-petras-dekaoxto-enatou/?lang=el",
-      "dates": [
-        "2026-09-09"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΠΕΤΡΑΣ - ΠΕΤΡΟΥΠΟΛΗ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14896",
-      "title": "NIKOS OIKONOMOPOULOS — - 20 ΧΡΟΝΙΑ - — «ΜΕ ΛΙΓΑ ΛΟΓΙΑ» - ΑΘΗΝΑ",
-      "url": "https://www.ticketservices.gr/event/nikos-oikonomopoulos-petroupoli-2026/?lang=el",
-      "dates": [
-        "2026-09-10"
-      ],
-      "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14949",
       "title": "LUNATICS — The Greek Pink Floyd Tribute Band",
@@ -135,6 +103,22 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15197",
+      "title": "ΕΥΑΝΘΙΑ ΡΕΜΠΟΥΤΣΙΚΑ — «Ύμνος στην Γυναίκα»",
+      "url": "https://www.ticketservices.gr/event/crete-evanthia-reboutsika/?lang=el",
+      "dates": [
+        "2026-09-15",
+        "2026-09-16"
+      ],
+      "venues": [
+        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-10"
     },
     {
       "event_id": "14613",
@@ -309,6 +293,21 @@
         1
       ],
       "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "14896",
+      "title": "NIKOS OIKONOMOPOULOS — - 20 ΧΡΟΝΙΑ - — «ΜΕ ΛΙΓΑ ΛΟΓΙΑ» - ΑΘΗΝΑ",
+      "url": "https://www.ticketservices.gr/event/nikos-oikonomopoulos-petroupoli-2026/?lang=el",
+      "dates": [
+        "2026-09-25"
+      ],
+      "venues": [
+        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
     },
@@ -977,6 +976,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15175",
+      "title": "Federico Albanese",
+      "url": "https://www.ticketservices.gr/event/fsp-federico-albanese/?lang=el",
+      "dates": [
+        "2026-11-21"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-10"
     },
     {
       "event_id": "15017",
