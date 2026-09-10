@@ -1,23 +1,6 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "events": [
-    {
-      "title": "ΣΥΜΦΩΝΟ ΕΠΙΒΙΩΣΗΣ  Αντώνης Κρόμπας & Λευτέρης Ελευθερίου",
-      "url": "https://www.ticketservices.gr/event/symfono-epiviosis-periodeia-2026/?lang=el",
-      "dates": [
-        "2026-09-09"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "Ευριπίδη, ΜΗΔΕΙΑ",
       "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
@@ -27,17 +10,23 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-27"
       ],
       "venues": [
+        {
+          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
         {
           "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
           "area": "",
           "is_attica": null
         }
       ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
+      "dates_venues_paired": false,
+      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -127,6 +116,29 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "Χέη Χοπ! Παιχνίδια στη φάρμα",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-hey-hop-paixnidia-sti-farma/?lang=el",
+      "dates": [
+        "2026-09-13",
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
       "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
       "dates": [
@@ -169,29 +181,6 @@
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Χέη Χοπ! Παιχνίδια στη φάρμα",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-hey-hop-paixnidia-sti-farma/?lang=el",
-      "dates": [
-        "2026-09-13",
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
           "is_attica": true
         }
       ],
@@ -1572,7 +1561,7 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "Ο Παρίας",
+      "title": "Ο Παρίας του August Strindberg",
       "url": "https://www.ticketservices.gr/event/o-parias/?lang=el",
       "dates": [
         "2026-10-15",
@@ -1756,6 +1745,32 @@
       "venues": [
         {
           "name": "SHAMONE CLUB",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Μ' ένα κόκκινο σκουφί",
+      "url": "https://www.ticketservices.gr/event/theatro-alkmini-me-ena-kokkino-skoufi/?lang=el",
+      "dates": [
+        "2026-10-17",
+        "2026-10-24",
+        "2026-10-31",
+        "2026-11-07",
+        "2026-11-14",
+        "2026-11-21",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
