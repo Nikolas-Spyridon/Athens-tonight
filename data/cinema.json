@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "movies": [
     {
       "title": "3 Ώρες Διορία",
@@ -9,6 +9,7 @@
       "athinorama_rating": 2.0,
       "imdb_url": "https://www.imdb.com/title/tt31349844/",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Cine Φλοίσβος",
@@ -234,8 +235,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Ο Αλιέντε στον Λαβύρινθό του",
@@ -245,6 +245,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Studio new star art cinema",
@@ -267,8 +268,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Αμελί",
@@ -278,6 +278,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt0211915/",
       "imdb_rating": 8.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Paris",
@@ -309,8 +310,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ανθρώπινη Κόλαση",
@@ -320,6 +320,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Ατενέ",
@@ -345,8 +346,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Ανταρσία",
@@ -356,7 +356,38 @@
       "athinorama_rating": 1.0,
       "imdb_url": "https://www.imdb.com/title/tt32338669/",
       "imdb_rating": 5.7,
+      "first_seen": "2026-09-01",
       "screenings": [
+        {
+          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
+          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
+          "lat": "37,9377403",
+          "lon": "23,7414392",
+          "is_open_air": false,
+          "showtimes": {
+            "2026-09-10": [
+              "22:45"
+            ],
+            "2026-09-11": [
+              "22:45"
+            ],
+            "2026-09-12": [
+              "22:45"
+            ],
+            "2026-09-13": [
+              "22:45"
+            ],
+            "2026-09-14": [
+              "23:00"
+            ],
+            "2026-09-15": [
+              "23:00"
+            ],
+            "2026-09-16": [
+              "23:00"
+            ]
+          }
+        },
         {
           "cinema": "Village Cinemas Ρέντης, Village Shopping And More",
           "area": "Πέτρου Ράλλη & Θηβών, Άγιος Ιωάννης Ρέντη",
@@ -390,8 +421,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Αποχαιρετισμός στα Όπλα",
@@ -401,6 +431,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt0022879/",
       "imdb_rating": 6.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Studio new star art cinema",
@@ -420,8 +451,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Αρκουδότρυπα",
@@ -431,6 +461,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -456,8 +487,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Αστερισμός του Σκύλου",
@@ -467,6 +497,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "https://www.imdb.com/title/tt21285562/",
       "imdb_rating": 6.5,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Studio new star art cinema",
@@ -483,8 +514,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Αυτοί που Άγγιξαν τον Πόλεμο",
@@ -494,6 +524,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt40480585/",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Στέλλα (Δημ. Κιν/φος)",
@@ -519,8 +550,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Για Μια Νύχτα Μόνο",
@@ -530,6 +560,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt37853455/",
       "imdb_rating": 6.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αίγλη Ζαππείου",
@@ -667,6 +698,21 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-10": [
+              "21:40"
+            ],
+            "2026-09-13": [
+              "21:40"
+            ]
+          }
+        },
+        {
           "cinema": "Arian experience",
           "area": "Λεωφ. Αγγέλου Μεταξά 11, Γλυφάδα (αυλή στοάς Αριάν)",
           "lat": "37,8635298",
@@ -714,8 +760,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Γοητεία της Αμαρτίας",
@@ -725,6 +770,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "http://www.imdb.com/title/tt0071585/",
       "imdb_rating": 7.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Όασις",
@@ -744,8 +790,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Γράμματα Αγάπης",
@@ -755,6 +800,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt34762801/",
       "imdb_rating": 7.0,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Studio new star art cinema",
@@ -771,8 +817,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Δειλός",
@@ -782,6 +827,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Studio new star art cinema",
@@ -801,8 +847,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Το Δείπνο του Φράνκο",
@@ -812,6 +857,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt35657504/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Νοσταλγία (Δημ. Κιν/φος)",
@@ -831,8 +877,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Δέσε Με!",
@@ -842,6 +887,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt0101026/",
       "imdb_rating": 7.0,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -855,8 +901,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Διάβολος Φοράει Prada 2",
@@ -866,6 +911,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt33612209/",
       "imdb_rating": 6.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηναία",
@@ -882,8 +928,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Οι Δοκιμάστριες",
@@ -893,6 +938,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt27811248/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μπομπονιέρα Digital Cinema",
@@ -927,8 +973,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Δυστυχώς Βρίζω",
@@ -938,6 +983,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt31514146/",
       "imdb_rating": 8.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -951,8 +997,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Έγκλημα στον Τρίτο Οροφο",
@@ -962,6 +1007,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt38814447/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μαϊάμι",
@@ -981,32 +1027,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Έκλειψη",
-      "url": "https://www.athinorama.gr/cinema/movie/ekleipsi-1009215/",
-      "original_title": "Twilight Saga: Eclipse",
-      "description": "Ενώ η Μπέλα περιμένει την αποφοίτησή της για να ζήσει πια ελεύθερη με τον Έντουαρντ, ο Τζέικομπ αποφασίζει να τη διεκδικήσει. Ταυτόχρονα, μια σειρά φόνων αναστατώνει το Σιάτλ και οι Κάλεν υποπτεύονται ότι κάποιος οργανώνει ένα στρατό από βαμπίρ, έχοντας στόχο τους ίδιους.",
-      "athinorama_rating": null,
-      "imdb_url": "http://www.imdb.com/title/tt1325004/",
-      "imdb_rating": 5.1,
-      "screenings": [
-        {
-          "cinema": "Αθηνά",
-          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
-          "lat": "38,023619",
-          "lon": "23,794973",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-09-14": [
-              "21:50"
-            ]
-          }
-        }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Έκλειψη",
@@ -1016,6 +1037,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "http://www.imdb.com/title/tt0056736/",
       "imdb_rating": 7.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Paris",
@@ -1028,9 +1050,20 @@
               "19:25"
             ]
           }
+        },
+        {
+          "cinema": "Αθηνά",
+          "area": "Σολωμού 18, Πλ. Χαλανδρίου",
+          "lat": "38,023619",
+          "lon": "23,794973",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-14": [
+              "21:50"
+            ]
+          }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Εμμονή",
@@ -1040,6 +1073,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "https://www.imdb.com/title/tt39330776/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Village Cinemas Παγκράτι",
@@ -1155,8 +1189,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ένα Απλό Ατύχημα",
@@ -1166,6 +1199,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt36491653/",
       "imdb_rating": 7.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μίμης Φωτόπουλος (Δημ. Κιν/φος)",
@@ -1188,8 +1222,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Εξαφάνιση",
@@ -1199,6 +1232,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "http://www.imdb.com/title/tt0067309/",
       "imdb_rating": 7.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ζέφυρος",
@@ -1218,8 +1252,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Το Εργαστήριο του Δρ. Καλιγκάρι",
@@ -1229,6 +1262,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Studio new star art cinema",
@@ -1245,8 +1279,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Έτσι Είναι Η Ζωή",
@@ -1256,6 +1289,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Κάρμεν",
@@ -1437,8 +1471,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Ετυμηγορία",
@@ -1447,7 +1480,8 @@
       "description": "Μια μυθοπλαστική δίκη διερευνά τη δολοφονία της Γαλλίδας παραγωγού Σοφί Τοσκάν ντι Πλαντιέ στην Ιρλανδία το 1996, έχοντας ως κατηγορούμενο τον Ίαν Μπέιλι, τον βασικό ύποπτο που δεν προσήγαγαν σε δίκη οι Ιρλανδοί, αλλά καταδίκασαν ερήμην οι Γάλλοι.",
       "athinorama_rating": 1.0,
       "imdb_url": "https://www.imdb.com/title/tt27765947/",
-      "imdb_rating": null,
+      "imdb_rating": 5.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
@@ -1467,8 +1501,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Insidious: Έξω από το Απώτερο",
@@ -1478,6 +1511,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt32393988/",
       "imdb_rating": 6.2,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Athinaion Experience powered by Allianz",
@@ -1692,8 +1726,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Το Καλοκαίρι της Κάρμεν",
@@ -1703,6 +1736,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt27139897/",
       "imdb_rating": 6.8,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cinobo Μασκώτ (Δημ. Κιν/φος)",
@@ -1716,8 +1750,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Καποδίστριας",
@@ -1727,19 +1760,8 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt38747537/",
       "imdb_rating": 6.3,
+      "first_seen": "2026-09-01",
       "screenings": [
-        {
-          "cinema": "Τριανόν Cinemax",
-          "area": "Κεφαλληνίας 8, Σαρωνίδα",
-          "lat": "0",
-          "lon": "0",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-09-13": [
-              "21:45"
-            ]
-          }
-        },
         {
           "cinema": "Cine Βοτσαλάκια",
           "area": "Πλαζ Βοτσαλάκια (δίπλα στο Δημοτικό Κολυμβητήριο Πειραιά)",
@@ -1758,8 +1780,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Κλειδαράς του Ενός Εκατομμυρίου",
@@ -1769,6 +1790,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt32250381/",
       "imdb_rating": 5.2,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αελλώ Digital Cinema",
@@ -1788,8 +1810,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Κόκορας",
@@ -1797,8 +1818,9 @@
       "original_title": "Rooster",
       "description": "Ο Αργύρης, θυρωρός στο Δήμο Αθηναίων, θέλει να στείλει τον γιο του σε ένα από τα καλύτερα ιδιωτικά σχολεία της χώρας, στο οποίο κληρώθηκε, χωρίς να μπορεί να πληρώσει τα δίδακτρα. Θα προσπαθήσει να βρει λεφτά από το οικογενειακό του περιβάλλον, μπλέκοντας σε πολλές, τραγικές καταστάσεις.",
       "athinorama_rating": null,
-      "imdb_url": "https://www.imdb.com/title/tt37981505/",
-      "imdb_rating": null,
+      "imdb_url": "https://www.imdb.com/title/tt36283646/",
+      "imdb_rating": 8.5,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Cine Αλεξάνδρα",
@@ -2001,8 +2023,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Κομάντο",
@@ -2012,6 +2033,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt0088944/",
       "imdb_rating": 6.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Athinaion Experience powered by Allianz",
@@ -2025,8 +2047,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Κονφορμίστας",
@@ -2036,6 +2057,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "http://www.imdb.com/title/tt0065571/",
       "imdb_rating": 7.9,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Εκράν",
@@ -2070,8 +2092,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Κύριος Κλάιν",
@@ -2081,6 +2102,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "http://www.imdb.com/title/tt0074916/",
       "imdb_rating": 7.5,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Paris",
@@ -2106,8 +2128,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Λαβύρινθος του Πάνα",
@@ -2117,6 +2138,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt0457430/",
       "imdb_rating": 8.2,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Στέλλα (Δημ. Κιν/φος)",
@@ -2151,8 +2173,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Μαγικά Φίλτρα 2",
@@ -2162,6 +2183,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt32588798/",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Cine Φλοίσβος",
@@ -2257,6 +2279,9 @@
             "2026-09-10": [
               "19:45"
             ],
+            "2026-09-11": [
+              "19:45"
+            ],
             "2026-09-12": [
               "19:45"
             ],
@@ -2271,9 +2296,6 @@
             ],
             "2026-09-16": [
               "19:45"
-            ],
-            "2026-09-11": [
-              "20:15"
             ]
           }
         },
@@ -2723,13 +2745,16 @@
               "20:00"
             ],
             "2026-09-14": [
-              "19:00"
+              "19:00",
+              "17:00"
             ],
             "2026-09-15": [
-              "19:00"
+              "19:00",
+              "17:00"
             ],
             "2026-09-16": [
-              "19:00"
+              "19:00",
+              "17:00"
             ]
           }
         },
@@ -3189,8 +3214,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Mauthausen",
@@ -3200,6 +3224,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt30306038/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αμύντας",
@@ -3213,8 +3238,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "The Match",
@@ -3224,6 +3248,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Αίγλη Ζαππείου",
@@ -3313,8 +3338,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Με Κάθε Κόστος",
@@ -3324,6 +3348,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt34379051/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Δεξαμενή",
@@ -3647,8 +3672,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Μεγάλη Σφαγή των Β΄ ΚΑΠΗ Αλίμου",
@@ -3658,6 +3682,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Δαναός",
@@ -3720,6 +3745,18 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-15": [
+              "21:40"
+            ]
+          }
+        },
+        {
           "cinema": "Δημ. Κιν. Όνειρο Ρέντη",
           "area": "Νάξου 32, Αγ. Ιωάννης Ρέντης",
           "lat": "37,9603023",
@@ -3774,8 +3811,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Μεγάλος Ύπνος",
@@ -3785,6 +3821,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt0038355/",
       "imdb_rating": 7.9,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ατενέ",
@@ -3801,8 +3838,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Μια Θέση στον Ήλιο",
@@ -3812,6 +3848,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "https://www.imdb.com/title/tt0043924/",
       "imdb_rating": 7.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ζέφυρος",
@@ -3885,8 +3922,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Minions & Τέρατα",
@@ -3896,6 +3932,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt32890033/",
       "imdb_rating": 6.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Φλοίσβος",
@@ -4228,6 +4265,18 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-12": [
+              "19:50"
+            ]
+          }
+        },
+        {
           "cinema": "Village Cinemas Ίλιον, Escape Center",
           "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
           "lat": "38,042861",
@@ -4378,24 +4427,6 @@
             ],
             "2026-09-16": [
               "18:00"
-            ]
-          }
-        },
-        {
-          "cinema": "Τριανόν Cinemax",
-          "area": "Κεφαλληνίας 8, Σαρωνίδα",
-          "lat": "0",
-          "lon": "0",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-09-10": [
-              "20:00"
-            ],
-            "2026-09-12": [
-              "20:00"
-            ],
-            "2026-09-13": [
-              "20:00"
             ]
           }
         },
@@ -4599,8 +4630,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Το Μίσος",
@@ -4610,6 +4640,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "http://www.imdb.com/title/tt0113247/",
       "imdb_rating": 8.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -4623,8 +4654,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Bashu, ο Μικρός Ξένος",
@@ -4634,6 +4664,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Εκράν",
@@ -4647,8 +4678,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Μυστικά και Ψέματα",
@@ -4658,6 +4688,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "https://www.imdb.com/title/tt5296088/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Εκράν",
@@ -4722,8 +4753,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Το Μυστικό του Δάσους",
@@ -4733,6 +4763,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
@@ -4746,8 +4777,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "O Μυστικός Πράκτορας Μπέρνι: Αποστολή στον Άρη",
@@ -4757,6 +4787,7 @@
       "athinorama_rating": 2.0,
       "imdb_url": "https://www.imdb.com/title/tt32526396/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μάρθα Καραγιάννη (Δημ. Κιν/φος)",
@@ -4770,8 +4801,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Οδός Μάλαγα",
@@ -4781,6 +4811,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt32429174/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Νοσταλγία (Δημ. Κιν/φος)",
@@ -4797,8 +4828,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Οδός Μαλχόλαντ",
@@ -4808,6 +4838,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "http://www.imdb.com/title/tt0166924/",
       "imdb_rating": 7.9,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Εκράν",
@@ -4824,8 +4855,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Οδύσσεια",
@@ -4835,6 +4865,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "https://www.imdb.com/title/tt33764258/",
       "imdb_rating": 8.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηναία",
@@ -5234,6 +5265,18 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-14": [
+              "20:15"
+            ]
+          }
+        },
+        {
           "cinema": "Village Cinemas Ίλιον, Escape Center",
           "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
           "lat": "38,042861",
@@ -5399,8 +5442,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Oasis: Don't Look Back in Anger",
@@ -5410,6 +5452,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Village Cinemas Μαρούσι, The mall Athens",
@@ -5507,8 +5550,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Οικογένεια Προς Ενοικίαση",
@@ -5518,6 +5560,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt14142060/",
       "imdb_rating": 7.6,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Αλέκος Χρυσοστομίδης (Δημ. Κιν/φος)",
@@ -5534,8 +5577,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "8½",
@@ -5545,6 +5587,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "http://www.imdb.com/title/tt0056801/",
       "imdb_rating": 8.0,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -5558,8 +5601,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Όλα για τη Μητέρα Μου",
@@ -5569,6 +5611,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "http://www.imdb.com/title/tt0185125/",
       "imdb_rating": 7.8,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -5582,8 +5625,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Όλες οι Κυριακές",
@@ -5593,6 +5635,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt35513027/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cool Τύμβος",
@@ -5612,8 +5655,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Όλοι οι Άνθρωποι του Προέδρου",
@@ -5623,6 +5665,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt0074119/",
       "imdb_rating": 7.9,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αμίκο",
@@ -5657,8 +5700,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ομάχα",
@@ -5668,6 +5710,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt29253299/",
       "imdb_rating": 7.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
@@ -5684,8 +5727,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Παραχαράκτης",
@@ -5695,6 +5737,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αίγλη Ζαππείου",
@@ -5943,6 +5986,18 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-11": [
+              "21:30"
+            ]
+          }
+        },
+        {
           "cinema": "Arian experience",
           "area": "Λεωφ. Αγγέλου Μεταξά 11, Γλυφάδα (αυλή στοάς Αριάν)",
           "lat": "37,8635298",
@@ -6003,24 +6058,6 @@
           }
         },
         {
-          "cinema": "Τριανόν Cinemax",
-          "area": "Κεφαλληνίας 8, Σαρωνίδα",
-          "lat": "0",
-          "lon": "0",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-09-10": [
-              "21:45"
-            ],
-            "2026-09-12": [
-              "21:45"
-            ],
-            "2026-09-11": [
-              "22:30"
-            ]
-          }
-        },
-        {
           "cinema": "Σινέ Παράδεισος",
           "area": "Αγ. Γεωργίου & Ζάππα 4, Κορυδαλλός",
           "lat": "0",
@@ -6074,8 +6111,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Πατρίδα",
@@ -6085,6 +6121,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "https://www.imdb.com/title/tt37304295/",
       "imdb_rating": 7.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Δεξαμενή",
@@ -6723,6 +6760,24 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-10": [
+              "20:00"
+            ],
+            "2026-09-13": [
+              "20:00"
+            ],
+            "2026-09-15": [
+              "20:00"
+            ]
+          }
+        },
+        {
           "cinema": "Ακτή",
           "area": "Θησέως και Αιόλου, Βουλιαγμένη",
           "lat": "37,816462",
@@ -6887,8 +6942,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Πιο Πλούσια Γυναίκα στον Κόσμο",
@@ -6898,6 +6952,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -6947,8 +7002,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Η Πισίνα",
@@ -6958,6 +7012,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt0064816/",
       "imdb_rating": 7.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Paris",
@@ -6983,8 +7038,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Paw Patrol: Κουτάβια και Δεινόσαυροι",
@@ -6994,6 +7048,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt29356163/",
       "imdb_rating": 6.2,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αίγλη 3D Digital",
@@ -7581,8 +7636,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Πολύ Κοριτσίστικο Όνομα το Πάττυ",
@@ -7592,6 +7646,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt37530747/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μάρθα Καραγιάννη (Δημ. Κιν/φος)",
@@ -7608,8 +7663,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Πού Είναι Tο Σπίτι Tου Φίλου Μου;",
@@ -7619,6 +7673,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt0093342/",
       "imdb_rating": 8.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ζέφυρος",
@@ -7683,8 +7738,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Πρόγευμα στο Τίφανις",
@@ -7694,6 +7748,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt0054698/",
       "imdb_rating": 7.5,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Cine Paris",
@@ -7710,8 +7765,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Πτώση 2",
@@ -7721,6 +7775,7 @@
       "athinorama_rating": 2.0,
       "imdb_url": "https://www.imdb.com/title/tt31192372/",
       "imdb_rating": 5.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Village Cinemas Μαρούσι, The mall Athens",
@@ -7812,8 +7867,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Σεξ και Αίμα στο Καμπ Μίασμα",
@@ -7823,6 +7877,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "https://www.imdb.com/title/tt35298123/",
       "imdb_rating": 7.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μικρόκοσμος",
@@ -7932,8 +7987,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Scream, Κραυγή Αγωνίας",
@@ -7943,6 +7997,7 @@
       "athinorama_rating": 2.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Village Cinemas Μαρούσι, The mall Athens",
@@ -8010,36 +8065,6 @@
           }
         },
         {
-          "cinema": "Village Cinemas Αγ. Δημήτριος,  Athens Metro Mall - Ag. Dimitrios",
-          "area": "Λ.Βουλιαγμένης 276, Αγ. Δημήτριος",
-          "lat": "37,9377403",
-          "lon": "23,7414392",
-          "is_open_air": false,
-          "showtimes": {
-            "2026-09-10": [
-              "22:45"
-            ],
-            "2026-09-11": [
-              "22:45"
-            ],
-            "2026-09-12": [
-              "22:45"
-            ],
-            "2026-09-13": [
-              "22:45"
-            ],
-            "2026-09-14": [
-              "17:15"
-            ],
-            "2026-09-15": [
-              "17:15"
-            ],
-            "2026-09-16": [
-              "17:15"
-            ]
-          }
-        },
-        {
           "cinema": "Village Cinemas Ίλιον, Escape Center",
           "area": "Λεωφ. Δημοκρατίας 67Α, Ίλιον",
           "lat": "38,042861",
@@ -8099,8 +8124,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Spider-Man: Καινούργια Μέρα",
@@ -8110,6 +8134,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "https://www.imdb.com/title/tt22084616/",
       "imdb_rating": 8.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Athinaion Experience powered by Allianz",
@@ -8523,8 +8548,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Σπασμένη Φλέβα",
@@ -8533,7 +8557,8 @@
       "description": "Ο Θωμάς Αλεξόπουλος είναι ένας επιχειρηματίας πνιγμένος στα χρέη, ο οποίος βλέπει τα περιθώρια γύρω του να στενεύουν. Στριμωγμένος απειλητικά από έναν τοκογλύφο, έχει διορία λίγων ημερών για να σώσει το σπίτι του.",
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt32919616/",
-      "imdb_rating": null,
+      "imdb_rating": 7.5,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αθηνά",
@@ -8562,8 +8587,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Στάσου Πλάι Μου",
@@ -8573,6 +8597,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "https://www.imdb.com/title/tt0092005/",
       "imdb_rating": 8.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ατενέ",
@@ -8592,8 +8617,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Στη Βοή της Καταιγίδας",
@@ -8603,6 +8627,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt0040506/",
       "imdb_rating": 7.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ατενέ",
@@ -8625,8 +8650,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Στη Σκιά της Πορτοκαλιάς",
@@ -8636,6 +8660,7 @@
       "athinorama_rating": null,
       "imdb_url": "http://www.imdb.com/title/tt29344894/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
@@ -8649,8 +8674,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Στο Νησί του Άμρουμ",
@@ -8660,6 +8684,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt22507216/",
       "imdb_rating": 7.2,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
@@ -8673,8 +8698,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Στον Κόσμο των Ζώων",
@@ -8684,6 +8708,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "http://www.imdb.com/title/tt26443616/",
       "imdb_rating": 7.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Πετρούπολις (Δημ. Κιν/φος)",
@@ -8697,8 +8722,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Συμπέθεροι Από Σόι 2",
@@ -8708,6 +8732,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Τιτάν",
@@ -8772,8 +8797,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Συναισθηματική Αξία",
@@ -8783,6 +8807,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "http://www.imdb.com/title/tt27714581/",
       "imdb_rating": 7.7,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μελίνα Μερκούρη (Δημ. Κιν/φος)",
@@ -8796,8 +8821,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Ο Τελευταίος Βίκινγκ",
@@ -8807,6 +8831,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μίμης Φωτόπουλος (Δημ. Κιν/φος)",
@@ -8826,8 +8851,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Το Τέλος της Οδού Όουκ",
@@ -8837,6 +8861,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt27165187/",
       "imdb_rating": 6.6,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αίγλη 3D Digital",
@@ -8906,8 +8931,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Toy Story 5",
@@ -8917,6 +8941,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt29355505/",
       "imdb_rating": 7.4,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Αμίκο",
@@ -8999,8 +9024,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Trainspotting",
@@ -9010,6 +9034,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "https://www.imdb.com/title/tt0117951/",
       "imdb_rating": 8.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Ριβιέρα",
@@ -9068,8 +9093,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Υπεράνω Πάσης Υποψίας",
@@ -9079,6 +9103,7 @@
       "athinorama_rating": null,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Εκράν",
@@ -9092,8 +9117,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Φάκελος 137",
@@ -9103,6 +9127,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Αθηναία",
@@ -9590,8 +9615,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Faust",
@@ -9601,6 +9625,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt0016847/",
       "imdb_rating": 8.1,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Διάνα",
@@ -9629,8 +9654,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Φιόρδ",
@@ -9640,6 +9664,7 @@
       "athinorama_rating": 4.0,
       "imdb_url": "https://www.imdb.com/title/tt35410859/",
       "imdb_rating": 7.8,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Βοξ",
@@ -10185,6 +10210,21 @@
           }
         },
         {
+          "cinema": "Σινέ Πέραν Digital (Δημ. Κιν/φος)",
+          "area": "Κ. Βάρναλη 32 & Μ. Αλεξάνδρου, Μετρό Περιστέρι",
+          "lat": "38,0125202",
+          "lon": "23,6959825",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-09-12": [
+              "21:40"
+            ],
+            "2026-09-16": [
+              "20:15"
+            ]
+          }
+        },
+        {
           "cinema": "Ακτή",
           "area": "Θησέως και Αιόλου, Βουλιαγμένη",
           "lat": "37,816462",
@@ -10346,8 +10386,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Fuze",
@@ -10357,6 +10396,7 @@
       "athinorama_rating": 2.0,
       "imdb_url": "",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Μίμης Φωτόπουλος (Δημ. Κιν/φος)",
@@ -10396,8 +10436,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Φόνος στην Πρεσβεία",
@@ -10407,6 +10446,7 @@
       "athinorama_rating": null,
       "imdb_url": "https://www.imdb.com/title/tt22772712/",
       "imdb_rating": 5.3,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Θησείον",
@@ -10426,8 +10466,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Χόλι, Το Γενναίο Σκαντζοχοιράκι",
@@ -10437,6 +10476,7 @@
       "athinorama_rating": 2.0,
       "imdb_url": "http://www.imdb.com/title/tt6930962/",
       "imdb_rating": null,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Σινέ Μελίνα (Δημ. Κιν/φος)",
@@ -10453,8 +10493,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     },
     {
       "title": "Hope",
@@ -10464,6 +10503,7 @@
       "athinorama_rating": 3.0,
       "imdb_url": "https://www.imdb.com/title/tt27369017/",
       "imdb_rating": 6.9,
+      "first_seen": "2026-09-10",
       "screenings": [
         {
           "cinema": "Athinaion Experience powered by Allianz",
@@ -10965,8 +11005,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-10"
+      ]
     },
     {
       "title": "Ψυχώ",
@@ -10976,6 +11015,7 @@
       "athinorama_rating": 5.0,
       "imdb_url": "https://www.imdb.com/title/tt0054215/",
       "imdb_rating": 8.5,
+      "first_seen": "2026-09-01",
       "screenings": [
         {
           "cinema": "Εκράν",
@@ -11022,8 +11062,7 @@
             ]
           }
         }
-      ],
-      "first_seen": "2026-09-01"
+      ]
     }
   ]
 }
