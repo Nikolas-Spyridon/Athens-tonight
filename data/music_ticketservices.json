@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "events": [
     {
       "event_id": "14949",
@@ -79,23 +79,6 @@
       ],
       "venues": [
         "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15041",
-      "title": "«Πάντα γελαστοί και γελασμένοι» — Αφιέρωμα στον Θάνο Μικρούτσικο",
-      "url": "https://www.ticketservices.gr/event/panta-gelastoi-kai-gelasmenoi-afieroma-ston-thano-mikroutsiko/?lang=el",
-      "dates": [
-        "2026-09-14"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΠΕΤΡΑΣ - ΠΕΤΡΟΥΠΟΛΗ"
       ],
       "area_ids": [
         1
