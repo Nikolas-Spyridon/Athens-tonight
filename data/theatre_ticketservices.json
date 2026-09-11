@@ -1,34 +1,6 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "events": [
-    {
-      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
-      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
-      "dates": [
-        "2026-09-10",
-        "2026-09-12",
-        "2026-09-13",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-27"
-      ],
-      "venues": [
-        {
-          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "Ο Δράκος των Χρωμάτων",
       "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
@@ -49,6 +21,33 @@
         }
       ],
       "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
+      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
+      "dates": [
+        "2026-09-12",
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-27"
+      ],
+      "venues": [
+        {
+          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": false,
       "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
@@ -1313,6 +1312,36 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "Ο Γιάννης το Βούδι",
+      "url": "https://www.ticketservices.gr/event/o-giannis-to-voudi-no52/?lang=el",
+      "dates": [
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-16",
+        "2026-11-23",
+        "2026-11-24",
+        "2026-11-30"
+      ],
+      "venues": [
+        {
+          "name": "NO52 - ΑΘΗΝΑ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "Η εγκληματική οργάνωση μιας παράστασης",
       "url": "https://www.ticketservices.gr/event/theatro-xoros-i-egklimatiki-organosi-mias-parastasis/?lang=el",
       "dates": [
@@ -1854,6 +1883,36 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΔΡΟΜΟΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο Δίδυμος Μπελάς",
+      "url": "https://www.ticketservices.gr/event/theatro-alkmini-didymos-mpelas/?lang=el",
+      "dates": [
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23",
+        "2026-11-30",
+        "2026-12-07",
+        "2026-12-14",
+        "2026-12-21",
+        "2026-12-28",
+        "2027-01-04",
+        "2027-01-11",
+        "2027-01-18"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
