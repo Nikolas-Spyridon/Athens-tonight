@@ -1,74 +1,6 @@
 {
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "events": [
-    {
-      "title": "Ο Δράκος των Χρωμάτων",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
-      "dates": [
-        "2026-09-12",
-        "2026-09-19",
-        "2026-09-26",
-        "2026-10-03",
-        "2026-10-10",
-        "2026-10-17",
-        "2026-10-24"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
-      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
-      "dates": [
-        "2026-09-12",
-        "2026-09-13",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-27"
-      ],
-      "venues": [
-        {
-          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΛΚΗΣΤΙΣ",
-      "url": "https://www.ticketservices.gr/event/n-t-alkistis-2026/?lang=el",
-      "dates": [
-        "2026-09-12",
-        "2026-09-13"
-      ],
-      "venues": [
-        {
-          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "Κούκου!...μια βόλτα στο δάσος",
       "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
@@ -138,6 +70,73 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "ΥΠΑΤΙΑ",
+      "url": "https://www.ticketservices.gr/event/ypatia-asteroskopeio/?lang=el",
+      "dates": [
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-20",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23"
+      ],
+      "venues": [
+        {
+          "name": "Εθνικό Αστεροσκοπείο Αθηνών<br>Λόφος Νυμφών ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
+      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
+      "dates": [
+        "2026-09-13",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-27"
+      ],
+      "venues": [
+        {
+          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": false,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΑΛΚΗΣΤΙΣ",
+      "url": "https://www.ticketservices.gr/event/n-t-alkistis-2026/?lang=el",
+      "dates": [
+        "2026-09-13"
+      ],
+      "venues": [
+        {
+          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
       "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
       "dates": [
@@ -179,30 +178,6 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΥΠΑΤΙΑ",
-      "url": "https://www.ticketservices.gr/event/ypatia-asteroskopeio/?lang=el",
-      "dates": [
-        "2026-09-13",
-        "2026-09-14",
-        "2026-09-15",
-        "2026-09-16",
-        "2026-09-20",
-        "2026-09-21",
-        "2026-09-22",
-        "2026-09-23"
-      ],
-      "venues": [
-        {
-          "name": "Εθνικό Αστεροσκοπείο Αθηνών<br>Λόφος Νυμφών ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -346,6 +321,28 @@
         {
           "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
           "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο Δράκος των Χρωμάτων",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
+      "dates": [
+        "2026-09-19",
+        "2026-09-26",
+        "2026-10-03",
+        "2026-10-10",
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΧΑΙΔΑΡΙ",
           "is_attica": true
         }
       ],
