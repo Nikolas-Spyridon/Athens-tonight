@@ -1,57 +1,6 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-13",
   "events": [
-    {
-      "event_id": "14949",
-      "title": "LUNATICS — The Greek Pink Floyd Tribute Band",
-      "url": "https://www.ticketservices.gr/event/katrakeio-lunatics/?lang=el",
-      "dates": [
-        "2026-09-12"
-      ],
-      "venues": [
-        "ΚΑΤΡΑΚΕΙΟ ΘΕΑΤΡΟ ΝΙΚΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14983",
-      "title": "ΚΛΑΥΔΙΑ — καλοκαίρι 2026",
-      "url": "https://www.ticketservices.gr/event/theatro-alexis-minotis-klavdia-2026/?lang=el",
-      "dates": [
-        "2026-09-12"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΑΛΕΞΗΣ ΜΙΝΩΤΗΣ - ΑΙΓΑΛΕΩ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15071",
-      "title": "MARSEAUX",
-      "url": "https://www.ticketservices.gr/event/kipotheatro-papagou-marseaux-2026/?lang=el",
-      "dates": [
-        "2026-09-12"
-      ],
-      "venues": [
-        "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14979",
       "title": "ΠΑΝΟΣ ΒΛΑΧΟΣ - ΚΟΡΥΔΑΛΛΟΣ 2026",
@@ -414,6 +363,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15203",
+      "title": "OMMA & Γιάννης Μήτσης",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-omma-kai-giannis-mitsis/?lang=el",
+      "dates": [
+        "2026-10-10"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-13"
+    },
+    {
       "event_id": "15057",
       "title": "TUBER — LIVE RECORDING PROJECT",
       "url": "https://www.ticketservices.gr/event/kyttaro-tuber/?lang=el",
@@ -667,6 +633,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15204",
+      "title": "Βασίλης Γκόφας — Παρουσίαση Δίσκου \"Σευγή\"",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-vassilis-gkofas-2026/?lang=el",
+      "dates": [
+        "2026-11-01"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-13"
     },
     {
       "event_id": "15002",
