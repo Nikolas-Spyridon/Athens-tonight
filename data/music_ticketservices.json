@@ -1,23 +1,6 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "events": [
-    {
-      "event_id": "14979",
-      "title": "ΠΑΝΟΣ ΒΛΑΧΟΣ - ΚΟΡΥΔΑΛΛΟΣ 2026",
-      "url": "https://www.ticketservices.gr/event/panos-vlahos-korydallos-2026/?lang=el",
-      "dates": [
-        "2026-09-13"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΘΑΝΑΣΗΣ ΒΕΓΓΟΣ - ΚΟΡΥΔΑΛΛΟΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14578",
       "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια» — ΠΕΙΡΑΙΑΣ",
@@ -395,6 +378,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15206",
+      "title": "SINEMA ACOUSTIC LIVE",
+      "url": "https://www.ticketservices.gr/event/sinema-acoustic-live/?lang=el",
+      "dates": [
+        "2026-10-17"
+      ],
+      "venues": [
+        "ΑΓΓΛΙΚΑΝΙΚΗ ΕΚΚΛΗΣΙΑ ΑΓΙΟΥ ΠΑΥΛΟΥ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-14"
     },
     {
       "event_id": "14992",
