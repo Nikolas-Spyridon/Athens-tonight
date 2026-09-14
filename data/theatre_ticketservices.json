@@ -1,79 +1,10 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "events": [
-    {
-      "title": "Κούκου!...μια βόλτα στο δάσος",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
-      "dates": [
-        "2026-09-13",
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25",
-        "2027-01-17",
-        "2027-01-24",
-        "2027-01-31",
-        "2027-02-07",
-        "2027-02-14",
-        "2027-02-21",
-        "2027-02-28",
-        "2027-03-07",
-        "2027-03-14",
-        "2027-03-21",
-        "2027-03-28",
-        "2027-04-04",
-        "2027-04-11",
-        "2027-04-18",
-        "2027-04-25",
-        "2027-05-09",
-        "2027-05-16"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΘΕΑΤΡΟ ΜΟΡΦΕΣ ΕΚΦΡΑΣΗΣ",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Χέη Χοπ! Παιχνίδια στη φάρμα",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-hey-hop-paixnidia-sti-farma/?lang=el",
-      "dates": [
-        "2026-09-13",
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "ΥΠΑΤΙΑ",
       "url": "https://www.ticketservices.gr/event/ypatia-asteroskopeio/?lang=el",
       "dates": [
-        "2026-09-13",
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
@@ -97,7 +28,6 @@
       "title": "Ευριπίδη, ΜΗΔΕΙΑ",
       "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
       "dates": [
-        "2026-09-13",
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
@@ -120,14 +50,32 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "ΑΛΚΗΣΤΙΣ",
-      "url": "https://www.ticketservices.gr/event/n-t-alkistis-2026/?lang=el",
+      "title": "ΑΓΓΕΛΙΚΑ ΝΙΚΛΗ ΣΟΛΩΜΟΥ, Η ΔΙΑΦΑΝΗ  Εβδομάδα Κυπριακού Θεάτρου",
+      "url": "https://www.ticketservices.gr/event/n-t-aggelika-nikli-solomou-i-diafani-2026/?lang=el",
       "dates": [
-        "2026-09-13"
+        "2026-09-16"
       ],
       "venues": [
         {
-          "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
+          "name": "Θέατρο Δίπυλον",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Σ ΑΓΑΠΩ;",
+      "url": "https://www.ticketservices.gr/event/sagapo-theatro-apo-koinou/?lang=el",
+      "dates": [
+        "2026-09-16",
+        "2026-09-23"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ «ΑΠΟ ΚΟΙΝΟΥ»",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -178,58 +126,6 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ας ερχόσουν...σαν άλλοτε",
-      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-as-erxosoun-san-allote/?lang=el",
-      "dates": [
-        "2026-09-13"
-      ],
-      "venues": [
-        {
-          "name": "Μικρός Κεραμεικός",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΓΓΕΛΙΚΑ ΝΙΚΛΗ ΣΟΛΩΜΟΥ, Η ΔΙΑΦΑΝΗ  Εβδομάδα Κυπριακού Θεάτρου",
-      "url": "https://www.ticketservices.gr/event/n-t-aggelika-nikli-solomou-i-diafani-2026/?lang=el",
-      "dates": [
-        "2026-09-16"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Δίπυλον",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Σ ΑΓΑΠΩ;",
-      "url": "https://www.ticketservices.gr/event/sagapo-theatro-apo-koinou/?lang=el",
-      "dates": [
-        "2026-09-16",
-        "2026-09-23"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ «ΑΠΟ ΚΟΙΝΟΥ»",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -338,6 +234,72 @@
         "2026-10-10",
         "2026-10-17",
         "2026-10-24"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Κούκου!...μια βόλτα στο δάσος",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
+      "dates": [
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25",
+        "2027-01-17",
+        "2027-01-24",
+        "2027-01-31",
+        "2027-02-07",
+        "2027-02-14",
+        "2027-02-21",
+        "2027-02-28",
+        "2027-03-07",
+        "2027-03-14",
+        "2027-03-21",
+        "2027-03-28",
+        "2027-04-04",
+        "2027-04-11",
+        "2027-04-18",
+        "2027-04-25",
+        "2027-05-09",
+        "2027-05-16"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        },
+        {
+          "name": "ΘΕΑΤΡΟ ΜΟΡΦΕΣ ΕΚΦΡΑΣΗΣ",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": false,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Χέη Χοπ! Παιχνίδια στη φάρμα",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-hey-hop-paixnidia-sti-farma/?lang=el",
+      "dates": [
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25"
       ],
       "venues": [
         {
@@ -823,6 +785,31 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "Πίτσα ΜERCEDES",
+      "url": "https://www.ticketservices.gr/event/pizza-mercedes/?lang=el",
+      "dates": [
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25",
+        "2026-11-01",
+        "2026-11-08",
+        "2026-11-15",
+        "2026-11-22",
+        "2026-11-29"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΒΑΤΟΝ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "ΟΙ ΕΥΘΥΜΕΣ ΚΥΡΑΔΕΣ",
       "url": "https://www.ticketservices.gr/event/diaxrono-theatro-euthimes-kirades/?lang=el",
       "dates": [
@@ -1082,7 +1069,15 @@
         "2026-10-23",
         "2026-10-24",
         "2026-10-30",
-        "2026-10-31"
+        "2026-10-31",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-27",
+        "2026-11-28"
       ],
       "venues": [
         {
@@ -2346,6 +2341,48 @@
       "venues": [
         {
           "name": "ΣΥΓΧΡΟΝΟ ΘΕΑΤΡΟ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Παραλλαγές Πάπιας",
+      "url": "https://www.ticketservices.gr/event/theatro-alkmini-parallages-papias/?lang=el",
+      "dates": [
+        "2027-01-23",
+        "2027-01-24",
+        "2027-01-30",
+        "2027-01-31",
+        "2027-02-06",
+        "2027-02-07",
+        "2027-02-13",
+        "2027-02-14",
+        "2027-02-20",
+        "2027-02-21",
+        "2027-02-27",
+        "2027-02-28",
+        "2027-03-06",
+        "2027-03-07",
+        "2027-03-20",
+        "2027-03-21",
+        "2027-03-27",
+        "2027-03-28",
+        "2027-04-03",
+        "2027-04-04",
+        "2027-04-10",
+        "2027-04-11",
+        "2027-04-17",
+        "2027-04-18",
+        "2027-04-24",
+        "2027-04-25"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
