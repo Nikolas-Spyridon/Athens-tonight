@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-13",
+  "updated": "2026-09-14",
   "events": [
     {
       "title": "Allah-Las, Noda & The Pappas",
@@ -560,6 +560,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Phrenelith, Rapture, Casket Dweller",
+      "url": "https://www.rocking.gr/agenda/2026/10/29/27518",
+      "date": "2026-10-29",
+      "venue": "AN Club",
+      "price_info": "Από 23 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-14"
+    },
+    {
       "title": "Buzzcocks, Stress",
       "url": "https://www.rocking.gr/agenda/2026/10/30/27239",
       "date": "2026-10-30",
@@ -1044,6 +1053,15 @@
       "price_info": "Από 29 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-06"
+    },
+    {
+      "title": "Motionless In White",
+      "url": "https://www.rocking.gr/agenda/2027/6/29/27519",
+      "date": "2027-06-29",
+      "venue": "Τεχνόπολη Δήμου Αθηναίων",
+      "price_info": "",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-14"
     }
   ]
 }
