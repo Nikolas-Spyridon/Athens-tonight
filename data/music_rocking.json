@@ -1,24 +1,6 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "events": [
-    {
-      "title": "Model/Actriz, French Fry",
-      "url": "https://www.rocking.gr/agenda/2026/9/15/27446",
-      "date": "2026-09-15",
-      "venue": "AN Club",
-      "price_info": "Από 20 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Γιάννης Αγγελάκας & Νίκος Βελιώτης: ΛΥΚΟΙ ΛΑΪΒ",
-      "url": "https://www.rocking.gr/agenda/2026/9/15/27453",
-      "date": "2026-09-15",
-      "venue": "Θέατρο «Δόρα Στράτου»",
-      "price_info": "Από 17 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
     {
       "title": "40 Χρόνια Μωρά Στη Φωτιά",
       "url": "https://www.rocking.gr/agenda/2026/9/16/27440",
@@ -43,15 +25,6 @@
       "date": "2026-09-18",
       "venue": "FLOYD",
       "price_info": "Από 34 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "The Crazy World Of Arthur Brown",
-      "url": "https://www.rocking.gr/agenda/2026/9/18/27376",
-      "date": "2026-09-18",
-      "venue": "Gazarte",
-      "price_info": "25 e / 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-01"
     },
@@ -180,6 +153,15 @@
       "price_info": "Από 33 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-01"
+    },
+    {
+      "title": "Jamie Woon",
+      "url": "https://www.rocking.gr/agenda/2026/9/23/27520",
+      "date": "2026-09-23",
+      "venue": "Gazarte",
+      "price_info": "30 e / 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-16"
     },
     {
       "title": "Jack Savoretti",
@@ -585,6 +567,15 @@
       "price_info": "40 e / 45 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "45 Χρόνια Magic De Spell",
+      "url": "https://www.rocking.gr/agenda/2026/10/31/27521",
+      "date": "2026-10-31",
+      "venue": "Κύτταρο",
+      "price_info": "13 e / 15 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-16"
     },
     {
       "title": "Fifth Angel",
@@ -1017,6 +1008,15 @@
       "price_info": "Από 37 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Oh Hiroshima",
+      "url": "https://www.rocking.gr/agenda/2027/4/10/27383",
+      "date": "2027-04-10",
+      "venue": "AN Club",
+      "price_info": "Από 24 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-16"
     },
     {
       "title": "YOB, Automaton",
