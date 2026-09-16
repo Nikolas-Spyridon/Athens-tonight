@@ -1,11 +1,27 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "events": [
+    {
+      "title": "ΑΓΓΕΛΙΚΑ ΝΙΚΛΗ ΣΟΛΩΜΟΥ, Η ΔΙΑΦΑΝΗ  Εβδομάδα Κυπριακού Θεάτρου",
+      "url": "https://www.ticketservices.gr/event/n-t-aggelika-nikli-solomou-i-diafani-2026/?lang=el",
+      "dates": [
+        "2026-09-16"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο Δίπυλον",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
     {
       "title": "ΥΠΑΤΙΑ",
       "url": "https://www.ticketservices.gr/event/ypatia-asteroskopeio/?lang=el",
       "dates": [
-        "2026-09-15",
         "2026-09-16",
         "2026-09-20",
         "2026-09-21",
@@ -27,7 +43,6 @@
       "title": "Ευριπίδη, ΜΗΔΕΙΑ",
       "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
       "dates": [
-        "2026-09-15",
         "2026-09-16",
         "2026-09-27"
       ],
@@ -44,23 +59,6 @@
         }
       ],
       "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΓΓΕΛΙΚΑ ΝΙΚΛΗ ΣΟΛΩΜΟΥ, Η ΔΙΑΦΑΝΗ  Εβδομάδα Κυπριακού Θεάτρου",
-      "url": "https://www.ticketservices.gr/event/n-t-aggelika-nikli-solomou-i-diafani-2026/?lang=el",
-      "dates": [
-        "2026-09-16"
-      ],
-      "venues": [
-        {
-          "name": "Θέατρο Δίπυλον",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
       "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
