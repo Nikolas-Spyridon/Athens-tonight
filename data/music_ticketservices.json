@@ -1,39 +1,6 @@
 {
-  "updated": "2026-09-15",
+  "updated": "2026-09-16",
   "events": [
-    {
-      "event_id": "14578",
-      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια» — ΠΕΙΡΑΙΑΣ",
-      "url": "https://www.ticketservices.gr/event/veakeio-2026-giannis-kotsiras/?lang=el",
-      "dates": [
-        "2026-09-15"
-      ],
-      "venues": [
-        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15197",
-      "title": "ΕΥΑΝΘΙΑ ΡΕΜΠΟΥΤΣΙΚΑ — «Ύμνος στην Γυναίκα»",
-      "url": "https://www.ticketservices.gr/event/crete-evanthia-reboutsika/?lang=el",
-      "dates": [
-        "2026-09-15",
-        "2026-09-16"
-      ],
-      "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-10"
-    },
     {
       "event_id": "14613",
       "title": "ΒΑΣΙΛΗΣ ΣΚΟΥΛΑΣ — «ΣΤΟ ΜΕΤΕΡΙΖΙ ΤΣ' ΑΝΘΡΩΠΙΑΣ»",
@@ -50,6 +17,21 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15197",
+      "title": "ΕΥΑΝΘΙΑ ΡΕΜΠΟΥΤΣΙΚΑ — «Ύμνος στην Γυναίκα»",
+      "url": "https://www.ticketservices.gr/event/crete-evanthia-reboutsika/?lang=el",
+      "dates": [
+        "2026-09-16"
+      ],
+      "venues": [
+        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-10"
     },
     {
       "event_id": "14889",
@@ -277,6 +259,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "14578",
+      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια» — ΠΕΙΡΑΙΑΣ",
+      "url": "https://www.ticketservices.gr/event/veakeio-2026-giannis-kotsiras/?lang=el",
+      "dates": [
+        "2026-09-29"
+      ],
+      "venues": [
+        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
+    },
+    {
       "event_id": "15116",
       "title": "Η Προίκα μου — Κωνσταντίνα Πάλλα",
       "url": "https://www.ticketservices.gr/event/mikros-kerameikos-i-proika-mou-konstantina-palla/?lang=el",
@@ -292,6 +291,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15218",
+      "title": "KωΓιαΜαν — with special guest Hussain Badran",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-kogiaman/?lang=el",
+      "dates": [
+        "2026-10-02"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-16"
     },
     {
       "event_id": "15128",
@@ -362,6 +378,23 @@
       "first_seen": "2026-09-13"
     },
     {
+      "event_id": "15208",
+      "title": "Bel Canto Classico — Μια Ιταλική βραδιά στην Πλάκα",
+      "url": "https://www.ticketservices.gr/event/ioniko-kentro-bel-canto-classico/?lang=el",
+      "dates": [
+        "2026-10-16"
+      ],
+      "venues": [
+        "ΙΩΝΙΚΟ ΚΕΝΤΡΟ - Πλάκα"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-16"
+    },
+    {
       "event_id": "15057",
       "title": "TUBER — LIVE RECORDING PROJECT",
       "url": "https://www.ticketservices.gr/event/kyttaro-tuber/?lang=el",
@@ -377,6 +410,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15217",
+      "title": "ΚΡΕΩΝ ΚΑΝΑΚΑΡΗΣ — Λίβελοι, Καντάδες,Ζωγραφιές & Συναξάρια — Η παρουσίαση",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-kreon-kanakaris/?lang=el",
+      "dates": [
+        "2026-10-17"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-16"
     },
     {
       "event_id": "15206",
