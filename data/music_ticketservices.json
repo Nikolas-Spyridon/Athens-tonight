@@ -1,38 +1,6 @@
 {
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "events": [
-    {
-      "event_id": "14613",
-      "title": "ΒΑΣΙΛΗΣ ΣΚΟΥΛΑΣ — «ΣΤΟ ΜΕΤΕΡΙΖΙ ΤΣ' ΑΝΘΡΩΠΙΑΣ»",
-      "url": "https://www.ticketservices.gr/event/basilhs-skoylas-papagou-2026/?lang=el",
-      "dates": [
-        "2026-09-16"
-      ],
-      "venues": [
-        "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15197",
-      "title": "ΕΥΑΝΘΙΑ ΡΕΜΠΟΥΤΣΙΚΑ — «Ύμνος στην Γυναίκα»",
-      "url": "https://www.ticketservices.gr/event/crete-evanthia-reboutsika/?lang=el",
-      "dates": [
-        "2026-09-16"
-      ],
-      "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-10"
-    },
     {
       "event_id": "14889",
       "title": "Αγοραφοβικό Φεστιβάλ 2026",
