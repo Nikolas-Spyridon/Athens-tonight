@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "events": [
     {
       "event_id": "14889",
@@ -310,6 +310,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-07"
+    },
+    {
+      "event_id": "15211",
+      "title": "Tavern Music / De Profundis Ensemble",
+      "url": "https://www.ticketservices.gr/event/tavern-music-de-profundis-ensemble/?lang=el",
+      "dates": [
+        "2026-10-04"
+      ],
+      "venues": [
+        "Architecture Rock Cafe - Live Stage"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-18"
     },
     {
       "event_id": "15061",
