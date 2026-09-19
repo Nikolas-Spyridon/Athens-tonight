@@ -1,12 +1,11 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "events": [
     {
       "event_id": "14889",
       "title": "Αγοραφοβικό Φεστιβάλ 2026",
       "url": "https://www.ticketservices.gr/event/agorafoviko-festival-2026/?lang=el",
       "dates": [
-        "2026-09-18",
         "2026-09-19"
       ],
       "venues": [
@@ -24,7 +23,6 @@
       "title": "ΝΑΤΑΣΣΑ ΜΠΟΦΙΛΙΟΥ — ~ΜΕΤΡΗΜΑ~",
       "url": "https://www.ticketservices.gr/event/natassa-bofiliou-theatro-vrahon-metrima/?lang=el",
       "dates": [
-        "2026-09-18",
         "2026-09-19"
       ],
       "venues": [
@@ -38,28 +36,10 @@
       "first_seen": "2026-08-29"
     },
     {
-      "event_id": "15074",
-      "title": "Amanda Lace",
-      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-amanda-lace/?lang=el",
-      "dates": [
-        "2026-09-18"
-      ],
-      "venues": [
-        "Μικρός Κεραμεικός"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
       "event_id": "15062",
       "title": "ΣΥΝΟΡΑ Η ΑΓΑΠΗ ΔΕΝ ΓΝΩΡΙΖΕΙ — Κώστας Χατζής",
       "url": "https://www.ticketservices.gr/event/gustav-kostas-xatzis-synora-i-agapi-den-gnorizei/?lang=el",
       "dates": [
-        "2026-09-18",
         "2026-09-19"
       ],
       "venues": [
@@ -228,10 +208,11 @@
     },
     {
       "event_id": "14578",
-      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια» — ΠΕΙΡΑΙΑΣ",
+      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια»",
       "url": "https://www.ticketservices.gr/event/veakeio-2026-giannis-kotsiras/?lang=el",
       "dates": [
-        "2026-09-29"
+        "2026-09-29",
+        "2026-09-30"
       ],
       "venues": [
         "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
@@ -397,23 +378,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "event_id": "15217",
-      "title": "ΚΡΕΩΝ ΚΑΝΑΚΑΡΗΣ — Λίβελοι, Καντάδες,Ζωγραφιές & Συναξάρια — Η παρουσίαση",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-kreon-kanakaris/?lang=el",
-      "dates": [
-        "2026-10-17"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-16"
-    },
-    {
       "event_id": "15206",
       "title": "SINEMA ACOUSTIC LIVE",
       "url": "https://www.ticketservices.gr/event/sinema-acoustic-live/?lang=el",
@@ -429,6 +393,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-14"
+    },
+    {
+      "event_id": "15217",
+      "title": "ΚΡΕΩΝ ΚΑΝΑΚΑΡΗΣ — Λίβελοι, Καντάδες,Ζωγραφιές & Συναξάρια — Η παρουσίαση",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-kreon-kanakaris/?lang=el",
+      "dates": [
+        "2026-10-17"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-16"
     },
     {
       "event_id": "14992",
@@ -497,6 +478,33 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-31"
+    },
+    {
+      "event_id": "15226",
+      "title": "Μέχρι Κάθε Αύριο",
+      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
+      "dates": [
+        "2026-10-23",
+        "2026-10-30",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26",
+        "2027-01-02",
+        "2027-01-09"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ARROYO"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-19"
     },
     {
       "event_id": "14995",
