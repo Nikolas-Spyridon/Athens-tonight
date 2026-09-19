@@ -1,42 +1,6 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "events": [
-    {
-      "title": "Satyricon",
-      "url": "https://www.rocking.gr/agenda/2026/9/18/27165",
-      "date": "2026-09-18",
-      "venue": "FLOYD",
-      "price_info": "Από 34 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Nightstalker, The Steams",
-      "url": "https://www.rocking.gr/agenda/2026/9/18/27405",
-      "date": "2026-09-18",
-      "venue": "Τεχνόπολη Δήμου Αθηναίων",
-      "price_info": "15, 17 e / 20 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Αγοραφοβικό Φεστιβάλ: Λένα Πλάτωνος, Selofan, In Trance 95, Evita Manji κ.α.",
-      "url": "https://www.rocking.gr/agenda/2026/9/18/27475",
-      "date": "2026-09-18",
-      "venue": "ΠΛΥΦΑ",
-      "price_info": "Από 22 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "City Kids & Dirty Deals: The Motorhead & AC/DC Tribute",
-      "url": "https://www.rocking.gr/agenda/2026/9/18/27504",
-      "date": "2026-09-18",
-      "venue": "Κύτταρο",
-      "price_info": "12 e / 15 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-02"
-    },
     {
       "title": "Tormentor, Order Of The Ebon Hand",
       "url": "https://www.rocking.gr/agenda/2026/9/19/27214",
@@ -981,6 +945,15 @@
       "price_info": "Από 25 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "The Crazy World Of Arthur Brown",
+      "url": "https://www.rocking.gr/agenda/2027/3/21/27524",
+      "date": "2027-03-21",
+      "venue": "Gazarte",
+      "price_info": "25 e / 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-19"
     },
     {
       "title": "Soen",
