@@ -1,57 +1,6 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "events": [
-    {
-      "event_id": "14889",
-      "title": "Αγοραφοβικό Φεστιβάλ 2026",
-      "url": "https://www.ticketservices.gr/event/agorafoviko-festival-2026/?lang=el",
-      "dates": [
-        "2026-09-19"
-      ],
-      "venues": [
-        "ΠΛΥΦΑ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14265",
-      "title": "ΝΑΤΑΣΣΑ ΜΠΟΦΙΛΙΟΥ — ~ΜΕΤΡΗΜΑ~",
-      "url": "https://www.ticketservices.gr/event/natassa-bofiliou-theatro-vrahon-metrima/?lang=el",
-      "dates": [
-        "2026-09-19"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΒΡΑΧΩΝ - ΜΕΛΙΝΑ ΜΕΡΚΟΥΡΗ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15062",
-      "title": "ΣΥΝΟΡΑ Η ΑΓΑΠΗ ΔΕΝ ΓΝΩΡΙΖΕΙ — Κώστας Χατζής",
-      "url": "https://www.ticketservices.gr/event/gustav-kostas-xatzis-synora-i-agapi-den-gnorizei/?lang=el",
-      "dates": [
-        "2026-09-19"
-      ],
-      "venues": [
-        "Gustav Athens"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14961",
       "title": "Κώστας Τριανταφυλλίδης — «Ένα όνειρο, μια ιστορία»",
