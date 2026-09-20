@@ -1,82 +1,6 @@
 {
-  "updated": "2026-09-19",
+  "updated": "2026-09-20",
   "events": [
-    {
-      "title": "Οι Αντιγόνες Το Φεστιβάλ Φιλίππων ταξιδεύει στην Εθνική Λυρική Σκηνή",
-      "url": "https://www.ticketservices.gr/event/gno-ff-the-antigones/?lang=el",
-      "dates": [
-        "2026-09-19",
-        "2026-09-20"
-      ],
-      "venues": [
-        {
-          "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ο Δράκος των Χρωμάτων",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
-      "dates": [
-        "2026-09-19",
-        "2026-09-26",
-        "2026-10-03",
-        "2026-10-10",
-        "2026-10-17",
-        "2026-10-24"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Μεσοτοιχίες ή Μικρή Προσευχή στις 3κ46 π.μ. Το Φεστιβάλ Φιλίππων ταξιδεύει στην Εθνική Λυρική Σκηνή",
-      "url": "https://www.ticketservices.gr/event/gno-ff-partition-walls/?lang=el",
-      "dates": [
-        "2026-09-19",
-        "2026-09-20"
-      ],
-      "venues": [
-        {
-          "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Χάινριχ φον Κλάιστ, Ο σεισμός στη Χιλή Το Φεστιβάλ Φιλίππων ταξιδεύει στην Εθνική Λυρική Σκηνή",
-      "url": "https://www.ticketservices.gr/event/gno-ff-the-earthquake-in-chil/?lang=el",
-      "dates": [
-        "2026-09-19",
-        "2026-09-20"
-      ],
-      "venues": [
-        {
-          "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "Κούκου!...μια βόλτα στο δάσος",
       "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-koukou-mia-volta-sto-dasos/?lang=el",
@@ -118,6 +42,79 @@
         }
       ],
       "dates_venues_paired": false,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Οι Αντιγόνες Το Φεστιβάλ Φιλίππων ταξιδεύει στην Εθνική Λυρική Σκηνή",
+      "url": "https://www.ticketservices.gr/event/gno-ff-the-antigones/?lang=el",
+      "dates": [
+        "2026-09-20"
+      ],
+      "venues": [
+        {
+          "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Χάινριχ φον Κλάιστ, Ο σεισμός στη Χιλή Το Φεστιβάλ Φιλίππων ταξιδεύει στην Εθνική Λυρική Σκηνή",
+      "url": "https://www.ticketservices.gr/event/gno-ff-the-earthquake-in-chil/?lang=el",
+      "dates": [
+        "2026-09-20"
+      ],
+      "venues": [
+        {
+          "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Χέη Χοπ! Παιχνίδια στη φάρμα",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-hey-hop-paixnidia-sti-farma/?lang=el",
+      "dates": [
+        "2026-09-20",
+        "2026-09-27",
+        "2026-10-04",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-25"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΧΑΙΔΑΡΙ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Μεσοτοιχίες ή Μικρή Προσευχή στις 3κ46 π.μ. Το Φεστιβάλ Φιλίππων ταξιδεύει στην Εθνική Λυρική Σκηνή",
+      "url": "https://www.ticketservices.gr/event/gno-ff-partition-walls/?lang=el",
+      "dates": [
+        "2026-09-20"
+      ],
+      "venues": [
+        {
+          "name": "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
       "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
@@ -164,28 +161,6 @@
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Χέη Χοπ! Παιχνίδια στη φάρμα",
-      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-hey-hop-paixnidia-sti-farma/?lang=el",
-      "dates": [
-        "2026-09-20",
-        "2026-09-27",
-        "2026-10-04",
-        "2026-10-11",
-        "2026-10-18",
-        "2026-10-25"
-      ],
-      "venues": [
-        {
-          "name": "Βοτανικός Κήπος Διομήδους",
-          "area": "ΧΑΙΔΑΡΙ",
           "is_attica": true
         }
       ],
@@ -277,6 +252,27 @@
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο Δράκος των Χρωμάτων",
+      "url": "https://www.ticketservices.gr/event/morfes-ekfrasis-o-drakos-ton-xromaton/?lang=el",
+      "dates": [
+        "2026-09-26",
+        "2026-10-03",
+        "2026-10-10",
+        "2026-10-17",
+        "2026-10-24"
+      ],
+      "venues": [
+        {
+          "name": "Βοτανικός Κήπος Διομήδους",
+          "area": "ΧΑΙΔΑΡΙ",
           "is_attica": true
         }
       ],
@@ -1391,6 +1387,32 @@
       "venues": [
         {
           "name": "BAUMSTRASSE",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Σχέδιο Προμηθεύς» του Γιώργου Αδαμαντιάδη",
+      "url": "https://www.ticketservices.gr/event/theatro-kallirrois-sxedio-promithevs/?lang=el",
+      "dates": [
+        "2026-10-12",
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-23",
+        "2026-11-30",
+        "2026-12-07",
+        "2026-12-14",
+        "2026-12-21"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
