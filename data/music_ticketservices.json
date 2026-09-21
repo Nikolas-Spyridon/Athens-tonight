@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "events": [
     {
       "event_id": "14961",
@@ -1071,27 +1071,6 @@
       "first_seen": "2026-08-29"
     },
     {
-      "event_id": "15051",
-      "title": "Χριστίνα Μαξούρη — «Τραγούδια για τον πόνο του ανθρώπου & των πραγμάτων» — Μέρος 2ο",
-      "url": "https://www.ticketservices.gr/event/tragoudia-gia-ton-pono-tou-anthropou-kai-ton-pragmaton-theatro-mets/?lang=el",
-      "dates": [
-        "2026-12-02",
-        "2026-12-09",
-        "2026-12-16",
-        "2026-12-23",
-        "2026-12-30"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΜΕΤΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
       "event_id": "15063",
       "title": "ΔΑΥΙΔ ΝΑΧΜΙΑΣ — Ελληνική ΟΠΕΡΕΤΑ — Τα κωμικά τραγούδια",
       "url": "https://www.ticketservices.gr/event/parnassos-david-nachmias-elliniki-opereta/?lang=el",
@@ -1117,6 +1096,41 @@
         "2026-12-22",
         "2026-12-29",
         "2027-01-05"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ΜΕΤΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15254",
+      "title": "ΤΣΕΡΡΥ ΜΠΡΑΝΤΥ — και Τέλος Χρόνου",
+      "url": "https://www.ticketservices.gr/event/kyttaro-live-cherry-brandy/?lang=el",
+      "dates": [
+        "2026-12-23"
+      ],
+      "venues": [
+        "ΚΥΤΤΑΡΟ LIVE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-21"
+    },
+    {
+      "event_id": "15051",
+      "title": "Χριστίνα Μαξούρη — «Τραγούδια για τον πόνο του ανθρώπου & των πραγμάτων» — Μέρος 2ο",
+      "url": "https://www.ticketservices.gr/event/tragoudia-gia-ton-pono-tou-anthropou-kai-ton-pragmaton-theatro-mets/?lang=el",
+      "dates": [
+        "2026-12-23",
+        "2026-12-30"
       ],
       "venues": [
         "ΘΕΑΤΡΟ ΜΕΤΣ"
