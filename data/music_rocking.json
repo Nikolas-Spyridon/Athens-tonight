@@ -1,24 +1,6 @@
 {
-  "updated": "2026-09-20",
+  "updated": "2026-09-21",
   "events": [
-    {
-      "title": "Villagers Of Ioannina City",
-      "url": "https://www.rocking.gr/agenda/2026/9/20/27357",
-      "date": "2026-09-20",
-      "venue": "Δημοτικό Θέατρο Λυκαβηττού",
-      "price_info": "20 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Merzbow, ΜΜΜΔ, Ghone",
-      "url": "https://www.rocking.gr/agenda/2026/9/20/27419",
-      "date": "2026-09-20",
-      "venue": "AN Club",
-      "price_info": "Από 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
     {
       "title": "Blackbriar",
       "url": "https://www.rocking.gr/agenda/2026/9/23/27404",
@@ -900,6 +882,15 @@
       "price_info": "Από 24 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-16"
+    },
+    {
+      "title": "Nevermore",
+      "url": "https://www.rocking.gr/agenda/2027/5/24/27525",
+      "date": "2027-05-24",
+      "venue": "Gagarin 205",
+      "price_info": "36 e / 39 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-21"
     },
     {
       "title": "YOB, Automaton",
