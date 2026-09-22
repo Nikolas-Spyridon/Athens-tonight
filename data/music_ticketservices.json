@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21",
+  "updated": "2026-09-22",
   "events": [
     {
       "event_id": "14961",
@@ -361,6 +361,23 @@
       "first_seen": "2026-09-16"
     },
     {
+      "event_id": "15249",
+      "title": "Ανάμεσα στις σιωπές",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-anamesa-stis-siopes/?lang=el",
+      "dates": [
+        "2026-10-18"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-22"
+    },
+    {
       "event_id": "14992",
       "title": "Ύμνοι Χριστουγέννων — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-ymnoi-xristougennon/?lang=el",
@@ -490,6 +507,23 @@
       "first_seen": "2026-09-03"
     },
     {
+      "event_id": "15252",
+      "title": "Thomas Meleteas Quintet — BREATHWORKS — παρουσίαση δίσκου",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-thomas-meleteas-quintet-breathworks/?lang=el",
+      "dates": [
+        "2026-10-24"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-22"
+    },
+    {
       "event_id": "14350",
       "title": "PHANTOM SPELL",
       "url": "https://www.ticketservices.gr/event/phantom-spell-live-in-athens/?lang=el",
@@ -522,6 +556,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15250",
+      "title": "«Ανάμεσα σε Χαλάσματα»",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-anamesa-se-xalasmata/?lang=el",
+      "dates": [
+        "2026-10-25",
+        "2026-11-29"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-22"
     },
     {
       "event_id": "14997",
