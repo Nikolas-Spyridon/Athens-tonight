@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "events": [
     {
       "title": "Blackbriar",
@@ -243,6 +243,15 @@
       "price_info": "15 e / 18 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-03"
+    },
+    {
+      "title": "Ozric Tentacles",
+      "url": "https://www.rocking.gr/agenda/2026/10/16/27526",
+      "date": "2026-10-16",
+      "venue": "Gazarte",
+      "price_info": "25 e / 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-23"
     },
     {
       "title": "Swallow The Sun, Ocean Of Grief, Euphrosyne",
