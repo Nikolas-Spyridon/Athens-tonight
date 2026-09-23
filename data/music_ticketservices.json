@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22",
+  "updated": "2026-09-23",
   "events": [
     {
       "event_id": "14961",
@@ -327,6 +327,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15263",
+      "title": "Σπύρος και Μάκης Καραβιώτης — «Πάμε σαν άλλοτε...»",
+      "url": "https://www.ticketservices.gr/event/mmb-afoi-karavioti-pame-san-allote/?lang=el",
+      "dates": [
+        "2026-10-17"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-23"
+    },
+    {
       "event_id": "15206",
       "title": "SINEMA ACOUSTIC LIVE",
       "url": "https://www.ticketservices.gr/event/sinema-acoustic-live/?lang=el",
@@ -427,6 +444,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15265",
+      "title": "«Ο άνθρωπος για τον άνθρωπο»",
+      "url": "https://www.ticketservices.gr/event/gustav-o-anthropos-gia-ton-anthropo/?lang=el",
+      "dates": [
+        "2026-10-23"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-23"
     },
     {
       "event_id": "15136",
@@ -1161,7 +1195,7 @@
     },
     {
       "event_id": "15254",
-      "title": "ΤΣΕΡΡΥ ΜΠΡΑΝΤΥ — και Τέλος Χρόνου",
+      "title": "ΤΣΕΡΡΥ ΜΠΡΑΝΤΥ — και Τέλος Χρόνου — + TBA έκπληξη",
       "url": "https://www.ticketservices.gr/event/kyttaro-live-cherry-brandy/?lang=el",
       "dates": [
         "2026-12-23"
