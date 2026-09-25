@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24",
+  "updated": "2026-09-25",
   "events": [
     {
       "title": "Jack Savoretti",
@@ -41,7 +41,7 @@
       "title": "The Gathering",
       "url": "https://www.rocking.gr/agenda/2026/9/26/27021",
       "date": "2026-09-26",
-      "venue": "Δημοτικό Θέατρο Λυκαβηττού",
+      "venue": "FLOYD",
       "price_info": "Από 49 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-01"
@@ -135,6 +135,15 @@
       "price_info": "Από 45 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Buzzcocks, Stress",
+      "url": "https://www.rocking.gr/agenda/2026/10/9/27239",
+      "date": "2026-10-09",
+      "venue": "Κύτταρο",
+      "price_info": "Από 23 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-25"
     },
     {
       "title": "Doro",
@@ -369,15 +378,6 @@
       "price_info": "Από 23 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-14"
-    },
-    {
-      "title": "Buzzcocks, Stress",
-      "url": "https://www.rocking.gr/agenda/2026/10/30/27239",
-      "date": "2026-10-30",
-      "venue": "Κύτταρο",
-      "price_info": "Από 23 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-08-29"
     },
     {
       "title": "Goat",
@@ -630,6 +630,15 @@
       "price_info": "Από 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-09"
+    },
+    {
+      "title": "Eddie Dark",
+      "url": "https://www.rocking.gr/agenda/2026/11/28/27527",
+      "date": "2026-11-28",
+      "venue": "FLOYD",
+      "price_info": "Από 15 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-25"
     },
     {
       "title": "Into Battle Festival: Flotsam And Jetsam, Mindless Sinner κ.α.",
