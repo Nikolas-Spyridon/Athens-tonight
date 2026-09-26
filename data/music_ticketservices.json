@@ -1,29 +1,11 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "events": [
-    {
-      "event_id": "14728",
-      "title": "«Εμείς Μαζί Δεν Χάνουμε» — Μια μεγάλη επετειακή συναυλία προσφοράς — για τη «Νοσηλεία»",
-      "url": "https://www.ticketservices.gr/event/emeis-mazi-den-xanoume-papagou/?lang=el",
-      "dates": [
-        "2026-09-25"
-      ],
-      "venues": [
-        "ΔΗΜΟΤΙΚΟ ΚΗΠΟΘΕΑΤΡΟ ΠΑΠΑΓΟΥ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14963",
       "title": "Athens Baroque Festival 2026",
       "url": "https://www.ticketservices.gr/event/athens-baroque-festival-2026/?lang=el",
       "dates": [
-        "2026-09-25",
         "2026-09-26",
         "2026-09-27"
       ],
@@ -34,21 +16,6 @@
         1
       ],
       "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14896",
-      "title": "NIKOS OIKONOMOPOULOS — - 20 ΧΡΟΝΙΑ - — «ΜΕ ΛΙΓΑ ΛΟΓΙΑ»",
-      "url": "https://www.ticketservices.gr/event/nikos-oikonomopoulos-petroupoli-2026/?lang=el",
-      "dates": [
-        "2026-09-25"
-      ],
-      "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
     },
@@ -137,6 +104,21 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-16"
+    },
+    {
+      "event_id": "15272",
+      "title": "ΜΕΛΙΣΜΑ ΙΙΙ — 'Υδατα: Μελωδίες από τις πηγές των ατμών",
+      "url": "https://www.ticketservices.gr/event/gno-melisma-III-ydata/?lang=el",
+      "dates": [
+        "2026-10-03"
+      ],
+      "venues": [
+        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-26"
     },
     {
       "event_id": "15128",
