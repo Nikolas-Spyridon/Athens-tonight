@@ -1,57 +1,12 @@
 {
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "events": [
-    {
-      "title": "Jack Savoretti",
-      "url": "https://www.rocking.gr/agenda/2026/9/25/27208",
-      "date": "2026-09-25",
-      "venue": "Δημοτικό Θέατρο Λυκαβηττού",
-      "price_info": "",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Ty Segall",
-      "url": "https://www.rocking.gr/agenda/2026/9/25/27256",
-      "date": "2026-09-25",
-      "venue": "FLOYD",
-      "price_info": "Από 29 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Tito & Tarantula",
-      "url": "https://www.rocking.gr/agenda/2026/9/25/27488",
-      "date": "2026-09-25",
-      "venue": "Fuzz Club",
-      "price_info": "Από 25 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Slomosa, Godsleep, Rainyard",
-      "url": "https://www.rocking.gr/agenda/2026/9/25/27506",
-      "date": "2026-09-25",
-      "venue": "Arch Club",
-      "price_info": "20 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-02"
-    },
     {
       "title": "The Gathering",
       "url": "https://www.rocking.gr/agenda/2026/9/26/27021",
       "date": "2026-09-26",
       "venue": "FLOYD",
       "price_info": "Από 49 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-09-01"
-    },
-    {
-      "title": "Jesu",
-      "url": "https://www.rocking.gr/agenda/2026/9/26/27460",
-      "date": "2026-09-26",
-      "venue": "Arch Club",
-      "price_info": "Από 24 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-01"
     },
@@ -135,6 +90,15 @@
       "price_info": "Από 45 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Coral Fuzz, ΗΞΧ",
+      "url": "https://www.rocking.gr/agenda/2026/10/8/27528",
+      "date": "2026-10-08",
+      "venue": "Ίλιον Plus",
+      "price_info": "10 e / 12 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-09-26"
     },
     {
       "title": "Buzzcocks, Stress",
