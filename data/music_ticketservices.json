@@ -1,40 +1,6 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "events": [
-    {
-      "event_id": "14963",
-      "title": "Athens Baroque Festival 2026",
-      "url": "https://www.ticketservices.gr/event/athens-baroque-festival-2026/?lang=el",
-      "dates": [
-        "2026-09-27"
-      ],
-      "venues": [
-        "ΓΕΡΜΑΝΙΚΗ ΕΚΚΛΗΣΙΑ ΑΘΗΝΩΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15059",
-      "title": "20 Χρόνια ΔΡΑΣΗ για μια 'Αλλη Πόλη — Μάρθα Φριντζήλα, The Kubara Project & Kalogeraki Bros",
-      "url": "https://www.ticketservices.gr/event/martha-frintzila-the-kubara-project-kalogeraki-bros-vrilisia-2026/?lang=el",
-      "dates": [
-        "2026-09-27"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΝΤΑΜΑΡΙ - ΑΛΙΚΗ ΒΟΥΓΙΟΥΚΛΑΚΗ - ΒΡΙΛΗΣΣΙΑ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14869",
       "title": "ΦΙΛΑΝΘΡΩΠΙΚΗ ΣΥΝΑΥΛΙΑ — ΙΕΡΑ ΜΗΤΡΟΠΟΛΙΣ ΠΕΙΡΑΙΩΣ — Κατερίνα Λιόλιου",
@@ -103,6 +69,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-16"
+    },
+    {
+      "event_id": "15284",
+      "title": "ΣΟΦΙΑ ΑΝΔΡΙΑΝΟΥ — ΕΦ'ΟΛΗΣ ΤΗΣ ΥΛΗΣ",
+      "url": "https://www.ticketservices.gr/event/art-space-asomaton-sofia-andrianou/?lang=el",
+      "dates": [
+        "2026-10-02"
+      ],
+      "venues": [
+        "ΧΩΡΟΣ ΤΕΧΝΗΣ ΑΣΩΜΑΤΩΝ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-28"
     },
     {
       "event_id": "15272",
@@ -186,6 +169,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15283",
+      "title": "Γιάννης Σφακιανός — \"Φεγγαρόστρατα\"",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-feggarostrata/?lang=el",
+      "dates": [
+        "2026-10-09"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-28"
     },
     {
       "event_id": "15203",
@@ -1002,6 +1002,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-10"
+    },
+    {
+      "event_id": "15285",
+      "title": "ΔΑΥΙΔ ΝΑΧΜΙΑΣ — Αφιέρωμα στον ΑΤΤΙΚ",
+      "url": "https://www.ticketservices.gr/event/oa-david-nahmias-afieroma-ston-attik/?lang=el",
+      "dates": [
+        "2026-11-21"
+      ],
+      "venues": [
+        "ΩΔΕΙΟ ΑΘΗΝΩΝ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-28"
     },
     {
       "event_id": "15017",
