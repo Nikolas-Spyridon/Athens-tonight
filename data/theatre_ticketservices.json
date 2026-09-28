@@ -1,46 +1,6 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "events": [
-    {
-      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
-      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
-      "dates": [
-        "2026-09-27",
-        "2026-09-30"
-      ],
-      "venues": [
-        {
-          "name": "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        },
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": false,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ο Ακροβάτης και Ο Παρατηρητής",
-      "url": "https://www.ticketservices.gr/event/o-akrovatis-kai-o-paratiritis-theatro-vafeio/?lang=el",
-      "dates": [
-        "2026-09-27"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "ΑΝΑΖΗΤΩΝΤΑΣ ΤΗ ΜΑΓΕΙΑ",
       "url": "https://www.ticketservices.gr/event/anazitontas-ti-mageia-mouseio-istorias/?lang=el",
@@ -103,6 +63,47 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "ΛΟΥΠΑ της Εύης Κολιαδήμα  (2ος χρόνος)",
+      "url": "https://www.ticketservices.gr/event/loupa-theatro-kallirrois/?lang=el",
+      "dates": [
+        "2026-09-30",
+        "2026-10-07",
+        "2026-10-14",
+        "2026-10-21",
+        "2026-10-28",
+        "2026-11-04",
+        "2026-11-11",
+        "2026-11-18"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
+      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
+      "dates": [
+        "2026-09-30"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
       "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
       "dates": [
@@ -144,30 +145,6 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΛΟΥΠΑ της Εύης Κολιαδήμα  (2ος χρόνος)",
-      "url": "https://www.ticketservices.gr/event/loupa-theatro-kallirrois/?lang=el",
-      "dates": [
-        "2026-09-30",
-        "2026-10-07",
-        "2026-10-14",
-        "2026-10-21",
-        "2026-10-28",
-        "2026-11-04",
-        "2026-11-11",
-        "2026-11-18"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -335,6 +312,24 @@
       "venues": [
         {
           "name": "ΠΕΙΡΑΙΩΣ 260",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΠΡΩΤΟΤΥΠΟΙ ΜΟΝΟΛΟΓΟΙ ΕΠΙ ΣΚΗΝΗΣ",
+      "url": "https://www.ticketservices.gr/event/prwtotypoi-monologoi-epi-skhnhs-41-street-cafe/?lang=el",
+      "dates": [
+        "2026-10-02",
+        "2026-10-03"
+      ],
+      "venues": [
+        {
+          "name": "41 Street Cafe",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -630,7 +625,7 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "«Ο ΜΕΓΑΣ ΙΕΡΟΕΞΕΤΑΣΤΗΣ»  του Φιόντορ Ντοστογιέφσκι  11ος χρόνος",
+      "title": "«Ο ΜΕΓΑΣ ΙΕΡΟΕΞΕΤΑΣΤΗΣ»  του Φιόντορ Ντοστογιέφσκι  14ος χρόνος",
       "url": "https://www.ticketservices.gr/event/theatro-alkmini-o-megas-ieroexetastis/?lang=el",
       "dates": [
         "2026-10-07",
