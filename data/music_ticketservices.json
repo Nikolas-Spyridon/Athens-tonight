@@ -1,23 +1,6 @@
 {
-  "updated": "2026-09-28",
+  "updated": "2026-09-29",
   "events": [
-    {
-      "event_id": "14869",
-      "title": "ΦΙΛΑΝΘΡΩΠΙΚΗ ΣΥΝΑΥΛΙΑ — ΙΕΡΑ ΜΗΤΡΟΠΟΛΙΣ ΠΕΙΡΑΙΩΣ — Κατερίνα Λιόλιου",
-      "url": "https://www.ticketservices.gr/event/katerina-lioliou-veakeio-filanthropiki-synavlia/?lang=el",
-      "dates": [
-        "2026-09-28"
-      ],
-      "venues": [
-        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14578",
       "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια»",
@@ -344,6 +327,23 @@
       "first_seen": "2026-09-22"
     },
     {
+      "event_id": "15292",
+      "title": "ΧΡΙΣΤΙΝΑ ΣΑΜΑΡΑ LIVE",
+      "url": "https://www.ticketservices.gr/event/christina-samara-live/?lang=el",
+      "dates": [
+        "2026-10-20"
+      ],
+      "venues": [
+        "Σταυρός του Νότου Club"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-29"
+    },
+    {
       "event_id": "14992",
       "title": "Ύμνοι Χριστουγέννων — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-ymnoi-xristougennon/?lang=el",
@@ -608,6 +608,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15288",
+      "title": "VIRONAS NTOLAS QUARTET",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-vironas-ntolas-quartet/?lang=el",
+      "dates": [
+        "2026-10-30"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-29"
     },
     {
       "event_id": "14999",
