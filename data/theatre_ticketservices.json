@@ -1,41 +1,15 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "events": [
     {
       "title": "ΣΕΜΠΑΣΤΙΑΝ",
       "url": "https://www.ticketservices.gr/event/plyfa-sebastian/?lang=el",
       "dates": [
-        "2026-09-29",
         "2026-09-30"
       ],
       "venues": [
         {
           "name": "ΠΛΥΦΑ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ο ΑΡΧΙΤΕΚΤΩΝ της Φώφης Τρέζου  2ος χρόνος",
-      "url": "https://www.ticketservices.gr/event/theatro-104-o-arxitekton-2os-xronos/?lang=el",
-      "dates": [
-        "2026-09-29",
-        "2026-10-05",
-        "2026-10-06",
-        "2026-10-12",
-        "2026-10-13",
-        "2026-10-19",
-        "2026-10-20",
-        "2026-10-26",
-        "2026-10-27"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ 104",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -94,56 +68,6 @@
       "venues": [
         {
           "name": "ΣΧΟΛΕΙΟΝ ΤΗΣ ΑΘΗΝΑΣ - ΕΙΡΗΝΗ ΠΑΠΑ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
-      "dates": [
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-10",
-        "2026-11-11"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
-      "dates": [
-        "2026-10-19",
-        "2026-10-26",
-        "2026-11-02",
-        "2026-11-09",
-        "2026-11-16",
-        "2026-11-23"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -213,6 +137,56 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΕΡΓΟΝ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
+      "dates": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
+      "dates": [
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -526,6 +500,30 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Ο ΑΡΧΙΤΕΚΤΩΝ της Φώφης Τρέζου  2ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/theatro-104-o-arxitekton-2os-xronos/?lang=el",
+      "dates": [
+        "2026-10-05",
+        "2026-10-06",
+        "2026-10-12",
+        "2026-10-13",
+        "2026-10-19",
+        "2026-10-20",
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ 104",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -1265,7 +1263,7 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "Πτήση 717 Αθήνα - Ρώμη",
+      "title": "Πτήση 717",
       "url": "https://www.ticketservices.gr/event/ptisi-717-athina-romi/?lang=el",
       "dates": [
         "2026-10-14",
@@ -2044,6 +2042,42 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "«Ο Φίλος μου ο Λευτεράκης» του Αλέκου Σακελλάριου  2ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/athinaiki-skini-kalvou-kalaboki-o-filos-mou-o-lefterakis/?lang=el",
+      "dates": [
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-28",
+        "2026-11-29",
+        "2026-12-05",
+        "2026-12-06",
+        "2026-12-12",
+        "2026-12-13",
+        "2026-12-19",
+        "2026-12-20",
+        "2026-12-26",
+        "2026-12-27",
+        "2027-01-02",
+        "2027-01-03",
+        "2027-01-09",
+        "2027-01-10"
+      ],
+      "venues": [
+        {
+          "name": "Αθηναϊκή Σκηνή Κάλβου - Καλαμπόκη",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "Η ΓΕΝΝΗΣΗ ΕΝΟΣ ΦΑΣΙΣΤΑ Η ΑΠΟΛΟΓΙΑ ΤΟΥ ΘΕΟΦΙΛΟΥ ΤΣΑΦΟΥ",
       "url": "https://www.ticketservices.gr/event/mikros-kerameikos-i-gennisi-enos-fasista/?lang=el",
       "dates": [
@@ -2123,9 +2157,9 @@
         "2026-12-02",
         "2026-12-05",
         "2026-12-06",
-        "2026-12-09",
-        "2026-12-12",
-        "2026-12-13"
+        "2026-12-16",
+        "2026-12-19",
+        "2026-12-20"
       ],
       "venues": [
         {
