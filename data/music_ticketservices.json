@@ -1,13 +1,12 @@
 {
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "events": [
     {
       "event_id": "14578",
       "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια»",
       "url": "https://www.ticketservices.gr/event/veakeio-2026-giannis-kotsiras/?lang=el",
       "dates": [
-        "2026-09-29",
-        "2026-09-30"
+        "2026-10-01"
       ],
       "venues": [
         "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
@@ -240,6 +239,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15290",
+      "title": "ΕΝΑ ΠΑΡΑΞΕΝΟ ΛΑΪΒ — Παντελής Κυραμαργιός & Νατάσα-Φαίη Κοσμίδου",
+      "url": "https://www.ticketservices.gr/event/theatro-kallirrois-ena-paraxeno-live/?lang=el",
+      "dates": [
+        "2026-10-16"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-30"
     },
     {
       "event_id": "15268",
@@ -1155,6 +1171,21 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15298",
+      "title": "ΜΙΧΑΛΗΣ ΚΟΥΜΠΙΟΣ",
+      "url": "https://www.ticketservices.gr/event/mihalis-koumpios/?lang=el",
+      "dates": [
+        "2026-12-01"
+      ],
+      "venues": [
+        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-30"
     },
     {
       "event_id": "15063",
