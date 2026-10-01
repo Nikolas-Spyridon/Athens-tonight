@@ -1,64 +1,6 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "events": [
-    {
-      "title": "ΣΕΜΠΑΣΤΙΑΝ",
-      "url": "https://www.ticketservices.gr/event/plyfa-sebastian/?lang=el",
-      "dates": [
-        "2026-09-30"
-      ],
-      "venues": [
-        {
-          "name": "ΠΛΥΦΑ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΛΟΥΠΑ της Εύης Κολιαδήμα  (2ος χρόνος)",
-      "url": "https://www.ticketservices.gr/event/loupa-theatro-kallirrois/?lang=el",
-      "dates": [
-        "2026-09-30",
-        "2026-10-07",
-        "2026-10-14",
-        "2026-10-21",
-        "2026-10-28",
-        "2026-11-04",
-        "2026-11-11",
-        "2026-11-18"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Ευριπίδη, ΜΗΔΕΙΑ",
-      "url": "https://www.ticketservices.gr/event/medea-tour-summer-2026/?lang=el",
-      "dates": [
-        "2026-09-30"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
-      "source": "ticketservices.gr"
-    },
     {
       "title": "65+ Μια ολοήμερη γιορτή από το Εθνικό Θέατρο με αφορμή την παγκόσμια ημέρα τρίτης ηλικίας",
       "url": "https://www.ticketservices.gr/event/n-t-65-plus/?lang=el",
@@ -146,56 +88,6 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
-      "dates": [
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-10",
-        "2026-11-11"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
-      "dates": [
-        "2026-10-19",
-        "2026-10-26",
-        "2026-11-02",
-        "2026-11-09",
-        "2026-11-16",
-        "2026-11-23"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
       "title": "ΙΕΡΟΤΕΛΕΣΤΙΑ",
       "url": "https://www.ticketservices.gr/event/n-t-ierotelestia-2/?lang=el",
       "dates": [
@@ -268,6 +160,56 @@
       "venues": [
         {
           "name": "ΠΕΙΡΑΙΩΣ 260",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
+      "dates": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
+      "dates": [
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -626,6 +568,29 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΛΟΥΠΑ της Εύης Κολιαδήμα  (2ος χρόνος)",
+      "url": "https://www.ticketservices.gr/event/loupa-theatro-kallirrois/?lang=el",
+      "dates": [
+        "2026-10-07",
+        "2026-10-14",
+        "2026-10-21",
+        "2026-10-28",
+        "2026-11-04",
+        "2026-11-11",
+        "2026-11-18"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΚΑΛΛΙΡΡΟΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -1479,6 +1444,30 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "ΑΝΑΖΗΤΩΝΤΑΣ ΤΗ ΜΑΓΕΙΑ",
+      "url": "https://www.ticketservices.gr/event/kipseli-anazitontas-ti-mageia/?lang=el",
+      "dates": [
+        "2026-10-16",
+        "2026-10-27",
+        "2026-11-03",
+        "2026-11-10",
+        "2026-11-17",
+        "2026-11-24",
+        "2026-12-01",
+        "2026-12-08"
+      ],
+      "venues": [
+        {
+          "name": "STUDIO ΚΥΨΕΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "VAGINAHOOD Vol.2",
       "url": "https://www.ticketservices.gr/event/vaginahood-vol-2/?lang=el",
       "dates": [
@@ -1526,6 +1515,33 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Η ΜΠΕΤΥ ΝΤΕΪΒΙΣ ΣΤΗΝ ΠΟΛΗ ΣΑΣ  Elizabeth Fuller",
+      "url": "https://www.ticketservices.gr/event/studio-kipselis-bette-davis-stin-poli-sas/?lang=el",
+      "dates": [
+        "2026-10-17",
+        "2026-10-24",
+        "2026-10-31",
+        "2026-11-07",
+        "2026-11-14",
+        "2026-11-21",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26"
+      ],
+      "venues": [
+        {
+          "name": "STUDIO ΚΥΨΕΛΗΣ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
