@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "events": [
     {
       "title": "The Young Gods",
@@ -277,15 +277,6 @@
       "date": "2026-10-21",
       "venue": "Κύτταρο",
       "price_info": "Από 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Hexvessel",
-      "url": "https://www.rocking.gr/agenda/2026/10/23/27500",
-      "date": "2026-10-23",
-      "venue": "Temple Athens",
-      "price_info": "Από 25 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-01"
     },
@@ -749,6 +740,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "1000mods",
+      "url": "https://www.rocking.gr/agenda/2026/12/24/27534",
+      "date": "2026-12-24",
+      "venue": "FLOYD",
+      "price_info": "Από 19 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-02"
+    },
+    {
       "title": "Clan of Xymox",
       "url": "https://www.rocking.gr/agenda/2027/1/9/27459",
       "date": "2027-01-09",
@@ -801,6 +801,15 @@
       "price_info": "Από 18 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Hexvessel",
+      "url": "https://www.rocking.gr/agenda/2027/2/19/27500",
+      "date": "2027-02-19",
+      "venue": "Temple Athens",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-02"
     },
     {
       "title": "Conjurer",
@@ -882,6 +891,24 @@
       "price_info": "",
       "source": "rocking.gr",
       "first_seen": "2026-09-14"
+    },
+    {
+      "title": "Release Athens Presents: Tokio Hotel κ.α.",
+      "url": "https://www.rocking.gr/agenda/2027/7/7/27533",
+      "date": "2027-07-07",
+      "venue": "ERGOSTASIO35",
+      "price_info": "Από 49 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-02"
+    },
+    {
+      "title": "Slash feat. Myles Kennedy & The Conspirators",
+      "url": "https://www.rocking.gr/agenda/2027/7/18/27535",
+      "date": "2027-07-18",
+      "venue": "Δημοτικό Θέατρο Λυκαβηττού",
+      "price_info": "",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-02"
     }
   ]
 }
