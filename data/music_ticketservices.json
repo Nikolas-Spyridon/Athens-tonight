@@ -1,40 +1,6 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-02",
   "events": [
-    {
-      "event_id": "14578",
-      "title": "ΓΙΑΝΝΗΣ ΚΟΤΣΙΡΑΣ — «30 Χρόνια»",
-      "url": "https://www.ticketservices.gr/event/veakeio-2026-giannis-kotsiras/?lang=el",
-      "dates": [
-        "2026-10-01"
-      ],
-      "venues": [
-        "ΒΕΑΚΕΙΟ ΘΕΑΤΡΟ - ΠΕΙΡΑΙΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15116",
-      "title": "Η Προίκα μου — Κωνσταντίνα Πάλλα",
-      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-i-proika-mou-konstantina-palla/?lang=el",
-      "dates": [
-        "2026-10-01"
-      ],
-      "venues": [
-        "Μικρός Κεραμεικός"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15218",
       "title": "KωΓιαΜαν — with special guest Hussain Badran",
@@ -967,6 +933,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15308",
+      "title": "ΣΟΝΙΑ ΘΕΟΔΩΡΙΔΟΥ — Μουσικές της ζωής μου",
+      "url": "https://www.ticketservices.gr/event/parnassos-sonia-theodoridou-mousikes-tis-zois-mou/?lang=el",
+      "dates": [
+        "2026-11-14"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-02"
     },
     {
       "event_id": "15014",
