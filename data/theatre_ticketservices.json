@@ -1,11 +1,227 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "events": [
+    {
+      "title": "ΔΕΚΑΞΙ (2ος χρόνος)",
+      "url": "https://www.ticketservices.gr/event/theatro-104-dekaxi-2os-xronos/?lang=el",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ 104",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΙΕΡΟΤΕΛΕΣΤΙΑ",
+      "url": "https://www.ticketservices.gr/event/n-t-ierotelestia-2/?lang=el",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-07",
+        "2026-10-08",
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-14",
+        "2026-10-15",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-25",
+        "2026-11-26",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-11-29"
+      ],
+      "venues": [
+        {
+          "name": "ΕΘΝΙΚΟ ΘΕΑΤΡΟ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Η Ανάστασις» του Λέοντος Τολστόι - 2ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/theatro-nous-i-anastasi-2os-xronos/?lang=el",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-07",
+        "2026-11-08"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ NOŪS",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Το Φονικό της Ιζαμπέλας Μόλναρ",
+      "url": "https://www.ticketservices.gr/event/to-foniko-tis-isabella-molnar/?lang=el",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04",
+        "2026-10-05",
+        "2026-10-06"
+      ],
+      "venues": [
+        {
+          "name": "ΠΕΙΡΑΙΩΣ 260",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
+      "dates": [
+        "2026-10-06",
+        "2026-10-07",
+        "2026-10-13",
+        "2026-10-14",
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-10",
+        "2026-11-11"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
+      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
+      "dates": [
+        "2026-10-19",
+        "2026-10-26",
+        "2026-11-02",
+        "2026-11-09",
+        "2026-11-16",
+        "2026-11-23"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Μια Συλλογική Ανάσα Συμμετοχική παράσταση σύγχρονου χορού",
+      "url": "https://www.ticketservices.gr/event/mia-syllogiki-anasa/?lang=el",
+      "dates": [
+        "2026-10-03",
+        "2026-10-04"
+      ],
+      "venues": [
+        {
+          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "ΠΡΩΤΟΤΥΠΟΙ ΜΟΝΟΛΟΓΟΙ ΕΠΙ ΣΚΗΝΗΣ",
+      "url": "https://www.ticketservices.gr/event/prwtotypoi-monologoi-epi-skhnhs-41-street-cafe/?lang=el",
+      "dates": [
+        "2026-10-03"
+      ],
+      "venues": [
+        {
+          "name": "41 Street Cafe",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
     {
       "title": "Η ΦΟΝΙΣΣΑ  του Αλέξανδρου Παπαδιαμάντη",
       "url": "https://www.ticketservices.gr/event/theatro-ergon-i-fonissa/?lang=el",
       "dates": [
-        "2026-10-02",
         "2026-10-03",
         "2026-10-04",
         "2026-10-07",
@@ -67,245 +283,6 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΙΕΡΟΤΕΛΕΣΤΙΑ",
-      "url": "https://www.ticketservices.gr/event/n-t-ierotelestia-2/?lang=el",
-      "dates": [
-        "2026-10-02",
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-07",
-        "2026-10-08",
-        "2026-10-09",
-        "2026-10-10",
-        "2026-10-11",
-        "2026-10-14",
-        "2026-10-15",
-        "2026-10-16",
-        "2026-10-17",
-        "2026-10-18",
-        "2026-10-21",
-        "2026-10-22",
-        "2026-10-23",
-        "2026-10-24",
-        "2026-10-25",
-        "2026-10-28",
-        "2026-10-29",
-        "2026-10-30",
-        "2026-10-31",
-        "2026-11-01",
-        "2026-11-04",
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-11",
-        "2026-11-12",
-        "2026-11-13",
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20",
-        "2026-11-21",
-        "2026-11-22",
-        "2026-11-25",
-        "2026-11-26",
-        "2026-11-27",
-        "2026-11-28",
-        "2026-11-29"
-      ],
-      "venues": [
-        {
-          "name": "ΕΘΝΙΚΟ ΘΕΑΤΡΟ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Το Φονικό της Ιζαμπέλας Μόλναρ",
-      "url": "https://www.ticketservices.gr/event/to-foniko-tis-isabella-molnar/?lang=el",
-      "dates": [
-        "2026-10-02",
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-05"
-      ],
-      "venues": [
-        {
-          "name": "ΠΕΙΡΑΙΩΣ 260",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΠΡΩΤΟΤΥΠΟΙ ΜΟΝΟΛΟΓΟΙ ΕΠΙ ΣΚΗΝΗΣ",
-      "url": "https://www.ticketservices.gr/event/prwtotypoi-monologoi-epi-skhnhs-41-street-cafe/?lang=el",
-      "dates": [
-        "2026-10-02",
-        "2026-10-03"
-      ],
-      "venues": [
-        {
-          "name": "41 Street Cafe",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "«Το Υπόγειο»  του Φιόντορ Ντοστογιέφσκι  3ος χρόνος",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-to-ypogeio-fyodor-dostoevsky-2026/?lang=el",
-      "dates": [
-        "2026-10-06",
-        "2026-10-07",
-        "2026-10-13",
-        "2026-10-14",
-        "2026-10-20",
-        "2026-10-21",
-        "2026-10-27",
-        "2026-10-28",
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-10",
-        "2026-11-11"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΑΙΑΣ του Γιάννη Ρίτσου ΜΟΝΟΣ",
-      "url": "https://www.ticketservices.gr/event/theatro-vafeio-aias/?lang=el",
-      "dates": [
-        "2026-10-19",
-        "2026-10-26",
-        "2026-11-02",
-        "2026-11-09",
-        "2026-11-16",
-        "2026-11-23"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "«Το ΜΕΙΔΙΑΜΑ»",
-      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-to-meidiama/?lang=el",
-      "dates": [
-        "2026-10-02",
-        "2026-10-09",
-        "2026-10-16",
-        "2026-10-23"
-      ],
-      "venues": [
-        {
-          "name": "Μικρός Κεραμεικός",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΔΕΚΑΞΙ (2ος χρόνος)",
-      "url": "https://www.ticketservices.gr/event/theatro-104-dekaxi-2os-xronos/?lang=el",
-      "dates": [
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-10",
-        "2026-10-11",
-        "2026-10-17",
-        "2026-10-18",
-        "2026-10-24",
-        "2026-10-25",
-        "2026-10-31",
-        "2026-11-01"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ 104",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "«Η Ανάστασις» του Λέοντος Τολστόι - 2ος χρόνος",
-      "url": "https://www.ticketservices.gr/event/theatro-nous-i-anastasi-2os-xronos/?lang=el",
-      "dates": [
-        "2026-10-03",
-        "2026-10-04",
-        "2026-10-10",
-        "2026-10-11",
-        "2026-10-17",
-        "2026-10-18",
-        "2026-10-24",
-        "2026-10-25",
-        "2026-10-31",
-        "2026-11-01",
-        "2026-11-07",
-        "2026-11-08"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ NOŪS",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "Μια Συλλογική Ανάσα Συμμετοχική παράσταση σύγχρονου χορού",
-      "url": "https://www.ticketservices.gr/event/mia-syllogiki-anasa/?lang=el",
-      "dates": [
-        "2026-10-03",
-        "2026-10-04"
-      ],
-      "venues": [
-        {
-          "name": "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
@@ -422,6 +399,27 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«ΜΑ-ΜΑ»",
+      "url": "https://www.ticketservices.gr/event/phaos-ma-ma/?lang=el",
+      "dates": [
+        "2026-10-05",
+        "2026-10-11",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-25"
+      ],
+      "venues": [
+        {
+          "name": "Φάος - Χώρος Τέχνης",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
       "source": "ticketservices.gr"
     },
     {
@@ -751,6 +749,25 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΑΛΚΜΗΝΗ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Το ΜΕΙΔΙΑΜΑ»",
+      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-to-meidiama/?lang=el",
+      "dates": [
+        "2026-10-09",
+        "2026-10-16",
+        "2026-10-23"
+      ],
+      "venues": [
+        {
+          "name": "Μικρός Κεραμεικός",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -2032,6 +2049,49 @@
       "venues": [
         {
           "name": "ΕΘΝΙΚΟ ΘΕΑΤΡΟ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "Η MONIQUE",
+      "url": "https://www.ticketservices.gr/event/h-monique/?lang=el",
+      "dates": [
+        "2026-10-31",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-27",
+        "2026-11-28",
+        "2026-12-04",
+        "2026-12-05",
+        "2026-12-11",
+        "2026-12-12",
+        "2026-12-18",
+        "2026-12-19",
+        "2026-12-25",
+        "2026-12-26",
+        "2027-01-01",
+        "2027-01-02",
+        "2027-01-08",
+        "2027-01-09",
+        "2027-01-15",
+        "2027-01-16",
+        "2027-01-22",
+        "2027-01-23",
+        "2027-01-29",
+        "2027-01-30"
+      ],
+      "venues": [
+        {
+          "name": "Θέατρο ΕΝ Α",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
