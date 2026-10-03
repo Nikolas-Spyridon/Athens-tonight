@@ -1,40 +1,6 @@
 {
-  "updated": "2026-10-02",
+  "updated": "2026-10-03",
   "events": [
-    {
-      "event_id": "15218",
-      "title": "KωΓιαΜαν — with special guest Hussain Badran",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-kogiaman/?lang=el",
-      "dates": [
-        "2026-10-02"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-16"
-    },
-    {
-      "event_id": "15284",
-      "title": "ΣΟΦΙΑ ΑΝΔΡΙΑΝΟΥ — ΕΦ'ΟΛΗΣ ΤΗΣ ΥΛΗΣ",
-      "url": "https://www.ticketservices.gr/event/art-space-asomaton-sofia-andrianou/?lang=el",
-      "dates": [
-        "2026-10-02"
-      ],
-      "venues": [
-        "ΧΩΡΟΣ ΤΕΧΝΗΣ ΑΣΩΜΑΤΩΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-28"
-    },
     {
       "event_id": "15272",
       "title": "ΜΕΛΙΣΜΑ ΙΙΙ — 'Υδατα: Μελωδίες από τις πηγές των ατμών",
