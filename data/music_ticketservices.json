@@ -1,38 +1,6 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "events": [
-    {
-      "event_id": "15272",
-      "title": "ΜΕΛΙΣΜΑ ΙΙΙ — 'Υδατα: Μελωδίες από τις πηγές των ατμών",
-      "url": "https://www.ticketservices.gr/event/gno-melisma-III-ydata/?lang=el",
-      "dates": [
-        "2026-10-03"
-      ],
-      "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
-      ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-26"
-    },
-    {
-      "event_id": "15128",
-      "title": "Με της οθόνης τραγούδια ταξίδι στο χρόνο — Ειρήνη Τουμπάκη - Μάριος Στρόφαλης",
-      "url": "https://www.ticketservices.gr/event/mikros-kerameikos-me-tis-othonis-tragoudia-taksidi-sto-xrono/?lang=el",
-      "dates": [
-        "2026-10-03"
-      ],
-      "venues": [
-        "Μικρός Κεραμεικός"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15160",
       "title": "Brillante!",
