@@ -1,33 +1,6 @@
 {
-  "updated": "2026-10-03",
+  "updated": "2026-10-04",
   "events": [
-    {
-      "title": "Metal Without Mercy Festival: Sabbat, Torananga κ.α.",
-      "url": "https://www.rocking.gr/agenda/2026/10/3/27428",
-      "date": "2026-10-03",
-      "venue": "AN Club",
-      "price_info": "Από 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Darkened Nocturn Slaughtercult, SAD, Athanatos",
-      "url": "https://www.rocking.gr/agenda/2026/10/3/27498",
-      "date": "2026-10-03",
-      "venue": "Temple Athens",
-      "price_info": "28 e / 35 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Λάκης Παπαδόπουλος, Γιάννης Γιοκαρίνης, Νίκος Ζιώγαλας, Μανώλης Φάμελλος",
-      "url": "https://www.rocking.gr/agenda/2026/10/3/27502",
-      "date": "2026-10-03",
-      "venue": "Κύτταρο",
-      "price_info": "15 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
     {
       "title": "Metal Without Mercy Festival: Metalucifer, Pentacle κ.α.",
       "url": "https://www.rocking.gr/agenda/2026/10/4/27429",
@@ -54,6 +27,15 @@
       "price_info": "Από 45 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-01"
+    },
+    {
+      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Diamond Signs, Anorimoi",
+      "url": "https://www.rocking.gr/agenda/2026/10/7/27542",
+      "date": "2026-10-07",
+      "venue": "Ίλιον Plus",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
     },
     {
       "title": "Coral Fuzz, ΗΞΧ",
@@ -254,6 +236,15 @@
       "first_seen": "2026-10-01"
     },
     {
+      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Stiletto Strut, Idra Kayne Hard Rock",
+      "url": "https://www.rocking.gr/agenda/2026/10/21/27543",
+      "date": "2026-10-21",
+      "venue": "Ίλιον Plus",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
+    },
+    {
       "title": "Naxatras",
       "url": "https://www.rocking.gr/agenda/2026/10/24/27418",
       "date": "2026-10-24",
@@ -362,6 +353,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Stygian Path, Enemy Of Reality",
+      "url": "https://www.rocking.gr/agenda/2026/11/4/27544",
+      "date": "2026-11-04",
+      "venue": "Ίλιον Plus",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
+    },
+    {
       "title": "Riot V, Angelo Perlepes' Mystery",
       "url": "https://www.rocking.gr/agenda/2026/11/6/27294",
       "date": "2026-11-06",
@@ -434,6 +434,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Dire Straits Legacy",
+      "url": "https://www.rocking.gr/agenda/2026/11/13/27537",
+      "date": "2026-11-13",
+      "venue": "FLOYD",
+      "price_info": "Από 34 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
+    },
+    {
       "title": "Mother of Millions, Universe217, Deep Dive",
       "url": "https://www.rocking.gr/agenda/2026/11/14/27457",
       "date": "2026-11-14",
@@ -468,6 +477,15 @@
       "price_info": "Από 19 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Wormhog, Savatage Greek Legion Band",
+      "url": "https://www.rocking.gr/agenda/2026/11/18/27545",
+      "date": "2026-11-18",
+      "venue": "Ίλιον Plus",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
     },
     {
       "title": "Prong",
@@ -603,6 +621,15 @@
       "price_info": "Από 28 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Dismiss, Godsleep",
+      "url": "https://www.rocking.gr/agenda/2026/12/2/27546",
+      "date": "2026-12-02",
+      "venue": "Ίλιον Plus",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
     },
     {
       "title": "The Ocean, Psychonaut, The Devil's Trade",
@@ -801,6 +828,15 @@
       "price_info": "Από 25 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Igorrr, Secret Chiefs 3, Fange",
+      "url": "https://www.rocking.gr/agenda/2027/3/20/27538",
+      "date": "2027-03-20",
+      "venue": "Gagarin 205",
+      "price_info": "Από 29 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-04"
     },
     {
       "title": "The Crazy World Of Arthur Brown",
