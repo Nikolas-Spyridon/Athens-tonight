@@ -1,24 +1,6 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "events": [
-    {
-      "title": "Metal Without Mercy Festival: Metalucifer, Pentacle κ.α.",
-      "url": "https://www.rocking.gr/agenda/2026/10/4/27429",
-      "date": "2026-10-04",
-      "venue": "Κύτταρο",
-      "price_info": "Από 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Sissy Doutsiou, Cilia Katrali, Lia Hide",
-      "url": "https://www.rocking.gr/agenda/2026/10/4/27529",
-      "date": "2026-10-04",
-      "venue": "AN Club",
-      "price_info": "10 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
     {
       "title": "Mayhem, Unleashed",
       "url": "https://www.rocking.gr/agenda/2026/10/7/27462",
@@ -915,7 +897,7 @@
       "url": "https://www.rocking.gr/agenda/2027/7/18/27535",
       "date": "2027-07-18",
       "venue": "Δημοτικό Θέατρο Λυκαβηττού",
-      "price_info": "",
+      "price_info": "Από 55 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-02"
     }
