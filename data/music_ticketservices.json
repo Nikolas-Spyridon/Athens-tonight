@@ -1,40 +1,6 @@
 {
-  "updated": "2026-10-04",
+  "updated": "2026-10-05",
   "events": [
-    {
-      "event_id": "15160",
-      "title": "Brillante!",
-      "url": "https://www.ticketservices.gr/event/brillante/?lang=el",
-      "dates": [
-        "2026-10-04"
-      ],
-      "venues": [
-        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-07"
-    },
-    {
-      "event_id": "15211",
-      "title": "Tavern Music / De Profundis Ensemble",
-      "url": "https://www.ticketservices.gr/event/tavern-music-de-profundis-ensemble/?lang=el",
-      "dates": [
-        "2026-10-04"
-      ],
-      "venues": [
-        "Architecture Rock Cafe - Live Stage"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-18"
-    },
     {
       "event_id": "15061",
       "title": "Death Over Europe Part II — MAYHEM (Norway) — + UNLEASHED (Sweden)",
@@ -558,6 +524,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15317",
+      "title": "L' ANIMA DELLA MUSICA — Η ΨΥΧΗ ΤΗΣ ΜΟΥΣΙΚΗΣ",
+      "url": "https://www.ticketservices.gr/event/ioniko-kentro-l-anima-della-musica/?lang=el",
+      "dates": [
+        "2026-10-31"
+      ],
+      "venues": [
+        "ΙΩΝΙΚΟ ΚΕΝΤΡΟ - Πλάκα"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-05"
     },
     {
       "event_id": "15000",
@@ -1215,6 +1198,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15312",
+      "title": "Incirrina \"Trace\" — Album Presentation Live",
+      "url": "https://www.ticketservices.gr/event/ilion-plus-incirrina-trace/?lang=el",
+      "dates": [
+        "2027-02-05"
+      ],
+      "venues": [
+        "ΙΛΙΟΝ PLUS"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-05"
     },
     {
       "event_id": "15100",
