@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "events": [
     {
       "title": "Mayhem, Unleashed",
@@ -603,6 +603,15 @@
       "price_info": "Από 28 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Nile, Sickening Horror, Part Of TheTheory",
+      "url": "https://www.rocking.gr/agenda/2026/11/29/27550",
+      "date": "2026-11-29",
+      "venue": "Fuzz Club",
+      "price_info": "Από 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-07"
     },
     {
       "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Dismiss, Godsleep",
