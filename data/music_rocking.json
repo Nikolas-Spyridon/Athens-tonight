@@ -1,24 +1,6 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "events": [
-    {
-      "title": "Mayhem, Unleashed",
-      "url": "https://www.rocking.gr/agenda/2026/10/7/27462",
-      "date": "2026-10-07",
-      "venue": "Gagarin 205",
-      "price_info": "Από 45 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Diamond Signs, Anorimoi",
-      "url": "https://www.rocking.gr/agenda/2026/10/7/27542",
-      "date": "2026-10-07",
-      "venue": "Ίλιον Plus",
-      "price_info": "Από 18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-04"
-    },
     {
       "title": "Coral Fuzz, ΗΞΧ",
       "url": "https://www.rocking.gr/agenda/2026/10/8/27528",
@@ -783,6 +765,15 @@
       "price_info": "Από 39 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Dr. Feelgood",
+      "url": "https://www.rocking.gr/agenda/2027/2/12/27551",
+      "date": "2027-02-12",
+      "venue": "Αρχιτεκτονική",
+      "price_info": "Από 24 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-08"
     },
     {
       "title": "Reinkaos (Dissection Tribute)",
