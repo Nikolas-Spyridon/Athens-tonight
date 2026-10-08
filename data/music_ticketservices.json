@@ -1,23 +1,6 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "events": [
-    {
-      "event_id": "15061",
-      "title": "Death Over Europe Part II — MAYHEM (Norway) — + UNLEASHED (Sweden)",
-      "url": "https://www.ticketservices.gr/event/gagarin-death-over-europe-part-ii-mayhem-unleashed/?lang=el",
-      "dates": [
-        "2026-10-07"
-      ],
-      "venues": [
-        "Gagarin 205 Live Music Space"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15283",
       "title": "Γιάννης Σφακιανός — \"Φεγγαρόστρατα\"",
@@ -258,6 +241,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15334",
+      "title": "'Ερωτας και Επανάσταση",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-erotas-kai-epanastasi/?lang=el",
+      "dates": [
+        "2026-10-22"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-08"
     },
     {
       "event_id": "14994",
@@ -541,6 +541,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-05"
+    },
+    {
+      "event_id": "15335",
+      "title": "BORAGO II - Παρουσίαση καινούριου δίσκου",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-borago-ii/?lang=el",
+      "dates": [
+        "2026-10-31"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-08"
     },
     {
       "event_id": "15000",
@@ -1135,10 +1152,12 @@
         "2026-12-01"
       ],
       "venues": [
-        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
       ],
-      "area_ids": [],
-      "region_status": "unconfirmed",
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-30"
     },
