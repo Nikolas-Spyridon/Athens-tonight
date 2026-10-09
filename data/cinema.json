@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "movies": [
     {
       "title": "11 Χρόνια Δίκης της Χρυσής Αυγής: Οι Άνθρωποί της",
@@ -156,7 +156,7 @@
       "url": "https://www.athinorama.gr/cinema/movie/alli_mama-10091606/",
       "original_title": "Other Mommy",
       "description": "Η Μπέλα είναι ένα οκτάχρονο κορίτσι το οποίο νιώθει μοναξιά, καθώς οι απόμακροι μεταξύ τους γονείς της δεν της δείχνουν τη στοργή που χρειάζεται. Έτσι, θα γίνει φίλη με μια σκοτεινή οντότητα που βγαίνει από την ντουλάπα της και την αποκαλεί «Άλλη Μαμά».",
-      "athinorama_rating": null,
+      "athinorama_rating": 1.0,
       "imdb_url": "https://www.imdb.com/title/tt36586020/",
       "imdb_rating": null,
       "first_seen": "2026-10-08",
