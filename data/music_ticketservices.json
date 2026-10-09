@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "events": [
     {
       "event_id": "15283",
@@ -871,6 +871,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15342",
+      "title": "ΠΕΤΡΟΣ ΒΕΡΩΝΗΣ - Παρουσίαση Ιπτάμενων Δίσκων",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-petros-veronis/?lang=el",
+      "dates": [
+        "2026-11-12"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-09"
     },
     {
       "event_id": "15012",
