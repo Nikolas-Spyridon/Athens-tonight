@@ -1,15 +1,6 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "events": [
-    {
-      "title": "Coral Fuzz, ΗΞΧ",
-      "url": "https://www.rocking.gr/agenda/2026/10/8/27528",
-      "date": "2026-10-08",
-      "venue": "Ίλιον Plus",
-      "price_info": "10 e / 12 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
     {
       "title": "Buzzcocks, Stress",
       "url": "https://www.rocking.gr/agenda/2026/10/9/27239",
@@ -126,6 +117,15 @@
       "price_info": "25 e / 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-01"
+    },
+    {
+      "title": "Γιώργος Καρράς, Kidney Black",
+      "url": "https://www.rocking.gr/agenda/2026/10/16/27552",
+      "date": "2026-10-16",
+      "venue": "ΕΞΑ",
+      "price_info": "Sold Out",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-09"
     },
     {
       "title": "Swallow The Sun, Ocean Of Grief, Euphrosyne",
