@@ -1,11 +1,47 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "events": [
+    {
+      "title": "KONTAKTΗOF της Pina Bausch",
+      "url": "https://www.ticketservices.gr/event/n-t-kontakthof-2/?lang=el",
+      "dates": [
+        "2026-10-09",
+        "2026-10-10",
+        "2026-10-11",
+        "2026-10-14",
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-04",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-11",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "venues": [
+        {
+          "name": "ΕΘΝΙΚΟ ΘΕΑΤΡΟ",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
     {
       "title": "Η ΦΟΝΙΣΣΑ  του Αλέξανδρου Παπαδιαμάντη",
       "url": "https://www.ticketservices.gr/event/theatro-ergon-i-fonissa/?lang=el",
       "dates": [
-        "2026-10-08",
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
@@ -69,7 +105,6 @@
       "title": "ΙΕΡΟΤΕΛΕΣΤΙΑ",
       "url": "https://www.ticketservices.gr/event/n-t-ierotelestia-2/?lang=el",
       "dates": [
-        "2026-10-08",
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
@@ -124,7 +159,6 @@
       "title": "«ΜΕΝΓΚΕΛΕ» του Θανάση Τριαρίδη 2ος Χρόνος",
       "url": "https://www.ticketservices.gr/event/plyfa-mengkele-2os-xronos/?lang=el",
       "dates": [
-        "2026-10-08",
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
@@ -144,30 +178,9 @@
       "source": "ticketservices.gr"
     },
     {
-      "title": "El Che Teatro",
-      "url": "https://www.ticketservices.gr/event/el-che-theatro-nous-oktovrios-2026/?lang=el",
-      "dates": [
-        "2026-10-08",
-        "2026-10-15",
-        "2026-10-22",
-        "2026-10-29"
-      ],
-      "venues": [
-        {
-          "name": "ΘΕΑΤΡΟ NOŪS",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
       "title": "Νοχαβελάνδη - ένα western δωματίου  του Γιάννη Αποσκίτη",
       "url": "https://www.ticketservices.gr/event/theatro-104-noxavelandi/?lang=el",
       "dates": [
-        "2026-10-08",
         "2026-10-09",
         "2026-10-15",
         "2026-10-16",
@@ -241,43 +254,6 @@
       "venues": [
         {
           "name": "ΘΕΑΤΡΟ ΒΑΦΕΙΟ - ΛΑΚΗΣ ΚΑΡΑΛΗΣ",
-          "area": "ΑΘΗΝΑ",
-          "is_attica": true
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "KONTAKTΗOF της Pina Bausch",
-      "url": "https://www.ticketservices.gr/event/n-t-kontakthof-2/?lang=el",
-      "dates": [
-        "2026-10-09",
-        "2026-10-10",
-        "2026-10-11",
-        "2026-10-14",
-        "2026-10-16",
-        "2026-10-17",
-        "2026-10-18",
-        "2026-10-30",
-        "2026-10-31",
-        "2026-11-01",
-        "2026-11-04",
-        "2026-11-06",
-        "2026-11-07",
-        "2026-11-08",
-        "2026-11-11",
-        "2026-11-13",
-        "2026-11-14",
-        "2026-11-15",
-        "2026-11-20",
-        "2026-11-21",
-        "2026-11-22"
-      ],
-      "venues": [
-        {
-          "name": "ΕΘΝΙΚΟ ΘΕΑΤΡΟ",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -589,6 +565,30 @@
       "source": "ticketservices.gr"
     },
     {
+      "title": "ΟΙ ΕΥΘΥΜΕΣ ΚΥΡΑΔΕΣ",
+      "url": "https://www.ticketservices.gr/event/diaxrono-theatro-euthimes-kirades/?lang=el",
+      "dates": [
+        "2026-10-11",
+        "2026-10-12",
+        "2026-10-18",
+        "2026-10-19",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-11-01",
+        "2026-11-02"
+      ],
+      "venues": [
+        {
+          "name": "ΔΙΑΧΡΟΝΟ ΘΕΑΤΡΟ",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
+      "source": "ticketservices.gr"
+    },
+    {
       "title": "ΜΙΑ ΚΑΝΟΝΙΚΗ ΜΕΡΑ της Κατερίνας Γιαννάκου",
       "url": "https://www.ticketservices.gr/event/mia-kanoniki-mera/?lang=el",
       "dates": [
@@ -638,30 +638,6 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": true,
-      "source": "ticketservices.gr"
-    },
-    {
-      "title": "ΟΙ ΕΥΘΥΜΕΣ ΚΥΡΑΔΕΣ",
-      "url": "https://www.ticketservices.gr/event/diaxrono-theatro-euthimes-kirades/?lang=el",
-      "dates": [
-        "2026-10-11",
-        "2026-10-12",
-        "2026-10-18",
-        "2026-10-19",
-        "2026-10-25",
-        "2026-10-26",
-        "2026-11-01",
-        "2026-11-02"
-      ],
-      "venues": [
-        {
-          "name": "ΔΙΑΧΡΟΝΟ ΘΕΑΤΡΟ",
-          "area": "",
-          "is_attica": null
-        }
-      ],
-      "dates_venues_paired": true,
-      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
@@ -1209,6 +1185,25 @@
       "venues": [
         {
           "name": "Θέατρο Παραμυθίας",
+          "area": "ΑΘΗΝΑ",
+          "is_attica": true
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "El Che Teatro",
+      "url": "https://www.ticketservices.gr/event/el-che-theatro-nous-oktovrios-2026/?lang=el",
+      "dates": [
+        "2026-10-15",
+        "2026-10-22",
+        "2026-10-29"
+      ],
+      "venues": [
+        {
+          "name": "ΘΕΑΤΡΟ NOŪS",
           "area": "ΑΘΗΝΑ",
           "is_attica": true
         }
@@ -2446,6 +2441,30 @@
       ],
       "dates_venues_paired": true,
       "any_attica_venue": true,
+      "source": "ticketservices.gr"
+    },
+    {
+      "title": "«Η Εύα των Αγγέλων»  του Ιάκωβου Μυλωνά",
+      "url": "https://www.ticketservices.gr/event/i-eva-ton-aggelon/?lang=el",
+      "dates": [
+        "2026-11-14",
+        "2026-11-21",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26",
+        "2027-01-02"
+      ],
+      "venues": [
+        {
+          "name": "BLACK DIAMOND - Τεχνοχώρος",
+          "area": "",
+          "is_attica": null
+        }
+      ],
+      "dates_venues_paired": true,
+      "any_attica_venue": null,
       "source": "ticketservices.gr"
     },
     {
