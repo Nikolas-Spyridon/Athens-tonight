@@ -1,23 +1,6 @@
 {
-  "updated": "2026-10-09",
+  "updated": "2026-10-10",
   "events": [
-    {
-      "event_id": "15283",
-      "title": "Γιάννης Σφακιανός — \"Φεγγαρόστρατα\"",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-feggarostrata/?lang=el",
-      "dates": [
-        "2026-10-09"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-28"
-    },
     {
       "event_id": "15203",
       "title": "OMMA & Γιάννης Μήτσης",
@@ -1177,6 +1160,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-30"
+    },
+    {
+      "event_id": "15340",
+      "title": "«Θάλασσα ΜΟΥΣΙΚΗΣ»",
+      "url": "https://www.ticketservices.gr/event/thalassa-mousikis/?lang=el",
+      "dates": [
+        "2026-12-11"
+      ],
+      "venues": [
+        "Θέατρο Δαΐς, Εκπαιδευτήρια Δούκα"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-10"
     },
     {
       "event_id": "15063",
