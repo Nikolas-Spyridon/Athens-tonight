@@ -1,43 +1,6 @@
 {
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "events": [
-    {
-      "event_id": "15203",
-      "title": "OMMA & Γιάννης Μήτσης",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-omma-kai-giannis-mitsis/?lang=el",
-      "dates": [
-        "2026-10-10"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-13"
-    },
-    {
-      "event_id": "15269",
-      "title": "«Σιγά το θέαμα Νο2»",
-      "url": "https://www.ticketservices.gr/event/gustav-siga-to-theama-no2/?lang=el",
-      "dates": [
-        "2026-10-10",
-        "2026-10-17",
-        "2026-10-24",
-        "2026-10-31"
-      ],
-      "venues": [
-        "Gustav Athens"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-25"
-    },
     {
       "event_id": "15208",
       "title": "Bel Canto Classico — Μια Ιταλική βραδιά στην Πλάκα",
@@ -370,6 +333,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-22"
+    },
+    {
+      "event_id": "15269",
+      "title": "«Σιγά το θέαμα Νο2»",
+      "url": "https://www.ticketservices.gr/event/gustav-siga-to-theama-no2/?lang=el",
+      "dates": [
+        "2026-10-24",
+        "2026-10-31"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-25"
     },
     {
       "event_id": "14350",
