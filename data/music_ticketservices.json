@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "events": [
     {
       "event_id": "15208",
@@ -1195,6 +1195,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15352",
+      "title": "Fonoptikon Live",
+      "url": "https://www.ticketservices.gr/event/fonoptikon-live/?lang=el",
+      "dates": [
+        "2026-12-18"
+      ],
+      "venues": [
+        "ΙΛΙΟΝ PLUS"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-12"
     },
     {
       "event_id": "15254",
