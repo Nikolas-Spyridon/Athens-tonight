@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14",
+  "updated": "2026-10-15",
   "events": [
     {
       "event_id": "15208",
@@ -406,7 +406,7 @@
     },
     {
       "event_id": "14997",
-      "title": "Ρήσεις και ρωγμές - Αφιέρωμα στον Γκιαιργκ Κούρταγκ — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ρήσεις και ρωγμές - Αφιέρωμα στον Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-sayings-and-cracks/?lang=el",
       "dates": [
         "2026-10-29"
@@ -440,7 +440,7 @@
     },
     {
       "event_id": "14998",
-      "title": "Ηχητικές πολυπλοκότητες - Αφιέρωμα στον Γκιαιργκ Λίγκετι — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ηχητικές πολυπλοκότητες - Αφιέρωμα στον Gy&#246;rgy Ligeti — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-sonic-complexities/?lang=el",
       "dates": [
         "2026-10-30"
@@ -525,7 +525,7 @@
     },
     {
       "event_id": "15000",
-      "title": "Χορωδία της ΕΡΤ, Ένωση Ελλήνων Μουσουργών: Ποιητικά ηχοτοπία — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ποιητικά ηχοτοπία: Η Χορωδία της ΕΡΤ συναντά την Ένωση Ελλήνων Μουσουργών — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-poetic-soundscapes/?lang=el",
       "dates": [
         "2026-11-01"
@@ -651,7 +651,7 @@
     },
     {
       "event_id": "15004",
-      "title": "The Cabinet of Dr. Caligari Revisited - Συναυλία / Προβολή ταινίας — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Το εργαστήρι του Δρα Καλιγκάρι Revisited - Συναυλία / Προβολή ταινίας — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-the-cabinet-of-dr-caligari-revisited/?lang=el",
       "dates": [
         "2026-11-05"
@@ -685,7 +685,7 @@
     },
     {
       "event_id": "15005",
-      "title": "'Ανθη είμαστε - Αφιέρωμα στον Γκιαιργκ Κούρταγκ — Ημέρες Σύγχρονης Μουσικής",
+      "title": "'Ανθη είμαστε: Αφιέρωμα στον Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-flowers-we-are/?lang=el",
       "dates": [
         "2026-11-06"
@@ -719,7 +719,7 @@
     },
     {
       "event_id": "15007",
-      "title": "Σεχραζάντ - Ρεσιτάλ τραγουδιού — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Σεχραζάντ — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-scheherazade/?lang=el",
       "dates": [
         "2026-11-07"
@@ -820,6 +820,26 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15356",
+      "title": "ΑΠΟΣΤΟΛΗΣ ΜΠΑΡΜΠΑΓΙΑΝΝΗΣ — Τσολιάς εν δε Τσόλια Μπαντ — «Μπουρδόλοτζι»",
+      "url": "https://www.ticketservices.gr/event/stavros-tou-notou-apostolis-barbagiannis-bourdology/?lang=el",
+      "dates": [
+        "2026-11-11",
+        "2026-11-25",
+        "2026-12-09",
+        "2026-12-23"
+      ],
+      "venues": [
+        "ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-15"
+    },
+    {
       "event_id": "15011",
       "title": "Magna Grecia: Ένας τόπος — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-magna-grecia/?lang=el",
@@ -869,6 +889,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15384",
+      "title": "Σπύρος και Μάκης Καραβιώτης — «Θα σε ξανάβρω στους μπαξέδες»",
+      "url": "https://www.ticketservices.gr/event/mmb-afoi-karavioti-tha-se-ksanavrw-stous-mpaksedes/?lang=el",
+      "dates": [
+        "2026-11-14"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-15"
     },
     {
       "event_id": "15013",
@@ -1126,6 +1163,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15372",
+      "title": "Ρεσιτάλ Χριστόφορου Σταμπόγλη",
+      "url": "https://www.ticketservices.gr/event/recital-christophorou-stampogli/?lang=el",
+      "dates": [
+        "2026-11-30"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-15"
+    },
+    {
       "event_id": "15298",
       "title": "ΜΙΧΑΛΗΣ ΚΟΥΜΠΙΟΣ",
       "url": "https://www.ticketservices.gr/event/mihalis-koumpios/?lang=el",
@@ -1141,6 +1195,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-30"
+    },
+    {
+      "event_id": "15379",
+      "title": "ΟΤΑΝ ΤΑ ΑΣΤΡΑ ΕΓΡΑΨΑΝ ΤΡΑΓΟΥΔΙΑ — από τον Αττίκ στον Κραουνάκη",
+      "url": "https://www.ticketservices.gr/event/mmb-otan-ta-astra-egrapsan-tragoudia/?lang=el",
+      "dates": [
+        "2026-12-03"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-15"
     },
     {
       "event_id": "15340",
@@ -1212,6 +1283,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-12"
+    },
+    {
+      "event_id": "15383",
+      "title": "«CHRISTMAS GALA 2026» — Σπύρος & Μάκης Καραβιώτης",
+      "url": "https://www.ticketservices.gr/event/electra-palace-christmas-gala-2026/?lang=el",
+      "dates": [
+        "2026-12-19"
+      ],
+      "venues": [
+        "ELECTRA PALACE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-15"
     },
     {
       "event_id": "15254",
