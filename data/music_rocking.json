@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "events": [
     {
       "title": "Tuber: Live Recording Project",
@@ -90,6 +90,15 @@
       "price_info": "Από 12 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-01"
+    },
+    {
+      "title": "Oren Ambarchi, Tropical Geometry, Savvas Metaxas",
+      "url": "https://www.rocking.gr/agenda/2026/10/18/27557",
+      "date": "2026-10-18",
+      "venue": "ΠΛΥΦΑ",
+      "price_info": "Από 23 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-16"
     },
     {
       "title": "Wolves In The Throne Room",
