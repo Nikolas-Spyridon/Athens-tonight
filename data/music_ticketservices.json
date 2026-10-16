@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "events": [
     {
       "event_id": "15208",
@@ -392,7 +392,8 @@
       "url": "https://www.ticketservices.gr/event/baumstrasse-anamesa-se-xalasmata/?lang=el",
       "dates": [
         "2026-10-25",
-        "2026-11-29"
+        "2026-11-29",
+        "2026-12-20"
       ],
       "venues": [
         "BAUMSTRASSE"
@@ -474,7 +475,7 @@
     },
     {
       "event_id": "14999",
-      "title": "Τάσος Ρωσόπουλος: Τραγούδια για μια επιστροφή — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Τραγούδια για μια επιστροφή — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-tasos-rossopoulos/?lang=el",
       "dates": [
         "2026-10-31"
@@ -525,7 +526,7 @@
     },
     {
       "event_id": "15000",
-      "title": "Ποιητικά ηχοτοπία: Η Χορωδία της ΕΡΤ συναντά την Ένωση Ελλήνων Μουσουργών — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ποιητικά ηχοτοπία: Η Χορωδία της ΕΡΤ — συναντά την Ένωση Ελλήνων Μουσουργών — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-poetic-soundscapes/?lang=el",
       "dates": [
         "2026-11-01"
@@ -542,7 +543,7 @@
     },
     {
       "event_id": "15001",
-      "title": "Re:Trace Kurt&#225;g - Διεθνής Διαγωνισμός Σύνθεσης — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Re:Trace Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-trace-kurtag/?lang=el",
       "dates": [
         "2026-11-01"
@@ -614,7 +615,7 @@
     },
     {
       "event_id": "15003",
-      "title": "Τόποι, μνήμες, Σειρήνες - Ρεσιτάλ βιολοντσέλου — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Τόποι, μνήμες, Σειρήνες: Ρεσιτάλ βιολοντσέλου — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-places-memories-sirens/?lang=el",
       "dates": [
         "2026-11-04"
@@ -651,7 +652,7 @@
     },
     {
       "event_id": "15004",
-      "title": "Το εργαστήρι του Δρα Καλιγκάρι Revisited - Συναυλία / Προβολή ταινίας — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Το εργαστήρι του Δρα Καλιγκάρι Revisited — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-the-cabinet-of-dr-caligari-revisited/?lang=el",
       "dates": [
         "2026-11-05"
@@ -702,7 +703,7 @@
     },
     {
       "event_id": "15006",
-      "title": "Στέφανος Θωμόπουλος - Μεσόγειος έρημος: Διάλογοι με τη φύση — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Μεσόγειος έρημος &#8211; Διάλογοι με τη φύση: — Παρουσίαση νέου δίσκου με έργα Γιώργου Κουμεντάκη — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-stephanos-thomopoulos/?lang=el",
       "dates": [
         "2026-11-07"
@@ -770,7 +771,7 @@
     },
     {
       "event_id": "15008",
-      "title": "Το Παρίσι του Απέργη — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ergon Ensemble: Το Παρίσι του Απέργη — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-aperghis-paris/?lang=el",
       "dates": [
         "2026-11-08"
@@ -804,7 +805,7 @@
     },
     {
       "event_id": "15010",
-      "title": "Greek Percussion Group: Σύγχρονη μουσική για κρουστά — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ελληνικό Συγκρότημα Κρουστών: Σύγχρονη μουσική Ελλήνων συνθετών για κρουστά — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-greek-percussion-group/?lang=el",
       "dates": [
         "2026-11-11"
@@ -909,7 +910,7 @@
     },
     {
       "event_id": "15013",
-      "title": "A Fragment Concert - A Concert in Fragments: Αφιέρωμα στους Γκιαιργκ Λίγκετι και Γκιαιργκ Κούρταγκ — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Ergon Ensemble: A Fragment Concert / A Concert in Fragments — Αφιέρωμα στους Gy&#246;rgy Ligeti και Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-a-fragment-concert/?lang=el",
       "dates": [
         "2026-11-14"
