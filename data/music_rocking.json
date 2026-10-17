@@ -1,33 +1,6 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "events": [
-    {
-      "title": "Tuber: Live Recording Project",
-      "url": "https://www.rocking.gr/agenda/2026/10/16/27508",
-      "date": "2026-10-16",
-      "venue": "Κύτταρο",
-      "price_info": "15 e / 18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Ozric Tentacles",
-      "url": "https://www.rocking.gr/agenda/2026/10/16/27526",
-      "date": "2026-10-16",
-      "venue": "Gazarte",
-      "price_info": "25 e / 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Γιώργος Καρράς, Kidney Black",
-      "url": "https://www.rocking.gr/agenda/2026/10/16/27552",
-      "date": "2026-10-16",
-      "venue": "ΕΞΑ",
-      "price_info": "Sold Out",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-09"
-    },
     {
       "title": "Swallow The Sun, Ocean Of Grief, Euphrosyne",
       "url": "https://www.rocking.gr/agenda/2026/10/17/26979",
@@ -591,7 +564,7 @@
       "url": "https://www.rocking.gr/agenda/2026/12/19/27253",
       "date": "2026-12-19",
       "venue": "Ολυμπιακό Κλειστό Γυμναστήριο \"Telekom Center Athens\"",
-      "price_info": "",
+      "price_info": "Από 59 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
     },
@@ -704,6 +677,15 @@
       "first_seen": "2026-09-28"
     },
     {
+      "title": "Tarja",
+      "url": "https://www.rocking.gr/agenda/2027/3/19/27559",
+      "date": "2027-03-19",
+      "venue": "Gagarin 205",
+      "price_info": "Από 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-17"
+    },
+    {
       "title": "U.K. Subs",
       "url": "https://www.rocking.gr/agenda/2027/3/20/27263",
       "date": "2027-03-20",
@@ -765,6 +747,15 @@
       "price_info": "Από 29 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-06"
+    },
+    {
+      "title": "Axel Rudi Pell",
+      "url": "https://www.rocking.gr/agenda/2027/6/13/27558",
+      "date": "2027-06-13",
+      "venue": "FLOYD",
+      "price_info": "Από 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-17"
     },
     {
       "title": "Release Athens: The Neighbourhood κ.α.",
