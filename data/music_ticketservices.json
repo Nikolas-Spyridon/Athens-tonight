@@ -1,57 +1,6 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "events": [
-    {
-      "event_id": "15263",
-      "title": "Σπύρος και Μάκης Καραβιώτης — «Πάμε σαν άλλοτε...»",
-      "url": "https://www.ticketservices.gr/event/mmb-afoi-karavioti-pame-san-allote/?lang=el",
-      "dates": [
-        "2026-10-17"
-      ],
-      "venues": [
-        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-23"
-    },
-    {
-      "event_id": "15206",
-      "title": "SINEMA ACOUSTIC LIVE",
-      "url": "https://www.ticketservices.gr/event/sinema-acoustic-live/?lang=el",
-      "dates": [
-        "2026-10-17"
-      ],
-      "venues": [
-        "ΑΓΓΛΙΚΑΝΙΚΗ ΕΚΚΛΗΣΙΑ ΑΓΙΟΥ ΠΑΥΛΟΥ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-14"
-    },
-    {
-      "event_id": "15217",
-      "title": "ΚΡΕΩΝ ΚΑΝΑΚΑΡΗΣ — Λίβελοι, Καντάδες,Ζωγραφιές & Συναξάρια — Η παρουσίαση",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-kreon-kanakaris/?lang=el",
-      "dates": [
-        "2026-10-17"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-16"
-    },
     {
       "event_id": "15249",
       "title": "Ανάμεσα στις σιωπές",
@@ -404,6 +353,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-29"
+    },
+    {
+      "event_id": "15399",
+      "title": "Κρινιώ Νικολάου",
+      "url": "https://www.ticketservices.gr/event/gustav-krinio-nikolaou/?lang=el",
+      "dates": [
+        "2026-10-30"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-18"
     },
     {
       "event_id": "14999",
