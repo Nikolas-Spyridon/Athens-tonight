@@ -1,23 +1,6 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "events": [
-    {
-      "event_id": "15249",
-      "title": "Ανάμεσα στις σιωπές",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-anamesa-stis-siopes/?lang=el",
-      "dates": [
-        "2026-10-18"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-22"
-    },
     {
       "event_id": "15292",
       "title": "ΧΡΙΣΤΙΝΑ ΣΑΜΑΡΑ LIVE",
@@ -958,6 +941,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-17"
+    },
+    {
+      "event_id": "15404",
+      "title": "Αρώματα και ήχοι — υφαίνουν μεθυστικά όνειρα",
+      "url": "https://www.ticketservices.gr/event/mmb-aromata-kai-ixoi-ifainoun-methistika-oneira/?lang=el",
+      "dates": [
+        "2026-11-23"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-19"
     },
     {
       "event_id": "15018",
