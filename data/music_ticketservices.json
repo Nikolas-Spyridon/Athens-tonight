@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "events": [
     {
       "event_id": "15292",
@@ -858,6 +858,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15409",
+      "title": "Από τον 20ό αιώνα στον J. S. Bach",
+      "url": "https://www.ticketservices.gr/event/nakas-2026-apo-ton-20o-aiona-ston-j-s-bach/?lang=el",
+      "dates": [
+        "2026-11-20"
+      ],
+      "venues": [
+        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "event_id": "15016",
       "title": "Λούντβιχ βαν Μπετόβεν, Φραντς Σούμπερτ: Κουιντέτα εγχόρδων — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-beethoven-schubert-string-quintets/?lang=el",
@@ -958,23 +975,6 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-19"
-    },
-    {
-      "event_id": "15018",
-      "title": "Τιμολέων και Ιουλία: Μια μπαρόκ ιστορία παρένδυσης — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-timoleon-and-julia/?lang=el",
-      "dates": [
-        "2026-11-25"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15019",
@@ -1219,7 +1219,7 @@
     },
     {
       "event_id": "15254",
-      "title": "ΤΣΕΡΡΥ ΜΠΡΑΝΤΥ — και Τέλος Χρόνου — + TBA έκπληξη",
+      "title": "THE OVERJOYED — with ΤΣΕΡΡΥ ΜΠΡΑΝΤΥ — και Τέλος Χρόνου —",
       "url": "https://www.ticketservices.gr/event/kyttaro-live-cherry-brandy/?lang=el",
       "dates": [
         "2026-12-23"
