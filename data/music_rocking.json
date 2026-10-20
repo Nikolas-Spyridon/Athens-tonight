@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "events": [
     {
       "title": "Wolves In The Throne Room",
@@ -9,15 +9,6 @@
       "price_info": "Από 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-01"
-    },
-    {
-      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Stiletto Strut, Idra Kayne Hard Rock",
-      "url": "https://www.rocking.gr/agenda/2026/10/21/27543",
-      "date": "2026-10-21",
-      "venue": "Ίλιον Plus",
-      "price_info": "Από 18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-04"
     },
     {
       "title": "Naxatras",
@@ -54,6 +45,15 @@
       "price_info": "Από 25 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-01"
+    },
+    {
+      "title": "Ataraxia, Glimmer Void, Glitter Grotesque",
+      "url": "https://www.rocking.gr/agenda/2026/10/24/27561",
+      "date": "2026-10-24",
+      "venue": "Temple Athens",
+      "price_info": "28 e / 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Phantom Spell",
@@ -119,6 +119,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/11/1/27562",
+      "date": "2026-11-01",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Stygian Path, Enemy Of Reality",
       "url": "https://www.rocking.gr/agenda/2026/11/4/27544",
       "date": "2026-11-04",
@@ -171,6 +180,15 @@
       "price_info": "Από 45 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/11/8/27562",
+      "date": "2026-11-08",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Paradise Lost",
@@ -236,6 +254,15 @@
       "first_seen": "2026-09-01"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/11/15/27562",
+      "date": "2026-11-15",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "ΜΧ Lonely, ΛΔΛΜ, Messier 13",
       "url": "https://www.rocking.gr/agenda/2026/11/16/27424",
       "date": "2026-11-16",
@@ -261,6 +288,15 @@
       "price_info": "30 e / 35 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/11/22/27562",
+      "date": "2026-11-22",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Kreator, Overkill",
@@ -398,6 +434,15 @@
       "first_seen": "2026-10-07"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/11/29/27562",
+      "date": "2026-11-29",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Dismiss, Godsleep",
       "url": "https://www.rocking.gr/agenda/2026/12/2/27546",
       "date": "2026-12-02",
@@ -452,6 +497,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/12/6/27562",
+      "date": "2026-12-06",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Kovacs",
       "url": "https://www.rocking.gr/agenda/2026/12/7/27387",
       "date": "2026-12-07",
@@ -477,6 +531,15 @@
       "price_info": "Από 23 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/12/13/27562",
+      "date": "2026-12-13",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Old Man’s Child, Yoth Iria, Decipher",
@@ -533,6 +596,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/1/10/27562",
+      "date": "2027-01-10",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
       "url": "https://www.rocking.gr/agenda/2027/1/17/27432",
       "date": "2027-01-17",
@@ -540,6 +612,15 @@
       "price_info": "15 e / 18 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/1/17/27562",
+      "date": "2027-01-17",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "The Exploited",
@@ -551,6 +632,24 @@
       "first_seen": "2026-09-10"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/1/24/27562",
+      "date": "2027-01-24",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/1/31/27562",
+      "date": "2027-01-31",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Sincere Engineer, Bandage",
       "url": "https://www.rocking.gr/agenda/2027/2/2/27470",
       "date": "2027-02-02",
@@ -558,6 +657,15 @@
       "price_info": "8 e",
       "source": "rocking.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/2/7/27562",
+      "date": "2027-02-07",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Black Veil Brides",
@@ -587,6 +695,15 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/2/14/27562",
+      "date": "2027-02-14",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Hexvessel",
       "url": "https://www.rocking.gr/agenda/2027/2/19/27500",
       "date": "2027-02-19",
@@ -594,6 +711,42 @@
       "price_info": "Από 25 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-02"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/2/21/27562",
+      "date": "2027-02-21",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/2/28/27562",
+      "date": "2027-02-28",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/3/7/27562",
+      "date": "2027-03-07",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/3/14/27562",
+      "date": "2027-03-14",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Conjurer",
@@ -641,6 +794,15 @@
       "first_seen": "2026-09-19"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/3/21/27562",
+      "date": "2027-03-21",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Soen",
       "url": "https://www.rocking.gr/agenda/2027/3/24/27375",
       "date": "2027-03-24",
@@ -650,6 +812,24 @@
       "first_seen": "2026-08-29"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/3/28/27562",
+      "date": "2027-03-28",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/4/4/27562",
+      "date": "2027-04-04",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
       "title": "Oh Hiroshima",
       "url": "https://www.rocking.gr/agenda/2027/4/10/27383",
       "date": "2027-04-10",
@@ -657,6 +837,33 @@
       "price_info": "Από 24 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-16"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/4/11/27562",
+      "date": "2027-04-11",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/4/18/27562",
+      "date": "2027-04-18",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
+    },
+    {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2027/4/25/27562",
+      "date": "2027-04-25",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-20"
     },
     {
       "title": "Nevermore",
