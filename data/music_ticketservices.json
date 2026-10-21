@@ -1,23 +1,6 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "events": [
-    {
-      "event_id": "15292",
-      "title": "ΧΡΙΣΤΙΝΑ ΣΑΜΑΡΑ LIVE",
-      "url": "https://www.ticketservices.gr/event/christina-samara-live/?lang=el",
-      "dates": [
-        "2026-10-20"
-      ],
-      "venues": [
-        "Σταυρός του Νότου Club"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-29"
-    },
     {
       "event_id": "14992",
       "title": "Ύμνοι Χριστουγέννων — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
@@ -669,7 +652,7 @@
     },
     {
       "event_id": "15009",
-      "title": "Νέα γενιά - Νέες διαδρομές: Ρεσιτάλ για τρεις νεαρούς σολίστες — Ημέρες Σύγχρονης Μουσικής",
+      "title": "Νέα γενιά - Νέες διαδρομές: Ρεσιτάλ για δύο νεαρούς σολίστες — Ημέρες Σύγχρονης Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-new-generation-new-routes/?lang=el",
       "dates": [
         "2026-11-10"
@@ -1060,6 +1043,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15421",
+      "title": "Ειρήνη Κοξαράκη",
+      "url": "https://www.ticketservices.gr/event/mmb-eirini-koxaraki/?lang=el",
+      "dates": [
+        "2026-11-28"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-21"
     },
     {
       "event_id": "15023",
