@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "events": [
     {
       "title": "Wolves In The Throne Room",
@@ -351,15 +351,6 @@
       "price_info": "Από 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-09-09"
-    },
-    {
-      "title": "InnerWish, Wardrum",
-      "url": "https://www.rocking.gr/agenda/2026/11/28/27439",
-      "date": "2026-11-28",
-      "venue": "Fuzz Club",
-      "price_info": "Από 18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-08-29"
     },
     {
       "title": "Yellow Eyes, Ultha, Sun Worship",
@@ -857,6 +848,15 @@
       "first_seen": "2026-10-20"
     },
     {
+      "title": "InnerWish, Wardrum",
+      "url": "https://www.rocking.gr/agenda/2027/4/24/27439",
+      "date": "2027-04-24",
+      "venue": "Fuzz Club",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-21"
+    },
+    {
       "title": "Glitter Grotesque: Let's Swing in New Orleans",
       "url": "https://www.rocking.gr/agenda/2027/4/25/27562",
       "date": "2027-04-25",
@@ -918,6 +918,15 @@
       "price_info": "Από 49 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-02"
+    },
+    {
+      "title": "Release Athens Presents: Judas Priest κ.α.",
+      "url": "https://www.rocking.gr/agenda/2027/7/14/27563",
+      "date": "2027-07-14",
+      "venue": "Markopoulo Complex",
+      "price_info": "",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-21"
     },
     {
       "title": "Slash feat. Myles Kennedy & The Conspirators",
