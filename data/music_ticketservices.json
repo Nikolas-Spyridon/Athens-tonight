@@ -1,23 +1,6 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "events": [
-    {
-      "event_id": "14992",
-      "title": "Ύμνοι Χριστουγέννων — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-ymnoi-xristougennon/?lang=el",
-      "dates": [
-        "2026-10-21"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14993",
       "title": "Ύμνοι της Θείας Λειτουργίας - Ύμνοι από την Παράκληση και τους Χαιρετισμούς στην Υπεραγία Θεοτόκο — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
@@ -1029,7 +1012,7 @@
     },
     {
       "event_id": "15022",
-      "title": "Τριστάνος — Ημέρες Παλαιάς Μουσικής",
+      "title": "Εx Silentio: Τριστάνος — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-tristan/?lang=el",
       "dates": [
         "2026-11-28"
