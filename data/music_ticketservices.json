@@ -1,118 +1,6 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-24",
   "events": [
-    {
-      "event_id": "14993",
-      "title": "Ύμνοι της Θείας Λειτουργίας - Ύμνοι από την Παράκληση και τους Χαιρετισμούς στην Υπεραγία Θεοτόκο — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-ymnoi-theias-leitourgias/?lang=el",
-      "dates": [
-        "2026-10-22"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15334",
-      "title": "'Ερωτας και Επανάσταση",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-erotas-kai-epanastasi/?lang=el",
-      "dates": [
-        "2026-10-22"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-08"
-    },
-    {
-      "event_id": "14994",
-      "title": "Ύμνοι της Μεγάλης Εβδομάδας και της Ανάστασης — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-ymnoi-megalis-evdomadas/?lang=el",
-      "dates": [
-        "2026-10-23"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15265",
-      "title": "«Ο άνθρωπος για τον άνθρωπο»",
-      "url": "https://www.ticketservices.gr/event/gustav-o-anthropos-gia-ton-anthropo/?lang=el",
-      "dates": [
-        "2026-10-23"
-      ],
-      "venues": [
-        "Gustav Athens"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-23"
-    },
-    {
-      "event_id": "15136",
-      "title": "ΠΑΝΑΓΙΩΤΗΣ ΛΑΜΠΟΥΡΑΣ",
-      "url": "https://www.ticketservices.gr/event/panagiotis-lambouras-plyfa/?lang=el",
-      "dates": [
-        "2026-10-23"
-      ],
-      "venues": [
-        "ΠΛΥΦΑ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-31"
-    },
-    {
-      "event_id": "15226",
-      "title": "Μέχρι Κάθε Αύριο",
-      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
-      "dates": [
-        "2026-10-23",
-        "2026-10-30",
-        "2026-11-06",
-        "2026-11-13",
-        "2026-11-28",
-        "2026-12-05",
-        "2026-12-12",
-        "2026-12-19",
-        "2026-12-26",
-        "2027-01-02",
-        "2027-01-09"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ARROYO"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-19"
-    },
     {
       "event_id": "14995",
       "title": "Ύμνοι της Αγρυπνίας — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
@@ -302,6 +190,32 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-09-29"
+    },
+    {
+      "event_id": "15226",
+      "title": "Μέχρι Κάθε Αύριο",
+      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
+      "dates": [
+        "2026-10-30",
+        "2026-11-06",
+        "2026-11-13",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26",
+        "2027-01-02",
+        "2027-01-09"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ARROYO"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-19"
     },
     {
       "event_id": "15399",
@@ -841,6 +755,23 @@
       "first_seen": "2026-10-20"
     },
     {
+      "event_id": "15436",
+      "title": "Γυναίκες στην 'Οπερα — «Στη Γυναίκα Μύθο»",
+      "url": "https://www.ticketservices.gr/event/mmb-gynaikes-stin-opera/?lang=el",
+      "dates": [
+        "2026-11-20"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-24"
+    },
+    {
       "event_id": "15016",
       "title": "Λούντβιχ βαν Μπετόβεν, Φραντς Σούμπερτ: Κουιντέτα εγχόρδων — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-beethoven-schubert-string-quintets/?lang=el",
@@ -1113,6 +1044,23 @@
       "first_seen": "2026-10-15"
     },
     {
+      "event_id": "15434",
+      "title": "ΜΥΡΤΩ ΒΑΣΙΛΕΙΟΥ",
+      "url": "https://www.ticketservices.gr/event/myrto-vasileiou-ilion-plus/?lang=el",
+      "dates": [
+        "2026-12-10"
+      ],
+      "venues": [
+        "ΙΛΙΟΝ PLUS"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-24"
+    },
+    {
       "event_id": "15340",
       "title": "«Θάλασσα ΜΟΥΣΙΚΗΣ»",
       "url": "https://www.ticketservices.gr/event/thalassa-mousikis/?lang=el",
@@ -1145,6 +1093,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15435",
+      "title": "Φωνητικό Σύνολο En-Chor — «Κάτι σαν γιορτή...»",
+      "url": "https://www.ticketservices.gr/event/mmb-en-chor-kati-san-giorti/?lang=el",
+      "dates": [
+        "2026-12-14"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-24"
     },
     {
       "event_id": "15054",
