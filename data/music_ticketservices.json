@@ -1,75 +1,6 @@
 {
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "events": [
-    {
-      "event_id": "14995",
-      "title": "Ύμνοι της Αγρυπνίας — Φεστιβάλ: Ημέρες Βυζαντινής Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-ymnoi-agrypnias/?lang=el",
-      "dates": [
-        "2026-10-24"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15154",
-      "title": "Γεωργία Νταγάκη — «Από την Κρήτη ως το 'Απειρο»",
-      "url": "https://www.ticketservices.gr/event/georgia-dagaki-apo-tin-kriti-os-to-apeiro/?lang=el",
-      "dates": [
-        "2026-10-24"
-      ],
-      "venues": [
-        "ΑΓΓΛΙΚΑΝΙΚΗ ΕΚΚΛΗΣΙΑ ΑΓΙΟΥ ΠΑΥΛΟΥ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-03"
-    },
-    {
-      "event_id": "15252",
-      "title": "Thomas Meleteas Quintet — BREATHWORKS — παρουσίαση δίσκου",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-thomas-meleteas-quintet-breathworks/?lang=el",
-      "dates": [
-        "2026-10-24"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-22"
-    },
-    {
-      "event_id": "15269",
-      "title": "«Σιγά το θέαμα Νο2»",
-      "url": "https://www.ticketservices.gr/event/gustav-siga-to-theama-no2/?lang=el",
-      "dates": [
-        "2026-10-24",
-        "2026-10-31"
-      ],
-      "venues": [
-        "Gustav Athens"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-25"
-    },
     {
       "event_id": "14350",
       "title": "PHANTOM SPELL",
@@ -284,6 +215,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-08"
+    },
+    {
+      "event_id": "15269",
+      "title": "«Σιγά το θέαμα Νο2»",
+      "url": "https://www.ticketservices.gr/event/gustav-siga-to-theama-no2/?lang=el",
+      "dates": [
+        "2026-10-31"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-25"
     },
     {
       "event_id": "15000",
@@ -1199,6 +1147,21 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15437",
+      "title": "THE TIGER LILLIES — SONGS for the DEAD",
+      "url": "https://www.ticketservices.gr/event/the-tiger-lillies-principal-club-thessaloniki/?lang=el",
+      "dates": [
+        "2026-12-27"
+      ],
+      "venues": [
+        "ΧΩΡΟΣ ΜΕ ΤΡΑΠΕΖΙΑ/ΣΤΑΝΤ/ΚΑΝΑΠΕΔΕΣ/ΚΑΡΕΚΛΕΣ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-25"
     },
     {
       "event_id": "15052",
