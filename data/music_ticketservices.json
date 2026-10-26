@@ -1,59 +1,6 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-26",
   "events": [
-    {
-      "event_id": "14350",
-      "title": "PHANTOM SPELL",
-      "url": "https://www.ticketservices.gr/event/phantom-spell-live-in-athens/?lang=el",
-      "dates": [
-        "2026-10-25"
-      ],
-      "venues": [
-        "ΚΥΤΤΑΡΟ LIVE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "14996",
-      "title": "ΤΕΤΤΤΙΞ: Πέντε μονοπάτια — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-tettix/?lang=el",
-      "dates": [
-        "2026-10-25"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15250",
-      "title": "«Ανάμεσα σε Χαλάσματα»",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-anamesa-se-xalasmata/?lang=el",
-      "dates": [
-        "2026-10-25",
-        "2026-11-29",
-        "2026-12-20"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-22"
-    },
     {
       "event_id": "14997",
       "title": "Ρήσεις και ρωγμές - Αφιέρωμα στον Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
@@ -788,6 +735,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15440",
+      "title": "Αθηναϊκή Μαντολινάτα Νικόλαος Λάβδας — «Baroque & Mordern Era»",
+      "url": "https://www.ticketservices.gr/event/parnassos-athinaiki-mantolinata-baroque-and-mordern-era/?lang=el",
+      "dates": [
+        "2026-11-22"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-26"
+    },
+    {
       "event_id": "15389",
       "title": "Strings between Worlds",
       "url": "https://www.ticketservices.gr/event/baumstrasse-strings-between-worlds/?lang=el",
@@ -939,6 +903,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15250",
+      "title": "«Ανάμεσα σε Χαλάσματα»",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-anamesa-se-xalasmata/?lang=el",
+      "dates": [
+        "2026-11-29",
+        "2026-12-20"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-22"
     },
     {
       "event_id": "15372",
