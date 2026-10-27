@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-10-27",
   "events": [
     {
       "event_id": "14997",
@@ -736,8 +736,8 @@
     },
     {
       "event_id": "15440",
-      "title": "Αθηναϊκή Μαντολινάτα Νικόλαος Λάβδας — «Baroque & Mordern Era»",
-      "url": "https://www.ticketservices.gr/event/parnassos-athinaiki-mantolinata-baroque-and-mordern-era/?lang=el",
+      "title": "Αθηναϊκή Μαντολινάτα Νικόλαος Λάβδας — «Baroque & Modern Era»",
+      "url": "https://www.ticketservices.gr/event/parnassos-athinaiki-mantolinata-baroque-and-modern-era/?lang=el",
       "dates": [
         "2026-11-22"
       ],
@@ -1042,6 +1042,23 @@
       "first_seen": "2026-10-24"
     },
     {
+      "event_id": "15426",
+      "title": "Μουσικοί Περίπατοι | Ο Μαγικός Αυλός αφηγείται...",
+      "url": "https://www.ticketservices.gr/event/koa-o-magikos-avlos/?lang=el",
+      "dates": [
+        "2026-12-14"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-27"
+    },
+    {
       "event_id": "15054",
       "title": "Πάνος Βλάχος acoustic live",
       "url": "https://www.ticketservices.gr/event/panos-vlaxos-acoustic-live-theatro-mets/?lang=el",
@@ -1220,6 +1237,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15429",
+      "title": "Μουσικοί Περίπατοι | Resonance: Canto ostinato",
+      "url": "https://www.ticketservices.gr/event/koa-resonance-canto-ostinato/?lang=el",
+      "dates": [
+        "2027-02-08"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-27"
     },
     {
       "event_id": "14220",
