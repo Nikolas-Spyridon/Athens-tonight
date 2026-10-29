@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "events": [
     {
       "title": "Phrenelith, Rapture, Casket Dweller",
@@ -812,6 +812,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Exxûl",
+      "url": "https://www.rocking.gr/agenda/2027/4/18/27573",
+      "date": "2027-04-18",
+      "venue": "Piraeus Club Academy",
+      "price_info": "Από 18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-29"
+    },
+    {
       "title": "InnerWish, Wardrum",
       "url": "https://www.rocking.gr/agenda/2027/4/24/27439",
       "date": "2027-04-24",
@@ -882,6 +891,15 @@
       "price_info": "",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Joe Bonamassa",
+      "url": "https://www.rocking.gr/agenda/2027/7/2/27574",
+      "date": "2027-07-02",
+      "venue": "Δημοτικό Θέατρο Λυκαβηττού",
+      "price_info": "Από 50 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-29"
     },
     {
       "title": "Release Athens Presents: Tokio Hotel κ.α.",
