@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-29",
   "events": [
     {
       "event_id": "14997",
@@ -441,6 +441,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15446",
+      "title": "Oceania Trio",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-oceania-trio/?lang=el",
+      "dates": [
+        "2026-11-08"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-29"
     },
     {
       "event_id": "15009",
@@ -1275,6 +1292,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15422",
+      "title": "JOE BONAMASSA",
+      "url": "https://www.ticketservices.gr/event/joe-bonamassa/?lang=el",
+      "dates": [
+        "2027-07-02"
+      ],
+      "venues": [
+        "ΔΗΜΟΤΙΚΟ ΘΕΑΤΡΟ ΛΥΚΑΒΗΤΤΟΥ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-29"
     }
   ]
 }
