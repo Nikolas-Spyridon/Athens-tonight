@@ -1,23 +1,6 @@
 {
-  "updated": "2026-10-29",
+  "updated": "2026-10-30",
   "events": [
-    {
-      "event_id": "14997",
-      "title": "Ρήσεις και ρωγμές - Αφιέρωμα στον Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-sayings-and-cracks/?lang=el",
-      "dates": [
-        "2026-10-29"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "14934",
       "title": "Dissonance Over Europe Part I — CORONER (Switzerland) — +DEPRESSIVE AGE (Germany) +CRYPTIC SHIFT (U.K)",
@@ -1271,6 +1254,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-27"
+    },
+    {
+      "event_id": "15461",
+      "title": "ΡΑΜΜΕΝΟΣ ΑΣΣΟΣ - Tour 2027 — Μονάδα Μέτρησης Μνήμης",
+      "url": "https://www.ticketservices.gr/event/rammenos-assos-tour-2027/?lang=el",
+      "dates": [
+        "2027-02-13",
+        "2027-02-19",
+        "2027-02-20"
+      ],
+      "venues": [
+        "ΠΟΛΛΑΠΛΟΙ ΧΩΡΟΙ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-30"
     },
     {
       "event_id": "14220",
