@@ -1,57 +1,6 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "events": [
-    {
-      "event_id": "15000",
-      "title": "Ποιητικά ηχοτοπία: Η Χορωδία της ΕΡΤ — συναντά την Ένωση Ελλήνων Μουσουργών — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-poetic-soundscapes/?lang=el",
-      "dates": [
-        "2026-11-01"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15001",
-      "title": "Re:Trace Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-trace-kurtag/?lang=el",
-      "dates": [
-        "2026-11-01"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15204",
-      "title": "Βασίλης Γκόφας — Παρουσίαση Δίσκου \"Σευγή\"",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-vassilis-gkofas-2026/?lang=el",
-      "dates": [
-        "2026-11-01"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-13"
-    },
     {
       "event_id": "15002",
       "title": "Η εξέγερση του κοντραμπάσου: Από τον μύθο στον λόγο — Ημέρες Σύγχρονης Μουσικής",
@@ -462,6 +411,24 @@
       "first_seen": "2026-10-02"
     },
     {
+      "event_id": "15469",
+      "title": "Πάμε γι' άλλα... — Ματθίλδη Μαγγίρα & Παντελής Αμπαζής",
+      "url": "https://www.ticketservices.gr/event/gustav-pame-gia-alla/?lang=el",
+      "dates": [
+        "2026-11-14",
+        "2026-11-21"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
+    },
+    {
       "event_id": "15014",
       "title": "Το baryton του πρίγκιπα Έστερχαζυ και οι βιολοντσελίστες του Μπετόβεν — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-prince-esterhzys-baryton/?lang=el",
@@ -649,8 +616,25 @@
       "first_seen": "2026-10-19"
     },
     {
+      "event_id": "15468",
+      "title": "The Proust Phenomenon — Arroyo Grand 02",
+      "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
+      "dates": [
+        "2026-11-25"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ARROYO"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
+    },
+    {
       "event_id": "15019",
-      "title": "Στραβαγκάντσα — Ημέρες Παλαιάς Μουσικής",
+      "title": "Στραβαγκάντσα: Η Νάπολη του 17ου αιώνα στην πρίζα — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-stravaganza/?lang=el",
       "dates": [
         "2026-11-26"
@@ -888,6 +872,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15430",
+      "title": "Cosmos | Ute Lemper: The Best Of",
+      "url": "https://www.ticketservices.gr/event/cosmos-ute-lemper-the-best-of/?lang=el",
+      "dates": [
+        "2026-12-14"
+      ],
+      "venues": [
+        "ΚΕΝΤΡΟ ΠΟΛΙΤΙΣΜΟΥ ΙΔΡΥΜΑ ΣΤΑΥΡΟΣ ΝΙΑΡΧΟΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
+    },
+    {
       "event_id": "15435",
       "title": "Φωνητικό Σύνολο En-Chor — «Κάτι σαν γιορτή...»",
       "url": "https://www.ticketservices.gr/event/mmb-en-chor-kati-san-giorti/?lang=el",
@@ -976,6 +977,23 @@
       "first_seen": "2026-10-15"
     },
     {
+      "event_id": "15431",
+      "title": "Cosmos | El Sistema Greece: HOLLY JOLLY 80s",
+      "url": "https://www.ticketservices.gr/event/cosmos-el-sistema-greece-holly-jolly-80s/?lang=el",
+      "dates": [
+        "2026-12-21"
+      ],
+      "venues": [
+        "ΚΕΝΤΡΟ ΠΟΛΙΤΙΣΜΟΥ ΙΔΡΥΜΑ ΣΤΑΥΡΟΣ ΝΙΑΡΧΟΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
+    },
+    {
       "event_id": "15254",
       "title": "THE OVERJOYED — with ΤΣΕΡΡΥ ΜΠΡΑΝΤΥ — και Τέλος Χρόνου —",
       "url": "https://www.ticketservices.gr/event/kyttaro-live-cherry-brandy/?lang=el",
@@ -1024,6 +1042,23 @@
       "region_status": "unconfirmed",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "event_id": "15432",
+      "title": "Cosmos: Πρωτοχρονιάτικο γκαλά με άρωμα Βιέννης",
+      "url": "https://www.ticketservices.gr/event/cosmos-prwtoxroniatiko-gala-me-aroma-viennis/?lang=el",
+      "dates": [
+        "2026-12-28"
+      ],
+      "venues": [
+        "ΚΕΝΤΡΟ ΠΟΛΙΤΙΣΜΟΥ ΙΔΡΥΜΑ ΣΤΑΥΡΟΣ ΝΙΑΡΧΟΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
     },
     {
       "event_id": "15052",
