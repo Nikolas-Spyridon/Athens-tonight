@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "events": [
     {
       "event_id": "15002",
@@ -497,6 +497,23 @@
       "first_seen": "2026-10-24"
     },
     {
+      "event_id": "15474",
+      "title": "ΑλκMAN Full Band Live — ΑΛΚWOMAN",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-alkman-full-band-alkwoman/?lang=el",
+      "dates": [
+        "2026-11-20"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-03"
+    },
+    {
       "event_id": "15016",
       "title": "Λούντβιχ βαν Μπετόβεν, Φραντς Σούμπερτ: Κουιντέτα εγχόρδων — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-beethoven-schubert-string-quintets/?lang=el",
@@ -614,6 +631,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-19"
+    },
+    {
+      "event_id": "15476",
+      "title": "«H Ποίηση Εντός Της»",
+      "url": "https://www.ticketservices.gr/event/nakas-2026-i-poihsi-entos-tis/?lang=el",
+      "dates": [
+        "2026-11-25"
+      ],
+      "venues": [
+        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-03"
     },
     {
       "event_id": "15468",
