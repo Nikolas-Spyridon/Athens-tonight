@@ -1,44 +1,6 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "events": [
-    {
-      "event_id": "15002",
-      "title": "Η εξέγερση του κοντραμπάσου: Από τον μύθο στον λόγο — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-the-revolt-of-the-double-bass/?lang=el",
-      "dates": [
-        "2026-11-03"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15320",
-      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
-      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
-      "dates": [
-        "2026-11-03",
-        "2026-11-04",
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-06"
-    },
     {
       "event_id": "15003",
       "title": "Τόποι, μνήμες, Σειρήνες: Ρεσιτάλ βιολοντσέλου — Ημέρες Σύγχρονης Μουσικής",
@@ -55,6 +17,26 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15320",
+      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
+      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
+      "dates": [
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-06"
     },
     {
       "event_id": "15050",
@@ -565,6 +547,23 @@
       "first_seen": "2026-09-28"
     },
     {
+      "event_id": "15478",
+      "title": "modified dog release live",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-modified-dog-release-live/?lang=el",
+      "dates": [
+        "2026-11-21"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-04"
+    },
+    {
       "event_id": "15017",
       "title": "Τραγούδια σε καιρούς που αλλάζουν &#8211; Χάυντν, Μότσαρτ, Μπετόβεν, Σούμπερτ / Μπετόβεν &#8211; Σεπτέτο — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-songs-in-shifting-times/?lang=el",
@@ -838,6 +837,23 @@
       "first_seen": "2026-09-30"
     },
     {
+      "event_id": "15479",
+      "title": "ΣΩΤΗΡΗΣ ΛΕΤΣΙΟΣ &#8211; «ΟΜΠΖΕΡΒΑ» Live — Παρουσίαση Δίσκου",
+      "url": "https://www.ticketservices.gr/event/obzerva-live/?lang=el",
+      "dates": [
+        "2026-12-01"
+      ],
+      "venues": [
+        "ΙΛΙΟΝ PLUS"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-04"
+    },
+    {
       "event_id": "15379",
       "title": "ΟΤΑΝ ΤΑ ΑΣΤΡΑ ΕΓΡΑΨΑΝ ΤΡΑΓΟΥΔΙΑ — από τον Αττίκ στον Κραουνάκη",
       "url": "https://www.ticketservices.gr/event/mmb-otan-ta-astra-egrapsan-tragoudia/?lang=el",
@@ -1076,6 +1092,23 @@
       "region_status": "unconfirmed",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "event_id": "15486",
+      "title": "ΚΙΤΡΙΝΑ ΠΟΔΗΛΑΤΑ — the ΑΝΑλOG tour",
+      "url": "https://www.ticketservices.gr/event/kyttaro-kitrina-podilata-the-analog-tour/?lang=el",
+      "dates": [
+        "2026-12-27"
+      ],
+      "venues": [
+        "ΚΥΤΤΑΡΟ LIVE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-04"
     },
     {
       "event_id": "15432",
