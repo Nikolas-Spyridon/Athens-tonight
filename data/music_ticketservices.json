@@ -1,63 +1,6 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-05",
   "events": [
-    {
-      "event_id": "15003",
-      "title": "Τόποι, μνήμες, Σειρήνες: Ρεσιτάλ βιολοντσέλου — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-places-memories-sirens/?lang=el",
-      "dates": [
-        "2026-11-04"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15320",
-      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
-      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
-      "dates": [
-        "2026-11-04",
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-06"
-    },
-    {
-      "event_id": "15050",
-      "title": "«Τι θα γινόταν αν» — με τη Ναταλία Λαμπαδάκη",
-      "url": "https://www.ticketservices.gr/event/ti-tha-ginotan-an-theatro-mets/?lang=el",
-      "dates": [
-        "2026-11-04",
-        "2026-11-11",
-        "2026-11-18",
-        "2026-11-25"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΜΕΤΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15004",
       "title": "Το εργαστήρι του Δρα Καλιγκάρι Revisited — Ημέρες Σύγχρονης Μουσικής",
@@ -74,6 +17,25 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15320",
+      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
+      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
+      "dates": [
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-06"
     },
     {
       "event_id": "15159",
@@ -289,6 +251,25 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-15"
+    },
+    {
+      "event_id": "15050",
+      "title": "«Τι θα γινόταν αν» — με τη Ναταλία Λαμπαδάκη",
+      "url": "https://www.ticketservices.gr/event/ti-tha-ginotan-an-theatro-mets/?lang=el",
+      "dates": [
+        "2026-11-11",
+        "2026-11-18",
+        "2026-11-25"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ΜΕΤΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15011",
@@ -649,23 +630,6 @@
       "first_seen": "2026-11-03"
     },
     {
-      "event_id": "15468",
-      "title": "The Proust Phenomenon — Arroyo Grand 02",
-      "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
-      "dates": [
-        "2026-11-25"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ARROYO"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-02"
-    },
-    {
       "event_id": "15019",
       "title": "Στραβαγκάντσα: Η Νάπολη του 17ου αιώνα στην πρίζα — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-stravaganza/?lang=el",
@@ -715,6 +679,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15493",
+      "title": "ΡΩΓΜΕΣ — ΕΞΙ ΧΕΡΙΑ ΣΕ ΕΝΑ ΠΙΑΝΟ",
+      "url": "https://www.ticketservices.gr/event/rogmes-eksi-xeria-se-ena-piano/?lang=el",
+      "dates": [
+        "2026-11-27"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-05"
     },
     {
       "event_id": "15021",
@@ -869,6 +850,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-15"
+    },
+    {
+      "event_id": "15468",
+      "title": "The Proust Phenomenon — Arroyo Grand 02",
+      "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
+      "dates": [
+        "2026-12-09"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ARROYO"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
     },
     {
       "event_id": "15434",
@@ -1126,6 +1124,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-02"
+    },
+    {
+      "event_id": "15492",
+      "title": "MECHANIMAL — new album 15 live presentation + hits + guests",
+      "url": "https://www.ticketservices.gr/event/ilion-mechanimal/?lang=el",
+      "dates": [
+        "2026-12-29"
+      ],
+      "venues": [
+        "ΙΛΙΟΝ PLUS"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-05"
     },
     {
       "event_id": "15052",
