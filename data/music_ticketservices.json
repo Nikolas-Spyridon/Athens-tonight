@@ -1,42 +1,6 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "events": [
-    {
-      "event_id": "15004",
-      "title": "Το εργαστήρι του Δρα Καλιγκάρι Revisited — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-the-cabinet-of-dr-caligari-revisited/?lang=el",
-      "dates": [
-        "2026-11-05"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15320",
-      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
-      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
-      "dates": [
-        "2026-11-05",
-        "2026-11-06",
-        "2026-11-07"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-06"
-    },
     {
       "event_id": "15159",
       "title": "Παρουσίαση δίσκου Κος Κ. — «Γραμματόσημα»",
@@ -70,6 +34,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15320",
+      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
+      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
+      "dates": [
+        "2026-11-06",
+        "2026-11-07"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-06"
     },
     {
       "event_id": "15226",
@@ -393,7 +375,7 @@
     },
     {
       "event_id": "15014",
-      "title": "Το baryton του πρίγκιπα Έστερχαζυ και οι βιολοντσελίστες του Μπετόβεν — Ημέρες Παλαιάς Μουσικής",
+      "title": "Το baryton του πρίγκιπα Έστερχαζυ — και οι βιολοντσελίστες του Μπετόβεν — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-prince-esterhzys-baryton/?lang=el",
       "dates": [
         "2026-11-19"
@@ -546,7 +528,7 @@
     },
     {
       "event_id": "15017",
-      "title": "Τραγούδια σε καιρούς που αλλάζουν &#8211; Χάυντν, Μότσαρτ, Μπετόβεν, Σούμπερτ / Μπετόβεν &#8211; Σεπτέτο — Ημέρες Παλαιάς Μουσικής",
+      "title": "Τραγούδια σε καιρούς που αλλάζουν — Haydn, Mozart, Beethoven, Schubert / Μπετόβεν &#8211; Σεπτέτο — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-songs-in-shifting-times/?lang=el",
       "dates": [
         "2026-11-22"
@@ -699,7 +681,7 @@
     },
     {
       "event_id": "15021",
-      "title": "Γ. Σ. Μπαχ: Παραλλαγές Γκόλντμπεργκ — Ημέρες Παλαιάς Μουσικής",
+      "title": "Στο προσκεφάλι του άυπνου κόμη — Ο Νικόλας Αναδολής αυτοσχεδιάζει πάνω — στις Παραλλαγές Γκόλντμπεργκ του Bach — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-j-s-bach-goldberg-variations/?lang=el",
       "dates": [
         "2026-11-27"
@@ -852,6 +834,23 @@
       "first_seen": "2026-10-15"
     },
     {
+      "event_id": "15498",
+      "title": "«Η ΜΟΥΣΙΚΗ ΤΗΣ ΚΡΗΤΗΣ ΣΤΗΝ ΑΘΗΝΑ» — με τον Δημήτρη Σγουρό",
+      "url": "https://www.ticketservices.gr/event/i-mousiki-tis-kritis-stin-athina-me-ton-dimitri-sgouro-baumstrasse/?lang=el",
+      "dates": [
+        "2026-12-04"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-06"
+    },
+    {
       "event_id": "15468",
       "title": "The Proust Phenomenon — Arroyo Grand 02",
       "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
@@ -989,6 +988,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15485",
+      "title": "AGGELINA",
+      "url": "https://www.ticketservices.gr/event/aggelina-klakaz/?lang=el",
+      "dates": [
+        "2026-12-18"
+      ],
+      "venues": [
+        "ΚΛΑΚΑΖ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-06"
     },
     {
       "event_id": "15352",
