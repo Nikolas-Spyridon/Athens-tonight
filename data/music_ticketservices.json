@@ -1,83 +1,6 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "events": [
-    {
-      "event_id": "15159",
-      "title": "Παρουσίαση δίσκου Κος Κ. — «Γραμματόσημα»",
-      "url": "https://www.ticketservices.gr/event/parousiasi-diskou-kos-k-grammatoshma-theatro-nous/?lang=el",
-      "dates": [
-        "2026-11-06"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ NO&#362;S"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-04"
-    },
-    {
-      "event_id": "15005",
-      "title": "'Ανθη είμαστε: Αφιέρωμα στον Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-flowers-we-are/?lang=el",
-      "dates": [
-        "2026-11-06"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15320",
-      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
-      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
-      "dates": [
-        "2026-11-06",
-        "2026-11-07"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-06"
-    },
-    {
-      "event_id": "15226",
-      "title": "Μέχρι Κάθε Αύριο",
-      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
-      "dates": [
-        "2026-11-06",
-        "2026-11-13",
-        "2026-11-28",
-        "2026-12-05",
-        "2026-12-12",
-        "2026-12-19",
-        "2026-12-26",
-        "2027-01-02",
-        "2027-01-09"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ARROYO"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-19"
-    },
     {
       "event_id": "15006",
       "title": "Μεσόγειος έρημος &#8211; Διάλογοι με τη φύση: — Παρουσίαση νέου δίσκου με έργα Γιώργου Κουμεντάκη — Ημέρες Σύγχρονης Μουσικής",
@@ -121,6 +44,23 @@
       ],
       "venues": [
         "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-06"
+    },
+    {
+      "event_id": "15320",
+      "title": "2ο Διεθνές Φεστιβάλ Μουσικής Αθηνών",
+      "url": "https://www.ticketservices.gr/event/2nd-athens-international-music-festival/?lang=el",
+      "dates": [
+        "2026-11-07"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
       ],
       "area_ids": [
         1
@@ -303,6 +243,30 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15226",
+      "title": "Μέχρι Κάθε Αύριο",
+      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
+      "dates": [
+        "2026-11-13",
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26",
+        "2027-01-02",
+        "2027-01-09"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ARROYO"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-19"
     },
     {
       "event_id": "15384",
