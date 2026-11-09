@@ -1,40 +1,6 @@
 {
-  "updated": "2026-11-08",
+  "updated": "2026-11-09",
   "events": [
-    {
-      "event_id": "15008",
-      "title": "Ergon Ensemble: Το Παρίσι του Απέργη — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-aperghis-paris/?lang=el",
-      "dates": [
-        "2026-11-08"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15446",
-      "title": "Oceania Trio",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-oceania-trio/?lang=el",
-      "dates": [
-        "2026-11-08"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-29"
-    },
     {
       "event_id": "15009",
       "title": "Νέα γενιά - Νέες διαδρομές: Ρεσιτάλ για δύο νεαρούς σολίστες — Ημέρες Σύγχρονης Μουσικής",
@@ -779,6 +745,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-10"
+    },
+    {
+      "event_id": "15507",
+      "title": "Ρόδο του Ανέμου — Live",
+      "url": "https://www.ticketservices.gr/event/rodo-tou-anemou/?lang=el",
+      "dates": [
+        "2026-12-11",
+        "2026-12-18"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-09"
     },
     {
       "event_id": "15063",
