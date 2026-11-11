@@ -1,23 +1,6 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "events": [
-    {
-      "event_id": "15009",
-      "title": "Νέα γενιά - Νέες διαδρομές: Ρεσιτάλ για δύο νεαρούς σολίστες — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-new-generation-new-routes/?lang=el",
-      "dates": [
-        "2026-11-10"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15010",
       "title": "Ελληνικό Συγκρότημα Κρουστών: Σύγχρονη μουσική Ελλήνων συνθετών για κρουστά — Ημέρες Σύγχρονης Μουσικής",
@@ -1040,6 +1023,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15508",
+      "title": "Ghostlands & Ravenlands Festival 2027",
+      "url": "https://www.ticketservices.gr/event/ghostlands-ravenlands-festival-2027/?lang=el",
+      "dates": [
+        "2027-01-24"
+      ],
+      "venues": [
+        "ΚΥΤΤΑΡΟ LIVE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-11"
     },
     {
       "event_id": "15053",
