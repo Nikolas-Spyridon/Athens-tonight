@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-11",
   "events": [
     {
       "title": "Paradise Lost",
@@ -774,6 +774,15 @@
       "price_info": "Από 50 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-29"
+    },
+    {
+      "title": "Release Athens: Billy Idol κ.α.",
+      "url": "https://www.rocking.gr/agenda/2027/7/6/27580",
+      "date": "2027-07-06",
+      "venue": "Markopoulo Complex",
+      "price_info": "Από 65 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-11"
     },
     {
       "title": "Release Athens Presents: Tokio Hotel κ.α.",
