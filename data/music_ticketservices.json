@@ -1,40 +1,6 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "events": [
-    {
-      "event_id": "15011",
-      "title": "Magna Grecia: Ένας τόπος — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-magna-grecia/?lang=el",
-      "dates": [
-        "2026-11-12"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15342",
-      "title": "ΠΕΤΡΟΣ ΒΕΡΩΝΗΣ - Παρουσίαση Ιπτάμενων Δίσκων",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-petros-veronis/?lang=el",
-      "dates": [
-        "2026-11-12"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-09"
-    },
     {
       "event_id": "15012",
       "title": "19 χρόνια ART&#233;facts ensemble — Ημέρες Σύγχρονης Μουσικής",
@@ -660,6 +626,23 @@
       "first_seen": "2026-11-06"
     },
     {
+      "event_id": "15528",
+      "title": "Σπύρος και Μάκης Καραβιώτης — «Τραγούδια Αγάπης στο φως των Χριστουγέννων»",
+      "url": "https://www.ticketservices.gr/event/mmb-afoi-karavioti-tragoudia-agapis/?lang=el",
+      "dates": [
+        "2026-12-05"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-13"
+    },
+    {
       "event_id": "15468",
       "title": "The Proust Phenomenon — Arroyo Grand 02",
       "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
@@ -1132,6 +1115,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15520",
+      "title": "God is A Vampire European Tour 2027 — Moonspell+Iotunn+Todomal",
+      "url": "https://www.ticketservices.gr/event/god-is-a-vampire-european-tour-2027/?lang=el",
+      "dates": [
+        "2027-03-31"
+      ],
+      "venues": [
+        "Gagarin 205 Live Music Space"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-13"
     },
     {
       "event_id": "15422",
