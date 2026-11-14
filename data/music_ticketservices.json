@@ -1,47 +1,6 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "events": [
-    {
-      "event_id": "15012",
-      "title": "19 χρόνια ART&#233;facts ensemble — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-19-years-of-artefacts-ensemble/?lang=el",
-      "dates": [
-        "2026-11-13"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15226",
-      "title": "Μέχρι Κάθε Αύριο",
-      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
-      "dates": [
-        "2026-11-13",
-        "2026-11-28",
-        "2026-12-05",
-        "2026-12-12",
-        "2026-12-19",
-        "2026-12-26",
-        "2027-01-02",
-        "2027-01-09"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ARROYO"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-19"
-    },
     {
       "event_id": "15384",
       "title": "Σπύρος και Μάκης Καραβιώτης — «Θα σε ξανάβρω στους μπαξέδες»",
@@ -506,6 +465,29 @@
       "first_seen": "2026-10-21"
     },
     {
+      "event_id": "15226",
+      "title": "Μέχρι Κάθε Αύριο",
+      "url": "https://www.ticketservices.gr/event/mexri-kathe-avrio-arroyo/?lang=el",
+      "dates": [
+        "2026-11-28",
+        "2026-12-05",
+        "2026-12-12",
+        "2026-12-19",
+        "2026-12-26",
+        "2027-01-02",
+        "2027-01-09"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ARROYO"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-09-19"
+    },
+    {
       "event_id": "15023",
       "title": "Camino medieval: Το μακρύ οδοιπορικό της πίστης — Ημέρες Παλαιάς Μουσικής",
       "url": "https://www.ticketservices.gr/event/gno-camino-medieval/?lang=el",
@@ -590,6 +572,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-04"
+    },
+    {
+      "event_id": "15535",
+      "title": "Συναυλία Μουσικής Δωματίου — Παντελής Σταματέλος - Βιολί, Γιάννης Μιχαηλίδης - Πιάνο",
+      "url": "https://www.ticketservices.gr/event/mmb-synavlia-mousikis-domatiou/?lang=el",
+      "dates": [
+        "2026-12-02"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-14"
     },
     {
       "event_id": "15379",
@@ -866,6 +865,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-02"
+    },
+    {
+      "event_id": "15537",
+      "title": "Meleagris Art Festival — The Most Wonderful Time of the Year — Χριστουγεννιάτικο Γκαλά με την Τζίνα Φωτεινοπούλου",
+      "url": "https://www.ticketservices.gr/event/meleagris-the-most-wonderful-time-of-the-year/?lang=el",
+      "dates": [
+        "2026-12-21"
+      ],
+      "venues": [
+        "Αγρόκτημα Μελεαγρίς, Σπάτα"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-14"
     },
     {
       "event_id": "15254",
