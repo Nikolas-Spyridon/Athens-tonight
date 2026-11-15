@@ -1,75 +1,6 @@
 {
-  "updated": "2026-11-14",
+  "updated": "2026-11-15",
   "events": [
-    {
-      "event_id": "15384",
-      "title": "Σπύρος και Μάκης Καραβιώτης — «Θα σε ξανάβρω στους μπαξέδες»",
-      "url": "https://www.ticketservices.gr/event/mmb-afoi-karavioti-tha-se-ksanavrw-stous-mpaksedes/?lang=el",
-      "dates": [
-        "2026-11-14"
-      ],
-      "venues": [
-        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-15"
-    },
-    {
-      "event_id": "15013",
-      "title": "Ergon Ensemble: A Fragment Concert / A Concert in Fragments — Αφιέρωμα στους Gy&#246;rgy Ligeti και Gy&#246;rgy Kurt&#225;g — Ημέρες Σύγχρονης Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-a-fragment-concert/?lang=el",
-      "dates": [
-        "2026-11-14"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15308",
-      "title": "ΣΟΝΙΑ ΘΕΟΔΩΡΙΔΟΥ — Μουσικές της ζωής μου",
-      "url": "https://www.ticketservices.gr/event/parnassos-sonia-theodoridou-mousikes-tis-zois-mou/?lang=el",
-      "dates": [
-        "2026-11-14"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-02"
-    },
-    {
-      "event_id": "15469",
-      "title": "Πάμε γι' άλλα... — Ματθίλδη Μαγγίρα & Παντελής Αμπαζής",
-      "url": "https://www.ticketservices.gr/event/gustav-pame-gia-alla/?lang=el",
-      "dates": [
-        "2026-11-14",
-        "2026-11-21"
-      ],
-      "venues": [
-        "Gustav Athens"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-02"
-    },
     {
       "event_id": "15050",
       "title": "«Τι θα γινόταν αν» — με τη Ναταλία Λαμπαδάκη",
@@ -240,6 +171,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-04"
+    },
+    {
+      "event_id": "15469",
+      "title": "Πάμε γι' άλλα... — Ματθίλδη Μαγγίρα & Παντελής Αμπαζής",
+      "url": "https://www.ticketservices.gr/event/gustav-pame-gia-alla/?lang=el",
+      "dates": [
+        "2026-11-21"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
     },
     {
       "event_id": "15017",
