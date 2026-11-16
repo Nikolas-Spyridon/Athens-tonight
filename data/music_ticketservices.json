@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "events": [
     {
       "event_id": "15050",
@@ -539,6 +539,23 @@
       "first_seen": "2026-11-14"
     },
     {
+      "event_id": "15538",
+      "title": "«MIGRATION of MODES» — Tarek Yamani Trio featuring James Wylie",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-migration-of-modes/?lang=el",
+      "dates": [
+        "2026-12-02"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-16"
+    },
+    {
       "event_id": "15379",
       "title": "ΟΤΑΝ ΤΑ ΑΣΤΡΑ ΕΓΡΑΨΑΝ ΤΡΑΓΟΥΔΙΑ — από τον Αττίκ στον Κραουνάκη",
       "url": "https://www.ticketservices.gr/event/mmb-otan-ta-astra-egrapsan-tragoudia/?lang=el",
@@ -657,6 +674,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-09"
+    },
+    {
+      "event_id": "15529",
+      "title": "Pepper Jingle Ball Party",
+      "url": "https://www.ticketservices.gr/event/pepper-jingle-ball/?lang=el",
+      "dates": [
+        "2026-12-12"
+      ],
+      "venues": [
+        "ΩΔΕΙΟ ΑΘΗΝΩΝ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-16"
     },
     {
       "event_id": "15063",
