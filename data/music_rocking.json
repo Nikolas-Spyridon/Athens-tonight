@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "events": [
-    {
-      "title": "Glitter Grotesque: Let's Swing in New Orleans",
-      "url": "https://www.rocking.gr/agenda/2026/11/15/27562",
-      "date": "2026-11-15",
-      "venue": "Το Τρένο Στο Ρουφ",
-      "price_info": "18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
-      "title": "Jehovah On Death, Lucenthia, This I Owe, Vespel",
-      "url": "https://www.rocking.gr/agenda/2026/11/15/27581",
-      "date": "2026-11-15",
-      "venue": "AN Club",
-      "price_info": "Από 10 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-11-15"
-    },
     {
       "title": "ΜΧ Lonely, ΛΔΛΜ, Messier 13",
       "url": "https://www.rocking.gr/agenda/2026/11/16/27424",
@@ -720,6 +702,15 @@
       "price_info": "Από 50 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-29"
+    },
+    {
+      "title": "Ejekt Festival: Foo Fighters, Architects, Frenzee",
+      "url": "https://www.rocking.gr/agenda/2027/7/2/27582",
+      "date": "2027-07-02",
+      "venue": "Teleκom Center Open Air - P5",
+      "price_info": "Από 80 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-16"
     },
     {
       "title": "Release Athens: Billy Idol κ.α.",
