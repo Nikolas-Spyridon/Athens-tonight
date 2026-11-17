@@ -1,15 +1,6 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "events": [
-    {
-      "title": "ΜΧ Lonely, ΛΔΛΜ, Messier 13",
-      "url": "https://www.rocking.gr/agenda/2026/11/16/27424",
-      "date": "2026-11-16",
-      "venue": "Ίλιον Plus",
-      "price_info": "Από 19 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
     {
       "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Wormhog, Savatage Greek Legion Band",
       "url": "https://www.rocking.gr/agenda/2026/11/18/27545",
@@ -299,6 +290,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Pagan",
+      "url": "https://www.rocking.gr/agenda/2026/12/18/27586",
+      "date": "2026-12-18",
+      "venue": "Fuzz Club",
+      "price_info": "Από 14,30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-17"
+    },
+    {
       "title": "Bryan Adams",
       "url": "https://www.rocking.gr/agenda/2026/12/19/27253",
       "date": "2026-12-19",
@@ -396,6 +396,15 @@
       "price_info": "18 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Peter Hammill",
+      "url": "https://www.rocking.gr/agenda/2027/2/1/27584",
+      "date": "2027-02-01",
+      "venue": "Κέντρο Πολιτισμού Ίδρυμα Σταύρος Νιάρχος",
+      "price_info": "Από 40 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-17"
     },
     {
       "title": "Sincere Engineer, Bandage",
