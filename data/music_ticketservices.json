@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "events": [
     {
       "event_id": "15050",
@@ -607,6 +607,23 @@
       "first_seen": "2026-11-13"
     },
     {
+      "event_id": "15547",
+      "title": "5Χ5 στις 5/12 @ Baumstrasse",
+      "url": "https://www.ticketservices.gr/event/baumstrasse-5X5-5-12/?lang=el",
+      "dates": [
+        "2026-12-05"
+      ],
+      "venues": [
+        "BAUMSTRASSE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-17"
+    },
+    {
       "event_id": "15468",
       "title": "The Proust Phenomenon — Arroyo Grand 02",
       "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
@@ -708,6 +725,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15549",
+      "title": "VOX FEMINAE — «'Οταν τα Χριστούγεννα αρχίζουν να φωτίζουν»",
+      "url": "https://www.ticketservices.gr/event/mmb-vox-feminae/?lang=el",
+      "dates": [
+        "2026-12-13"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-17"
     },
     {
       "event_id": "15430",
