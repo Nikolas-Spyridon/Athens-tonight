@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "events": [
     {
       "event_id": "15050",
@@ -624,6 +624,23 @@
       "first_seen": "2026-11-17"
     },
     {
+      "event_id": "15559",
+      "title": "Ρεσιτάλ Βιολοντσέλου — Μαρία Σκανδάλη",
+      "url": "https://www.ticketservices.gr/event/nakas-2026-violincello-recital-maria-skandali/?lang=el",
+      "dates": [
+        "2026-12-07"
+      ],
+      "venues": [
+        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-18"
+    },
+    {
       "event_id": "15468",
       "title": "The Proust Phenomenon — Arroyo Grand 02",
       "url": "https://www.ticketservices.gr/event/arroyo-the-proust-phenomenon/?lang=el",
@@ -673,6 +690,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-10"
+    },
+    {
+      "event_id": "15563",
+      "title": "Μουσικοί Διάλογοι — ένα ταξίδι στο πέρασμα του χρόνου",
+      "url": "https://www.ticketservices.gr/event/mousikoi-dialogoi-ena-taksidi-sto-perasma-tou-xronou/?lang=el",
+      "dates": [
+        "2026-12-11"
+      ],
+      "venues": [
+        "Κέντρο Πολιτισμού Κτήριο «Κωστής Παλαμάς» (ΕΚΠΑ)"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-18"
     },
     {
       "event_id": "15507",
@@ -793,6 +827,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-27"
+    },
+    {
+      "event_id": "15560",
+      "title": "Ρεσιτάλ πιάνου — Σόλων Ραπτάκης",
+      "url": "https://www.ticketservices.gr/event/nakas-2026-piano-recital-solon-raptakis/?lang=el",
+      "dates": [
+        "2026-12-14"
+      ],
+      "venues": [
+        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-18"
     },
     {
       "event_id": "15054",
@@ -1150,7 +1201,7 @@
     },
     {
       "event_id": "15520",
-      "title": "God is A Vampire European Tour 2027 — Moonspell+Iotunn+Todomal",
+      "title": "God is A Vampire European Tour 2027 — Moonspell + Iotunn + Todomal",
       "url": "https://www.ticketservices.gr/event/god-is-a-vampire-european-tour-2027/?lang=el",
       "dates": [
         "2027-03-31"
@@ -1164,6 +1215,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-13"
+    },
+    {
+      "event_id": "15551",
+      "title": "AS I LAY DYING Live in ATHENS",
+      "url": "https://www.ticketservices.gr/event/as-i-lay-dying-live-in-athens/?lang=el",
+      "dates": [
+        "2027-05-07"
+      ],
+      "venues": [
+        "Gagarin 205 Live Music Space"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-18"
     },
     {
       "event_id": "15422",
