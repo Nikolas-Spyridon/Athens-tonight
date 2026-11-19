@@ -1,15 +1,6 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "events": [
-    {
-      "title": "Stand Up Με Τις Μπάντες: Hλίας Φουντούλης, Άγγελος Σπηλιόπουλος, Wormhog, Savatage Greek Legion Band",
-      "url": "https://www.rocking.gr/agenda/2026/11/18/27545",
-      "date": "2026-11-18",
-      "venue": "Ίλιον Plus",
-      "price_info": "Από 18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
     {
       "title": "Prong",
       "url": "https://www.rocking.gr/agenda/2026/11/22/27421",
@@ -36,6 +27,15 @@
       "price_info": "Από 55 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Kontravoid, Asylum Promises",
+      "url": "https://www.rocking.gr/agenda/2026/11/24/27587",
+      "date": "2026-11-24",
+      "venue": "DeathDisco",
+      "price_info": "Από 20 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
     },
     {
       "title": "Carpenter Brut",
@@ -209,6 +209,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Fundracar, Mazoha",
+      "url": "https://www.rocking.gr/agenda/2026/12/5/27592",
+      "date": "2026-12-05",
+      "venue": "Fuzz Club",
+      "price_info": "Από 12 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
+    },
+    {
       "title": "Nazareth",
       "url": "https://www.rocking.gr/agenda/2026/12/6/27265",
       "date": "2026-12-06",
@@ -261,6 +270,15 @@
       "price_info": "Από 20 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-27"
+    },
+    {
+      "title": "Blame Canada, High On Vigers, 4LT",
+      "url": "https://www.rocking.gr/agenda/2026/12/11/27588",
+      "date": "2026-12-11",
+      "venue": "Piraeus Club Academy",
+      "price_info": "10 e / 12 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
     },
     {
       "title": "Memorials, Masturbation Goes Cloud",
@@ -326,6 +344,24 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "inner:i, Hypostasis, Infected Minds",
+      "url": "https://www.rocking.gr/agenda/2026/12/20/27590",
+      "date": "2026-12-20",
+      "venue": "Temple Athens",
+      "price_info": "10 e / 13 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "title": "Γυμνά Καλώδια",
+      "url": "https://www.rocking.gr/agenda/2026/12/20/27593",
+      "date": "2026-12-20",
+      "venue": "Κύτταρο",
+      "price_info": "12 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
+    },
+    {
       "title": "1000mods",
       "url": "https://www.rocking.gr/agenda/2026/12/24/27534",
       "date": "2026-12-24",
@@ -333,6 +369,24 @@
       "price_info": "Από 19 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Rita Mosss, Tiffany, Crushed Altars",
+      "url": "https://www.rocking.gr/agenda/2026/12/24/27589",
+      "date": "2026-12-24",
+      "venue": "Ίλιον Plus",
+      "price_info": "10 e / 13 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
+    },
+    {
+      "title": "Κίτρινα Ποδήλατα",
+      "url": "https://www.rocking.gr/agenda/2026/12/27/27591",
+      "date": "2026-12-27",
+      "venue": "Κύτταρο",
+      "price_info": "Από 12 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-19"
     },
     {
       "title": "Clan of Xymox",
