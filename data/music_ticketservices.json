@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "events": [
-    {
-      "event_id": "15050",
-      "title": "«Τι θα γινόταν αν» — με τη Ναταλία Λαμπαδάκη",
-      "url": "https://www.ticketservices.gr/event/ti-tha-ginotan-an-theatro-mets/?lang=el",
-      "dates": [
-        "2026-11-18",
-        "2026-11-25"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΜΕΤΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15014",
       "title": "Το baryton του πρίγκιπα Έστερχαζυ — και οι βιολοντσελίστες του Μπετόβεν — Ημέρες Παλαιάς Μουσικής",
@@ -292,6 +274,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-03"
+    },
+    {
+      "event_id": "15050",
+      "title": "«Τι θα γινόταν αν» — με τη Ναταλία Λαμπαδάκη",
+      "url": "https://www.ticketservices.gr/event/ti-tha-ginotan-an-theatro-mets/?lang=el",
+      "dates": [
+        "2026-11-25"
+      ],
+      "venues": [
+        "ΘΕΑΤΡΟ ΜΕΤΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-08-29"
     },
     {
       "event_id": "15019",
@@ -917,6 +916,23 @@
       "first_seen": "2026-10-15"
     },
     {
+      "event_id": "15567",
+      "title": "Χριστουγεννιάτικη συναυλία «Νιώσε το Θαύμα!»",
+      "url": "https://www.ticketservices.gr/event/parnassos-niose-to-thavma/?lang=el",
+      "dates": [
+        "2026-12-20"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-19"
+    },
+    {
       "event_id": "15431",
       "title": "Cosmos | El Sistema Greece: HOLLY JOLLY 80s",
       "url": "https://www.ticketservices.gr/event/cosmos-el-sistema-greece-holly-jolly-80s/?lang=el",
@@ -1050,6 +1066,21 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-05"
+    },
+    {
+      "event_id": "15562",
+      "title": "Gold & Silver — Πρωτοχρονιάτικη Συναυλία της Φιλαρμονικής Λουτρακίου",
+      "url": "https://www.ticketservices.gr/event/gold-and-silver-loutraki/?lang=el",
+      "dates": [
+        "2026-12-30"
+      ],
+      "venues": [
+        "ΑΛΕΞΑΝΔΡΕΙΟ ΣΥΝΕΔΡΙΑΚΟ ΚΕΝΤΡΟ ΛΟΥΤΡΑΚΙΟΥ"
+      ],
+      "area_ids": [],
+      "region_status": "unconfirmed",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-19"
     },
     {
       "event_id": "15052",
