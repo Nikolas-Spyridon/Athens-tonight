@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "events": [
     {
       "title": "Prong",
@@ -702,6 +702,15 @@
       "price_info": "",
       "source": "rocking.gr",
       "first_seen": "2026-10-27"
+    },
+    {
+      "title": "Crimson Glory, Omen",
+      "url": "https://www.rocking.gr/agenda/2027/5/13/27594",
+      "date": "2027-05-13",
+      "venue": "Κύτταρο",
+      "price_info": "Από 38 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-20"
     },
     {
       "title": "Nevermore",
