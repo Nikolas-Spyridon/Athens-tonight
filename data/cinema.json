@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "movies": [
     {
       "title": "11 Χρόνια Δίκης της Χρυσής Αυγής: Οι Άνθρωποί της",
@@ -23,6 +23,42 @@
             ],
             "2026-11-25": [
               "17:15"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "title": "Το Αδελφάτο των Ιπποτών της Ελεεινής Τραπέζης",
+      "url": "https://www.athinorama.gr/cinema/movie/to_adelfato_ton_ippoton_tis_eleeinis_trapezis-1001003/",
+      "original_title": "Monty Python and the Holy Grail",
+      "description": "Ο βασιλιάς Αρθούρος, έχοντας δίπλα του τον πιστό του Πέρσιφαλ και τους Ιππότες της Στρογγυλής Τραπέζης, ξεκινά την αναζήτηση του Άγιου Δισκοπότηρου, με τη βοήθεια του οποίου θα κυβερνήσει τη χώρα με σύνεση και δικαιοσύνη.",
+      "athinorama_rating": 5.0,
+      "imdb_url": "http://www.imdb.com/title/tt0071853/",
+      "imdb_rating": 8.1,
+      "first_seen": "2026-11-20",
+      "screenings": [
+        {
+          "cinema": "Ατενέ",
+          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
+          "lat": "38,0061755",
+          "lon": "23,7322414",
+          "is_open_air": true,
+          "showtimes": {
+            "2026-11-21": [
+              "19:00"
+            ],
+            "2026-11-22": [
+              "19:00"
+            ],
+            "2026-11-23": [
+              "19:00"
+            ],
+            "2026-11-24": [
+              "19:00"
+            ],
+            "2026-11-25": [
+              "19:00"
             ]
           }
         }
@@ -728,33 +764,6 @@
           "showtimes": {
             "2026-11-25": [
               "20:00"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "title": "Άνοιξη, Καλοκαίρι, Φθινόπωρο, Χειμώνας... και Άνοιξη",
-      "url": "https://www.athinorama.gr/cinema/movie/anoiksi_kalokairi_fthinoporo_xeimonas_kai_anoiksi-1007265/",
-      "original_title": "Bom Yeoreum Gaeul Gyeoul Geurigo Bom / Spring, Summer, Fall, Winter… and Spring",
-      "description": "Ένας ηλικιωμένος μοναχός ζει σ’ ένα ερημητήριο στη μέση μιας λίμνης με ένα νεαρό μαθητευόμενό του. Η άφιξη ενός άρρωστου κοριτσιού αφυπνίζει το ερωτικό ένστικτο στον μαθητή, ο οποίος φεύγει μαζί της, για επιστρέψει ύστερα από πολλά χρόνια κυνηγημένος από το νόμο.",
-      "athinorama_rating": 4.0,
-      "imdb_url": "http://www.imdb.com/title/tt0374546/",
-      "imdb_rating": 8.0,
-      "first_seen": "2026-11-12",
-      "screenings": [
-        {
-          "cinema": "Ατενέ",
-          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
-          "lat": "38,0061755",
-          "lon": "23,7322414",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-11-19": [
-              "19:00"
-            ],
-            "2026-11-20": [
-              "19:00"
             ]
           }
         }
@@ -4249,30 +4258,6 @@
       ]
     },
     {
-      "title": "Τα Καλύτερα Χρόνια της Ζωής μας",
-      "url": "https://www.athinorama.gr/cinema/movie/ta_kalutera_xronia_tis_zois_mas-1002488/",
-      "original_title": "The Best Years of Our Lives",
-      "description": "Τρεις βετεράνοι του Β' Παγκοσμίου Πολέμου επιστρέφουν στην πατρίδα τους και βρίσκοντας τα πάντα αλλαγμένα, δυσκολεύονται να προσαρμοστούν στη νέα τους πραγματικότητα.",
-      "athinorama_rating": null,
-      "imdb_url": "",
-      "imdb_rating": null,
-      "first_seen": "2026-10-15",
-      "screenings": [
-        {
-          "cinema": "Ατενέ",
-          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
-          "lat": "38,0061755",
-          "lon": "23,7322414",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-11-21": [
-              "19:00"
-            ]
-          }
-        }
-      ]
-    },
-    {
       "title": "Καποδίστριας",
       "url": "https://www.athinorama.gr/cinema/movie/kapodistrias-10088540/",
       "original_title": "",
@@ -4631,30 +4616,6 @@
           "showtimes": {
             "2026-11-25": [
               "20:30"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "title": "Μια Υπέροχη Ζωή",
-      "url": "https://www.athinorama.gr/cinema/movie/mia_uperoxi_zoi-10076667/",
-      "original_title": "It’s a Wonderful Life",
-      "description": "Την παραμονή των Χριστουγέννων ο καλόκαρδος επιχειρηματίας Τζορτζ Μπέιλι σκέφτεται την αυτοκτονία. Οι προσευχές της οικογένειας και των φίλων του φτάνουν στον Παράδεισο, όπου ο φύλακας άγγελος δεύτερης τάξεως Κλάρενς Όντμποντι αναλαμβάνει να τον σώσει για να κερδίσει τα φτερά του.",
-      "athinorama_rating": null,
-      "imdb_url": "http://www.imdb.com/title/tt0038650/",
-      "imdb_rating": 8.6,
-      "first_seen": "2026-10-29",
-      "screenings": [
-        {
-          "cinema": "Ατενέ",
-          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
-          "lat": "38,0061755",
-          "lon": "23,7322414",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-11-22": [
-              "19:00"
             ]
           }
         }
@@ -6154,14 +6115,11 @@
           "lon": "23,7322414",
           "is_open_air": true,
           "showtimes": {
-            "2026-11-23": [
-              "20:30"
+            "2026-11-19": [
+              "19:00"
             ],
-            "2026-11-24": [
-              "20:30"
-            ],
-            "2026-11-25": [
-              "20:30"
+            "2026-11-20": [
+              "19:00"
             ]
           }
         }
@@ -7275,36 +7233,6 @@
             ],
             "2026-11-25": [
               "19:15"
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "title": "Το Χρώμα του Ροδιού",
-      "url": "https://www.athinorama.gr/cinema/movie/to_xroma_tou_rodiou-1001949/",
-      "original_title": "Sayat Nova",
-      "description": "Η ζωή και το έργο του Αρμένιου ποιητή και μουσικού του 18ου αιώνα Αρουθίν Σαγιαντίν, γνωστού ως Σάγιατ Νόβα.",
-      "athinorama_rating": 5.0,
-      "imdb_url": "http://www.imdb.com/title/tt0063555/",
-      "imdb_rating": 7.6,
-      "first_seen": "2026-11-12",
-      "screenings": [
-        {
-          "cinema": "Ατενέ",
-          "area": "Λευκωσίας 43, πλ. Αγ. Ανδρέα, Πατήσια",
-          "lat": "38,0061755",
-          "lon": "23,7322414",
-          "is_open_air": true,
-          "showtimes": {
-            "2026-11-23": [
-              "19:00"
-            ],
-            "2026-11-24": [
-              "19:00"
-            ],
-            "2026-11-25": [
-              "19:00"
             ]
           }
         }
