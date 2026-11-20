@@ -1,23 +1,6 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "events": [
-    {
-      "event_id": "15014",
-      "title": "Το baryton του πρίγκιπα Έστερχαζυ — και οι βιολοντσελίστες του Μπετόβεν — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-prince-esterhzys-baryton/?lang=el",
-      "dates": [
-        "2026-11-19"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15015",
       "title": "Λούντβιχ βαν Μπετόβεν &#8211; Σονάτες για βιολί και φορτεπιάνο — Ημέρες Παλαιάς Μουσικής",
@@ -638,6 +621,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-18"
+    },
+    {
+      "event_id": "15571",
+      "title": "ΤΟ ΠΑΡΤΥ",
+      "url": "https://www.ticketservices.gr/event/gagarin-205-to-party/?lang=el",
+      "dates": [
+        "2026-12-09"
+      ],
+      "venues": [
+        "Gagarin 205 Live Music Space"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-20"
     },
     {
       "event_id": "15468",
@@ -1263,6 +1263,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-18"
+    },
+    {
+      "event_id": "15566",
+      "title": "Crimson Glory & Omen — Live in Athens",
+      "url": "https://www.ticketservices.gr/event/crimson-glory-kyttaro/?lang=el",
+      "dates": [
+        "2027-05-13"
+      ],
+      "venues": [
+        "ΚΥΤΤΑΡΟ LIVE"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-20"
     },
     {
       "event_id": "15422",
