@@ -1,74 +1,6 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "events": [
-    {
-      "event_id": "15015",
-      "title": "Λούντβιχ βαν Μπετόβεν &#8211; Σονάτες για βιολί και φορτεπιάνο — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-beethoven-sonatas-for-violin-and-fortepiano/?lang=el",
-      "dates": [
-        "2026-11-20"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15409",
-      "title": "Από τον 20ό αιώνα στον J. S. Bach",
-      "url": "https://www.ticketservices.gr/event/nakas-2026-apo-ton-20o-aiona-ston-j-s-bach/?lang=el",
-      "dates": [
-        "2026-11-20"
-      ],
-      "venues": [
-        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-20"
-    },
-    {
-      "event_id": "15436",
-      "title": "Γυναίκες στην 'Οπερα — «Στη Γυναίκα Μύθο»",
-      "url": "https://www.ticketservices.gr/event/mmb-gynaikes-stin-opera/?lang=el",
-      "dates": [
-        "2026-11-20"
-      ],
-      "venues": [
-        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-24"
-    },
-    {
-      "event_id": "15474",
-      "title": "ΑλκMAN Full Band Live — ΑΛΚWOMAN",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-alkman-full-band-alkwoman/?lang=el",
-      "dates": [
-        "2026-11-20"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-03"
-    },
     {
       "event_id": "15016",
       "title": "Λούντβιχ βαν Μπετόβεν, Φραντς Σούμπερτ: Κουιντέτα εγχόρδων — Ημέρες Παλαιάς Μουσικής",
@@ -142,7 +74,9 @@
       "title": "Πάμε γι' άλλα... — Ματθίλδη Μαγγίρα & Παντελής Αμπαζής",
       "url": "https://www.ticketservices.gr/event/gustav-pame-gia-alla/?lang=el",
       "dates": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-12-05",
+        "2026-12-12"
       ],
       "venues": [
         "Gustav Athens"
@@ -914,6 +848,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-15"
+    },
+    {
+      "event_id": "15572",
+      "title": "Γιώργος Πολυχρονιάδης & Λάκης Τζορντανέλλι — «Τα καλύτερά μας χρόνια»",
+      "url": "https://www.ticketservices.gr/event/ta-kalytera-mas-xronia/?lang=el",
+      "dates": [
+        "2026-12-19"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-21"
     },
     {
       "event_id": "15567",
