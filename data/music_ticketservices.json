@@ -1,93 +1,6 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "events": [
-    {
-      "event_id": "15016",
-      "title": "Λούντβιχ βαν Μπετόβεν, Φραντς Σούμπερτ: Κουιντέτα εγχόρδων — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-beethoven-schubert-string-quintets/?lang=el",
-      "dates": [
-        "2026-11-21"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15175",
-      "title": "Federico Albanese",
-      "url": "https://www.ticketservices.gr/event/fsp-federico-albanese/?lang=el",
-      "dates": [
-        "2026-11-21"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-10"
-    },
-    {
-      "event_id": "15285",
-      "title": "ΔΑΥΙΔ ΝΑΧΜΙΑΣ — Αφιέρωμα στον ΑΤΤΙΚ",
-      "url": "https://www.ticketservices.gr/event/oa-david-nahmias-afieroma-ston-attik/?lang=el",
-      "dates": [
-        "2026-11-21"
-      ],
-      "venues": [
-        "ΩΔΕΙΟ ΑΘΗΝΩΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-09-28"
-    },
-    {
-      "event_id": "15478",
-      "title": "modified dog release live",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-modified-dog-release-live/?lang=el",
-      "dates": [
-        "2026-11-21"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-04"
-    },
-    {
-      "event_id": "15469",
-      "title": "Πάμε γι' άλλα... — Ματθίλδη Μαγγίρα & Παντελής Αμπαζής",
-      "url": "https://www.ticketservices.gr/event/gustav-pame-gia-alla/?lang=el",
-      "dates": [
-        "2026-11-21",
-        "2026-12-05",
-        "2026-12-12"
-      ],
-      "venues": [
-        "Gustav Athens"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-02"
-    },
     {
       "event_id": "15017",
       "title": "Τραγούδια σε καιρούς που αλλάζουν — Haydn, Mozart, Beethoven, Schubert / Μπετόβεν &#8211; Σεπτέτο — Ημέρες Παλαιάς Μουσικής",
@@ -538,6 +451,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-17"
+    },
+    {
+      "event_id": "15469",
+      "title": "Πάμε γι' άλλα... — Ματθίλδη Μαγγίρα & Παντελής Αμπαζής",
+      "url": "https://www.ticketservices.gr/event/gustav-pame-gia-alla/?lang=el",
+      "dates": [
+        "2026-12-05",
+        "2026-12-12"
+      ],
+      "venues": [
+        "Gustav Athens"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-02"
     },
     {
       "event_id": "15559",
