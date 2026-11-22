@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21",
+  "updated": "2026-11-22",
   "events": [
     {
       "title": "Prong",
@@ -191,6 +191,24 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Black Curse, Cursed Blood",
+      "url": "https://www.rocking.gr/agenda/2026/12/3/27598",
+      "date": "2026-12-03",
+      "venue": "AN Club",
+      "price_info": "Από 25 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-22"
+    },
+    {
+      "title": "Panzerfaust, Nihilism, Inner Darkness",
+      "url": "https://www.rocking.gr/agenda/2026/12/3/27599",
+      "date": "2026-12-03",
+      "venue": "Temple Athens",
+      "price_info": "28 e / 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-22"
+    },
+    {
       "title": "Nine Below Zero, Bags Of Nails",
       "url": "https://www.rocking.gr/agenda/2026/12/4/27285",
       "date": "2026-12-04",
@@ -216,6 +234,15 @@
       "price_info": "Από 12 e",
       "source": "rocking.gr",
       "first_seen": "2026-11-19"
+    },
+    {
+      "title": "Stoned Jesus, Monolord",
+      "url": "https://www.rocking.gr/agenda/2026/12/5/27601",
+      "date": "2026-12-05",
+      "venue": "Gazarte",
+      "price_info": "30 e / 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-22"
     },
     {
       "title": "Nazareth",
