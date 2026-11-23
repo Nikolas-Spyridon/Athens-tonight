@@ -1,57 +1,6 @@
 {
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "events": [
-    {
-      "event_id": "15017",
-      "title": "Τραγούδια σε καιρούς που αλλάζουν — Haydn, Mozart, Beethoven, Schubert / Μπετόβεν &#8211; Σεπτέτο — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-songs-in-shifting-times/?lang=el",
-      "dates": [
-        "2026-11-22"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15440",
-      "title": "Αθηναϊκή Μαντολινάτα Νικόλαος Λάβδας — «Baroque & Modern Era»",
-      "url": "https://www.ticketservices.gr/event/parnassos-athinaiki-mantolinata-baroque-and-modern-era/?lang=el",
-      "dates": [
-        "2026-11-22"
-      ],
-      "venues": [
-        "Φιλολογικός Σύλλογος «Παρνασσός»"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-26"
-    },
-    {
-      "event_id": "15389",
-      "title": "Strings between Worlds",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-strings-between-worlds/?lang=el",
-      "dates": [
-        "2026-11-22"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-17"
-    },
     {
       "event_id": "15404",
       "title": "Αρώματα και ήχοι — υφαίνουν μεθυστικά όνειρα",
