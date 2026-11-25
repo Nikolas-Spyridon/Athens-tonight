@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "events": [
     {
       "event_id": "15356",
@@ -281,6 +281,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-04"
+    },
+    {
+      "event_id": "15596",
+      "title": "ΑΝΑSΑ για άτομα... με «εμπΗρία»",
+      "url": "https://www.ticketservices.gr/event/gno-anasa/?lang=el",
+      "dates": [
+        "2026-12-02"
+      ],
+      "venues": [
+        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-25"
     },
     {
       "event_id": "15535",
