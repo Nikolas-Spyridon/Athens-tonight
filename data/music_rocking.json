@@ -1,15 +1,6 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "events": [
-    {
-      "title": "Kontravoid, Asylum Promises",
-      "url": "https://www.rocking.gr/agenda/2026/11/24/27587",
-      "date": "2026-11-24",
-      "venue": "DeathDisco",
-      "price_info": "Από 20 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-11-19"
-    },
     {
       "title": "Carpenter Brut",
       "url": "https://www.rocking.gr/agenda/2026/11/26/27430",
@@ -731,6 +722,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Stratovarius, Fabio Lione's Dawn of Victory",
+      "url": "https://www.rocking.gr/agenda/2027/6/9/27602",
+      "date": "2027-06-09",
+      "venue": "FLOYD",
+      "price_info": "Από 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-25"
+    },
+    {
       "title": "Axel Rudi Pell",
       "url": "https://www.rocking.gr/agenda/2027/6/13/27558",
       "date": "2027-06-13",
@@ -828,6 +828,15 @@
       "price_info": "Από 55 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Karnivool, Wheel",
+      "url": "https://www.rocking.gr/agenda/2027/9/13/27603",
+      "date": "2027-09-13",
+      "venue": "Gagarin 205",
+      "price_info": "",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-25"
     }
   ]
 }
