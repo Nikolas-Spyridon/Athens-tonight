@@ -1,59 +1,6 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "events": [
-    {
-      "event_id": "15356",
-      "title": "ΑΠΟΣΤΟΛΗΣ ΜΠΑΡΜΠΑΓΙΑΝΝΗΣ — Τσολιάς εν δε Τσόλια Μπαντ — «Μπουρδόλοτζι»",
-      "url": "https://www.ticketservices.gr/event/stavros-tou-notou-apostolis-barbagiannis-bourdology/?lang=el",
-      "dates": [
-        "2026-11-25",
-        "2026-12-09",
-        "2026-12-23"
-      ],
-      "venues": [
-        "ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-15"
-    },
-    {
-      "event_id": "15476",
-      "title": "«H Ποίηση Εντός Της»",
-      "url": "https://www.ticketservices.gr/event/nakas-2026-i-poihsi-entos-tis/?lang=el",
-      "dates": [
-        "2026-11-25"
-      ],
-      "venues": [
-        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-03"
-    },
-    {
-      "event_id": "15050",
-      "title": "«Τι θα γινόταν αν» — με τη Ναταλία Λαμπαδάκη",
-      "url": "https://www.ticketservices.gr/event/ti-tha-ginotan-an-theatro-mets/?lang=el",
-      "dates": [
-        "2026-11-25"
-      ],
-      "venues": [
-        "ΘΕΑΤΡΟ ΜΕΤΣ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15019",
       "title": "Στραβαγκάντσα: Η Νάπολη του 17ου αιώνα στην πρίζα — Ημέρες Παλαιάς Μουσικής",
@@ -452,6 +399,24 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-11-20"
+    },
+    {
+      "event_id": "15356",
+      "title": "ΑΠΟΣΤΟΛΗΣ ΜΠΑΡΜΠΑΓΙΑΝΝΗΣ — Τσολιάς εν δε Τσόλια Μπαντ — «Μπουρδόλοτζι»",
+      "url": "https://www.ticketservices.gr/event/stavros-tou-notou-apostolis-barbagiannis-bourdology/?lang=el",
+      "dates": [
+        "2026-12-09",
+        "2026-12-23"
+      ],
+      "venues": [
+        "ΣΤΑΥΡΟΣ ΤΟΥ ΝΟΤΟΥ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-10-15"
     },
     {
       "event_id": "15468",
