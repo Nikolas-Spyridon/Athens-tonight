@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25",
+  "updated": "2026-11-26",
   "events": [
     {
       "title": "Carpenter Brut",
@@ -9,6 +9,15 @@
       "price_info": "Από 36 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Kostas Tziros & The Bankrupt Lovers, Κρόνιζεφ",
+      "url": "https://www.rocking.gr/agenda/2026/11/26/27607",
+      "date": "2026-11-26",
+      "venue": "ΕΞΑ",
+      "price_info": "6 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-26"
     },
     {
       "title": "Napalm Death, Master, Brat, Goatburner",
@@ -396,6 +405,15 @@
       "price_info": "18 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Savatage Greek Legion Live Tribute & Παρουσίαση \"A Thousand Tales Untold\"",
+      "url": "https://www.rocking.gr/agenda/2027/1/14/27606",
+      "date": "2027-01-14",
+      "venue": "Κύτταρο",
+      "price_info": "12 e / 15 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-26"
     },
     {
       "title": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
@@ -828,6 +846,15 @@
       "price_info": "Από 55 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Release Athens: Children Of Bodom, Killswitch Engage, Hypocrisy",
+      "url": "https://www.rocking.gr/agenda/2027/7/24/27605",
+      "date": "2027-07-24",
+      "venue": "ERGOSTASIO35",
+      "price_info": "Από 60 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-26"
     },
     {
       "title": "Karnivool, Wheel",
