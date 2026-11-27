@@ -1,40 +1,6 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "events": [
-    {
-      "event_id": "15019",
-      "title": "Στραβαγκάντσα: Η Νάπολη του 17ου αιώνα στην πρίζα — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-stravaganza/?lang=el",
-      "dates": [
-        "2026-11-26"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15311",
-      "title": "ZIAD RAJAB (full band) — Οι Αντηχήσεις της Ανατολής",
-      "url": "https://www.ticketservices.gr/event/baumstrasse-ziad-rajab/?lang=el",
-      "dates": [
-        "2026-11-26"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-10-06"
-    },
     {
       "event_id": "15020",
       "title": "VOLKS:LIEDER:ABEND &#8211; Τραγούδια του Γιοχάννες Μπραμς — Ημέρες Παλαιάς Μουσικής",
@@ -899,6 +865,23 @@
       "first_seen": "2026-08-29"
     },
     {
+      "event_id": "15601",
+      "title": "6th in Re — Γιώργος Τοσικιάν - Ρεσιτάλ Κιθάρας",
+      "url": "https://www.ticketservices.gr/event/nakas-2027-guitar-recital-giorgos-tosikian/?lang=el",
+      "dates": [
+        "2027-01-15"
+      ],
+      "venues": [
+        "ΑΙΘΟΥΣΑ ΣΥΝΑΥΛΙΩΝ ΦΙΛΙΠΠΟΣ ΝΑΚΑΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-27"
+    },
+    {
       "event_id": "15508",
       "title": "Ghostlands & Ravenlands Festival 2027",
       "url": "https://www.ticketservices.gr/event/ghostlands-ravenlands-festival-2027/?lang=el",
@@ -1004,6 +987,23 @@
       "region_status": "unconfirmed",
       "source": "ticketservices.gr",
       "first_seen": "2026-10-30"
+    },
+    {
+      "event_id": "15602",
+      "title": "ΔΑΥΙΔ ΝΑΧΜΙΑΣ — Αφιέρωμα στη ΣΤΕΛΛΑ ΓΚΡΕΚΑ",
+      "url": "https://www.ticketservices.gr/event/parnassos-david-nachmias-stella-greca/?lang=el",
+      "dates": [
+        "2027-02-21"
+      ],
+      "venues": [
+        "Φιλολογικός Σύλλογος «Παρνασσός»"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-27"
     },
     {
       "event_id": "14220",
