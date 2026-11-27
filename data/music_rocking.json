@@ -1,24 +1,6 @@
 {
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "events": [
-    {
-      "title": "Carpenter Brut",
-      "url": "https://www.rocking.gr/agenda/2026/11/26/27430",
-      "date": "2026-11-26",
-      "venue": "FLOYD",
-      "price_info": "Από 36 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
-      "title": "Kostas Tziros & The Bankrupt Lovers, Κρόνιζεφ",
-      "url": "https://www.rocking.gr/agenda/2026/11/26/27607",
-      "date": "2026-11-26",
-      "venue": "ΕΞΑ",
-      "price_info": "6 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-11-26"
-    },
     {
       "title": "Napalm Death, Master, Brat, Goatburner",
       "url": "https://www.rocking.gr/agenda/2026/11/27/27340",
@@ -180,6 +162,15 @@
       "price_info": "28 e / 35 e",
       "source": "rocking.gr",
       "first_seen": "2026-11-22"
+    },
+    {
+      "title": "Cabaret Voltaire, In Trance 95",
+      "url": "https://www.rocking.gr/agenda/2026/12/3/27610",
+      "date": "2026-12-03",
+      "venue": "FLOYD",
+      "price_info": "Από 33 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-27"
     },
     {
       "title": "Nine Below Zero, Bags Of Nails",
@@ -479,6 +470,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Band Of Friends - Rory Gallagher Tribute, Two",
+      "url": "https://www.rocking.gr/agenda/2027/2/6/27616",
+      "date": "2027-02-06",
+      "venue": "Gagarin 205",
+      "price_info": "Από 23,5 €",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-27"
+    },
+    {
       "title": "Glitter Grotesque: Let's Swing in New Orleans",
       "url": "https://www.rocking.gr/agenda/2027/2/7/27562",
       "date": "2027-02-07",
@@ -551,6 +551,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Planet Of Zeus, Domination Inc.",
+      "url": "https://www.rocking.gr/agenda/2027/3/6/27609",
+      "date": "2027-03-06",
+      "venue": "FLOYD",
+      "price_info": "Από 17 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-27"
+    },
+    {
       "title": "Glitter Grotesque: Let's Swing in New Orleans",
       "url": "https://www.rocking.gr/agenda/2027/3/7/27562",
       "date": "2027-03-07",
@@ -567,6 +576,15 @@
       "price_info": "18 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Carcass, Rotten Sound, Bat",
+      "url": "https://www.rocking.gr/agenda/2027/3/17/27615",
+      "date": "2027-03-17",
+      "venue": "Fuzz Club",
+      "price_info": "Από 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-27"
     },
     {
       "title": "Conjurer",
