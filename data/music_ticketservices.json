@@ -1,57 +1,6 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "events": [
-    {
-      "event_id": "15020",
-      "title": "VOLKS:LIEDER:ABEND &#8211; Τραγούδια του Γιοχάννες Μπραμς — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-volks-lieder-abend/?lang=el",
-      "dates": [
-        "2026-11-27"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
-    {
-      "event_id": "15493",
-      "title": "ΡΩΓΜΕΣ — ΕΞΙ ΧΕΡΙΑ ΣΕ ΕΝΑ ΠΙΑΝΟ",
-      "url": "https://www.ticketservices.gr/event/rogmes-eksi-xeria-se-ena-piano/?lang=el",
-      "dates": [
-        "2026-11-27"
-      ],
-      "venues": [
-        "BAUMSTRASSE"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-11-05"
-    },
-    {
-      "event_id": "15021",
-      "title": "Στο προσκεφάλι του άυπνου κόμη — Ο Νικόλας Αναδολής αυτοσχεδιάζει πάνω — στις Παραλλαγές Γκόλντμπεργκ του Bach — Ημέρες Παλαιάς Μουσικής",
-      "url": "https://www.ticketservices.gr/event/gno-j-s-bach-goldberg-variations/?lang=el",
-      "dates": [
-        "2026-11-27"
-      ],
-      "venues": [
-        "ΕΘΝΙΚΗ ΛΥΡΙΚΗ ΣΚΗΝΗ - ΚΠΙΣΝ"
-      ],
-      "area_ids": [
-        1
-      ],
-      "region_status": "attica",
-      "source": "ticketservices.gr",
-      "first_seen": "2026-08-29"
-    },
     {
       "event_id": "15022",
       "title": "Εx Silentio: Τριστάνος — Ημέρες Παλαιάς Μουσικής",
@@ -608,6 +557,23 @@
       "region_status": "attica",
       "source": "ticketservices.gr",
       "first_seen": "2026-08-29"
+    },
+    {
+      "event_id": "15599",
+      "title": "Τα ΝΟΜΟ&#8230;τέλια στο Μέγαρο Μουσικής — «Το ρεμπέτικο δεν χρειάζεται υπεράσπιση»",
+      "url": "https://www.ticketservices.gr/event/mmb-to-rebetiko-den-xreiazetai-yperaspisi/?lang=el",
+      "dates": [
+        "2026-12-18"
+      ],
+      "venues": [
+        "ΜΟΥΣΙΚΗ ΒΙΒΛΙΟΘΗΚΗ ΣΤΟ ΜΕΓΑΡΟ ΜΟΥΣΙΚΗΣ"
+      ],
+      "area_ids": [
+        1
+      ],
+      "region_status": "attica",
+      "source": "ticketservices.gr",
+      "first_seen": "2026-11-28"
     },
     {
       "event_id": "15485",
