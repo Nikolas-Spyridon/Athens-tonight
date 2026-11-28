@@ -1,42 +1,6 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "events": [
-    {
-      "title": "Napalm Death, Master, Brat, Goatburner",
-      "url": "https://www.rocking.gr/agenda/2026/11/27/27340",
-      "date": "2026-11-27",
-      "venue": "Gagarin 205",
-      "price_info": "Από 31 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
-      "title": "Belle & Sebastian",
-      "url": "https://www.rocking.gr/agenda/2026/11/27/27397",
-      "date": "2026-11-27",
-      "venue": "FLOYD",
-      "price_info": "Από 40 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
-      "title": "Munly & The Lupercalians, Manos Six + The Muddy Devil",
-      "url": "https://www.rocking.gr/agenda/2026/11/27/27442",
-      "date": "2026-11-27",
-      "venue": "Temple Athens",
-      "price_info": "28 e / 35 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
-      "title": "Into Battle Festival: Artillery, Strana Officina κ.α.",
-      "url": "https://www.rocking.gr/agenda/2026/11/27/27513",
-      "date": "2026-11-27",
-      "venue": "Κύτταρο",
-      "price_info": "Από 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
     {
       "title": "Yellow Eyes, Ultha, Sun Worship",
       "url": "https://www.rocking.gr/agenda/2026/11/28/27461",
@@ -65,11 +29,29 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Glitter Grotesque: Let's Swing in New Orleans",
+      "url": "https://www.rocking.gr/agenda/2026/11/29/27562",
+      "date": "2026-11-29",
+      "venue": "Το Τρένο Στο Ρουφ",
+      "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-25"
+    },
+    {
       "title": "Into Battle Festival: Flotsam And Jetsam, Mindless Sinner κ.α.",
       "url": "https://www.rocking.gr/agenda/2026/11/29/27378",
       "date": "2026-11-29",
       "venue": "Κύτταρο",
       "price_info": "Από 30 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Yellow Eyes, Ultha, Sun Worship",
+      "url": "https://www.rocking.gr/agenda/2026/11/29/27461",
+      "date": "2026-11-29",
+      "venue": "AN Club",
+      "price_info": "Από 28 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
     },
@@ -92,29 +74,11 @@
       "first_seen": "2026-10-25"
     },
     {
-      "title": "Yellow Eyes, Ultha, Sun Worship",
-      "url": "https://www.rocking.gr/agenda/2026/11/29/27461",
-      "date": "2026-11-29",
-      "venue": "AN Club",
-      "price_info": "Από 28 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
       "title": "Nile, Sickening Horror, Part Of TheTheory",
       "url": "https://www.rocking.gr/agenda/2026/11/29/27550",
       "date": "2026-11-29",
       "venue": "Fuzz Club",
       "price_info": "Από 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
-      "title": "Glitter Grotesque: Let's Swing in New Orleans",
-      "url": "https://www.rocking.gr/agenda/2026/11/29/27562",
-      "date": "2026-11-29",
-      "venue": "Το Τρένο Στο Ρουφ",
-      "price_info": "18 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
     },
@@ -137,6 +101,15 @@
       "first_seen": "2026-10-25"
     },
     {
+      "title": "Panzerfaust, Nihilism, Inner Darkness",
+      "url": "https://www.rocking.gr/agenda/2026/12/3/27599",
+      "date": "2026-12-03",
+      "venue": "Temple Athens",
+      "price_info": "28 e / 35 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-11-22"
+    },
+    {
       "title": "The Ocean, Psychonaut, The Devil's Trade",
       "url": "https://www.rocking.gr/agenda/2026/12/3/27392",
       "date": "2026-12-03",
@@ -151,15 +124,6 @@
       "date": "2026-12-03",
       "venue": "AN Club",
       "price_info": "Από 25 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-11-22"
-    },
-    {
-      "title": "Panzerfaust, Nihilism, Inner Darkness",
-      "url": "https://www.rocking.gr/agenda/2026/12/3/27599",
-      "date": "2026-12-03",
-      "venue": "Temple Athens",
-      "price_info": "28 e / 35 e",
       "source": "rocking.gr",
       "first_seen": "2026-11-22"
     },
@@ -209,15 +173,6 @@
       "first_seen": "2026-11-22"
     },
     {
-      "title": "Nazareth",
-      "url": "https://www.rocking.gr/agenda/2026/12/6/27265",
-      "date": "2026-12-06",
-      "venue": "Fuzz Club",
-      "price_info": "Από 28 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
       "title": "SPK",
       "url": "https://www.rocking.gr/agenda/2026/12/6/27474",
       "date": "2026-12-06",
@@ -232,6 +187,15 @@
       "date": "2026-12-06",
       "venue": "Το Τρένο Στο Ρουφ",
       "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Nazareth",
+      "url": "https://www.rocking.gr/agenda/2026/12/6/27265",
+      "date": "2026-12-06",
+      "venue": "Fuzz Club",
+      "price_info": "Από 28 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
     },
@@ -407,20 +371,20 @@
       "first_seen": "2026-11-26"
     },
     {
-      "title": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
-      "url": "https://www.rocking.gr/agenda/2027/1/17/27432",
-      "date": "2027-01-17",
-      "venue": "Κύτταρο",
-      "price_info": "15 e / 18 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
       "title": "Glitter Grotesque: Let's Swing in New Orleans",
       "url": "https://www.rocking.gr/agenda/2027/1/17/27562",
       "date": "2027-01-17",
       "venue": "Το Τρένο Στο Ρουφ",
       "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-25"
+    },
+    {
+      "title": "Acid Death, Null’O’Zero, Karma Violens, Gunsmith",
+      "url": "https://www.rocking.gr/agenda/2027/1/17/27432",
+      "date": "2027-01-17",
+      "venue": "Κύτταρο",
+      "price_info": "15 e / 18 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
     },
@@ -623,20 +587,20 @@
       "first_seen": "2026-10-25"
     },
     {
-      "title": "The Crazy World Of Arthur Brown",
-      "url": "https://www.rocking.gr/agenda/2027/3/21/27524",
-      "date": "2027-03-21",
-      "venue": "Gazarte",
-      "price_info": "25 e / 30 e",
-      "source": "rocking.gr",
-      "first_seen": "2026-10-25"
-    },
-    {
       "title": "Glitter Grotesque: Let's Swing in New Orleans",
       "url": "https://www.rocking.gr/agenda/2027/3/21/27562",
       "date": "2027-03-21",
       "venue": "Το Τρένο Στο Ρουφ",
       "price_info": "18 e",
+      "source": "rocking.gr",
+      "first_seen": "2026-10-25"
+    },
+    {
+      "title": "The Crazy World Of Arthur Brown",
+      "url": "https://www.rocking.gr/agenda/2027/3/21/27524",
+      "date": "2027-03-21",
+      "venue": "Gazarte",
+      "price_info": "25 e / 30 e",
       "source": "rocking.gr",
       "first_seen": "2026-10-25"
     },
